@@ -1,0 +1,188 @@
+[
+  {
+    "id": 0,
+    "pregunta": "La Escoria como Adición no tiene Reacción Cementicia",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 1,
+    "pregunta": "La Resistencia a Compresión del cemento se determina sólo a 7 días",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 2,
+    "pregunta": "AC3 es el Compuesto Potencial con mayor calor de hidratación unitario",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 3,
+    "pregunta": "Un Agua que retrasa el fraguado no debe usarse nunca para mezclado",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 4,
+    "pregunta": "La Escoria como Adición tiene Reacción Cementicia",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 5,
+    "pregunta": "La hidratación de la Escoria aporta Hidróxido de Calcio a la pasta",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 6,
+    "pregunta": "En la reacción del Filler calcáreo se consume Hidróxido de Calcio",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 7,
+    "pregunta": "Las burbujas del Aire incorporado son de tamaño muy uniforme",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 8,
+    "pregunta": "La Reacción de la Escoria produce Hidróxido de Calcio",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 9,
+    "pregunta": "Los cementos de alta resistencia inicial deben tener alto SC3",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 10,
+    "pregunta": "Para la Resistencia a Compresión del cemento se usa probetas cúbicas",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 11,
+    "pregunta": "El Aire Ocluido alarga el período fresco del hormigón",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 12,
+    "pregunta": "La Reacción de las Puzolanas consume Hidróxido de Calcio",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 13,
+    "pregunta": "El Hidróxido de Calcio es responsable del pH básico de la pasta",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 14,
+    "pregunta": "La Resistencia a Compresión del cemento se determina sólo a 28 días",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 15,
+    "pregunta": "El Agua del lavado de equipos puede usarse para mezclado",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 16,
+    "pregunta": "La Reacción de los Silicatos produce Hidróxido de Calcio",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 17,
+    "pregunta": "Los Cementos CPE son de bajo calor de hidratación",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 18,
+    "pregunta": "Un Agua no apta para mezclado puede ser apta para curado",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 19,
+    "pregunta": "El Filler Calcáreo no es una Adición Hidráulicamente Activa",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 20,
+    "pregunta": "El SC3 es responsable del fraguado instantáneo del hormigón",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 21,
+    "pregunta": "La Resistencia de un CPP crece menos con la edad que un CPN",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 22,
+    "pregunta": "El Aire incorporado reduce el tiempo de fraguado del Hormigón",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 23,
+    "pregunta": "La Ceniza Volante de Bajo Calcio tiene Reacción Cementicia",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 24,
+    "pregunta": "La Etringira es un subproducto de la Hidratación de los Aluminatos",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 25,
+    "pregunta": "La Resistencia a Compresión del Cemento se determina no sólo a 28 días",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 26,
+    "pregunta": "La Cantidad de Aire Ocluido depende del mf del agregado grueso",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 27,
+    "pregunta": "El Hidróxido de Calcio interactúa en la Reacción de la Escoria",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 28,
+    "pregunta": "Para la Resistencia a Compresión del cemento se usa probeta cilíndrica",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 29,
+    "pregunta": "Los CPP son de alta resistencia inicial",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 30,
+    "pregunta": "El Agua del lavado de equipos nunca puede usarse para mezclado",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  }
+]
