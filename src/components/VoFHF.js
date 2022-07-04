@@ -4,7 +4,7 @@ import bancoPreguntas from '../data/bancoPreguntas.json'
 import Swal from 'sweetalert2';
 import "../styles/styles.scss";
 
-export const VoFUnidad5 = () => {
+export const VoFHF = () => {
     const cantidadPreguntas = useRef(0);
     const cantidadCorrectas = useRef(0);
     const cantidadIncorrectas = useRef(0);
@@ -14,8 +14,9 @@ export const VoFUnidad5 = () => {
 
     const seleccionPregunta = useCallback(
         () => {
-            let indicePregunta = Math.floor(Math.random() * bancoPreguntas.length);
-            setPreguntaSeleccionada(bancoPreguntas.filter(pregunta => pregunta.id === indicePregunta));
+            let filtroConstituyentes = bancoPreguntas.filter(pregunta => pregunta.unidad === 'Hormigón Fresco');
+            let indicePregunta = Math.floor(Math.random() * filtroConstituyentes.length);
+            setPreguntaSeleccionada(filtroConstituyentes[indicePregunta]);
         },
         [],
     )
@@ -26,12 +27,12 @@ export const VoFUnidad5 = () => {
 
 
     function checkPregunta(preguntaSeleccionada, valor) {
-        (preguntaSeleccionada && preguntaSeleccionada.length > 0 && preguntaSeleccionada[0].respuesta === valor)
+        (preguntaSeleccionada && preguntaSeleccionada.respuesta === valor)
             ? Swal.fire({
                 icon: 'success',
                 title: 'Respuesta correcta!',
                 html: 'Próxima pregunta en <b></b> segundo(s).',
-                timer: 3000,
+                timer: 2000,
                 timerProgressBar: true,
                 didOpen: () => {
                     Swal.showLoading()
@@ -52,7 +53,7 @@ export const VoFUnidad5 = () => {
                 icon: 'error',
                 title: 'Respuesta incorrecta',
                 html: 'Próxima pregunta en <b></b> segundo(s).',
-                timer: 3000,
+                timer: 2000,
                 timerProgressBar: true,
                 didOpen: () => {
                     Swal.showLoading()
@@ -73,7 +74,7 @@ export const VoFUnidad5 = () => {
     }
 
     function agregarIncorrecta(pregunta) {
-        respuestasIncorrectas.push(pregunta[0]);
+        respuestasIncorrectas.push(pregunta);
     }
 
     return <div className='row'>
@@ -86,9 +87,9 @@ export const VoFUnidad5 = () => {
                 style={{ width: '20rem' }}
                 className="mb-2"
             >
-                <Card.Header>{preguntaSeleccionada[0] && preguntaSeleccionada[0].unidad}</Card.Header>
+                <Card.Header>{preguntaSeleccionada && preguntaSeleccionada.unidad}</Card.Header>
                 <Card.Body>
-                    <Card.Title>{preguntaSeleccionada[0] && preguntaSeleccionada[0].pregunta} </Card.Title>
+                    <Card.Title>{preguntaSeleccionada && preguntaSeleccionada.pregunta} </Card.Title>
                     <Button variant="success" onClick={() => checkPregunta(preguntaSeleccionada, "V")}> Verdadero </Button>
                     <Button variant="danger" onClick={() => checkPregunta(preguntaSeleccionada, "F")}> Falso </Button>
                 </Card.Body>

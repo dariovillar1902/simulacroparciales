@@ -184,5 +184,467 @@
     "pregunta": "El Agua del lavado de equipos nunca puede usarse para mezclado",
     "respuesta": "F",
     "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 31,
+    "pregunta": "La trabajabilidad es una propiedad física",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 32,
+    "pregunta": "El ensayo de factor de compactación es apto para mezcla desde grado seco",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 33,
+    "pregunta": "En Hormigones con agregados gruesos de gran tamaño se favorece la segregación",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 34,
+    "pregunta": "La máxima capacidad de exudación admitida por el CIRSOC 201-05 es el 10%",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 35,
+    "pregunta": "El límite teórico de inicio del período de fraguado es el inicio del período 3 de hidratación del SC3",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 36,
+    "pregunta": "La trabajabilidad se relaciona principalmente con la homogeneidad",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 37,
+    "pregunta": "El ensayo de Glanville se cataloga como un ensayo de flujo libre",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 38,
+    "pregunta": "Los tipos en que se clasifica la segregación dependen de qué componente segrega",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 39,
+    "pregunta": "La máxima capacidad de exudación admitida por el CIRSOC 201-05 es el 5%",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 40,
+    "pregunta": "El período de fraguado se prolonga cuando disminuye la temperatura",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 41,
+    "pregunta": "Es normal que la Resistencia Potencial sea superior a la Efectiva",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 42,
+    "pregunta": "El material que oficia de relleno en la vista microscópica del Hormigón son Productos de Hidratación",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 43,
+    "pregunta": "En el proceso de fractura del hormigón para cargas menores al 25% de la máxima se produce el crecimiento de fisuras en la interfase",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 44,
+    "pregunta": "Los hormigones con agregados de forma redondeada tienen mayor resistencia a tracción que los de agregados cúbicos",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 45,
+    "pregunta": "Los coeficientes de la fórmula de Abrams de Resistencia varían con el tipo de agregados utilizado",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 46,
+    "pregunta": "La Reacción de las Puzolanas produce Hidróxido de Calcio",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 47,
+    "pregunta": "Los Cementos de bajo calor de hidratación deben tener bajo AC3",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 48,
+    "pregunta": "A corto plazo la resistencia de un CPF es mayor que la de un CPP",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 49,
+    "pregunta": "Según IRAM 50000 el Máximo de Adición en un CPE es del 25%",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 50,
+    "pregunta": "La Cantidad de Aire Ocluido depende del TMN del agregado grueso",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 51,
+    "pregunta": "La Resistencia de una probeta normalizada no debe ser corregida por esbeltez",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 52,
+    "pregunta": "En la vista mesoscópica del Hormigón se analiza la Pasta",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 53,
+    "pregunta": "Los hormigones de resistencia alta tienen rotura de tipo intragranular",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 54,
+    "pregunta": "Es razonable que la resistencia a compresión a la edad de 7 días sea 2/3 de la resistencia a 28 días",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 55,
+    "pregunta": "Los coeficientes de la Fórmula de Abrams de Resistencia no varían con el tipo de cemento utilizado",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 56,
+    "pregunta": "La consistencia es una propiedad tecnológica",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 57,
+    "pregunta": "El ensayo de factor de compactación es apto para mezcla desde grado fluido",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 58,
+    "pregunta": "Hormigones de consistencia muy fluida tienen menor tendencia a la segregación que los de consistencia plástica",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 59,
+    "pregunta": "La velocidad de exudación no depende de la altura del elemento hormigonado",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 60,
+    "pregunta": "El final operativo del período fresco es a veces posterior al límite práctico",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 61,
+    "pregunta": "Hay diferencia entre la resistencia esperable de testigos según sea la dirección de extracción en relación a la de ensayo",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 62,
+    "pregunta": "El material que oficia de relleno en la vista microscópica del Hormigón es el CH",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 63,
+    "pregunta": "Los hormigones de resistencia baja siempre tienen rotura de tipo intergranular",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 64,
+    "pregunta": "La resistencia a compresión del hormigón crece siempre con mayor temperatura de curado",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 65,
+    "pregunta": "Los coeficientes de la fórmula de Abrams de Resistencia difieren según el tipo de aire",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 66,
+    "pregunta": "La Ceniza Volante de Alto Calcio tiene Reacción Cementicia",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 67,
+    "pregunta": "La principal Adición de un CPP es Escoria",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 68,
+    "pregunta": "La Resistencia del Cemento se determina en probetas de mortero",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 69,
+    "pregunta": "En un CPARI debe controlarse el Calor de Hidratación",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 70,
+    "pregunta": "Un Agua de mezclado no es apta si reduce resistencia del mortero en un 10%",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 71,
+    "pregunta": "El Hidróxido de Calcio no interactúa en la Reacción de la Escoria",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 72,
+    "pregunta": "SC2 es el Compuesto Potencial con mayor calor de hidratación unitario",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 73,
+    "pregunta": "En un CPBCH (IRAM 50001) debe controlarse el Calor de Hidratación",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 74,
+    "pregunta": "El Agua Potable es siempre apta para mezclado del hormigón",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 75,
+    "pregunta": "En un CPNARS (IRAM 50001) debe controlarse el contenido de AC3",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 76,
+    "pregunta": "La consistencia del Hormigón fresco no depende de los medios de colocación",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 77,
+    "pregunta": "El consistometro VeBe se cataloga como un ensayo de flujo confinado",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 78,
+    "pregunta": "Con cementos de alta finura se tiene baja exudación",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 79,
+    "pregunta": "La capacidad de exudación depende del espesor del elemento hormigonado",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 80,
+    "pregunta": "La duración del estado fresco se reduce cuando disminuye la temperatura",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 81,
+    "pregunta": "La Resistencia Potencial se determina a cualquier edad",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 82,
+    "pregunta": "La fase que aporta resistencia en la vista mesoscópica del Hormigón es la Pasta",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 83,
+    "pregunta": "En el proceso de fractura del hormigón para cargas entre el 25% y el 50% de la máxima se produce el crecimiento lento de fisuras sólo en la interfase",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 84,
+    "pregunta": "La resistencia a tracción de un hormigón crece con la edad igual que la de compresión",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 85,
+    "pregunta": "Los coeficientes de la fórmula de Abrams de Resistencia no varían con la edad de ensayo",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 86,
+    "pregunta": "La consistencia del Hormigón fresco no depende del tipo de estructura a moldear",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 87,
+    "pregunta": "El consistometro VeBe se cataloga como un ensayo de flujo por vibración",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 88,
+    "pregunta": "La exudación empieza con el comienzo del fraguado",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 89,
+    "pregunta": "La velocidad de exudación es constante durante todo el proceso",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 90,
+    "pregunta": "El límite teórico del final del período fresco es el inicio del período 3 de hidratación del SC3",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 91,
+    "pregunta": "La cohesión se relaciona principalmente con la compacidad",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 92,
+    "pregunta": "El ensayo de asentamiento es apto para mezcla desde grado fluido",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 93,
+    "pregunta": "Agregados de partículas redondeadas implican mayor exudación",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 94,
+    "pregunta": "La capacidad de exudación depende de la dosificación del hormigón",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 95,
+    "pregunta": "El final operativo del período fresco puede ser posterior al límite práctico",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 96,
+    "pregunta": "La Resistencia Efectiva se determina sólo con testigos extraídos de la estructura",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 97,
+    "pregunta": "En la vista mesoscópica del Hormigón se analiza el Mortero",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 98,
+    "pregunta": "La tensión crítica a compresión de un hormigón es igual a su tensión de rotura",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 99,
+    "pregunta": "Es razonable que la resistencia a compresión a la edad de 7 días sea 2/5 de la resistencia a 28 días",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 100,
+    "pregunta": "Los coeficientes de la Fórmula de Abrams de Resistencia varían con la clase de cemento utilizado",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 101,
+    "pregunta": "Las probetas moldeadas con hormigón fresco se ensayan siempre saturadas con superficie seca",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 102,
+    "pregunta": "Los principales vacíos en la vista macroscópica del Hormigón se deben a defectos de compactación",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 103,
+    "pregunta": "En los hormigones que nunca han sido cargados no hay fisuras",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 104,
+    "pregunta": "La resistencia a compresión de una probeta seca es mayor que la de una probeta saturada del mismo hormigón",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 105,
+    "pregunta": "Los coeficientes de la Fórmula de Abrams de Resistencia no varían con la cantidad de cemento utilizado",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 106,
+    "pregunta": "El Filler Calcáreo es una Adición no Hidráulicamente Activa",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 107,
+    "pregunta": "En un CPRRAA (IRAM 50001) debe controlarse el Contenido de SC3",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
   }
 ]

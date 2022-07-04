@@ -6,3 +6,16 @@ button {
   text-align: center;
   justify-content: center;
 }
+
+.form-control {
+  width: 20rem;
+}
+
+.volumenPaston,
+.relacionAguaCemento,
+.contenidoAire,
+.dosificacionReal {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}

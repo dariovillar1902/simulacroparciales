@@ -1,0 +1,420 @@
+[
+  {
+    "id": 0,
+    "dm3Paston": 40,
+    "kgm3PUV": 2400,
+    "cemento": {
+      "pesoSSS": 350,
+      "densidad": 3.13
+    },
+    "agua": {
+      "pesoSSS": 173,
+      "densidad": 1.0
+    },
+    "arenaFina": {
+      "pesoSSS": 300,
+      "densidad": 2.63,
+      "absorcion": 0.4,
+      "humedad": 4.1
+    },
+    "arenaGruesa": {
+      "pesoSSS": 490,
+      "densidad": 2.63,
+      "absorcion": 0.3,
+      "humedad": 3.2
+    },
+    "agregadoGrueso": {
+      "pesoSSS": 1000,
+      "densidad": 2.74,
+      "absorcion": 0.5,
+      "humedad": 0.3
+    },
+    "aire": {
+      "porcentaje": 5
+    }
+  },
+  {
+    "id": 1,
+    "dm3Paston": 80,
+    "kgm3PUV": 2350,
+    "cemento": {
+      "pesoSSS": 350,
+      "densidad": 3.13
+    },
+    "agua": {
+      "pesoSSS": 173,
+      "densidad": 1.0
+    },
+    "arenaFina": {
+      "pesoSSS": 300,
+      "densidad": 2.63,
+      "absorcion": 0.4,
+      "humedad": 4.1
+    },
+    "arenaGruesa": {
+      "pesoSSS": 490,
+      "densidad": 2.63,
+      "absorcion": 0.3,
+      "humedad": 3.2
+    },
+    "agregadoGrueso": {
+      "pesoSSS": 1000,
+      "densidad": 2.74,
+      "absorcion": 0.5,
+      "humedad": 0.3
+    },
+    "aire": {
+      "porcentaje": 5
+    }
+  },
+  {
+    "id": 2,
+    "dm3Paston": "??",
+    "kgDeCementoPaston": 30,
+    "kgm3PUV": 2375,
+    "cemento": {
+      "pesoSSS": 380,
+      "densidad": 3.1
+    },
+    "agua": {
+      "pesoSSS": 180,
+      "densidad": 1.0
+    },
+    "arenaFina": {
+      "pesoSSS": 300,
+      "densidad": 2.66,
+      "absorcion": 0.5,
+      "humedad": 4
+    },
+    "arenaGruesa": {
+      "pesoSSS": 500,
+      "densidad": 2.66,
+      "absorcion": 0.4,
+      "humedad": 3
+    },
+    "agregadoGrueso": {
+      "pesoSSS": 1040,
+      "densidad": 2.76,
+      "absorcion": 0.3,
+      "humedad": 1
+    },
+    "aire": {
+      "porcentaje": 2
+    }
+  },
+  {
+    "id": 3,
+    "dm3Paston": 40,
+    "litrosAguaNoUtilizada": 0.52,
+    "kgm3PUV": 2350,
+    "cemento": {
+      "pesoSSS": 350,
+      "densidad": 3.13
+    },
+    "agua": {
+      "pesoSSS": 173,
+      "densidad": 1.0
+    },
+    "arenaFina": {
+      "pesoSSS": 300,
+      "densidad": 2.63,
+      "absorcion": 0.4,
+      "humedad": 4.1
+    },
+    "arenaGruesa": {
+      "pesoSSS": 490,
+      "densidad": 2.63,
+      "absorcion": 0.3,
+      "humedad": 3.2
+    },
+    "agregadoGrueso": {
+      "pesoSSS": 1000,
+      "densidad": 2.74,
+      "absorcion": 0.5,
+      "humedad": 0.3
+    },
+    "aire": {
+      "porcentaje": 5
+    }
+  },
+  {
+    "id": 4,
+    "dm3Paston": "??",
+    "kgDeCementoPaston": 20,
+    "kgm3PUV": 2410,
+    "cemento": {
+      "pesoSSS": 360,
+      "densidad": 3.1
+    },
+    "agua": {
+      "pesoSSS": 180,
+      "densidad": 1.0
+    },
+    "arenaFina": {
+      "pesoSSS": 300,
+      "densidad": 2.66,
+      "absorcion": 0.5,
+      "humedad": 4
+    },
+    "arenaGruesa": {
+      "pesoSSS": 500,
+      "densidad": 2.66,
+      "absorcion": 0.4,
+      "humedad": 3
+    },
+    "agregadoGrueso": {
+      "pesoSSS": 1040,
+      "densidad": 2.76,
+      "absorcion": 0.3,
+      "humedad": 1
+    },
+    "aire": {
+      "porcentaje": 2
+    }
+  },
+  {
+    "id": 5,
+    "dm3Paston": 80,
+    "litrosAguaNoUtilizada": 1.04,
+    "kgm3PUV": 2400,
+    "cemento": {
+      "pesoSSS": 350,
+      "densidad": 3.13
+    },
+    "agua": {
+      "pesoSSS": 173,
+      "densidad": 1.0
+    },
+    "arenaFina": {
+      "pesoSSS": 300,
+      "densidad": 2.63,
+      "absorcion": 0.4,
+      "humedad": 4.1
+    },
+    "arenaGruesa": {
+      "pesoSSS": 490,
+      "densidad": 2.63,
+      "absorcion": 0.3,
+      "humedad": 3.2
+    },
+    "agregadoGrueso": {
+      "pesoSSS": 1000,
+      "densidad": 2.74,
+      "absorcion": 0.5,
+      "humedad": 3
+    },
+    "aire": {
+      "porcentaje": 5
+    }
+  },
+  {
+    "id": 6,
+    "dm3Paston": "??",
+    "kgDeCementoPaston": 25,
+    "kgm3PUV": 2370,
+    "cemento": {
+      "pesoSSS": 420,
+      "densidad": 3.05
+    },
+    "agua": {
+      "pesoSSS": 171,
+      "densidad": 1.0
+    },
+    "arenaFina": {
+      "pesoSSS": 138,
+      "densidad": 2.63,
+      "absorcion": 0.5,
+      "humedad": 3.7
+    },
+    "arenaGruesa": {
+      "pesoSSS": 628,
+      "densidad": 2.63,
+      "absorcion": 0.3,
+      "humedad": 2.0
+    },
+    "agregadoGrueso": {
+      "pesoSSS": 999,
+      "densidad": 2.7,
+      "absorcion": 0.5,
+      "humedad": 0.4
+    },
+    "aire": {
+      "porcentaje": 3
+    }
+  },
+  {
+    "id": 7,
+    "dm3Paston": "??",
+    "kgDeCementoPaston": 20,
+    "kgm3PUV": 2380,
+    "cemento": {
+      "pesoSSS": 310,
+      "densidad": 3.15
+    },
+    "agua": {
+      "pesoSSS": 185,
+      "densidad": 1.0
+    },
+    "arenaFina": {
+      "pesoSSS": 559,
+      "densidad": 2.62,
+      "absorcion": 0.5,
+      "humedad": 3.8
+    },
+    "arenaGruesa": {
+      "pesoSSS": 330,
+      "densidad": 2.73,
+      "absorcion": 0.3,
+      "humedad": 2.5
+    },
+    "agregadoGrueso": {
+      "pesoSSS": 992,
+      "densidad": 2.74,
+      "absorcion": 0.5,
+      "humedad": 0.5
+    },
+    "aire": {
+      "porcentaje": 2
+    }
+  },
+  {
+    "id": 8,
+    "dm3Paston": "??",
+    "kgDeCementoPaston": 15,
+    "kgm3PUV": 2380,
+    "cemento": {
+      "pesoSSS": 325,
+      "densidad": 3.1
+    },
+    "agua": {
+      "pesoSSS": 188,
+      "densidad": 1.0
+    },
+    "arenaFina": {
+      "pesoSSS": 556,
+      "densidad": 2.62,
+      "absorcion": 0.2,
+      "humedad": 3
+    },
+    "arenaGruesa": {
+      "pesoSSS": 328,
+      "densidad": 2.73,
+      "absorcion": 0.3,
+      "humedad": 2
+    },
+    "agregadoGrueso": {
+      "pesoSSS": 986,
+      "densidad": 2.74,
+      "absorcion": 0.4,
+      "humedad": 0.5
+    },
+    "aire": {
+      "porcentaje": 1.5
+    }
+  },
+  {
+    "id": 9,
+    "dm3Paston": "??",
+    "kgDeCementoPaston": 20,
+    "kgm3PUV": 2380,
+    "cemento": {
+      "pesoSSS": 420,
+      "densidad": 3.05
+    },
+    "agua": {
+      "pesoSSS": 171,
+      "densidad": 1.0
+    },
+    "arenaFina": {
+      "pesoSSS": 138,
+      "densidad": 2.63,
+      "absorcion": 0.5,
+      "humedad": 3.8
+    },
+    "arenaGruesa": {
+      "pesoSSS": 628,
+      "densidad": 2.63,
+      "absorcion": 0.3,
+      "humedad": 2.5
+    },
+    "agregadoGrueso": {
+      "pesoSSS": 999,
+      "densidad": 2.7,
+      "absorcion": 0.5,
+      "humedad": 0.5
+    },
+    "aire": {
+      "porcentaje": 3
+    }
+  },
+  {
+    "id": 10,
+    "dm3Paston": "??",
+    "kgDeCementoPaston": 15,
+    "kgm3PUV": 2390,
+    "cemento": {
+      "pesoSSS": 420,
+      "densidad": 3.05
+    },
+    "agua": {
+      "pesoSSS": 171,
+      "densidad": 1.0
+    },
+    "arenaFina": {
+      "pesoSSS": 138,
+      "densidad": 2.63,
+      "absorcion": 0.5,
+      "humedad": 3.5
+    },
+    "arenaGruesa": {
+      "pesoSSS": 628,
+      "densidad": 2.63,
+      "absorcion": 0.3,
+      "humedad": 2.6
+    },
+    "agregadoGrueso": {
+      "pesoSSS": 999,
+      "densidad": 2.7,
+      "absorcion": 0.5,
+      "humedad": 1
+    },
+    "aire": {
+      "porcentaje": 3
+    }
+  },
+  {
+    "id": 11,
+    "dm3Paston": "??",
+    "kgDeCementoPaston": 25,
+    "kgm3PUV": 2360,
+    "cemento": {
+      "pesoSSS": 310,
+      "densidad": 3.15
+    },
+    "agua": {
+      "pesoSSS": 185,
+      "densidad": 1.0
+    },
+    "arenaFina": {
+      "pesoSSS": 559,
+      "densidad": 2.62,
+      "absorcion": 0.5,
+      "humedad": 3.7
+    },
+    "arenaGruesa": {
+      "pesoSSS": 330,
+      "densidad": 2.73,
+      "absorcion": 0.3,
+      "humedad": 2
+    },
+    "agregadoGrueso": {
+      "pesoSSS": 992,
+      "densidad": 2.74,
+      "absorcion": 0.5,
+      "humedad": 0.4
+    },
+    "aire": {
+      "porcentaje": 2
+    }
+  }
+]
