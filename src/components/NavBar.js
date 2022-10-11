@@ -24,7 +24,7 @@ export const Navbar = () => {
                             <Dropdown.Item>
                                 <NavLink
                                     className={({ isActive }) => 'nav-item nav-link dropdown-item' + (isActive ? ' active' : '')}
-                                    to="/clasificacion"
+                                    to="/tdh/2P"
                                 >
                                     2° Parcial
                                 </NavLink>

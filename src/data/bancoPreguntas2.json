@@ -1,0 +1,1022 @@
+[
+  {
+    "id": 0,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "En el ensayo de peso unitario del agregado grueso tiene importancia el volumen del recipiente",
+    "respuesta": "V"
+  },
+  {
+    "id": 1,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "La combinación optima de agregados es aquella que tiene la menor superficie de contacto entre particulas para reducir la interfase",
+    "respuesta": "F"
+  },
+  {
+    "id": 2,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Es una propiedad mandataria que las particulas de los agregados en su estado original esten limpias",
+    "respuesta": "F"
+  },
+  {
+    "id": 3,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Agregados de particulas muy angulares dan buena movilidad en el hormigon fresco",
+    "respuesta": "F"
+  },
+  {
+    "id": 4,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El ensayo de materia organica del agregado esta relacionado principalmente con la resistencia del hormigon",
+    "respuesta": "V"
+  },
+  {
+    "id": 5,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El peso unitario de un agregado depende de su forma",
+    "respuesta": "V"
+  },
+  {
+    "id": 6,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El ensayo determinación de la materia organica solo se hace en agregados finos",
+    "respuesta": "V"
+  },
+  {
+    "id": 7,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "La reacción quimica de los agregados con la pasta se considera una propiedad fisica",
+    "respuesta": "F"
+  },
+  {
+    "id": 8,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El requisito maximo de sales solubles para agregados finos es mayor que para gruesos según CIRSOC 201/05",
+    "respuesta": "F"
+  },
+  {
+    "id": 9,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El ensayo de lajosidad de los agregados se relaciona principalmente con la durabilidad del hormigon",
+    "respuesta": "F"
+  },
+  {
+    "id": 10,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El peso unitario de un agregado depende de su textura",
+    "respuesta": "V"
+  },
+  {
+    "id": 11,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Un agregado de peso normal puede tener una densidad de 3300kg/m3",
+    "respuesta": "F"
+  },
+  {
+    "id": 12,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Es una propiedad mandatoria que las particulas de los agregados en su estado original esten libres de impurezas",
+    "respuesta": "F"
+  },
+  {
+    "id": 13,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "La dureza de un agregado esta relacionada principalmente con la durabilidad del hormigon",
+    "respuesta": "V"
+  },
+  {
+    "id": 14,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El ensayo Equivalente Arena se hace en agregados finos y gruesos",
+    "respuesta": "F"
+  },
+  {
+    "id": 15,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El peso unitario de un agregado no depende de su grado de compactación",
+    "respuesta": "F"
+  },
+  {
+    "id": 16,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Un agregado liviano estructural puede tener una densidad de hasta 2000kg/m3",
+    "respuesta": "V"
+  },
+  {
+    "id": 17,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El requisito maximo de terrones de arcilla para agregados finos y gruesos según CIRSOC 201/05 es el mismo",
+    "respuesta": "F"
+  },
+  {
+    "id": 18,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Agregados de particulas de baja esfericidad dan interfases mas resistentes en el hormigon endurecido",
+    "respuesta": "F"
+  },
+  {
+    "id": 19,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El ensayo de materia organica del agregado esta relacionado principalmente con la durabilidad del hormigon",
+    "respuesta": "F"
+  },
+  {
+    "id": 20,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El peso unitario de un agregado depende de su mineralogia",
+    "respuesta": "V"
+  },
+  {
+    "id": 21,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "La combinación optima de agregados es la que da el menor volumen de vacios entre ellos",
+    "respuesta": "F"
+  },
+  {
+    "id": 22,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El Ensayo de inmersión en etilenglicol se considera una propiedad vinculada principalmente con la durabilidad del hormigon",
+    "respuesta": "V"
+  },
+  {
+    "id": 23,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El requisito maximo perdida de peso en ataque con sulfato de sodio para agregados finos es mayor que para gruesos según CIRSOC",
+    "respuesta": "F"
+  },
+  {
+    "id": 24,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "La densidad del agregado grueso se determina por el principio de Arquimedes",
+    "respuesta": "V"
+  },
+  {
+    "id": 25,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El peso unitario de un agregado depende de su granulometria",
+    "respuesta": "V"
+  },
+  {
+    "id": 26,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El tamaño de los agregados no se considera una propiedad mandataria para su uso",
+    "respuesta": "V"
+  },
+  {
+    "id": 27,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Un agregado de peso normal puede tener una densidad de 1800kg/m3",
+    "respuesta": "F"
+  },
+  {
+    "id": 28,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El grado de colmatación optimo es poco mayor a 1",
+    "respuesta": "V"
+  },
+  {
+    "id": 29,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El ensayo Equivalente Arena de tipo cualitativo",
+    "respuesta": "V"
+  },
+  {
+    "id": 30,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El peso unitario de un agregado no depende de su textura",
+    "respuesta": "F"
+  },
+  {
+    "id": 31,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El ensayo para la determinacion de materia organica se denomina Equivalente Arena",
+    "respuesta": "F"
+  },
+  {
+    "id": 32,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Es una propiedad mandataria que las particulas de los agregados en su estado original sean de tamaño adecuado",
+    "respuesta": "F"
+  },
+  {
+    "id": 33,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El grado de colmatación optimo es igual a 1",
+    "respuesta": "F"
+  },
+  {
+    "id": 34,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "En el ensayo de peso unitario del agregado grueso no tiene importancia el volumen del recipiente",
+    "respuesta": "F"
+  },
+  {
+    "id": 35,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "La densidad relativa de un agregado no incluye los vacios entre particulas",
+    "respuesta": "V"
+  },
+  {
+    "id": 36,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El peso unitario de un agregado no depende de su mineralogia",
+    "respuesta": "F"
+  },
+  {
+    "id": 37,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El grado de colmatación optimo es mucho mayor a 1",
+    "respuesta": "F"
+  },
+  {
+    "id": 38,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Agregados de particulas bien redondeadas dan buena movibilidad en el hormigon fresco",
+    "respuesta": "V"
+  },
+  {
+    "id": 39,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "La densidad del agregado fino se determina por desplazamiento de agua",
+    "respuesta": "V"
+  },
+  {
+    "id": 40,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "La densidad relativa de un agregado incluye los vacios entre particulas",
+    "respuesta": "F"
+  },
+  {
+    "id": 41,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "La combinación optima de agregados es la que da el menor volumen de pasta",
+    "respuesta": "V"
+  },
+  {
+    "id": 42,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El requisito maximo de terrones de arcilla para agregados finos es mayor que para gruesos según CIRSOC 201/05",
+    "respuesta": "V"
+  },
+  {
+    "id": 43,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Agregados de particulas de alta esfericidad dan interfases mas resistentes en el hormigon endurecido",
+    "respuesta": "F"
+  },
+  {
+    "id": 44,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "En el ensayo de desgaste de agregado grueso se admite hasta un 30% de perdida para su uso en hormigones generales",
+    "respuesta": "F"
+  },
+  {
+    "id": 45,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Los agregados naturales son aquellos que solo requieren tratamientos fisicos para ser utilizados en el hormigon",
+    "respuesta": "V"
+  },
+  {
+    "id": 46,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El peso unitario de un agregado no incluye los vacios entre particulas",
+    "respuesta": "F"
+  },
+  {
+    "id": 47,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El ensayo de inmersión en etilenglicol se considera una propiedad vinculada principalmente con la resistencia del hormigon",
+    "respuesta": "F"
+  },
+  {
+    "id": 48,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El requisito maximo perdida de peso en ataque con sulfato de sodio para agregados finos y gruesos según CIRSOC 201/05 es el mismo",
+    "respuesta": "F"
+  },
+  {
+    "id": 49,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El ensayo de determinación de la materia organica es de tipo colorimetrico",
+    "respuesta": "V"
+  },
+  {
+    "id": 50,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Los agregados naturales son aquellos que no requieren nngun tipo de tratamiento para ser utilizados en el hormigon",
+    "respuesta": "F"
+  },
+  {
+    "id": 51,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "El ensayo para la determinacion de material arcilloso se denomina Equivalente Arena",
+    "respuesta": "V"
+  },
+  {
+    "id": 52,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "Es una propiedad complementaria que las particulas de los agregados en su estado original sean durables",
+    "respuesta": "F"
+  },
+  {
+    "id": 53,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "La absorcion de los agregados se considera una propiedad quimica",
+    "respuesta": "F"
+  },
+  {
+    "id": 54,
+    "unidad": "Materiales Constituyentes",
+    "pregunta": "En el ensayo de desgaste los Angeles el número de rotación en el tambor depende del tamaño maximo del agregado grueso",
+    "respuesta": "F"
+  },
+  {
+    "id": 55,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo del hormigon es una combinacion lineal del modulo de los agregados y de la pasta dentro del rango elastico",
+    "respuesta": "V"
+  },
+  {
+    "id": 56,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "La deformación del hormigon entre la tensión maxima y la de rotura se denomina ductilidad",
+    "respuesta": "V"
+  },
+  {
+    "id": 57,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo tangente instantaneo crece a mayor deformacion del hormigon",
+    "respuesta": "F"
+  },
+  {
+    "id": 58,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En la determinación del modulo cuerda en el ensayo estatico la tension superior es constante",
+    "respuesta": "F"
+  },
+  {
+    "id": 59,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo tangente inicial se utiliza para determinar flechas de servicio",
+    "respuesta": "F"
+  },
+  {
+    "id": 60,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En el modelo parabolico (CEB-FIP) la deformación para maxima tension es distinta para todas las clases de hormigon",
+    "respuesta": "V"
+  },
+  {
+    "id": 61,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "La deformación del hormigon entre la tensión elástica y la tensión maxima se denomina ductilidad",
+    "respuesta": "F"
+  },
+  {
+    "id": 62,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo secante es siempre menor que el cuerda",
+    "respuesta": "F"
+  },
+  {
+    "id": 63,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En la determinación del modulo cuerda en el ensayo estatico la deformación superior es constante",
+    "respuesta": "F"
+  },
+  {
+    "id": 64,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo tangente inicial se utiliza para el calculo de vibraciones",
+    "respuesta": "V"
+  },
+  {
+    "id": 65,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En el modelo parabolico (CEB-FIP) la deformación para maxima tension es constante para todas las clases de hormigon",
+    "respuesta": "F"
+  },
+  {
+    "id": 66,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "La deformación total del hormigon hasta la rotura se denomina ductilidad",
+    "respuesta": "F"
+  },
+  {
+    "id": 67,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo crece con la edad igual que la resistencia del hormigon",
+    "respuesta": "F"
+  },
+  {
+    "id": 68,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En la determinación del modulo cuerda en el ensayo estatico la tension inferior es constante",
+    "respuesta": "F"
+  },
+  {
+    "id": 69,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo secante se utiliza para determinar flechas de servicio",
+    "respuesta": "V"
+  },
+  {
+    "id": 70,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En todos los modelos constitutivos la deformación maxima del hormigon se considera constante para cualquier clase de hormigon",
+    "respuesta": "F"
+  },
+  {
+    "id": 71,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "La deformación del hormigon enrte la tensión elastica y la tensión maxima se denomina plastica",
+    "respuesta": "V"
+  },
+  {
+    "id": 72,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo crece con la edad mas que la resistencia del hormigon",
+    "respuesta": "V"
+  },
+  {
+    "id": 73,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En la determinación del modulo cuerda en el ensayo estatico la deformacion inferior es constante",
+    "respuesta": "V"
+  },
+  {
+    "id": 74,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo secante se utiliza para determinar perdidas de pretensado",
+    "respuesta": "F"
+  },
+  {
+    "id": 75,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo del hormigon es una combinacion lineal del modulo de los agregados y de la pasta dentro del rango plastico",
+    "respuesta": "F"
+  },
+  {
+    "id": 76,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "La deformación del hormigon entre la tension maxima y la de rotura se denomina ductilidad",
+    "respuesta": "V"
+  },
+  {
+    "id": 77,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo tangente instantaneo decrece con mayor deformacion del hormigon",
+    "respuesta": "V"
+  },
+  {
+    "id": 78,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En la determinación del modulo cuerda en el ensayo estatico la tension superior es variable",
+    "respuesta": "V"
+  },
+  {
+    "id": 79,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo tangente inicial se utiliza para determinar acciones por coacción",
+    "respuesta": "F"
+  },
+  {
+    "id": 80,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En el modelo parabola rectangulo (NBR) la deformación para maxima tension es distinta para todas las clases de hormigon",
+    "respuesta": "V"
+  },
+  {
+    "id": 81,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "La deformación del hormigon entre la tension elastica y la tension maxima se denomina ductilidad",
+    "respuesta": "F"
+  },
+  {
+    "id": 82,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo secante es siempre mayor que el tangente instantaneo",
+    "respuesta": "F"
+  },
+  {
+    "id": 83,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En la determinación del modulo cuerda en el ensayo estatico la deformación superior es variable",
+    "respuesta": "V"
+  },
+  {
+    "id": 84,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo tangente inicial se utiliza para determinar perdidas de pretensado",
+    "respuesta": "V"
+  },
+  {
+    "id": 85,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En el modelo parabolico-declinante (Hognestad) la deformación para maxima tension es constante para todas las clases de hormigon",
+    "respuesta": "F"
+  },
+  {
+    "id": 86,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "La deformación total del hormigon hasta la rotura se denomina ductilidad",
+    "respuesta": "F"
+  },
+  {
+    "id": 87,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo crece con la edad igual que la resistencia del hormigon",
+    "respuesta": "F"
+  },
+  {
+    "id": 88,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En la determinación del modulo cuerda en el ensayo estatico la tension inferior es variable",
+    "respuesta": "V"
+  },
+  {
+    "id": 89,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo secante se utiliza para determinar flechas de servicio",
+    "respuesta": "V"
+  },
+  {
+    "id": 90,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En el modelo parabolico-declinante (Hognestad) la deformación ultima es constante para todas las clases de hormigon",
+    "respuesta": "V"
+  },
+  {
+    "id": 91,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "La deformación del hormigon entre la tension elastica y la tension maxima se denomina deformación plastica",
+    "respuesta": "V"
+  },
+  {
+    "id": 92,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo crece con la edad mas que la resistencia del hormigon",
+    "respuesta": "V"
+  },
+  {
+    "id": 93,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En la determinación del modulo cuerda en el ensayo estatico la deformación inferior es variable",
+    "respuesta": "F"
+  },
+  {
+    "id": 94,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo secante se utiliza para determinar rotaciones de secciones en condiciones de servicio",
+    "respuesta": "V"
+  },
+  {
+    "id": 95,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo del hormigon es una combinacion lineal del modulo de los agregados y de la pasta hasta la tension maxima",
+    "respuesta": "F"
+  },
+  {
+    "id": 96,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "La deformación del hormigon entre la tensión elástica y la tensión maxima se denomina deformacion inelastica",
+    "respuesta": "V"
+  },
+  {
+    "id": 97,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo secante es siempre mayor que el cuerda",
+    "respuesta": "V"
+  },
+  {
+    "id": 98,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modelo de matriz y agregados de similar dureza se coresponde con el modelo de modulo con constituyentes en paralelo",
+    "respuesta": "V"
+  },
+  {
+    "id": 99,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo tangente inicial se utiliza para determinar perdidas de postesado",
+    "respuesta": "V"
+  },
+  {
+    "id": 100,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En el modelo parabolico-rectangulo (NBR) la deformación para maxima tension es constante para cualquier clase de hormigon",
+    "respuesta": "F"
+  },
+  {
+    "id": 101,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "La deformación del hormigon hasta la tensión maxima se denomina deformacion plastica",
+    "respuesta": "F"
+  },
+  {
+    "id": 102,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo secante es siempre menor que el tangente instantaneo",
+    "respuesta": "F"
+  },
+  {
+    "id": 103,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modelo de matriz y agregados de similar dureza se coresponde con el modelo de modulo con constituyentes en serie",
+    "respuesta": "F"
+  },
+  {
+    "id": 104,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo tangente inicial se utiliza para determinar rotaciones de secciones en condiciones de servicio",
+    "respuesta": "F"
+  },
+  {
+    "id": 105,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En el modelo parabolico-declinante (Hognestad) la deformación para maxima tension es variable para cada clase de hormigon",
+    "respuesta": "V"
+  },
+  {
+    "id": 106,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "La deformación del hormigon entre la tensión elástica y la tensión maxima se denomina deformacion inelastica",
+    "respuesta": "V"
+  },
+  {
+    "id": 107,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En el ensayo elastico de modulo se utilizan tres probetas",
+    "respuesta": "V"
+  },
+  {
+    "id": 108,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modelo de matriz mas blanda que los agregados se corresponde con el modelo de modulo con constituyentes en serie",
+    "respuesta": "V"
+  },
+  {
+    "id": 109,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo secante se utiliza para determinar acciones por coaccion",
+    "respuesta": "F"
+  },
+  {
+    "id": 110,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modelo parabolico-declinante (Hognestad) la deformación ultima es variable para cada clase de hormigon",
+    "respuesta": "F"
+  },
+  {
+    "id": 111,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "La deformación del hormigon hasta la tensión maxima se denomina deformacion plastica",
+    "respuesta": "F"
+  },
+  {
+    "id": 112,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En el ensayo elastico de modulo se utilizan dos probetas",
+    "respuesta": "F"
+  },
+  {
+    "id": 113,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modelo de matriz mas blanda que los agregados se corresponde con el modelo de modulo con constituyentes en paralelo",
+    "respuesta": "F"
+  },
+  {
+    "id": 114,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "El modulo secante se utiliza para el calculo de vibraciones",
+    "respuesta": "F"
+  },
+  {
+    "id": 115,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La curva de madurez se determina con probetas curadas a temperatura de obra",
+    "respuesta": "F"
+  },
+  {
+    "id": 116,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El crecimiento del grado de hidratación es mayor con el aumento de la finura del cemento",
+    "respuesta": "V"
+  },
+  {
+    "id": 117,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La madurez de un hormigon que estuvo 3 dias a 20°C; 4 dias a 15°C y 9 dias a 17°C es de 433° Cd",
+    "respuesta": "V"
+  },
+  {
+    "id": 118,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La relación gel/espacio tiene unidad de volumen",
+    "respuesta": "F"
+  },
+  {
+    "id": 119,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El grado de hidratación influye en la ley de Powers",
+    "respuesta": "V"
+  },
+  {
+    "id": 120,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Si dos hormigones tienen igual madurez tienen la misma resistencia",
+    "respuesta": "V"
+  },
+  {
+    "id": 121,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El crecimiento del grado de hidratación es menor con la adición de Silice Activa",
+    "respuesta": "F"
+  },
+  {
+    "id": 122,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La madurez de un hormigon que estuvo 4 dias a 20°C; 3 dias a 13°C y 7 dias a 17°C es de 238° Cd",
+    "respuesta": "F"
+  },
+  {
+    "id": 123,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El parametro A de la formula de Powers es independiente del tipo de cemento",
+    "respuesta": "V"
+  },
+  {
+    "id": 124,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Los poros capilares se computan en el 'gel' para la relación gel/espacio",
+    "respuesta": "F"
+  },
+  {
+    "id": 125,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El metodo de madurez es util aun despues de los 28 dias",
+    "respuesta": "F"
+  },
+  {
+    "id": 126,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Pasta de relación a/c=0,45 con grado de hidratación=0,6 tiene todos poros segmentados",
+    "respuesta": "F"
+  },
+  {
+    "id": 127,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La madurez de un hormigon que estuvo 4 dias a 20°C; 3 dias a 13°C y 7 dias a 17°C es de 378° Cd",
+    "respuesta": "V"
+  },
+  {
+    "id": 128,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El parametro b de la formula de Powers depende de la relación agua/cemento",
+    "respuesta": "F"
+  },
+  {
+    "id": 129,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Los poros de gel no se computan en el 'espacio' para la relación gel/espacio",
+    "respuesta": "F"
+  },
+  {
+    "id": 130,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La curva de madurez se determina con probetas curadas en obra",
+    "respuesta": "F"
+  },
+  {
+    "id": 131,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El crecimiento del grado de hidratación es menor con el aumento de la finura del cemento",
+    "respuesta": "F"
+  },
+  {
+    "id": 132,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La madurez de un hormigon que estuvo 2 dias a 20°C; 5 dias a 15°C y 6 dias a 17°C es de 217° Cd",
+    "respuesta": "F"
+  },
+  {
+    "id": 133,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La relación gel/espacio no tiene unidad",
+    "respuesta": "V"
+  },
+  {
+    "id": 134,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El grado de hidratación no afecta la relación gel/espacio",
+    "respuesta": "F"
+  },
+  {
+    "id": 135,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El metodo de madurez es prescriptivo según CIRSOC",
+    "respuesta": "V"
+  },
+  {
+    "id": 136,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Con mayor grado de hidratación se reduce la porosidad capilar pero no la total",
+    "respuesta": "F"
+  },
+  {
+    "id": 137,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La madurez de un hormigon que estuvo 2 dias a 20,5°C; 5 dias a 15°C y 6 dias a 17°C es de 347°Cd",
+    "respuesta": "V"
+  },
+  {
+    "id": 138,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La relacion agua/cemento no influye en la relación gel/espacio",
+    "respuesta": "F"
+  },
+  {
+    "id": 139,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Los poros capilares se computan en el 'espacio' para la relación gel/espacio",
+    "respuesta": "V"
+  },
+  {
+    "id": 140,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Si dos hormigones tienen igual madurez tienen igual grado de hidratación",
+    "respuesta": "V"
+  },
+  {
+    "id": 141,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El crecimiento del grado de hidratación es menor con la adición de Cenizas Volantes",
+    "respuesta": "V"
+  },
+  {
+    "id": 142,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La madurez de un hormigon que estuvo 3 dias a 17°C; 4 dias a 15°C y 9 dias a 23°C es de 318° Cd",
+    "respuesta": "F"
+  },
+  {
+    "id": 143,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El parametro b de la formula de Powers no depende de la relación agua/cemento",
+    "respuesta": "V"
+  },
+  {
+    "id": 144,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Los poros capilares no computan en el 'gel' para la relación gel/espacio",
+    "respuesta": "F"
+  },
+  {
+    "id": 145,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El metodo de madurez es util para cualquier edad",
+    "respuesta": "F"
+  },
+  {
+    "id": 146,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Pasta de relacion a/c=0,60 con grado de hidratación = 0,8 tiene todos poros segmentados",
+    "respuesta": "F"
+  },
+  {
+    "id": 147,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La madurez de un hormigon que estuvo 3 dias a 17°C; 4 dias a 15°C y 9 dias a 23°C es de 478° Cd",
+    "respuesta": "V"
+  },
+  {
+    "id": 148,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El parametro A de la formula de Powers depende del tipo de cemento",
+    "respuesta": "F"
+  },
+  {
+    "id": 149,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Los poros capilares se computan en el 'gel' para la relación gel/espacio",
+    "respuesta": "F"
+  },
+  {
+    "id": 150,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La curva de madurez se determina con probetas curadas en laboratorio",
+    "respuesta": "V"
+  },
+  {
+    "id": 151,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El crecimiento del grado de hidratación es menor con la reducción de la finura del cemento",
+    "respuesta": "V"
+  },
+  {
+    "id": 152,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La madurez de un hormigon que estuvo 5 dias a 14°C; 3 dias a 17°C y 7 dias a 21°C es de 418° Cd",
+    "respuesta": "V"
+  },
+  {
+    "id": 153,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El aire incluido influye en la relación gel/espacio",
+    "respuesta": "V"
+  },
+  {
+    "id": 154,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El parametro A de la formula de Powers depende de la relación agua/cemento",
+    "respuesta": "F"
+  },
+  {
+    "id": 155,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La curva de madurez se determina con probetas curadas en laboratorio",
+    "respuesta": "V"
+  },
+  {
+    "id": 156,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Con mayor grado de hidratación se mantiene la relación entre la porosidad capilar y la total",
+    "respuesta": "V"
+  },
+  {
+    "id": 157,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La madurez de un hormigon que estuvo 3 dias a 21°C; 4 dias a 15°C y 9 dias a 13°C es de 400° Cd",
+    "respuesta": "V"
+  },
+  {
+    "id": 158,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La relacion agua/cemento influye en la relación gel/espacio",
+    "respuesta": "V"
+  },
+  {
+    "id": 159,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Los poros de gel no se computan en el 'gel' para la relación gel/espacio",
+    "respuesta": "F"
+  },
+  {
+    "id": 160,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Si dos hormigones tienen igual madurez tienen igual curado",
+    "respuesta": "V"
+  },
+  {
+    "id": 161,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El crecimiento del grado de hidratación es mayor con la adición de cenizas volantes",
+    "respuesta": "F"
+  },
+  {
+    "id": 162,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La madurez de un hormigon que estuvo 5 dias a 14°C; 3 dias a 17°C y 7 dias a 21°C es de 268° d",
+    "respuesta": "F"
+  },
+  {
+    "id": 163,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El aire incorporado influye en la relación gel/espacio",
+    "respuesta": "V"
+  },
+  {
+    "id": 164,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Los poros de gel se computan en el 'espacio' para la relación gel/espacio",
+    "respuesta": "V"
+  },
+  {
+    "id": 165,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El metodo de madurez es util solo para corta edad",
+    "respuesta": "V"
+  },
+  {
+    "id": 166,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Pasta de relacion a/c=0,50 con grado de hidratación = 0,8 tiene todos poros segmentados",
+    "respuesta": "V"
+  },
+  {
+    "id": 167,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "La madurez de un hormigon que estuvo 3 dias a 21°C; 4 dias a 15°C y 9 dias a 13°C es de 240° Cd",
+    "respuesta": "F"
+  },
+  {
+    "id": 168,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "El aire incluido influye en la relación gel/espacio",
+    "respuesta": "V"
+  },
+  {
+    "id": 169,
+    "unidad": "Hormigón Endurecido",
+    "pregunta": "Los poros de gel se computan en el 'gel' para la relación gel/espacio ",
+    "respuesta": "V"
+  }
+]

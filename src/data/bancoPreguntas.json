@@ -646,5 +646,89 @@
     "pregunta": "En un CPRRAA (IRAM 50001) debe controlarse el Contenido de SC3",
     "respuesta": "F",
     "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 108,
+    "pregunta": "Los Cementos de Alta Resistencia inicial deben tener mayor finura",
+    "respuesta": "V",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 109,
+    "pregunta": "La Resistencia del Cemento se determina en probetas de pasta",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 110,
+    "pregunta": "En un CPARI (IRAM 50001) debe controlarse la Superficie Específica",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 111,
+    "pregunta": "Un Agua que retrasa el 15% el fraguado no debe usarse para mezclado",
+    "respuesta": "F",
+    "unidad": "Materiales Constituyentes"
+  },
+  {
+    "id": 112,
+    "pregunta": "El ensayo de asentamiento es apto para mezclas de grado plásticas y muy plásticas",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 113,
+    "pregunta": "La velocidad de exudación es mayor al comienzo del proceso",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 114,
+    "pregunta": "El fenómeno de contracción plástica es más importante cuando la velocidad de exudación es muy alta",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 115,
+    "pregunta": "Hay diferencia entre la resistencia esperable de testigos según sea la posición de extracción en altura de columnas",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 116,
+    "pregunta": "Los coeficientes de la fórmula de Abrams de Resistencia en función de la relación Agua/Cemento no varían con el tipo de agregados utilizados",
+    "respuesta": "F",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 117,
+    "pregunta": "El aparato de Glenville se cataloga como un ensayo de flujo confinado",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 118,
+    "pregunta": "Hormigones con agregados de alta rugosidad tienen menor exudación",
+    "respuesta": "V",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 119,
+    "pregunta": "El fenómeno de asentamiento plástico ocurre durante los períodos fresco y de fraguado",
+    "respuesta": "F",
+    "unidad": "Hormigón Fresco"
+  },
+  {
+    "id": 120,
+    "pregunta": "Para determinar la Resistencia Efectiva debe ensayarse un mínimo de dos testigos provenientes de un mismo elemento estructural",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
+  },
+  {
+    "id": 120,
+    "pregunta": "Para determinar la Resistencia Efectiva debe ensayarse un mínimo de dos testigos provenientes de un mismo elemento estructural",
+    "respuesta": "V",
+    "unidad": "Hormigón Endurecido"
   }
 ]

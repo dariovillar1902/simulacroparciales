@@ -11,7 +11,7 @@ export const Hormigon1PScreen = () => {
         <hr />
         <h3> Hormigón Fresco - Ejercicio </h3>
         <hr />
-        {/* <EjercicioHF /> */}
+        <EjercicioHF />
         <h3> Hormigón Fresco </h3>
         <hr />
         <VoFHF />
