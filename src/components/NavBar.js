@@ -29,6 +29,14 @@ export const Navbar = () => {
                                     2° Parcial
                                 </NavLink>
                             </Dropdown.Item>
+                            <Dropdown.Item>
+                                <NavLink
+                                    className={({ isActive }) => 'nav-item nav-link dropdown-item' + (isActive ? ' active' : '')}
+                                    to="/tdh/Coloquio"
+                                >
+                                    Coloquio
+                                </NavLink>
+                            </Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </li>

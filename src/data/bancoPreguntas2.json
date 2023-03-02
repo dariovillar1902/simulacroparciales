@@ -1018,5 +1018,11 @@
     "unidad": "Hormigón Endurecido",
     "pregunta": "Los poros de gel se computan en el 'gel' para la relación gel/espacio ",
     "respuesta": "V"
+  },
+  {
+    "id": 170,
+    "unidad": "Módulo de Deformación",
+    "pregunta": "En el ensayo estático de modulo se necesitan dos probetas",
+    "respuesta": "V"
   }
 ]

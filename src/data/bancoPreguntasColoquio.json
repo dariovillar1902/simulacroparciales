@@ -1,0 +1,157 @@
+[
+  {
+    "id": 0,
+    "activa": 0,
+    "pregunta": "Definición de agregados"
+  },
+  {
+    "id": 1,
+    "activa": 0,
+    "pregunta": "Correlación entre agregado fino y grueso"
+  },
+  {
+    "id": 2,
+    "activa": 0,
+    "pregunta": "Definición de mf"
+  },
+  {
+    "id": 3,
+    "activa": 0,
+    "pregunta": "Definición de TMN"
+  },
+  {
+    "id": 4,
+    "activa": 0,
+    "pregunta": "Relación entre cantidad de aire y TMN"
+  },
+  {
+    "id": 5,
+    "activa": 0,
+    "pregunta": "Por qué se determina el contenido de finos? De qué depende? Cómo se determina?"
+  },
+  {
+    "id": 6,
+    "activa": 0,
+    "pregunta": "Cómo se determina el aire y agua en la dosificación? Cuál es la relación aire-TMN?"
+  },
+  {
+    "id": 7,
+    "activa": 0,
+    "pregunta": "Manteniendo el asentamiento constante, cómo varía la cantidad de agua necesaria en función de aumentar el tamaño del agregado?"
+  },
+  {
+    "id": 8,
+    "activa": 0,
+    "pregunta": "Cementos según norma IRAM 50000 y 50001"
+  },
+  {
+    "id": 9,
+    "activa": 0,
+    "pregunta": "Resistencia según norma IRAM 50000"
+  },
+  {
+    "id": 10,
+    "activa": 0,
+    "pregunta": "Tipos de hormigones especiales"
+  },
+  {
+    "id": 11,
+    "activa": 0,
+    "pregunta": "Tipos de adiciones minerales"
+  },
+  {
+    "id": 12,
+    "activa": 0,
+    "pregunta": "Cómo se obtiene la relación agua/cemento?"
+  },
+  {
+    "id": 13,
+    "activa": 0,
+    "pregunta": "Qué se tiene en cuenta para la selección del ambiente?"
+  },
+  {
+    "id": 14,
+    "activa": 0,
+    "pregunta": "Ensayo de Esclerometría"
+  },
+  {
+    "id": 15,
+    "activa": 0,
+    "pregunta": "Ensayo de Ultrasonido"
+  },
+  {
+    "id": 16,
+    "activa": 0,
+    "pregunta": "Cómo se calibra el esclerómetro?"
+  },
+  {
+    "id": 17,
+    "activa": 0,
+    "pregunta": "Ensayo de compresión"
+  },
+  {
+    "id": 18,
+    "activa": 0,
+    "pregunta": "Factores que intervienen en el ensayo de compresión"
+  },
+  {
+    "id": 19,
+    "activa": 0,
+    "pregunta": "Ensayo de módulo de elasticidad estático"
+  },
+  {
+    "id": 20,
+    "activa": 0,
+    "pregunta": "Ensayo de Abrams"
+  },
+  {
+    "id": 21,
+    "activa": 0,
+    "pregunta": "Qué cosas se ven cualitativamente en el ensayo de Abrams?"
+  },
+  {
+    "id": 22,
+    "activa": 0,
+    "pregunta": "Ensayo de Washington"
+  },
+  {
+    "id": 23,
+    "activa": 0,
+    "pregunta": "Definición de PUV"
+  },
+  {
+    "id": 24,
+    "activa": 0,
+    "pregunta": "Fórmulas para PUV real y rendimiento"
+  },
+  {
+    "id": 25,
+    "activa": 0,
+    "pregunta": "Cómo se calcula el contenido de aire por método gravimétrico?"
+  },
+  {
+    "id": 26,
+    "activa": 0,
+    "pregunta": "Resistencias característica, de diseño, de proyecto y requerida"
+  },
+  {
+    "id": 27,
+    "activa": 0,
+    "pregunta": "Qué es el control de calidad?"
+  },
+  {
+    "id": 28,
+    "activa": 0,
+    "pregunta": "Cuál es la diferencia entre modo 1 y modo 2 en control de calidad?"
+  },
+  {
+    "id": 29,
+    "activa": 0,
+    "pregunta": "Por qué son tan importantes los álcalis?"
+  },
+  {
+    "id": 30,
+    "activa": 0,
+    "pregunta": "Qué factores desencadenan la fisuración de tipo plástica?"
+  }
+]
