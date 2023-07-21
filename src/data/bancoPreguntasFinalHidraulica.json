@@ -448,5 +448,221 @@
     "activa": 0,
     "unidad": 9,
     "pregunta": "En un canal en régimen permanente la pendiente cambia de fuerte a débil. Indique cómo evoluciona la superficie libre del mismo indicando como mínimo la nomenclatura de las curvas y cómo fueron seleccionadas."
+  },
+  {
+    "id": 75,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Determinar qué tipo de curva/s (nomenclatura y curvas de caída o de remanso) corresponde a un flujo de pendiente débil que evoluciona entre la solera del canal y el tirante uniforme. Indique los puntos singulares."
+  },
+  {
+    "id": 76,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "¿Qué es la energía específica de la sección de un canal según Bakhmeteff? Dibuje el gráfico típico relacionando las variables que se tienen en cuenta y mencione las particularidades sobresalientes sobre el gráfico."
+  },
+  {
+    "id": 77,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "¿Qué condición se debe cumplir para que en un canal se produzca flujo uniforme, flujo gradualmente variado o flujo bruscamente variado?"
+  },
+  {
+    "id": 78,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Para un cambio de pendiente fuerte a pendiente débil y considerando que el régimen es permanente y la rugosidad la misma en ambos tramos, indicar las posibles evoluciones de la superficie libre."
+  },
+  {
+    "id": 79,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Si hay un canal principal que a los lados tiene una planicie de inundación, explicar con qué ecuación se puede calcular el caudal cuando el nivel del tirante está por encima del nivel de la planicie."
+  },
+  {
+    "id": 80,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "A partir de la siguiente expresión válida para ondas donde la longitud de onda es mucho mayor que la profundidad, indicar cómo se obtiene la velocidad de la onda en un canal como los que se ven en el curso. g * (y^2 + 3/2 * y * Δy + Δy^2/2) = c^2 * y"
+  },
+  {
+    "id": 81,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Siendo la expresión de la superficie libre de un canal dy/dx = (So - S)/(1 - Fr^2), determinar la evolución de la misma para un canal de pendiente suave cuando evoluciona entre la solera del canal e infinito. Explicar las asíntotas y los puntos singulares."
+  },
+  {
+    "id": 82,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Para los casos de pendiente débil a menos débil, pendiente fuerte a menos fuerte y pendiente fuerte a débil, deducir las curvas considerando que el régimen es permanente y el caudal y las rugosidades también."
+  },
+  {
+    "id": 83,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "¿Cómo se analiza la evolución de la superficie libre en los siguientes casos? Pendiente débil - más débil - fuerte / Pendiente fuerte - débil - menos débil."
+  },
+  {
+    "id": 84,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "El caudal desaguado por un vertedero rectangular se puede calcular mediante Q = Cd * √ 2g * l * H1^(3/2). Indique en qué hipótesis se basa esta expresión, defina cada término e indique cuáles son las posibles variaciones respecto al vertedero perfecto."
+  },
+  {
+    "id": 85,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "Explique la diferencia desde el punto de vista hidráulico entre los orificios de pared delgada y los de pared gruesa."
+  },
+  {
+    "id": 86,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "La placa orificio se usa como elemento de medición. Indique cuál es su objeto y realice un esquema del mismo y explique en qué concepto se basa el funcionamiento."
+  },
+  {
+    "id": 87,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "Explique desde el punto de vista hidráulico la diferencia entre los vertederos de pared delgada y los de pared gruesa. Indique cuál de ellos tiene menor coeficiente de descarga."
+  },
+  {
+    "id": 88,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "¿Qué condición debe cumplir la carga sobre un orificio para que el mismo pueda calcularse sin considerarlo de gran abertura?"
+  },
+  {
+    "id": 89,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "Indique por lo menos 4 características del orificio perfecto y qué variantes tendría que tener en cuenta sobre las mismas."
+  },
+  {
+    "id": 90,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "Explique por qué los vertederos de presa tienen una forma aproximadamente parabólica. ¿Por qué el vertedero WES varía ligeramente respecto a esta?"
+  },
+  {
+    "id": 91,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "El caudal de un orificio con contracción parcialmente suprimida se calcula mediante Q = Cs * Cd * A0 * √(2 * (g * H0 + 1/2 * α * V0^2)). El orificio mide A de altura, el nivel del agua es Y = 6A y el ancho es B. ¿Cómo quedaría cada término y el valor de las variables geométricas, despreciando la velocidad de llegada?"
+  },
+  {
+    "id": 91,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "¿A qué se debe que en algunos casos un orificio puede calcularse con la fórmula de orificio perfecto y en otros debe calcularse como orificio de gran abertura?"
+  },
+  {
+    "id": 92,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "¿Qué es un vertedero triangular y para qué se utiliza? ¿Qué significa la expresión del caudal y las variables de la misma? Q = Cd * (H1)^(5/2)"
+  },
+  {
+    "id": 93,
+    "activa": 0,
+    "unidad": 11,
+    "pregunta": "El ANPA de una bomba viene dada por: ANPA = Patm/γ - [(Zb-Za) + ΔHpérdidas + Pv/γ]. Explique qué es cada uno de los términos e indíquelos en un croquis de la instalación"
+  },
+  {
+    "id": 94,
+    "activa": 0,
+    "unidad": 11,
+    "pregunta": "Explique por qué la curva de rendimiento de una bomba tiene un máximo para un caudal dado y cae más o menos rápidamente para valores del caudal por encima o por debajo del caudal de diseño (caudal para el cual el rendimiento es máximo)"
+  },
+  {
+    "id": 95,
+    "activa": 0,
+    "unidad": 11,
+    "pregunta": "¿Qué son los coeficientes de capacidad, de carga y de potencia de las turbomáquinas? ¿Qué variables tienen en cuenta? ¿Qué uso tienen?"
+  },
+  {
+    "id": 96,
+    "activa": 0,
+    "unidad": 11,
+    "pregunta": "Explique desde el punto de vista del movimiento del fluido y de las prestaciones (H y Q) la diferencia entre una turbomáquina de flujo axial y una de flujo radial."
+  },
+  {
+    "id": 97,
+    "activa": 0,
+    "unidad": 11,
+    "pregunta": "Una bomba opera en un punto de su curva con un caudal de 100 m3/h y una altura de impulsión de 30 metros cuando gira a 1500 RPM. ¿Qué caudal y qué altura de impulsión tendrá dicha bomba en el mismo punto funcionando a 1000 RPM?"
+  },
+  {
+    "id": 98,
+    "activa": 0,
+    "unidad": 11,
+    "pregunta": "Tiene dos bombas A y B. Explique las curvas individuales y combinadas. ¿Qué necesidad del proyecto implicaría el uso de una u otra?"
+  },
+  {
+    "id": 99,
+    "activa": 0,
+    "unidad": 11,
+    "pregunta": "Con un esquema a mano alzada muestre cómo se modifica la curva Q-H de una instalación cuando a una bomba existente se adiciona una bomba de idénticas características funcionando en paralelo."
+  },
+  {
+    "id": 100,
+    "activa": 0,
+    "unidad": 11,
+    "pregunta": "La altura de impulsión de un rodete plano está dada por H = (µ2 * Vt2 - µ1 * Vt1)/g. Ecuación que se conoce como ecuación de Euler. Indique qué significa cada término. Para maximizar la altura de impulsión de una bomba centrífuga, ¿cómo se la diseña?"
+  },
+  {
+    "id": 101,
+    "activa": 0,
+    "unidad": 11,
+    "pregunta": "Explique para qué sirven Cw, Cq y Ch y cuál corresponde a cada línea del gráfico del rendimiento de una bomba hidráulica."
+  },
+  {
+    "id": 102,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "La onda del golpe de ariete se propaga con la velocidad del sonido. ¿De qué depende dicha velocidad para un flujo confinado en cañerías y para un flujo libre?"
+  },
+  {
+    "id": 103,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "Indique cuáles son las variables que incrementan el efecto del golpe de ariete en una cañería."
+  },
+  {
+    "id": 104,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "Explique al menos 4 métodos para atenuar el fenómeno de golpe de ariete en cañerías."
+  },
+  {
+    "id": 105,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "Una válvula se cierra bruscamente cuando el flujo estaba establecido. Explique qué sucede en la cañería con la presión a través del tiempo. Las pérdidas por rozamiento son despreciables y la cañería es perfectamente elástica."
+  },
+  {
+    "id": 106,
+    "activa": 0,
+    "unidad": 11,
+    "pregunta": "El ANPA de una bomba viene dada por: ANPA = Patm/γ - [(Zb-Za) + ΔHpérdidas + Pv/γ]. Explique qué es cada uno de los términos e indíquelos en un croquis de la instalación"
+  },
+  {
+    "id": 107,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "Explique qué es y cómo se calcula el tiempo crítico en el fenómeno del golpe de ariete."
+  },
+  {
+    "id": 108,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "¿A qué corresponden las siguientes ecuaciones en el fenómeno del golpe de ariete? ¿Cuándo utilizaría una u otra? ¿Cuáles son las variables indicadas? c^2 = (K/ρ)/[1+(K*D)/(t*E)]; c^2 = (K/ρ)"
+  },
+  {
+    "id": 109,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "Describa los cuatro ciclos teóricos correspondientes al cierre de una válvula que desagua de un depósito cuando se desprecia el rozamiento."
   }
 ]

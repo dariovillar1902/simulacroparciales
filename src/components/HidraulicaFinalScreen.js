@@ -23,10 +23,22 @@ export const HidraulicaFinalScreen = () => {
       (pregunta) => pregunta.activa === 0
     );
     // eslint-disable-next-line no-restricted-globals
-    filtroActivas.length === 0 && location.reload();
+    filtroActivas.length === 0 && reset();
     let indicePregunta = Math.floor(Math.random() * filtroActivas.length);
     setPreguntaSeleccionada(filtroActivas[indicePregunta]);
     cantidadPreguntas.current++;
+  };
+
+  const reset = () => {
+    cantidadPreguntas.current = 0;
+    cantidadCorrectas.current = 0;
+    cantidadIncorrectas.current = 0;
+    cantidadSkipeadas.current = 0;
+    correctasPorUnidad.current = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    incorrectasPorUnidad.current = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    skipeadasPorUnidad.current = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    bancoPreguntasFinalHidraulica.map((pregunta) => (pregunta.activa = 0));
+    window.location.reload();
   };
 
   const marcarPreguntaInactiva = (id, valor, unidad) => {
@@ -105,8 +117,8 @@ export const HidraulicaFinalScreen = () => {
             <Card.Header>
               {preguntaSeleccionada &&
                 preguntaSeleccionada.id +
-                  " - Unidad " +
-                  preguntaSeleccionada.unidad}
+                " - Unidad " +
+                preguntaSeleccionada.unidad}
             </Card.Header>
             <Card.Body>
               <Card.Title>
