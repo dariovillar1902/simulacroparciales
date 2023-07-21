@@ -11,7 +11,6 @@ export const HormigonColoquioScreen = () => {
             let pregunta = bancoPreguntasColoquio.find(pregunta => pregunta.id === id);
             if (pregunta) pregunta.activa = 1;
             let filtroActivas = bancoPreguntasColoquio.filter(pregunta => pregunta.activa === 0);
-            console.log(filtroActivas);
             // eslint-disable-next-line no-restricted-globals
             filtroActivas.length === 0 && location.reload();
             let indicePregunta = Math.floor(Math.random() * filtroActivas.length);

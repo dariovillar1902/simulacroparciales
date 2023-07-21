@@ -1,0 +1,446 @@
+[
+  {
+    "id": 0,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Definición del módulo de elasticidad k"
+  },
+  {
+    "id": 1,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "¿Por qué es posible decir que si en un punto de un fluido la presión es p en un punto a distancia dx del anterior la presión es p + ∂p/∂x dx?"
+  },
+  {
+    "id": 2,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Indique cuál es la diferencia de presión entre el interior y el exterior de una gota de agua, una burbuja de aire, una pompa de jabón y un chorro cilíndrico, todos de radio R"
+  },
+  {
+    "id": 3,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Defina tensión de corte, tensión superficial y tensión de vapor. Cada una de ellas es la manifestación a nivel partícula, ¿de qué fenómeno molecular?"
+  },
+  {
+    "id": 4,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Explique desde el punto de vista molecular el diferente comportamiento de la viscosidad con la temperatura para líquidos y gases"
+  },
+  {
+    "id": 5,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "¿Qué es la tensión superficial?"
+  },
+  {
+    "id": 6,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Determinar el incremento de presión en el interior de una gota de agua de diámetro d."
+  },
+  {
+    "id": 7,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Indique la diferencia entre molécula y partícula."
+  },
+  {
+    "id": 8,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Explique desde el punto de vista mecánico y molecular cómo se manifiesta la presión en un punto. Indique qué característica tiene la presión en un punto de un fluido en reposo y cómo se diferencia respecto a la tensión normal en un sólido."
+  },
+  {
+    "id": 9,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Explique el fenómeno de la cavitación y dé al menos un ejemplo donde pueda ocurrir."
+  },
+  {
+    "id": 10,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Explique desde el punto de vista molecular a qué se debe la viscosidad de un fluido. Escriba la ecuación correspondiente, indicando cada término."
+  },
+  {
+    "id": 11,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "¿Cómo se diferencia el comportamiento de un fluido newtoniano y uno no newtoniano? Marque en un gráfico tensión - velocidad de deformación los diferentes casos."
+  },
+  {
+    "id": 12,
+    "activa": 0,
+    "unidad": 2,
+    "pregunta": "Explique por qué la presión absoluta no puede ser negativa en tanto la presión relativa sí. ¿Cuál es el límite de las presiones relativas negativas?"
+  },
+  {
+    "id": 13,
+    "activa": 0,
+    "unidad": 2,
+    "pregunta": "Calcule el momento en el centro de una compuerta circular con R = H siendo H la profundidad del agua."
+  },
+  {
+    "id": 14,
+    "activa": 0,
+    "unidad": 2,
+    "pregunta": "¿Cómo es la distribución de presiones en la dirección normal al movimiento de un fluido cuyas líneas de corriente son rectas paralelas con respecto a un fluido en reposo?"
+  },
+  {
+    "id": 15,
+    "activa": 0,
+    "unidad": 2,
+    "pregunta": "Explique cómo calcularía la fuerza que debe soportar la costura meridional (vertical al terreno) y la costura ecuatorial (paralela al terreno) suponiendo que una esfera de diámetro D está completamente llena de líquido y soporta una presión de 40 mca en su parte superior."
+  },
+  {
+    "id": 16,
+    "activa": 0,
+    "unidad": 2,
+    "pregunta": "Encontrar la fuerza horizontal y vertical que ejerce el agua sobre una superficie semiesférica."
+  },
+  {
+    "id": 17,
+    "activa": 0,
+    "unidad": 2,
+    "pregunta": "El vacío medido en un recipiente cerrado es de 2 kg/cm2. ¿Qué le sugiere?"
+  },
+  {
+    "id": 18,
+    "activa": 0,
+    "unidad": 2,
+    "pregunta": "Para un fluido en reposo con g opuesta al eje y, donde P es la presión y x,y,z las coordenadas definir cuánto valen ∂p/∂x, ∂p/∂y, ∂p/∂z."
+  },
+  {
+    "id": 19,
+    "activa": 0,
+    "unidad": 2,
+    "pregunta": "Explique qué es el centro de presiones de una placa sumergida y cómo se relaciona con el centro de gravedad de la misma."
+  },
+  {
+    "id": 20,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Dé la definición de línea de corriente y explique cómo puede definir, observando las mismas, si un flujo es estacionario o no estacionario."
+  },
+  {
+    "id": 21,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Defina el factor de corrección de la energía cinética y explique por qué es mayor en flujo laminar que en turbulento."
+  },
+  {
+    "id": 22,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Indique en qué principios físicos fundamentales se basan la ecuación de continuidad, la ecuación de cantidad de movimiento y la ecuación de la energía"
+  },
+  {
+    "id": 23,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Explique en qué consisten las derivadas parciales, totales y sustanciales de una variable hidráulica."
+  },
+  {
+    "id": 24,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "La energía interna de un fluido es la manifestación a nivel partícula ¿de qué fenómenos moleculares? ¿Cómo cambia en aquellos procesos donde no hay transferencia de calor ni cambio de fase como en hidráulica?"
+  },
+  {
+    "id": 25,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "En la siguiente expresión ningún término es nulo. Indique qué son, a qué tipo de movimiento fluido corresponden y cuál es el significado de cada término. ar = Vr * ∂Vr/∂r + Vθ/r * ∂Vr/∂θ - Vθ^2/r + ∂Vr/∂t. aθ = Vr * ∂Vθ/∂r + Vθ/r * ∂Vθ/∂θ + Vr * Vθ/r + ∂Vθ/∂t"
+  },
+  {
+    "id": 26,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Indicar todas las fuerzas exteriores que actúan sobre un volumen de control."
+  },
+  {
+    "id": 27,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Si en un volumen de control ingresan 10 kg/s de masa y salen 8 kg/s. ¿Cómo es el movimiento? ¿Qué está ocurriendo dentro del volumen de control?"
+  },
+  {
+    "id": 28,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Explique cómo se relacionan los términos de la ecuación de cantidad de movimiento integral con los términos de la ecuación de la energía expresada también en su forma integral."
+  },
+  {
+    "id": 29,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Defina la línea de corriente. Indique para el caso de flujo permanente cómo son las líneas de corriente y las trayectorias de las partículas."
+  },
+  {
+    "id": 30,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Dado un campo de velocidades V = Vy * ey + Vz * ez encontrar las componentes de la aceleración."
+  },
+  {
+    "id": 31,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Calcular el valor de las componentes de la aceleración y dibujar las líneas de corriente para los siguientes casos: Vx = c; Vy = c / Vx = c * x; Vy = c / Vx = c; Vy = c * y"
+  },
+  {
+    "id": 32,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "¿Qué función cumplen los factores de corrección α y β de la cantidad de movimiento y de la energía cinética?"
+  },
+  {
+    "id": 33,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "¿Con respecto a qué fuerzas se relacionan los números adimensionales? ¿Qué indica un número de Reynolds muy elevado desde el punto de vista de las fuerzas en juego?"
+  },
+  {
+    "id": 34,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "¿En qué se basa el análisis dimensional? ¿Cuál es su utilidad?"
+  },
+  {
+    "id": 35,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Se quiere realizar un ensayo sobre un modelo siendo las fuerzas predominantes en el prototipo las correspondientes a la presión, las viscosas y las gravitatorias. Indique la escala requerida del modelo y justifique su respuesta."
+  },
+  {
+    "id": 36,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Entre modelo y prototipo deben cumplirse tres semejanzas: la geométrica, la cinemática y la dinámica. Indique cuáles son las condiciones mínimas necesarias para que se cumplan."
+  },
+  {
+    "id": 37,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "¿Qué indica que el número de Reynolds sea muy grande? ¿Y el número de Froude?"
+  },
+  {
+    "id": 38,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Enuncie el teorema π de Buckingham. ¿Para qué se utiliza?"
+  },
+  {
+    "id": 39,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Se quiere realizar un único ensayo en el cual se debe mantener el número de Reynolds y el número de Froude. ¿Cuál debe ser la escala del ensayo?"
+  },
+  {
+    "id": 40,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "¿Cuáles son las semejanzas que deben mantenerse entre modelo y prototipo para que el modelo sea representativo de lo que ocurre en el prototipo? ¿Cuáles son las condiciones necesarias y suficientes?"
+  },
+  {
+    "id": 41,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Explique cómo se asegura la semejanza entre modelo y prototipo cuando se estudia un vertedero de presa y cuando se estudia la pérdida de carga de cañerías."
+  },
+  {
+    "id": 42,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "Dada la función de corriente φ = x^3 - 3x * y^2 demostrar que la misma corresponde a un flujo incompresible e irrotacional."
+  },
+  {
+    "id": 43,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "Determinar la circulación alrededor de una partícula en un vórtice libre que no incluye el centro del mismo."
+  },
+  {
+    "id": 44,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "Siendo la fuerza de sustentación Fy = -ρ * V0x * Γ calcular Fy para un cilindro de 1 m de diámetro que gira a 10 RPM embestido por una corriente de agua de 2 m/s."
+  },
+  {
+    "id": 45,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "Si un flujo se mueve con movimiento circular uniforme como un sólido, rotando alrededor de un eje, ¿cómo se verificaría si dicho flujo es irrotacional?"
+  },
+  {
+    "id": 46,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "Explique en palabras en qué consiste la paradoja de D'Alembert."
+  },
+  {
+    "id": 47,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "Aplicando la teoría del flujo potencial, ¿qué fuerzas aparecen cuando un cilindro con rotación sobre su eje es embestido por una corriente uniforme? ¿A qué son proporcionales dichas fuerzas?"
+  },
+  {
+    "id": 48,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "Dadas las expresiones Vx = -∂φ/∂y y Vy = ∂φ/∂x encontrar cuánto vale la función de corriente para un flujo uniforme que escurre paralelo al eje y en sentido positivo y cuyo módulo es V0Y = cte."
+  },
+  {
+    "id": 49,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "Para un flujo irrotacional, bidimensional, incompresible y estacionario donde V es la velocidad y x e y son las coordenadas, completar la expresión, indicar a qué corresponde y cuál es el concepto físico que expresa. ∂Vy/∂x - ∂Vx/∂y = "
+  },
+  {
+    "id": 50,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Por analogía con las tensiones normales y tangenciales que se desarrollan en un sólido, obtenga las tensiones normales y tangenciales que se desarrollan en un flujo laminar bidimensional."
+  },
+  {
+    "id": 51,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "¿Qué es el flujo laminar? ¿Qué características lo definen? Dé ejemplos físicos del mismo."
+  },
+  {
+    "id": 52,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "En régimen laminar en un conducto, ¿de qué variables es función el factor de fricción?"
+  },
+  {
+    "id": 53,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Explicar el flujo de Cohuette e indicar cómo se analizaría cada término en las ecuaciones de Navier-Stokes. (VER ECUACIONES)"
+  },
+  {
+    "id": 54,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Las ecuaciones de Lamé para el estado plano de tensiones son: σxx = λ * θ + 2 * G * εx / σyy = λ * θ + 2 * G * εy / τxy = G * γxy. Correlacione las mismas con las correspondientes a un fluido incompresible en régimen laminar."
+  },
+  {
+    "id": 55,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Indique cómo se transfiere cantidad de movimiento entre las distintas capas de un fluido en régimen laminar."
+  },
+  {
+    "id": 56,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Explicar el flujo de Poiseuille e indicar cómo se analizaría cada término en las ecuaciones de continuidad (∂Vx/∂x + ∂Vy/∂y = 0) y de Navier-Stokes. (VER ECUACIONES)"
+  },
+  {
+    "id": 57,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Interprete cada término de la siguiente ecuación: τxy(ap) = -ρ * V'x * V'y = ρ * l^2 * (∂Vx/∂y)^2"
+  },
+  {
+    "id": 58,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Un cuerpo no aerodinámico es embestido por una corriente uniforme y en él se produce desprendimiento de la capa límite. Indicar las componentes de resistencia al avance."
+  },
+  {
+    "id": 59,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "¿Cómo son los intercambios de cantidad de movimiento que ocurren en el régimen turbulento? ¿Cómo se correlacionan con los del régimen laminar?."
+  },
+  {
+    "id": 60,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Para una chimenea vertical, ¿qué cargas estáticas y/o dinámicas debido a la acción del viento se deben tener en cuenta en el diseño estructural? Explique el origen de las mismas."
+  },
+  {
+    "id": 61,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "En la resistencia pelicular, la resistencia de forma y en los flujos secundarios actúa la capa límite. ¿En qué forma actúa en cada caso?"
+  },
+  {
+    "id": 62,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Explique en palabras las diferencias y/o similitudes entre las ecuaciones de continuidad y cantidad de movimiento en el flujo laminar y turbulento."
+  },
+  {
+    "id": 63,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Explique la diferencia entre esfuerzo de corte laminar y esfuerzo de corte turbulento. ¿Cómo se debe operar para que un flujo laminar pase a flujo turbulento?"
+  },
+  {
+    "id": 64,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Explique por qué los cuerpos esbeltos cilíndricos tienden a vibrar cuando son expuestos a una corriente uniforme. ¿En qué sentido se produce dicha vibración?"
+  },
+  {
+    "id": 65,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "Desarrollar los diagramas de flujo de los tres casos típicos en el cálculo de tuberías simples analizados en el desarrollo del curso."
+  },
+  {
+    "id": 66,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "Si por una cañería de 200 milímetros de diámetro circula un caudal de 100 m3/h ¿Qué caudal circulará por una cañería de la misma longitud equivalente pero de 220 milímetros de diámetro, si el fluido que circula es el mismo y las alturas piezométricas inicial y final también lo son? Se asume que el factor de fricción para ambas es aproximadamente el mismo."
+  },
+  {
+    "id": 67,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "Defina la altura piezométrica y calcúlela en un punto de una cañería, sabiendo que en otro punto aguas arriba en la misma cañería tiene 25 m. Además, la pérdida de carga por accesorios entre ambos es de 15 kN/m2 y por fricción es de 45 kN/m2. No hay cambio de diámetro en el recorrido. El fluido que circula tiene densidad relativa 1,1."
+  },
+  {
+    "id": 68,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "Indique si por el sistema de una cañería que cortan ambas líneas piezométricas circula caudal. Si la respuesta es afirmativa, ¿cómo calcula el mismo?"
+  },
+  {
+    "id": 69,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "Explique cómo haría para calcular el caudal que transporta una cañería con distintos diámetros y longitudes sumergida una altura H."
+  },
+  {
+    "id": 70,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "¿A qué corresponde la siguiente expresión para una cañería en régimen permanente? ¿Para qué sirve? (Vmax - Vm) * π * R^2 = 0∫R (Vmax - V) * 2 * π * r * dr"
+  },
+  {
+    "id": 71,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "Explique la diferencia y el alcance de las fórmulas de Colebrook-White y la de Hazen y Williams."
+  },
+  {
+    "id": 72,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "¿Cómo se representa una línea de alturas piezométricas para una cañería recta sin accesorios? ¿Qué ocurre cuando hay una pérdida localizada?"
+  },
+  {
+    "id": 73,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "Describir para qué se utiliza el diagrama de Moody, comentando las variables y zonas del diagrama."
+  }
+]
