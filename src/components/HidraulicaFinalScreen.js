@@ -2,25 +2,53 @@ import React, { useCallback, useEffect, useRef, useState } from 'react';
 import "../styles/styles.scss";
 import bancoPreguntasFinalHidraulica from '../data/bancoPreguntasFinalHidraulica.json'
 import { Button, Card, Col, Form, Row } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck, faForward, faX } from '@fortawesome/free-solid-svg-icons'
 
 export const HidraulicaFinalScreen = () => {
-    const [unidades, setUnidades] = useState([]);
+    const [unidades, setUnidades] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
     const cantidadPreguntas = useRef(0);
     const [preguntaSeleccionada, setPreguntaSeleccionada] = useState({});
-    const seleccionPregunta = useCallback(
-        (id) => {
-            let pregunta = bancoPreguntasFinalHidraulica.find(pregunta => pregunta.id === id);
-            if (pregunta) pregunta.activa = 1;
-            let filtroActivas = bancoPreguntasFinalHidraulica.filter(pregunta => pregunta.activa === 0);
-            console.log(filtroActivas);
-            console.log(unidades);
-            let filtroUnidades = filtroActivas.filter(pregunta => unidades.includes(pregunta.unidad));
-            console.log(filtroUnidades);
-            // eslint-disable-next-line no-restricted-globals
-            filtroActivas.length === 0 && location.reload();
-            let indicePregunta = Math.floor(Math.random() * filtroActivas.length);
-            setPreguntaSeleccionada(filtroActivas[indicePregunta]);
-            cantidadPreguntas.current++;
+    const cantidadCorrectas = useRef(0);
+    const cantidadIncorrectas = useRef(0);
+    const cantidadSkipeadas = useRef(0);
+
+    const seleccionPregunta = (preguntasActivas) => {
+        let filtroActivas = preguntasActivas.filter(pregunta => pregunta.activa === 0);
+        // eslint-disable-next-line no-restricted-globals
+        filtroActivas.length === 0 && location.reload();
+        let indicePregunta = Math.floor(Math.random() * filtroActivas.length);
+        setPreguntaSeleccionada(filtroActivas[indicePregunta]);
+        cantidadPreguntas.current++;
+    }
+
+    const marcarPreguntaInactiva = (id, valor) => {
+        switch (valor) {
+            case 0:
+                cantidadCorrectas.current++;
+                break;
+
+            case 1:
+                cantidadIncorrectas.current++;
+                break;
+
+            case 2:
+                cantidadSkipeadas.current++;
+                break;
+
+            default:
+                break;
+        }
+        let preguntasActivas = bancoPreguntasFinalHidraulica.filter(pregunta => unidades.includes(pregunta.unidad));
+        let pregunta = preguntasActivas.find(pregunta => pregunta.id === id);
+        if (pregunta) pregunta.activa = 1;
+        seleccionPregunta(preguntasActivas);
+    }
+
+    const checkUnidades = useCallback(
+        (unidades) => {
+            let preguntasActivas = bancoPreguntasFinalHidraulica.filter(pregunta => unidades.includes(pregunta.unidad));
+            seleccionPregunta(preguntasActivas);
         },
         [],
     )
@@ -29,16 +57,22 @@ export const HidraulicaFinalScreen = () => {
         const unidades = JSON.parse(localStorage.getItem('Unidades'));
         if (unidades) {
             setUnidades(unidades);
-            seleccionPregunta();
+            checkUnidades(unidades);
         } else {
             setUnidades([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
-            seleccionPregunta();
+            checkUnidades([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
         }
         localStorage.removeItem("Unidades");
-    }, [seleccionPregunta])
+        return () => {
+            setUnidades([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
+        }
+    }, [checkUnidades])
 
     useEffect(() => {
         localStorage.setItem('Unidades', JSON.stringify(unidades));
+        if (unidades.length === 0) {
+            setUnidades([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
+        }
     }, [unidades]);
 
     return (
@@ -56,9 +90,9 @@ export const HidraulicaFinalScreen = () => {
                         <Card.Header>{preguntaSeleccionada && preguntaSeleccionada.id + ' - Unidad ' + preguntaSeleccionada.unidad}</Card.Header>
                         <Card.Body>
                             <Card.Title>{preguntaSeleccionada && preguntaSeleccionada.pregunta} </Card.Title>
-                            <Button variant="success" onClick={() => seleccionPregunta(preguntaSeleccionada.id)}> Correcta </Button>
-                            <Button variant="danger" onClick={() => seleccionPregunta(preguntaSeleccionada.id)}> Incorrecta </Button>
-                            <Button variant="secondary" onClick={() => seleccionPregunta(preguntaSeleccionada.id)}> Siguiente pregunta </Button>
+                            <Button variant="success" onClick={() => marcarPreguntaInactiva(preguntaSeleccionada.id, 0)}> <FontAwesomeIcon icon={faCheck} /> Correcta </Button>
+                            <Button variant="danger" onClick={() => marcarPreguntaInactiva(preguntaSeleccionada.id, 1)}> <FontAwesomeIcon icon={faX} /> Incorrecta </Button>
+                            <Button variant="secondary" onClick={() => marcarPreguntaInactiva(preguntaSeleccionada.id, 2)}> <FontAwesomeIcon icon={faForward} /> Siguiente pregunta </Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -69,10 +103,10 @@ export const HidraulicaFinalScreen = () => {
                 <Col md={10}>
                     <Form className="formUnidades">
                         <Row className='mb-2 mt-2'>
-                            <Col md={2} className='d-flex justify-content-center align-items-center'>
+                            <Col md={3} className='d-flex justify-content-center align-items-center'>
                                 <Form.Label> Incluir unidades: </Form.Label>
                             </Col>
-                            <Col md={7} className='d-flex justify-content-center align-items-center'>
+                            <Col md={9} className='d-flex justify-content-center align-items-center'>
                                 {['checkbox'].map((type) => (
                                     <div key={`inline-${type}`}>
                                         <Form.Check
@@ -88,7 +122,6 @@ export const HidraulicaFinalScreen = () => {
                                                 } else {
                                                     setUnidades([...unidades, 1])
                                                 }
-                                                console.log(unidades);
                                             }}
                                         />
                                         <Form.Check
@@ -104,7 +137,6 @@ export const HidraulicaFinalScreen = () => {
                                                 } else {
                                                     setUnidades([...unidades, 2])
                                                 }
-                                                console.log(unidades);
                                             }}
                                         />
                                         <Form.Check
@@ -250,14 +282,17 @@ export const HidraulicaFinalScreen = () => {
                                     </div>
                                 ))}
                             </Col>
-                            <Col md={3} className='d-flex justify-content-center align-items-center'>
-                                <Button variant="primary" type="submit">
-                                    Guardar
-                                </Button>
-                            </Col>
                         </Row>
-
                     </Form>
+                </Col>
+                <Col md={1}></Col>
+            </Row>
+            <Row className='mb-2 mt-2'>
+                <Col md={1}></Col>
+                <Col md={10} className='d-flex justify-content-around'>
+                    <h4> <FontAwesomeIcon icon={faCheck} style={{ color: "#3cc34c", }} /> {'Correctas: ' + cantidadCorrectas.current + '/' + (cantidadPreguntas.current - 1)} </h4>
+                    <h4> <FontAwesomeIcon icon={faX} style={{ color: "#c33c3c", }} /> {'Incorrectas: ' + cantidadIncorrectas.current + '/' + (cantidadPreguntas.current - 1)} </h4>
+                    <h4> <FontAwesomeIcon icon={faForward} style={{ color: "#3e3cc3", }} /> {'Salteadas: ' + cantidadSkipeadas.current + '/' + (cantidadPreguntas.current - 1)} </h4>
                 </Col>
                 <Col md={1}></Col>
             </Row>
