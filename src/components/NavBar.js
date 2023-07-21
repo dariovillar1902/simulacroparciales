@@ -7,7 +7,7 @@ export const Navbar = () => {
     return (
         <header className="d-flex justify-content-center py-3 navbar-dark bg-dark">
             <ul className="nav nav-pills">
-                <Dropdown>
+                <Dropdown className='botonDropdown'>
                     <Dropdown.Toggle variant="secondary" id="dropdown-basic">
                         Tecnología del Hormigón
                     </Dropdown.Toggle>
@@ -38,7 +38,7 @@ export const Navbar = () => {
                         </Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
-                <Dropdown>
+                <Dropdown className='botonDropdown'>
                     <Dropdown.Toggle variant="secondary" id="dropdown-basic">
                         Hidráulica General y Aplicada
                     </Dropdown.Toggle>

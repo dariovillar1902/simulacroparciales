@@ -90,8 +90,8 @@ export const VoFMD = () => {
                 <Card.Header>{preguntaSeleccionada && preguntaSeleccionada.unidad}</Card.Header>
                 <Card.Body>
                     <Card.Title>{preguntaSeleccionada && preguntaSeleccionada.pregunta} </Card.Title>
-                    <Button variant="success" onClick={() => checkPregunta(preguntaSeleccionada, "V")}> Verdadero </Button>
-                    <Button variant="danger" onClick={() => checkPregunta(preguntaSeleccionada, "F")}> Falso </Button>
+                    <Button variant="success" onClick={() => checkPregunta(preguntaSeleccionada, "V")} className="botonPregunta"> Verdadero </Button>
+                    <Button variant="danger" onClick={() => checkPregunta(preguntaSeleccionada, "F")} className="botonPregunta"> Falso </Button>
                 </Card.Body>
             </Card>
         </div>

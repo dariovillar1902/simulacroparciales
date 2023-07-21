@@ -36,7 +36,7 @@ export const HormigonColoquioScreen = () => {
                 <Card.Header>{preguntaSeleccionada && preguntaSeleccionada.id}</Card.Header>
                 <Card.Body>
                     <Card.Title>{preguntaSeleccionada && preguntaSeleccionada.pregunta} </Card.Title>
-                    <Button variant="success" onClick={() => seleccionPregunta(preguntaSeleccionada.id)}> Siguiente pregunta </Button>
+                    <Button variant="success" onClick={() => seleccionPregunta(preguntaSeleccionada.id)} className="botonPregunta"> Siguiente pregunta </Button>
                 </Card.Body>
             </
             Card>

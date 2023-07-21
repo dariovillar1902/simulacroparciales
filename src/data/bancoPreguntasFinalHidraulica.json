@@ -442,5 +442,11 @@
     "activa": 0,
     "unidad": 8,
     "pregunta": "Describir para qué se utiliza el diagrama de Moody, comentando las variables y zonas del diagrama."
+  },
+  {
+    "id": 74,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "En un canal en régimen permanente la pendiente cambia de fuerte a débil. Indique cómo evoluciona la superficie libre del mismo indicando como mínimo la nomenclatura de las curvas y cómo fueron seleccionadas."
   }
 ]
