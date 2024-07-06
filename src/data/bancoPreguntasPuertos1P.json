@@ -1,0 +1,428 @@
+[
+  {
+    "id": 0,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "¿Cuántos kilómetros debe navegar un buque que ingresa a Puerto Buenos Aires desde el océano atlántico por la Vía Navegable Troncal? ¿Cuál es el nombre, la profundidad y el ancho de solera de los canales que la componen?"
+  },
+  {
+    "id": 1,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "¿Cuáles son los canales navegables a través de los cuales se puede acceder al ríoParaná (desde el río de la plata)? Especifique ancho y profundidad. Indique el nombre de los dos brazos principales del río Paraná en su desembocadura."
+  },
+  {
+    "id": 2,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Litoral Fluvial"
+  },
+  {
+    "id": 3,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "¿Cuáles son los principales puertos (o grupos de puertos/terminales) argentinos afectados al manejo de contenedores, al manejo de agrograneles y al manejo de crudo o combustibles? Indique alguna estadística o dato que considere relevante."
+  },
+  {
+    "id": 4,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Indique los principales aspectos de la ley 24093 y las reformas que trajo al sistema portuario argentino."
+  },
+  {
+    "id": 5,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Explique la problemática actual del Puerto Buenos Aires en relación con el porte de los buques que recibe. Brinde los datos necesarios para justificar su opinión."
+  },
+  {
+    "id": 6,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "¿Cuál es la función y la responsabilidad de un Práctico? ¿Por qué es necesaria su intervención en el ingreso a puerto?"
+  },
+  {
+    "id": 7,
+    "activa": 0,
+    "unidad": 1,
+    "pregunta": "Liste y explique los principales estudios técnicos necesarios para avanzar en el diseño de un puerto."
+  },
+  {
+    "id": 8,
+    "activa": 0,
+    "unidad": 2,
+    "pregunta": "Liste y explique los principales estudios comerciales y económicos necesarios para avanzar en el diseño de un puerto."
+  },
+  {
+    "id": 9,
+    "activa": 0,
+    "unidad": 2,
+    "pregunta": "¿Qué entiende por hinterland de un puerto? ¿Cómo se calcula? ¿Cuál es su objetivo? ¿Qué características tiene?"
+  },
+  {
+    "id": 10,
+    "activa": 0,
+    "unidad": 2,
+    "pregunta": "Esquematice el layout de un puerto marítimo, indique sus principales componentes y explique brevemente los parámetros de diseño de los espacios acuáticos involucrados (rada de espera, canal de acceso, bocana, círculo de maniobras)."
+  },
+  {
+    "id": 11,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Revancha bajo la quilla"
+  },
+  {
+    "id": 12,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "¿Qué es el coeficiente de bloque? ¿Cómo afecta la maniobrabilidad de un buque? ¿Qué valor aproximado tiene este coeficiente en diferentes tipologías de buques?"
+  },
+  {
+    "id": 13,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "¿Por qué el calado de un buque aumenta gradualmente cuando navega desde el mar hacia un estuario de agua dulce? ¿Cuánto es este aumento?"
+  },
+  {
+    "id": 14,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Defina: Eslora total, eslora entre perpendiculares, manga, puntal, calado, calado aéreo y francobordo. Esquematice."
+  },
+  {
+    "id": 15,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Defina Toneladas de Porte Bruto, Porte Neto, Arqueo Bruto, Arqueo Neto. ¿Cuál es la importancia de cada uno de esos valores?"
+  },
+  {
+    "id": 16,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "¿Cuáles son los criterios posibles para seleccionar un buque de diseño? Amplíe sobre cada una de las posibilidades."
+  },
+  {
+    "id": 17,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "¿Qué son las Líneas de Francobordo o Plimsoll? ¿Qué indican? ¿Cuál es su objetivo? Esquematice. "
+  },
+  {
+    "id": 18,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "¿Cómo se clasifican los buques graneleros o bulk-carriers? Indique la escala. ¿Cuáles son los buques graneleros típicos de la vía navegable troncal argentina? "
+  },
+  {
+    "id": 19,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "¿Cómo se clasifican los buques portacontenedores? Indique la escala. ¿Cuáles son los buques típicos en Puerto Buenos Aires/Dock Sud y a que generación pertenece? "
+  },
+  {
+    "id": 20,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "Buques TANKERS-Transporte de graneles líquidos"
+  },
+  {
+    "id": 21,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "¿Cuáles son los elementos intrínsecos de un buque que colaboran con su maniobrabilidad? "
+  },
+  {
+    "id": 22,
+    "activa": 0,
+    "unidad": 3,
+    "pregunta": "¿Cuáles son los movimientos que puede tener un buque?"
+  },
+  {
+    "id": 23,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "¿Cuáles son los 4 métodos posibles para el cálculo de la cantidad de sitios de atraque en un puerto? Indique brevemente las principales características de cada uno de ellos, ventajas y desventajas"
+  },
+  {
+    "id": 24,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Indique la fórmula del método del factor de ocupación para el cálculo de la cantidad de sitios de atraque en un puerto. Describa cada uno de sus términos y enfatice conceptualmente en el factor de ocupación."
+  },
+  {
+    "id": 25,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Desarrolle la teoría de colas para el cálculo de la cantidad de sitios de atraque en un puerto, incluyendo sus hipótesis y limitaciones. ¿Cuál es su ventaja respecto al método del factor de ocupación?"
+  },
+  {
+    "id": 26,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "En el método de la teoría de colas para el cálculo de la cantidad de sitios de atraque en un puerto, ¿Qué representa el factor τ (espera relativa)? ¿Cuáles son los valores habituales en el caso específico de una terminal de contenedores? Si tuviera que diseñar una terminal de cruceros, ¿Adoptaría valores más o menos exigentes respecto a aquellos recomendados para una terminal de contenedores?"
+  },
+  {
+    "id": 27,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "¿Cuáles son las limitaciones de la teoría de colas que un modelo de simulación puede salvar? ¿Cuáles son los principales elementos que componen un modelo de simulación aplicado al diseño/análisis de puertos y vías navegables??"
+  },
+  {
+    "id": 28,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Defina y describa al contenedor como modo de transporte. ¿Cuáles son las ventajas que introdujo en el transporte de la carga general? ¿Cuáles son los principales tipos y dimensiones?"
+  },
+  {
+    "id": 29,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Describa los equipos típicos de muelle presentes en una terminal de contenedores. Clasificación de grúas, alcances y capacidades."
+  },
+  {
+    "id": 30,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Áreas de una terminal de contenedores"
+  },
+  {
+    "id": 31,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Describa los equipos típicos de plazoleta presentes en una terminal de contenedores. Clasificación de grúas, alcances y capacidades."
+  },
+  {
+    "id": 32,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Combinaciones de equipos"
+  },
+  {
+    "id": 33,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Demanda del área de apilamiento y verificación de la capacidad de producción del patio"
+  },
+  {
+    "id": 34,
+    "activa": 0,
+    "unidad": 4,
+    "pregunta": "Distintas modalidades de transporte (contenedores)"
+  },
+  {
+    "id": 35,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "¿Cuáles son los aspectos técnicos y económicos que maximizan la importancia de seleccionar correctamente el sistema de defensas?"
+  },
+  {
+    "id": 36,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "¿Cuál es la diferencia entre defensas elásticas del tipo “reacción constante” y defensas elásticas del tipo “módulo elástico constante”? Grafique los diagramas reacción/energía absorbida/deformación. Ejemplifique."
+  },
+  {
+    "id": 37,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "¿Cuál es el punto de diseño óptimo de una defensa elástica? Justifique. "
+  },
+  {
+    "id": 38,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "¿Cómo se calcula la velocidad de atraque normal de un buque que se aproxima al muelle? ¿Cuál es el buque que se debe considerar para el diseño del sistema de defensas? ¿En cuál condición de carga?"
+  },
+  {
+    "id": 39,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "¿Cómo se calcula la energía cinética de atraque de un buque que se aproxima al muelle? ¿Cuál es el buque que se debe considerar para el diseño del sistema de defensas? ¿En cuál condición de carga? Detalle cada uno de los coeficientes involucrados. Concepto y valores recomendados. "
+  },
+  {
+    "id": 40,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "Presión admisible en el casco y separación de las defensas"
+  },
+  {
+    "id": 41,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "Series de defensas-CATÁLOGO DUNLOP"
+  },
+  {
+    "id": 42,
+    "activa": 0,
+    "unidad": 5,
+    "pregunta": "¿Cuáles son las principales conclusiones del estudio llevado a cabo en el puerto de Bremerhaven (Alemania) respecto al sistema de defensas elásticas para grandes buques portacontenedores?"
+  },
+  {
+    "id": 43,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Explique el método de Blum o viga equivalente para el cálculo de tablestacas en obras portuarias. Esquematice y formule. "
+  },
+  {
+    "id": 44,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "¿Cuál es el principio de funcionamiento estructural de los muelles de tablero inferior sobre pilotes hincados de forma inclinada? Explique y esquematice. Enfatice en el funcionamiento del caballete para absorber el tiro de bita."
+  },
+  {
+    "id": 45,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Clasificación según estructura de obras para el atraque y según tipología"
+  },
+  {
+    "id": 46,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Tipos de tablestacas"
+  },
+  {
+    "id": 47,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Planos de falla"
+  },
+  {
+    "id": 48,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Tipos de anclaje"
+  },
+  {
+    "id": 49,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Explique el método de Jiménez/Salas para estimar el nivel de empotramiento ficticio de un pilote de gran diámetro construido in-situ. Enfatice en el coeficiente de balasto horizontal. "
+  },
+  {
+    "id": 50,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "¿Cómo se descomponen las fuerzas horizontales actuantes en un dolfin rígido de acuerdo al procedimiento de cálculo aproximado estudiado en clase? ¿Cuál es el efecto de las fuerzas horizontales sobre las fuerzas verticales que actúan en los pilotes? ¿Cómo compensar la fuerza de tracción que se ejerce sobre los pilotes traccionados?"
+  },
+  {
+    "id": 51,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Enumere los pasos a seguir para el diseño preliminar de un dolfin rígido, tal cual lo estudiado en clase."
+  },
+  {
+    "id": 52,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "En lo que refiere al momento torsor; ¿Qué diferencia encuentra entre el diseño preliminar de un dolfin rígido y el diseño preliminar de muelle continuo de tablero superior sobre pilotes de gran diámetro ejecutados en situ?"
+  },
+  {
+    "id": 53,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Explique porqué se manifestó en clase en reiteradas oportunidades que el tiro de bita y la reacción de la defensa no coexisten. ¿Cuál es el criterio? ¿Eso es válido en toda la longitud de un muelle continuo? ¿Por qué?"
+  },
+  {
+    "id": 54,
+    "activa": 0,
+    "unidad": 6,
+    "pregunta": "Diseño Muelles continuos"
+  },
+  {
+    "id": 55,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "Describa, esquematice y ejemplifique las distintas tipologías de cauces fluviales vistas en clase, tanto en lo que refiere a su perfil longitudinal como su planimetría. "
+  },
+  {
+    "id": 56,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "¿De qué manera afecta la navegación a un cauce fluvial del tipo entrelazado? "
+  },
+  {
+    "id": 57,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "¿Cómo se construye un diagrama de movimiento medio anual y cuál es su utilidad en el diseño de obras portuarias?"
+  },
+  {
+    "id": 58,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "¿Cómo se construye un diagrama de frecuencia/duración/alturas y cuál es su utilidad en el diseño de obras portuarias?"
+  },
+  {
+    "id": 59,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "¿Cuáles son los posibles ceros de un río en una determinada sección transversal? ¿Cómo se calculan a partir de un cero arbitrario? ¿Cuál es la relación entre ellos?"
+  },
+  {
+    "id": 60,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "¿Qué es la Línea de Ribera?"
+  },
+  {
+    "id": 61,
+    "activa": 0,
+    "unidad": 8,
+    "pregunta": "En un perfil longitudinal típico de un río. ¿En cuál de los 3 tramos se puede hospedar el lecho de grano grueso y uno de grano fino?"
+  },
+  {
+    "id": 62,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Defina geoide, elipsoide y datum. ¿Cuáles son los elipsoides y datums que ha utilizado la República Argentina en los tiempos recientes?"
+  },
+  {
+    "id": 63,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Sistema de referencia y Marco de referencia. Marcos de referencias Argentina"
+  },
+  {
+    "id": 64,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Proyecciones geodésicas. Clasificación. "
+  },
+  {
+    "id": 65,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Desarrolle y explique la transformación plana Gauss-Kruger adoptada por la República Argentina para la producción de cartografía. "
+  },
+  {
+    "id": 66,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Describa todos los instrumentos que tiene el barco para realizar batimetrías"
+  },
+  {
+    "id": 67,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Explique conceptualmente el funcionamiento del sistema de posicionamiento global (GPS)."
+  },
+  {
+    "id": 68,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "¿Cuál es el concepto de GPS diferencial? ¿Cómo funciona? ¿En cuanto se mejora la precisión respecto al sistema sin diferencial?"
+  },
+  {
+    "id": 69,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "Explique la importancia de determinar previo a iniciar un relevamiento batimétrico la velocidad de propagación del sonido en el agua. ¿Cuál es el rango de valores habituales? ¿Qué métodos conoce para su determinación y calibración de una sonda ecógrafa?"
+  },
+  {
+    "id": 70,
+    "activa": 0,
+    "unidad": 7,
+    "pregunta": "¿Cuáles son las frecuencias habituales con las que trabaja una ecosonda mono haz? ¿Cuál es el criterio por el que se determina aplicar una frecuencia o la otra? Relaciónelo con el concepto de profundidad náutica."
+  }
+]
