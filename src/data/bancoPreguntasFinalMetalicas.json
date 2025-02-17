@@ -1,0 +1,341 @@
+[
+  {
+    "id": 0,
+    "activa": 0,
+    "pregunta": "Definición de resistencia post-crítica"
+  },
+  {
+    "id": 1,
+    "activa": 0,
+    "pregunta": "¿De qué depende el pandeo lateral torsional de una viga sometida a flexión?",
+    "respuesta": "Se debe al pandeo de la cabeza comprimida, que se desplaza sobre el eje débil de la sección. A su vez, la parte traccionada se opone al desplazamiento, por lo que gira y se genera un par torsor. Depende de las propiedades del material (módulos E y G), dimensiones y forma de la sección (I, Cw y módulo de torsión), de la longitud no arriostrada Lb, de las condiciones de vínculo y del diagrama de momentos, además de la posición de la carga respecto del CC."
+  },
+  {
+    "id": 2,
+    "activa": 0,
+    "pregunta": "¿Qué solicitación local produce la carga de rueda sobre el ala de la VPG?",
+    "respuesta": "Se genera un momento torsor entre rigidizadores: cuando la rueda pasa tuerce el ala, porque los rigidizadores no la mantienen derecha. Se equilibra con tres momentos internos: torsión libre de ala y riel, flexión horizontal del ala y flexión vertical del alma. Mt = V * e + B * hr"
+  },
+  {
+    "id": 3,
+    "activa": 0,
+    "pregunta": "¿Cómo funcionan las uniones por deslizamiento crítico?",
+    "respuesta": "Cuando los bulones de alta resistencia se traccionan totalmente, las chapas quedan unidas y aparece una resistencia al deslizamiento en la superficie de contacto entre ambas, que sigue la fórmula F * μ. Se transmite una fuerza de fricción que es normal al eje del bulón, y si la fuerza a transmitir es menor o igual, no hay deslizamiento."
+  },
+  {
+    "id": 4,
+    "activa": 0,
+    "pregunta": "¿Qué determina λp para un elemento?",
+    "respuesta": "λp es el límite a partir del cual una sección puede definirse como compacta o no compacta. Para cada elemento, se debe analizar que la esbeltez sea menor que λp, garantizando que el alma y las alas están unidas en forma continua (la sección llega a fluencia y plastifica sin abollar). De otro modo, con al menos un elemento de esbeltez mayor que λp, la sección es no compacta (la sección llega a fluencia antes de abollar, pero todavía no plastifica). Si un elemento es mayor que λr, la sección se clasifica como con elementos esbeltos (la sección abolla antes de que cualquier punto llegue a fluencia)."
+  },
+  {
+    "id": 5,
+    "activa": 0,
+    "pregunta": "¿Qué acciones se ejercen sobre una viga carrilera?",
+    "respuesta": "La carga vertical es la de la rueda, también está la carga de bamboleo que tiene una excentricidad respecto de la VCB. Se agregan dos cargas B' y B'' para eliminar la excentricidad vertical, solo se mantiene la horizontal. Se genera un Mmáx global cuando las ruedas están en una determinada posición, dividiéndolo por la altura de la VCB se obtienen los esfuerzos en el cordón superior e inferior. Lo mismo para Qmáx, pero más cerca del apoyo, con eso se pueden obtener las reacciones en las diagonales. Localmente se produce momento en la VCB si la rueda cae entre dos nudos, es 0,8 * B' * a / 4. También un momento torsor entre rigidizadores: cuando la rueda pasa tuerce el ala, porque los rigidizadores no la mantienen derecha. Se equilibra con tres momentos internos: torsión libre de ala y riel, flexión horizontal del ala y flexión vertical del alma. Mt = V * e + B * hr"
+  },
+  {
+    "id": 6,
+    "activa": 0,
+    "pregunta": "¿Qué ventaja tiene un perfil C de chapa plegada respecto de un perfil U?",
+    "respuesta": "Se produce un k mayor porque los bordes de las alas están rigidizados en ambos extremos. Estos elementos evitan que se produzca el pandeo alrededor del eje de simetría del perfil"
+  },
+  {
+    "id": 7,
+    "activa": 0,
+    "pregunta": "¿Qué generan las tensiones residuales en secciones laminadas en caliente?",
+    "respuesta": "Las tensiones residuales son de compresión en los extremos y de tracción en el centro. Generan un diagrama autoequilibrado, pero modifican la resistencia a flexión del perfil, ya que hay una compresión previa en ciertas partes que pueden llegar más rápido a la tensión de proporcionalidad y luego a la de fluencia. Es especialmente importante en barras flexocomprimidas por los efectos de segundo orden que se pueden generar. Se generan picos de tracción porque cuando se suelda un perfil, se suman las tensiones residuales de compresión de dos perfiles laminados."
+  },
+  {
+    "id": 8,
+    "activa": 0,
+    "pregunta": "¿En qué casos se puede diseñar con tornillos de alta resistencia?",
+    "respuesta": "En uniones a fricción, donde no hay plano de corte. Se aplica un pretensado del 70% de la resistencia a tracción del tornillo."
+  },
+  {
+    "id": 9,
+    "activa": 0,
+    "pregunta": "La verificación de tensiones en los cordones de soldadura, ¿debe incluir todos los esfuerzos aplicados a los cordones?"
+  },
+  {
+    "id": 10,
+    "activa": 0,
+    "pregunta": "¿Es posible colocar más de 5 tornillos en una misma línea?",
+    "respuesta": "No. El máximo es 5 filas de tornillos debido a que se minimiza el efecto que hace que los tornillos de las filas exteriores tomen mayor esfuerzo que los de las filas centrales. Los tornillos permiten cierta flexibilidad relativa de la chapa o placa que están uniendo."
+  },
+  {
+    "id": 11,
+    "activa": 0,
+    "pregunta": "¿De qué depende la tensión crítica de pandeo en régimen elástico?"
+  },
+  {
+    "id": 12,
+    "activa": 0,
+    "pregunta": "¿Cuándo se verifica el pandeo por flexotorsión?",
+    "respuesta": "En secciones de simple simetría sometidas a compresión, alrededor del eje perpendicular al de simetría. Ocurre cuando el CC y el baricentro no son coincidentes."
+  },
+  {
+    "id": 13,
+    "activa": 0,
+    "pregunta": "Definición del módulo de alabeo Cw",
+    "respuesta": "El Cw define la rigidez a torsión de la sección, en particular la rigidez por alabeo restringido. E * Cw importa sobre todo en perfiles abiertos. El Cw es el momento de inercia sectorial mínimo, es decir, donde las coordenadas sectoriales ω integradas dan el menor valor. Esto ocurre cuando el polo principal es el centro de corte CC."
+  },
+  {
+    "id": 14,
+    "activa": 0,
+    "pregunta": "¿Cuándo se calcula la sección efectiva?",
+    "respuesta": "Cuando se tiene en cuenta la resistencia post-crítica, se disminuye el ancho de la sección porque se considera que una parte de la sección no aporta resistencia. El resto de la sección tiene una capacidad uniforme igual a la tensión crítica de pandeo. Las fibras que no se consideran son las comprimidas, que ya alcanzaron la tensión de fluencia. En el ala es la parte central y en el alma es la parte superior."
+  },
+  {
+    "id": 15,
+    "activa": 0,
+    "pregunta": "Entre los perfiles IPN, S, L y UPN, ¿cuáles tienen alas con caras paralelas?"
+  },
+  {
+    "id": 16,
+    "activa": 0,
+    "pregunta": "¿Qué unión se debe utilizar para evitar concentración de tensiones en los elementos a unir?",
+    "respuesta": "Las uniones a fricción permiten una carga más gradual. No hay picos de tensiones que sí ocurren en el aplastamiento. Las soldaduras también permiten distribuir las tensiones en toda la longitud del cordón, pero se debe tener en cuenta que siempre fallan en el plano de la garganta por corte."
+  },
+  {
+    "id": 17,
+    "activa": 0,
+    "pregunta": "Si un elemento de un perfil no cumple los límites de la tabla B.5.1, ¿cómo es la sección?",
+    "respuesta": "La tabla B.5.1 es la que determina los límites para los cuales una sección es compacta, no compacta o con elementos esbeltos. Cuando la esbeltez λ de al menos un elemento es mayor a λp, la sección es no compacta. Si, a su vez, es mayor a λr, la sección es con elementos esbeltos. Si todos los elementos de la sección son menores a λp, la sección es compacta."
+  },
+  {
+    "id": 18,
+    "activa": 0,
+    "pregunta": "¿De qué depende la tensión crítica de pandeo en régimen inelástico?",
+    "respuesta": "Se basa en la esbeltez cuando se llega a la tensión de proporcionalidad y la esbeltez real máxima de la barra. CIRSOC toma Tensión Crítica Real para pandeo de barras (se obtiene iterando), y Engesser para pandeo de todos los otros elementos (rectifica la ecuación de Euler planteando que la parte que se carga más sigue el módulo tangente, y la parte que se descarga sigue el módulo normal del material)"
+  },
+  {
+    "id": 19,
+    "activa": 0,
+    "pregunta": "¿Por qué se define el carbono equivalente de un acero?",
+    "respuesta": "Contempla porcentajes de carbono y otros elementos para evaluar propiedades como la soldabilidad. Mayor porcentaje implica mayor dureza y menor ductilidad. La fórmula es Ceq = %C + %Mn/6 + (%Cr + %Mo + %V)/5 + (%N + %Cu)/15. Un Ceq mayor a 0,55 tiene mala soldabilidad."
+  },
+  {
+    "id": 20,
+    "activa": 0,
+    "pregunta": "¿Cuáles son los aleantes que mejoran el acero?",
+    "respuesta": "Silicio (Si), Manganeso (Mn), Cromo (Cr), Níquel (Ni), Cobre (Cu), Vanadio (V), Molibdeno (Mo), Aluminio (Al)"
+  },
+  {
+    "id": 21,
+    "activa": 0,
+    "pregunta": "¿Cuáles son las impurezas que empeoran al acero?",
+    "respuesta": "Fósforo (P), Azufre (S), Oxígeno (O), Hidrógeno (H)"
+  },
+  {
+    "id": 22,
+    "activa": 0,
+    "pregunta": "¿Qué se debe verificar cuando se selecciona el largo de los tornillos?",
+    "respuesta": "La tuerca debe poder apretar correctamente. Para uniones a fricción, a medida que el tornillo se estira, la chapa se comprime, por lo que se debe hacer un pretensado de al menos el 70% de la resistencia a tracción del tornillo. Las uniones a fricción tienen menos resistencia que por corte y aplastamiento."
+  },
+  {
+    "id": 23,
+    "activa": 0,
+    "pregunta": "¿De qué depende la resistencia del cordón de soldadura?",
+    "respuesta": "La resistencia de diseño de la soldadura es el menor valor entre FBM * ABM y FW * AW, siendo FBM la resistencia nominal del metal base y FW la resistencia nominal del material del electrodo, ambos en MPa. Área siempre es garganta * longitud, se obtienen los valores de tabla J.2.5."
+  },
+  {
+    "id": 24,
+    "activa": 0,
+    "pregunta": "¿Cómo se verifican las columnas compuestas con presillas?",
+    "respuesta": "En secciones armadas no se puede despreciar la deformación por corte. El corte afecta al pandeo, porque se transmite distinto. Se debe modificar la esbeltez aplicando una fórmula compuesta. Si las uniones son abulonadas, cuando el pandeo se produce respecto del eje libre, las columnas se flexionan y trabajan las diagonales y las presillas, y respecto del eje material la estructura actúa como una barra de alma llena. Si las uniones son soldadas, respecto del eje libre el corte baja por las diagonales y las comprime, al igual que a las montantes. Los momentos son nulos en los puntos medios de las columnas y las presillas. En el eje material el corte lo toma el alma de los perfiles."
+  },
+  {
+    "id": 25,
+    "activa": 0,
+    "pregunta": "¿Cuándo se debe verificar por pandeo torsional puro?",
+    "respuesta": "Cuando el centro de corte coincide con el baricentro. Esto ocurre en secciones doblemente simétricas. La carga crítica por pandeo torsional es importante generalmente en secciones con poca rigidez a torsión (secciones abiertas y de elementos esbeltos)"
+  },
+  {
+    "id": 26,
+    "activa": 0,
+    "pregunta": "¿Qué unidad de medida tiene el módulo de alabeo Cw?",
+    "respuesta": "Se mide en cm6, tiene unidad de longitud a la sexta."
+  },
+  {
+    "id": 27,
+    "activa": 0,
+    "pregunta": "¿Para qué sirve la clasificación de tabla B.5.1?",
+    "respuesta": "Para determinar si una sección es compacta, no compacta o con elementos esbeltos. Esto impacta en el factor de reducción Q a la hora de calcular la tensión crítica Fcr, sobre todo en elementos esbeltos, cuando se habla de pandeo local. Con este valor, luego se define la resistencia nominal Pn en kN."
+  },
+  {
+    "id": 28,
+    "activa": 0,
+    "pregunta": "¿Para qué sirve el método LRFD?",
+    "respuesta": "El método LRFD permite obtener una confiabilidad uniforme, ya que no se basa en un único factor sino que se consideran todas las incertidumbres de las distintas cargas y resistencias a considerar. Considera que las uniones deben ser más confiables que las barras en las distintas combinaciones de cargas a las que se verá sometida la estructura. Se basa en un método probabilístico según la falla de la estructura."
+  },
+  {
+    "id": 29,
+    "activa": 0,
+    "pregunta": "¿Qué posición del soldador es la más aconsejable?",
+    "respuesta": "Bajo mano (o plana): Es la posición más cómoda y fácil para el soldador. La gravedad ayuda a mantener el metal de soldadura en su lugar, lo que suele resultar en un cordón de soldadura de alta calidad. Se recomienda siempre que sea posible."
+  },
+  {
+    "id": 30,
+    "activa": 0,
+    "pregunta": "¿Qué es B1 en flexocompresión?",
+    "respuesta": "Es un coeficiente de ampliación que considera los momentos de segundo orden. Depende de otro coeficiente Cm que se obtiene mediante el análisis de primer orden, suponiendo que el pórtico no se traslada lateralmente, de las cargas y las condiciones de vínculo. Se puede usar este coeficiente cuando la diferencia entre el momento estimado y el obtenido sea menor al 5%."
+  },
+  {
+    "id": 31,
+    "activa": 0,
+    "pregunta": "¿Por qué se genera un momento torsor en las VPG? ¿Cómo se absorbe?",
+    "respuesta": "Por la excentricidad de la carga vertical respecto del hongo del riel, así como la excentricidad que la carga de bamboleo tiene por aplicarse en la parte superior del riel. Mt = V * e + B * hr. Se absorbe colocando la VCB (contra bamboleo) y la VACI (de arriostramiento del cordón inferior), formando un cajón separado una distancia mucho mayor y que permite generar dos fuerzas que contrarrestan dicho momento."
+  },
+  {
+    "id": 32,
+    "activa": 0,
+    "pregunta": "Explicar el camino de las cargas en una nave industrial, para las cargas de viento sobre el frente",
+    "respuesta": "El viento incide sobre la chapa, que por flexión y corte transmite la carga a los largueros. Luego también por flexión y corte la carga se distribuye de los largueros a los parantes. En los parantes frontales se transmite una parte a la fundación y otra parte a la VCVF. Luego se transmiten a los pórticos longitudinales y de ahí a las fundaciones. Puede haber una llave longitudinal que transmita cargas de tracción si el pórtico longitudinal está en el medio."
+  },
+  {
+    "id": 33,
+    "activa": 0,
+    "pregunta": "¿Cuál es la función de las tillas?",
+    "respuesta": "Reducen la luz de flexión de los largueros generando apoyos intermedios en el eje débil. Pueden ser planchuelas o varillas de hierro redondo de poco diámetro, trabajan a tracción salvo en la parte superior, donde hay una tilla de compresión. Se colocan alternadas. Tillas rígidas pueden impedir el giro de la sección, pero son más caras."
+  },
+  {
+    "id": 34,
+    "activa": 0,
+    "pregunta": "¿Cuál es la función de las llaves?",
+    "respuesta": "Las llaves transmiten la indesplazabilidad horizontal entre puntos fijos de la nave. Trabajan solo a tracción y crean arriostramientos en el punto inferior de la cabriada, permiten fijar las distancias entre pórticos longitudinales."
+  },
+  {
+    "id": 35,
+    "activa": 0,
+    "pregunta": "Ventajas de los perfiles delgados en su utilización como correas y largueros",
+    "respuesta": "Bajo peso, alta resistencia y rigidez. Fácil montaje, producción industrializada. Son más baratos y cómodos para montar con tornillos autoperforantes."
+  },
+  {
+    "id": 36,
+    "activa": 0,
+    "pregunta": "Definición de ancho efectivo en perfiles delgados",
+    "respuesta": "Las tensiones forman una curva cuyo límite es la tensión de fluencia. El ancho efectivo limita el valor de fy de modo tal que la chapa abolla antes de llegar a la tensión de fluencia. Como en barras comprimidas se produce pandeo global sin necesariamente llegar a fy, el ancho efectivo puede ser mayor. La fórmula para calcularlo es be = 1,9 * t * raíz(E/fmax)"
+  },
+  {
+    "id": 37,
+    "activa": 0,
+    "pregunta": "¿De qué parámetros depende la tensión admisible de fatiga?"
+  },
+  {
+    "id": 38,
+    "activa": 0,
+    "pregunta": "¿Por qué se recomienda que las vigas carrileras sean 'simplemente apoyadas'?"
+  },
+  {
+    "id": 39,
+    "activa": 0,
+    "pregunta": "¿Cómo se transfiere al hormigón el corte en las placas base de las columnas?"
+  },
+  {
+    "id": 40,
+    "activa": 0,
+    "pregunta": "¿Cuáles son los elementos de una nave industrial?",
+    "respuesta": "Chapas de cerramiento (en cubierta y laterales), correas y largueros, cabriadas principales y secundarias, parantes frontales y laterales, vigas portacabriada, vigas contraviento frontal y lateral y sistema de arriostramiento de cubiertas con tillas y llaves. Las cabriadas con sus vigas y las columnas/parantes constituyen los pórticos transversales, y los pórticos longitudinales son donde apoyan las vigas contraviento frontales."
+  },
+  {
+    "id": 41,
+    "activa": 0,
+    "pregunta": "¿Qué es la tensión post-crítica?",
+    "respuesta": "Hay una resistencia luego de la abolladura, porque la placa se asemeja a un emparrillado en donde el centro (alma) resiste menos que los bordes (alas). Se aplica en perfiles delgados, en elementos comprimidos rigidizados. El perfil no puede tomar más compresión pero sigue pudiendo tomar tracción."
+  },
+  {
+    "id": 42,
+    "activa": 0,
+    "pregunta": "¿Por qué los rigidizadores no se sueldan al ala inferior? ¿Podrían soldarse en el apoyo?"
+  },
+  {
+    "id": 43,
+    "activa": 0,
+    "pregunta": "¿En qué elementos se considera la resistencia post-crítica?",
+    "respuesta": "En elementos comprimidos rigidizados como almas rigidizadas, alas con labio rigidizador, elementos con rigidizadores en el medio, etc."
+  },
+  {
+    "id": 44,
+    "activa": 0,
+    "pregunta": "¿Cuáles son los estados límites últimos en los perfiles doble T, U y T?",
+    "respuesta": "Perfiles doble T: pandeo flexional según X-X, pandeo flexional según Y-Y, pandeo torsional puro. Perfiles U: pandeo flexional según Y-Y, pandeo flexotorsional según el otro eje. Perfiles T: se tratan de forma distinta según reglamento, en particular obteniendo la tensión crítica a pandeo flexional según X-X, se genera pandeo flexotorsional porque la sección es simplemente simétrica."
+  },
+  {
+    "id": 45,
+    "activa": 0,
+    "pregunta": "Definición de sección no compacta",
+    "respuesta": "Una sección no compacta es aquella en la cual al menos un elemento tiene esbeltez mayor a λp, pero ninguno de los elementos tienen esbeltez mayor a λr. En este caso, la sección abolla luego de que al menos un punto haya llegado a fluencia, pero todavía no plastificó. La deformación ε está entre 3 εy y 7 εy."
+  },
+  {
+    "id": 46,
+    "activa": 0,
+    "pregunta": "¿Qué son las tensiones residuales?",
+    "respuesta": "Cuando se enfría un perfil laminado en caliente, las partes más delgadas (los extremos) se enfrían primero, se contraen y se comprimen. Luego se enfrían las partes más gruesas en el centro, que quedan traccionadas porque no pueden contraerse libremente. El reglamento define un valor de 69 MPa, independiente de la tensión de fluencia del acero o de la solicitación a la que se lo someterá. Son esfuerzos internos que afectan la resistencia a corte y flexión, pero no a tracción ni compresión (el perfil puede redistribuir cargas axiles, pero no momento y corte). Por oxicorte ocurre lo contrario, se calientan más los bordes y el medio es lo que se enfría primero."
+  },
+  {
+    "id": 47,
+    "activa": 0,
+    "pregunta": "¿Cuáles son los elementos que componen un puente grúa?",
+    "respuesta": "Eslinga: cables para izaje. Sistema de elevación compuesto por un malacate y un aparejo, dentro del carrito hay una caja de poleas fija y otra móvil. El extremo puede ser un gancho, un electroimán, una cuchara, un grillete. Vigas portagrúa son las principales, y después puede haber una o dos vigas de cabecera, que permiten movimientos transversales. El carrito tiene dos motores, uno que mueve el torno y otro para su propio movimiento."
+  },
+  {
+    "id": 48,
+    "activa": 0,
+    "pregunta": "¿Por qué la tracción es el esfuerzo más eficiente para trasladar cargas en una estructura?",
+    "respuesta": "Porque el esfuerzo de tracción es menos crítico ya que no se genera pandeo, por lo tanto la barra trabaja hasta llegar a la tensión de fluencia y no se debe minorar el límite del esfuerzo debido a efectos de segundo orden."
+  },
+  {
+    "id": 49,
+    "activa": 0,
+    "pregunta": "¿Por qué conviene que las uniones estén solicitadas a compresión?",
+    "respuesta": "Porque la tracción genera tres verificaciones adicionales que hay que cumplir: tracción en el área bruta, rotura en el área neta efectiva y bloque de corte. Una unión solicitada a compresión solo debe verificar a corte y aplastamiento."
+  },
+  {
+    "id": 50,
+    "activa": 0,
+    "pregunta": "¿Qué es la torsión forzada?",
+    "respuesta": "La torsión forzada es uno de los componentes que se debe evaluar para determinar la rigidez a torsión de una sección. En particular si la sección es abierta y de elementos esbeltos, tendrá el alabeo restringido. Esto se debe a que se generan tensiones de compresión que actúan como si se le agregara un vínculo adicional, hay tensiones normales y tangenciales."
+  },
+  {
+    "id": 51,
+    "activa": 0,
+    "pregunta": "¿En qué condiciones puede fallar una barra por pandeo torsional puro?",
+    "respuesta": "Ocurre en secciones abiertas, en barras de elementos esbeltos y con doble simetría. En particular en barras largas es más probable que fallen por pandeo global, y en barras cortas la falla será por pandeo local."
+  },
+  {
+    "id": 52,
+    "activa": 0,
+    "pregunta": "¿Cómo puede fallar una barra comprimida con una sección de simple simetría?",
+    "respuesta": "Puede fallar por pandeo flexotorsional alrededor del eje de simetría X-X, o por pandeo flexional alrededor del otro eje Y-Y. En el primer caso, el corte en segundo orden genera torsión al no pasar por el CC."
+  },
+  {
+    "id": 53,
+    "activa": 0,
+    "pregunta": "¿Qué ventajas se obtienen al revestir los electrodos?",
+    "respuesta": "Controla el arco eléctrico al momento de soldar, genera gases que favorecen al arco eléctrico, protege a la soldadura del ingreso de impurezas y facilita expulsión de partículas no deseadas en la soldadura."
+  },
+  {
+    "id": 54,
+    "activa": 0,
+    "pregunta": "¿Cuáles son los métodos de pretensado de bulones a deslizamiento crítico?",
+    "respuesta": "Giro de la tuerca o “turn-of-the-nut” dice cuánto más de vuelta se debería dar al llegar al apriete hermético en base al diámetro y la longitud del tornillo. Control de torque con llave torquimétrica: el elemento permite determinar el momento de apriete que se está aplicando sobre el tornillo. Control de torque con TC bolts: el apriete se produce del lado de la tuerca, cuando se llega al torque de diseño el elemento se corta y no se puede seguir apretando. Control de tracción con DTI washers: arandelas que indican tracción directa sobre el tornillo. Cuando se llegó a la tracción de diseño se aprietan las arandelas y sale un polvillo naranja que mancha la estructura. El método más efectivo es el giro de la tuerca, los demás son muy caros."
+  },
+  {
+    "id": 55,
+    "activa": 0,
+    "pregunta": "¿Qué son los factores de carga?",
+    "respuesta": "Son factores del método LRFD, que se determinan por probabilidad en función de un índice de confiabilidad. Estos factores brindan distintas combinaciones de carga que priorizan a un esfuerzo por sobre los demás. Como tienen en cuenta incertidumbres respecto de las solicitaciones, pueden ser mayores, menores o iguales a 1"
+  },
+  {
+    "id": 56,
+    "activa": 0,
+    "pregunta": "Definición de ancho efectivo"
+  },
+  {
+    "id": 57,
+    "activa": 0,
+    "pregunta": "¿Qué son λp y λr?",
+    "respuesta": "Son los límites por los cuales se define si una sección es compacta, no compacta o con elementos esbeltos. λp se ubica en el punto en el que ε = 3 εy y λr ocurre cuando ε = εy. Si un elemento es esbelto, significa que abolla antes de llegar a la tensión de fluencia. Una sección no compacta implica que algún punto de la sección llegó a fluencia cuando abolló, pero que no llegó a la plastificación total."
+  }
+]

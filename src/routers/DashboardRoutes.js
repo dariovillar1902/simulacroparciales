@@ -6,6 +6,7 @@ import { HormigonColoquioScreen } from '../components/HormigonColoquioScreen';
 import { Navbar } from '../components/NavBar';
 import { HidraulicaFinalScreen } from '../components/HidraulicaFinalScreen';
 import { Puertos1PScreen } from '../components/Puertos1PScreen';
+import { MetalicasFinalScreen } from '../components/MetalicasFinalScreen';
 
 export const DashboardRoutes = () => {
   return <>
@@ -18,6 +19,7 @@ export const DashboardRoutes = () => {
         <Route path="/tdh/Coloquio" element={<HormigonColoquioScreen />} />
         <Route path="/hidraulica/final" element={<HidraulicaFinalScreen />} />
         <Route path='/pyvn/1P' element={<Puertos1PScreen />} />
+        <Route path='/metalicas/final' element={<MetalicasFinalScreen />} />
       </Routes>
     </div>
   </>;
