@@ -1,0 +1,405 @@
+[
+  {
+    "id": 0,
+    "activa": 0,
+    "pregunta": "Ventajas de la bitrocha y dónde se utiliza",
+    "respuesta": "Permite el uso de distinto material rodante. Incluye un tercer riel dentro de una vía de trocha ancha, a 1000 mm de uno de los rieles. Los cruces y cambios son más complejos, pero se ahorra ya que se pueden usar dos trochas distintas. Se utiliza en general en playas de maniobras."
+  },
+  {
+    "id": 1,
+    "activa": 0,
+    "pregunta": "¿De qué trata el bicono y cómo se materializa? ¿Son necesarias las pestañas?",
+    "respuesta": ""
+  },
+  {
+    "id": 2,
+    "activa": 0,
+    "pregunta": "Señales manuales y automáticas. Diferencias y formas en que operan",
+    "respuesta": ""
+  },
+  {
+    "id": 3,
+    "activa": 0,
+    "pregunta": "¿Cuál es el sistema de protección de trenes adoptado en las líneas del AMBA? Describir brevemente su funcionamiento",
+    "respuesta": ""
+  },
+  {
+    "id": 4,
+    "activa": 0,
+    "pregunta": "Características principales del sistema de alimentación eléctrica por catenaria. Ejemplos en Argentina.",
+    "respuesta": ""
+  },
+  {
+    "id": 5,
+    "activa": 0,
+    "pregunta": "¿Qué ocurre con las señales y barreras en caso de falla?",
+    "respuesta": "Siempre se disponen en la posición más restrictiva"
+  },
+  {
+    "id": 6,
+    "activa": 0,
+    "pregunta": "¿Qué funciones tiene el laberinto peatonal?",
+    "respuesta": "Permite el paso consciente de los peatones sobre el cruce, ya que permite la visión total de la vía"
+  },
+  {
+    "id": 7,
+    "activa": 0,
+    "pregunta": "Definición de trocha, esquema y ejemplo",
+    "respuesta": ""
+  },
+  {
+    "id": 8,
+    "activa": 0,
+    "pregunta": "¿Qué funciones tiene el balasto?",
+    "respuesta": ""
+  },
+  {
+    "id": 9,
+    "activa": 0,
+    "pregunta": "Describir un ensayo que se realice en durmientes de hormigón"
+  },
+  {
+    "id": 10,
+    "activa": 0,
+    "pregunta": "¿Qué perfil de riel se utiliza en la actualidad? Esquematizarlo y mencionar sus partes",
+    "respuesta": ""
+  },
+  {
+    "id": 11,
+    "activa": 0,
+    "pregunta": "¿Qué características particulares tiene la vía en placa?",
+    "respuesta": "Tiene mayor rigidez y vibraciones, y permite reducir la altura del paquete de las vías. "
+  },
+  {
+    "id": 12,
+    "activa": 0,
+    "pregunta": "¿Qué señales verticales deben colocarse obligatoriamente en un PAN urbano pavimentado?",
+    "respuesta": ""
+  },
+  {
+    "id": 13,
+    "activa": 0,
+    "pregunta": "Definir y explicar la rotación de vagones",
+    "respuesta": ""
+  },
+  {
+    "id": 14,
+    "activa": 0,
+    "pregunta": "Describir brevemente el funcionamiento de las locomotoras diesel eléctricas",
+    "respuesta": "Las locomotoras diésel elécticas tienen un motor diésel acoplado a un generador de corriente alterna que por medio de rectificadores se convierte a corriente contínua para transmitirle la fuerza a las ruedas. Entre sus características, tienen un rendimiento del 37%, en pocos minutos se la pone en servicio y también tienen un rápido apagado, con lo cuál se ahorra combustible. Tienen 1000 km de autonomía, hay algunas con una cabina y otras con doble cabina (que mejora la visibilidad), también se pueden acoplar varias locomotoras para llevar trenes pesados.. Además, tienen mayor aceleración con respecto a las de vapor, pero menor con respecto a los trenes eléctricos."
+  },
+  {
+    "id": 15,
+    "activa": 0,
+    "pregunta": "¿Cuáles son las características principales de los trenes de alta velocidad?",
+    "respuesta": "Tienen alto costo de implantación, en general son a tracción eléctrica"
+  },
+  {
+    "id": 16,
+    "activa": 0,
+    "pregunta": "Realizar un esquema de desvío dispuesto para vía principal. Indicar sus elementos",
+    "respuesta": ""
+  },
+  {
+    "id": 17,
+    "activa": 0,
+    "pregunta": "Ventajas y limitaciones de uso para riel largo soldado",
+    "respuesta": "Genera menos ruido, mejor confort de marcha. Además, requiere menor mantenimiento."
+  },
+  {
+    "id": 18,
+    "activa": 0,
+    "pregunta": "¿Dónde se ubican los contrarrieles en las curvas?",
+    "respuesta": "Junto al riel interior"
+  },
+  {
+    "id": 19,
+    "activa": 0,
+    "pregunta": "¿De qué depende el peralte teórico?",
+    "respuesta": "De la trocha, de la velocidad y del radio"
+  },
+  {
+    "id": 20,
+    "activa": 0,
+    "pregunta": "¿Cuál durmiente tiene peor resultado ante un descarrilamiento?",
+    "respuesta": "Durmiente de hormigón"
+  },
+  {
+    "id": 21,
+    "activa": 0,
+    "pregunta": "Características principales de riel largo soldado",
+    "respuesta": ""
+  },
+  {
+    "id": 22,
+    "activa": 0,
+    "pregunta": "¿Qué significa tener insuficiencia o exceso de peralte? ¿Qué consecuencias genera cada uno?",
+    "respuesta": ""
+  },
+  {
+    "id": 23,
+    "activa": 0,
+    "pregunta": "¿Qué significa talonear un cambio? ¿Qué efectos puede producir?",
+    "respuesta": "Los cambios en vías se pueden tomar de punta o de talón. Cuando se talonea, el tren viene desde una de las vías que se unen hasta la principal. La rueda obliga a separar la aguja de la contraaguja, y cuando termina de pasar la formación se golpean, por lo que la aguja se desgasta. Por eso se le agrega Mn."
+  },
+  {
+    "id": 24,
+    "activa": 0,
+    "pregunta": "¿Qué tipo de esfuerzo toman las anclas?",
+    "respuesta": "Longitudinal"
+  },
+  {
+    "id": 25,
+    "activa": 0,
+    "pregunta": "¿Qué características tienen los durmientes de madera?",
+    "respuesta": "Son más económicos, más livianos y permiten ensamblajes para distintas longitudes"
+  },
+  {
+    "id": 26,
+    "activa": 0,
+    "pregunta": "¿Para qué sirve el balasto?",
+    "respuesta": "Permite nivelar la vía, distribuir el peso y evitar el ascenso capilar"
+  },
+  {
+    "id": 27,
+    "activa": 0,
+    "pregunta": "¿Dónde se agrega mayor cantidad de Mn?",
+    "respuesta": "En las agujas"
+  },
+  {
+    "id": 28,
+    "activa": 0,
+    "pregunta": "¿Cuál es la trocha más utilizada internacionalmente? ¿En qué líneas de Argentina se utiliza?",
+    "respuesta": "Se utiliza más la trocha media, de 1435 mm. En Argentina la utilizan el Tren de la Costa, el Premetro, el Urquiza, el Mendotran y la línea B de Subte."
+  },
+  {
+    "id": 29,
+    "activa": 0,
+    "pregunta": "¿En qué consiste la cremallera? ¿En qué puntos del trayecto se utiliza?",
+    "respuesta": "Es un tercer riel dentado, ubicado en el centro de la trocha. Se utiliza en trayectos en zonas montañosas donde la pendiente supera 8%. La formación tiene una rueda dentada que se engancha en la cremallera y permite una adherencia riel-rueda que disminuye el peso de la carga y aumenta la tracción. Se soluciona el problema de la baja adherencia, pero la solución es costosa."
+  },
+  {
+    "id": 30,
+    "activa": 0,
+    "pregunta": "¿Qué se debe considerar en las eclisas sí o sí?",
+    "respuesta": "El momento de inercia"
+  },
+  {
+    "id": 31,
+    "activa": 0,
+    "pregunta": "¿Dónde se colocan los encarriladores?",
+    "respuesta": "En puentes"
+  },
+  {
+    "id": 32,
+    "activa": 0,
+    "pregunta": "¿Cuáles son las desventajas de la cremallera? ¿Cómo se evita su uso?",
+    "respuesta": "Mayor costo, complejidad operativa y de mantenimiento, velocidades de operación bajas. Se puede evitar haciendo un faldeo, un zig-zag, una hélice o un lazo. Distintas formas de rodear la montaña."
+  },
+  {
+    "id": 33,
+    "activa": 0,
+    "pregunta": "¿Cómo se colocan los bulones en las eclisas y por qué?",
+    "respuesta": "De forma alternada entre cabeza de bulón y tuerca. En general son 6 por junta, 3 en cada riel. Se ponen así para que si la formación descarrila, la pestaña no corte todos los bulones y deje sin unión a los rieles. En este caso, la unión se mantiene porque sólo se cortan algunos bulones y no todos, y se evita un descarrilamiento mayor."
+  },
+  {
+    "id": 34,
+    "activa": 0,
+    "pregunta": "¿En qué casos no se colocaría balasto?",
+    "respuesta": "En puentes de tablero abierto el durmiente directamente apoya sobre los tirantes metálicos del puente. En vía en placa no hay balasto, los rieles se fijan directamente a la placa de hormigón. Otro caso ocurre cuando los durmientes se colocan directamente sobre el terreno, en particular en playas de maniobra o talleres donde hay bajo tránsito."
+  },
+  {
+    "id": 35,
+    "activa": 0,
+    "pregunta": "¿Cuándo es necesario ejecutar curvas verticales?",
+    "respuesta": "Cuando el cambio de gradiente sea mayor a 4 por mil."
+  },
+  {
+    "id": 36,
+    "activa": 0,
+    "pregunta": "¿Qué medidas de seguridad tienen los cambios?",
+    "respuesta": ""
+  },
+  {
+    "id": 37,
+    "activa": 0,
+    "pregunta": "Comparar durmientes de madera y de hormigón"
+  },
+  {
+    "id": 38,
+    "activa": 0,
+    "pregunta": "¿Dónde y para qué se colocan los descarriladores o trampas? ¿A qué elementos se encuentran asociados?"
+  },
+  {
+    "id": 39,
+    "activa": 0,
+    "pregunta": "¿En qué consiste la teoría de Winkler y en qué puntos del trayecto se utiliza?"
+  },
+  {
+    "id": 40,
+    "activa": 0,
+    "pregunta": "Dibujar un cambio dispuesto para vía desviada, con un eje circulando",
+    "respuesta": ""
+  },
+  {
+    "id": 41,
+    "activa": 0,
+    "pregunta": "¿Qué función tienen las eclisas?",
+    "respuesta": ""
+  },
+  {
+    "id": 42,
+    "activa": 0,
+    "pregunta": "¿Cómo son las agujas y cómo se diferencian de las contraagujas?"
+  },
+  {
+    "id": 43,
+    "activa": 0,
+    "pregunta": "¿Cómo se puede tomar un cambio y cómo es su accionamiento?",
+    "respuesta": ""
+  },
+  {
+    "id": 44,
+    "activa": 0,
+    "pregunta": "¿Cuáles son las ventajas de las fijaciones elásticas?",
+    "respuesta": ""
+  },
+  {
+    "id": 45,
+    "activa": 0,
+    "pregunta": "¿Qué tipos de resistencias existen? ¿Sobre cuáles puede intervenir el Ingeniero Civil?",
+    "respuesta": ""
+  },
+  {
+    "id": 46,
+    "activa": 0,
+    "pregunta": "Dibujar un cambio dispuesto para vía recta, con un eje circulando",
+    "respuesta": ""
+  },
+  {
+    "id": 47,
+    "activa": 0,
+    "pregunta": "¿Para qué sirve una junta aislada? ¿Qué elementos la componen?",
+    "respuesta": ""
+  },
+  {
+    "id": 48,
+    "activa": 0,
+    "pregunta": "¿Qué característica principal tiene un sistema de catenaria?",
+    "respuesta": "Requiere mayor gálibo"
+  },
+  {
+    "id": 49,
+    "activa": 0,
+    "pregunta": "¿Por qué se colocan los bogies en las formaciones?",
+    "respuesta": "Para mejorar el comportamiento en curvas y repartir el peso de los vehículos"
+  },
+  {
+    "id": 50,
+    "activa": 0,
+    "pregunta": "Si un conductor observa una señal avanzada, en posición horizontal, debe:",
+    "respuesta": "Prepararse para detener el tren"
+  },
+  {
+    "id": 51,
+    "activa": 0,
+    "pregunta": "¿Qué característica principal tiene un sistema de tercer riel?",
+    "respuesta": "Baja inversión inicial, es inseguro para peatones, presenta discontinuidades"
+  },
+  {
+    "id": 52,
+    "activa": 0,
+    "pregunta": "Si un conductor observa una señal cruzada por dos listones, debe:",
+    "respuesta": "Ignorarla"
+  },
+  {
+    "id": 53,
+    "activa": 0,
+    "pregunta": "¿Por qué se coloca media barrera en los pasos a nivel?",
+    "respuesta": "Por seguridad."
+  },
+  {
+    "id": 54,
+    "activa": 0,
+    "pregunta": "¿Qué características tienen los coches automotores?",
+    "respuesta": "Su peso es limitado, tienen cabinas en ambos extremos, se debe considerar la economía de operación"
+  },
+  {
+    "id": 55,
+    "activa": 0,
+    "pregunta": "¿Qué características tiene un sistema de tracción eléctrica?",
+    "respuesta": "Alta inversión inicial, conviene sobre todo para trenes de pasajeros"
+  },
+  {
+    "id": 56,
+    "activa": 0,
+    "pregunta": "¿Qué elementos influyen en el índice de riesgo?",
+    "respuesta": "Ángulo de cruce, cantidad de vías, TMDA, pendiente de la carretera"
+  },
+  {
+    "id": 57,
+    "activa": 0,
+    "pregunta": "En caso de fuerza mayor, para circular por la via contraria, se deben tomar las siguientes precauciones:",
+    "respuesta": "Anunciar a los pasajeros que cambien de andén, y proteger los pasos a nivel"
+  },
+  {
+    "id": 58,
+    "activa": 0,
+    "pregunta": "¿Cómo funciona el sistema Maglev?",
+    "respuesta": "El Maglev (transporte de levitación magnética) es un sistema de transporte en el que consiste circular corrientes de distinto signo (polos opuestos) a través de la estructura y del vehículo. El objetivo de este sistema es que los mismos se repelen generando un campo magnético que haga que el tren levite y avance con un contacto físico inexistente entre el carril y el tren, lo que hace que la única fricción del mismo sea con el aire y en consecuencia puede alcanzar altas velocidades. Los trenes tienen una forma aerodinámica que hace que se reduzca al mínimo el rozamiento con el aire. Una ventaja de este sistema es la alta velocidad que alcanza, siendo competidor directo de los aviones. Una desventaja es el alto costo inicial de infraestructura, lo que lo hace rentable solo para líneas de alto tránsito."
+  },
+  {
+    "id": 59,
+    "activa": 0,
+    "pregunta": "¿Qué diferencia hay entre simple y doble recubrimiento?",
+    "respuesta": "El recubrimiento es la cantidad de señales a peligro (luz roja) que se encuentran por detrás de una formación que circula. Si solamente hay una señal a peligro, se denomina simple recubrimiento y si hay dos señales a peligro se denomina doble recubrimiento."
+  },
+  {
+    "id": 60,
+    "activa": 0,
+    "pregunta": "Sistema de enganche de mordaza: descripción y ventaja",
+    "respuesta": "El sistema de mordazas consiste en un solo elemento para vincular locomotoras con vagones o coches, que toma tanto los esfuerzos de tracción como de compresión. El enganche de los mismos se realiza de forma automática, al hacer contacto los dos elementos. La ventaja es que el enganche se produce solo con un golpe entre coches."
+  },
+  {
+    "id": 61,
+    "activa": 0,
+    "pregunta": "Definir enclavamiento y dar un ejemplo.",
+    "respuesta": "El enclavamiento es la relación mecánica entre palancas que gobiernan una sección. Obliga a mover las palancas en un orden preestablecido. Se utiliza para evitar itinerarios incompatibles, por ejemplo que un tren ingrese en una vía con la señal a peligro o que dos formaciones circulen por la misma vía en sentidos opuestos. También el enclavamiento está presente en los trenes con puertas automáticas, el sistema impide que el tren avance si alguna puerta no quedó correctamente cerrada. "
+  },
+  {
+    "id": 62,
+    "activa": 0,
+    "pregunta": "Señales automáticas y manuales: Diferencias de operación",
+    "respuesta": "Las señales manuales son accionadas por operadores en el lugar o desde un cabín de señales, a través de palancas. Las automáticas son operadas por el mismo tren. Se accionan cuando el primer eje de la formación cortocircuita al sistema y el mismo coloca la señal a peligro. Cabe aclarar que en situación normal, las señales manuales quedan a peligro y las automáticas quedan a vía libre."
+  },
+  {
+    "id": 63,
+    "activa": 0,
+    "pregunta": "¿Cómo fue la evolución en el tiempo de los métodos de conservación de la vía? Describir un método utilizado actualmente",
+    "respuesta": "Al principio, la conservación de la vía consistía en una vigilancia permanente de la vía (puntada a tiempo) y arreglos puntuales para evitar descarrilamientos, después se pasó a la revisión periódica, que consistía en actuar sobre todos los elementos de la via en un intervalo fijo de tiempo. Luego se pasó a la conservación metódica o cíclica que consistía en efectuar tareas de conservación de todos los componentes de la vía, en ciclos de tiempo prefijados. La conservación metódica o cíclica se compone de una revisión integral (dentro de un ciclo prefijado), los trabajos fuera de revisión integral (consiste en mantener la vía en buen estado hasta la próxima revisión integral) y los trabajos especiales, que consisten en la conservación de vías secundarias y otras operaciones."
+  },
+  {
+    "id": 64,
+    "activa": 0,
+    "pregunta": "¿Cómo funciona una locomotora a vapor?",
+    "respuesta": "La locomotora a vapor fue el primer sistema de tracción ferroviario. Consistía en utilizar la presión del vapor sobre pistones, que a su vez accionaban las ruedas mediante bielas. El vapor se generaba en una caldera, calentado por leña, carbón o fuel oil. El vapor estaba saturado para evitar su condensación. Entre sus características, estas locomotoras tenían muy bajo rendimiento (7-8%), requerían paradas cada 120km para reabastecer combustible, y cada 300/400 km para recargar combustible. Tanto el agua como el combustible se transportaban en un vagón acoplado a la locomotora llamado tender. Además, tenían una lenta puesta en servicio y baja aceleración."
+  },
+  {
+    "id": 65,
+    "activa": 0,
+    "pregunta": "Sistema de enganche tope y cadena. Descripción y riesgos de uso.",
+    "respuesta": "El sistema de tope y cadena es un sistema de enganche en el cuál la cadena toma los esfuerzos de tracción y los paragolpes toman los esfuerzos de compresión. Cada vehículo tiene 2 paragolpes, un gancho y una cadena. Para vincularlos, se coloca la cadena de uno de los vehículos en el gancho del otro, por lo tanto la otra cadena queda inutilizada. La cadena que se utiliza, cuenta con un cilindro roscado que hace que la misma se tense, para que no se produzcan tironeos durante el viaje. Tiene la desventaja que un operario tiene que ubicarse entre los dos vehículos al momento del enganche, lo que implica un riesgo para el operario. También los topes pueden trabarse en curvas cerradas y provocar descarrilamientos."
+  },
+  {
+    "id": 66,
+    "activa": 0,
+    "pregunta": "Diferencia entre mejoramiento y renovación de vías. Cuál es el objetivo de cada una.",
+    "respuesta": "El mejoramiento de la vía consiste en aumentar la calidad de la vía existente, por motivos como falta de mantenimiento, gran deterioro en ciertos sectores, o el aumento del tráfico sobre la vía. El mejoramiento se realiza dentro de un plan de intervención del ramal, en sectores que van desde 10 a 50 km. El mejoramiento puede ser, por ejemplo, reemplazar un cierto porcentaje de rieles, fijaciones y durmientes, aporte de balasto, etc. La renovación de vía es el reemplazo de todos los elementos de la infraestructura de vía, mejoras en la plataforma, etc. Además puede incluír modificaciones en el trazado para poder aumentar las velocidades de los trenes. Una renovación incluye el desarme de la vía antigua, el tratamiento de la plataforma, colocación de los nuevos elementos de la vía (rieles, fijaciones, durmientes, etc), colocación y bateo del balasto, etc."
+  },
+  {
+    "id": 67,
+    "activa": 0,
+    "pregunta": "Principio de funcionamiento del Pendolino",
+    "respuesta": ""
+  }
+]

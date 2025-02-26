@@ -83,6 +83,21 @@ export const Navbar = () => {
                         </Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
+                <Dropdown className='botonDropdown'>
+                    <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+                        Ferrocarriles
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu variant="dark">
+                        <Dropdown.Item>
+                            <NavLink
+                                className={({ isActive }) => 'nav-item nav-link dropdown-item' + (isActive ? ' active' : '')}
+                                to="/ferrocarriles/final"
+                            >
+                                Final
+                            </NavLink>
+                        </Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
             </ul>
         </header>
     )
