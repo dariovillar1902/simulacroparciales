@@ -8,6 +8,7 @@ import { HidraulicaFinalScreen } from '../components/HidraulicaFinalScreen';
 import { Puertos1PScreen } from '../components/Puertos1PScreen';
 import { MetalicasFinalScreen } from '../components/MetalicasFinalScreen';
 import { FerrocarrilesFinalScreen } from '../components/FerrocarrilesFinalScreen';
+import { Puertos2PScreen } from '../components/Puertos2PScreen';
 
 export const DashboardRoutes = () => {
   return <>
@@ -20,6 +21,7 @@ export const DashboardRoutes = () => {
         <Route path="/tdh/Coloquio" element={<HormigonColoquioScreen />} />
         <Route path="/hidraulica/final" element={<HidraulicaFinalScreen />} />
         <Route path='/pyvn/1P' element={<Puertos1PScreen />} />
+        <Route path='/pyvn/2P' element={<Puertos2PScreen />} />
         <Route path='/metalicas/final' element={<MetalicasFinalScreen />} />
         <Route path='/ferrocarriles/final' element={<FerrocarrilesFinalScreen />} />
       </Routes>

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Explique el proceso a través del cual se generan las olas producidas por el viento. Defina zona de generación, zona de propagación, longitud del fetch, indique en un rango el periodo típico de las olas producidas por el viento y describa brevemente el método SMB (parámetros de entrada y salida)."
+  },
+  {
+    "id": 1,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Esquematice el registro típico de un olígrafo y defina Hi y Ti (altura y periodo de una ola). Luego indique los pasos e hipótesis necesarias para obtener, a partir del registro de un temporal, H1/3, H1/10 y H1/100. ¿Cuál es la relación entre estos parámetros del oleaje? ¿Cómo se obtienen esas relaciones?"
+  },
+  {
+    "id": 2,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Escriba la ecuación de la dispersión emanada de la teoría de Airy, para ondas de pequeña amplitud. Indique cada uno de sus términos y las hipótesis de la misma. Considerando los distintos intervalos de profundidades, calcule la longitud de onda y la celeridad de una ola individual."
+  },
+  {
+    "id": 3,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Explique el concepto de celeridad de grupo. ¿Cómo se calcula? Indique la expresión del coeficiente n y resuélvalo para los distintos intervalos de profundidad. ¿Cuál es la importancia de la celeridad de grupo en lo que refiere a la propagación del oleaje?"
+  },
+  {
+    "id": 4,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Explique la metodología para calcular la altura de ola en cercanías de la costa partiendo de datos en aguas profundas. En este proceso, explique el fenómeno de refracción del oleaje y sus efectos sobre la dirección de propagación del mismo. Demuéstrelo apoyándose en un gráfico."
+  },
+  {
+    "id": 5,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Difracción del Oleaje. Generación, coeficiente de difracción, formas de cálculo, importancia para el diseño del interior de un puerto y orientación de las obras de abrigo. Explique como la difracción puede afectar la operación portuaria."
+  },
+  {
+    "id": 6,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Indique los motivos por el cual una ola rompe, ya sea en aguas profundas o en aguas transicionales o someras. En el caso de rotura por fondo, mencione las cuatro formas de rotura posible, basándose en el número de Iribarren. Grafique."
+  },
+  {
+    "id": 7,
+    "activa": 0,
+    "unidad": 9,
+    "pregunta": "Explique el criterio de Borgman que relaciona vida útil, periodo de retorno y riesgo admisible. En base a ello, describa la forma de proceder para calcular la altura de ola de diseño que debe utilizarse como dato de entrada en el cálculo de la estabilidad de un bloque de escollera."
+  },
+  {
+    "id": 8,
+    "activa": 0,
+    "unidad": 11,
+    "pregunta": "Describa el fenómeno de la dinámica litoral de sedimentos. Explique el efecto que puede causar sobre el mismo la construcción de la obra de abrigo de un puerto emplazado en el mar."
+  },
+  {
+    "id": 9,
+    "activa": 0,
+    "unidad": 11,
+    "pregunta": "Ilustre y explique las formaciones costeras típicas: Barras, flechas, tómbolos. "
+  },
+  {
+    "id": 10,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "Defina mareas diurnas y semidiurnas. Defina mareas semidiurnas con desigualdades diurnas. Defina establecimiento de puerto y edad de la marea."
+  },
+  {
+    "id": 11,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "Indique y explique las cuatro circunstancias astronómicas que generan la mayor amplitud de mareas en un punto determinado."
+  },
+  {
+    "id": 12,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "Describa el efecto del viento en el régimen de mareas astronómicas en el caso del Río de la Plata. ¿Cuáles son las herramientas disponibles para predecir este fenómeno? ¿Cuáles son las direcciones del viento que mayor efecto generan? Además de la dirección, ¿Qué otros parámetros del viento contribuyen a amplificar los efectos?"
+  },
+  {
+    "id": 13,
+    "activa": 0,
+    "unidad": 10,
+    "pregunta": "Explique el concepto de las “ventanas de marea” aplicable en los canales de navegación. ¿Cuál es el efecto que produce utilizar un nivel de referencia distinto al cero local en lo que refiere a la navegación y al dragado?"
+  },
+  {
+    "id": 14,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "En lo que respecta al diseño de las obras de abrigo de un puerto, cuales son los dos aspectos que deben ser estudiados en forma independiente y cuál es, para cada caso, el enfoque que se aplica en lo concerniente al oleaje."
+  },
+  {
+    "id": 15,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "Fórmula de Hudson. Descripción de cada uno de sus términos. Alcances y limitaciones. Parámetros de los que depende el Kd."
+  },
+  {
+    "id": 16,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "¿Cuáles son las posibles “olas de diseño” que pueden utilizarse en la expresión de Hudson? ¿Cuáles son las implicancias de utilizar una u otra opción en el volumen de la escollera? ¿Cuáles son las herramientas que debe utilizar para decidir?"
+  },
+  {
+    "id": 17,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "Explique conceptualmente la diferencia en la forma en que se considera el nivel de daño admisible en la expresión de Hudson vs lo propio en la expresión de Van Der Meer. ¿Cuál es la manera de economizar la inversión inicial en una obra de abrigo, trabajando con una y otra expresión?"
+  },
+  {
+    "id": 18,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "Explique conceptualmente las principales diferencias entre la fórmula de Hudson y la formula de Van Der Meer para el cálculo de obras de abrigo en talud. Enfatice en aquellos aspectos que se involucran en la expresión de Van Der Meer y no están considerados en Hudson."
+  },
+  {
+    "id": 19,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "Realice un cuadro comparativo que incluya los principales conceptos involucrados en la construcción de una obra de abrigo en talud, avanzando “por tierra” y “por agua”. En el caso de construcción “por tierra”, indique cual es el equipo que puede resultar determinante y por qué."
+  },
+  {
+    "id": 20,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "En la construcción de una obra de abrigo en talud, explique a que se denomina “destape” y desarrolle el procedimiento a través del cual debe calcularse su valor."
+  },
+  {
+    "id": 21,
+    "activa": 0,
+    "unidad": 12,
+    "pregunta": "Mencione y grafique al menos 5 bloques artificiales utilizados para la construcción de obras de abrigo en talud. ¿Cuáles son aquellos que permiten la disposición monocapa? ¿Cuáles son los factores que influyen en la selección de estos bloques vs la piedra natural?"
+  },
+  {
+    "id": 22,
+    "activa": 0,
+    "unidad": 14,
+    "pregunta": "Explique cómo determinar la profundidad necesaria en un canal navegable, detallando cada uno de los términos que componen la expresión y los conceptos más importantes."
+  },
+  {
+    "id": 23,
+    "activa": 0,
+    "unidad": 14,
+    "pregunta": "Explique cómo determinar el ancho de solera necesario en un canal navegable, detallando cada uno de los términos que componen la expresión, tanto para un canal unidireccional como bidireccional, y los conceptos más importantes."
+  },
+  {
+    "id": 24,
+    "activa": 0,
+    "unidad": 14,
+    "pregunta": "Desde el punto de vista del squat, ¿Cual es la diferencia entre un canal navegable solo restringido por profundidad (U) y un canal navegable restringido por ancho y profundidad (R)? ¿Cómo se determina esta clasificación? ¿Cuál arroja valores mayores de squat para mismo buque y misma velocidad? ¿Qué es el coeficiente de bloqueo?"
+  },
+  {
+    "id": 25,
+    "activa": 0,
+    "unidad": 14,
+    "pregunta": "Fórmula de Barrass para el cálculo del squat. Descripción de cada uno de sus términos. Alcances y limitaciones. ¿Cuál es la diferencia principal con la fórmula de Huuska/Guliev?"
+  },
+  {
+    "id": 26,
+    "activa": 0,
+    "unidad": 14,
+    "pregunta": "Del estudio del squat para el Río de la Plata presentado en clase, explique la conclusión que se obtiene en relación a la revancha bajo la quilla mínima dispuesta por la Prefectura Naval Argentina y aquella relacionada con el número de Froude máximo para no comprometer la maniobrabilidad del buque. "
+  },
+  {
+    "id": 27,
+    "activa": 0,
+    "unidad": 14,
+    "pregunta": "¿Cuál es el concepto de fondo y profundidad náutica? ¿Cuáles son los beneficios para la navegación que surgen de aplicar estos conceptos?"
+  },
+  {
+    "id": 28,
+    "activa": 0,
+    "unidad": 14,
+    "pregunta": "¿Cuáles son las dos posibles metodologías que se aplican para estimar el espesor del fondo náutico? Explique y desarrolle"
+  },
+  {
+    "id": 29,
+    "activa": 0,
+    "unidad": 14,
+    "pregunta": "Explique cómo el aplicar el concepto de fondo náutico podría afectar la maniobrabilidad del buque, en el caso que la velocidad de navegación sea aproximadamente igual a la velocidad crítica."
+  },
+  {
+    "id": 30,
+    "activa": 0,
+    "unidad": 13,
+    "pregunta": "Definición y usos principales del dragado. Ejemplifique."
+  },
+  {
+    "id": 31,
+    "activa": 0,
+    "unidad": 13,
+    "pregunta": "Draga de succión por arrastre. clasificación, esquema, elementos principales que la componen, forma de operación, cálculo de producción, utilización del rebalse, etc."
+  },
+  {
+    "id": 32,
+    "activa": 0,
+    "unidad": 13,
+    "pregunta": "Draga de succión con cortador. clasificación, esquema, elementos principales que la componen, forma de operación, estimación de la producción, principales usos. "
+  },
+  {
+    "id": 33,
+    "activa": 0,
+    "unidad": 13,
+    "pregunta": "Dragas mecánicas, de cuchara o retroexcavadora. clasificación, esquema, elementos principales que la componen, forma de operación, cálculo de producción, principales usos."
+  },
+  {
+    "id": 34,
+    "activa": 0,
+    "unidad": 13,
+    "pregunta": "Draga de rosario de cangilones. clasificación, esquema, elementos principales que la componen, forma de operación, cálculo de producción, principales usos."
+  },
+  {
+    "id": 35,
+    "activa": 0,
+    "unidad": 15,
+    "pregunta": "¿Cuál es la diferencia entre la convención IALA A y IALA B en lo que refiere a las ayudas a la navegación?"
+  },
+  {
+    "id": 36,
+    "activa": 0,
+    "unidad": 15,
+    "pregunta": "Señales laterales de canal. usos, identificación diurna y nocturna (forma, pintura, marca de tope, color, destellos)."
+  },
+  {
+    "id": 37,
+    "activa": 0,
+    "unidad": 15,
+    "pregunta": "Señales cardinales. usos, identificación diurna y nocturna (forma, pintura, marca de tope, color, destellos)."
+  },
+  {
+    "id": 38,
+    "activa": 0,
+    "unidad": 15,
+    "pregunta": "Señales de peligro aislado y señales de canal preferido. usos, identificación diurna y nocturna (forma, pintura, marca de tope, color, destellos)."
+  },
+  {
+    "id": 39,
+    "activa": 0,
+    "unidad": 15,
+    "pregunta": "Señales de centro de canal y especiales. usos, identificación diurna y nocturna (forma, pintura, marca de tope, color, destellos)."
+  }
+]

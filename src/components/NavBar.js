@@ -66,6 +66,14 @@ export const Navbar = () => {
                                 1° Parcial
                             </NavLink>
                         </Dropdown.Item>
+                        <Dropdown.Item>
+                            <NavLink
+                                className={({ isActive }) => 'nav-item nav-link dropdown-item' + (isActive ? ' active' : '')}
+                                to="/pyvn/2P"
+                            >
+                                2° Parcial
+                            </NavLink>
+                        </Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
                 <Dropdown className='botonDropdown'>
