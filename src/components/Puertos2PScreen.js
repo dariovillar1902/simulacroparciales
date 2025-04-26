@@ -77,7 +77,7 @@ export const Puertos2PScreen = () => {
   }, []);
 
   useEffect(() => {
-    const unidades = JSON.parse(localStorage.getItem("Unidades"));
+    const unidades = JSON.parse(localStorage.getItem("Unidades2"));
     if (unidades) {
       setUnidades(unidades);
       checkUnidades(unidades);
@@ -85,7 +85,7 @@ export const Puertos2PScreen = () => {
       setUnidades([9, 10, 11, 12, 13, 14, 15]);
       checkUnidades([9, 10, 11, 12, 13, 14, 15]);
     }
-    localStorage.removeItem("Unidades");
+    localStorage.removeItem("Unidades2");
     return () => {
       setUnidades([9, 10, 11, 12, 13, 14, 15]);
     };
@@ -93,7 +93,7 @@ export const Puertos2PScreen = () => {
 
   useEffect(() => {
     let unidadesSorted = unidades.sort(compareNumbers);
-    localStorage.setItem("Unidades", JSON.stringify(unidadesSorted));
+    localStorage.setItem("Unidades2", JSON.stringify(unidadesSorted));
     if (unidades.length === 0) {
       setUnidades([9, 10, 11, 12, 13, 14, 15]);
     }
