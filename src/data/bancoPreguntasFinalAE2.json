@@ -1,0 +1,626 @@
+[
+  {
+    "id": 0,
+    "activa": 0,
+    "pregunta": "¿Cómo contempla el CIRSOC las cargas accidentales?",
+    "respuesta": "El CIRSOC contempla las cargas accidentales como aquellas que incluyen sismos (E), tornados, impactos de vehículos aéreos o terrestres, explosivos y avalanchas. Estas cargas solo se tendrán en cuenta cuando lo indique el reglamento específico (como en el caso de los sismos), cuando los riesgos asociados lo exijan (por ejemplo, en represas o plantas nucleares), o cuando las fuerzas resultantes no sean despreciables ni tan importantes como para que no sea razonable proyectar estructuras que las soporten. Se consideran en las combinaciones de carga con un índice de confiabilidad β = 1,75."
+  },
+  {
+    "id": 1,
+    "activa": 0,
+    "pregunta": "¿Cuál es la importancia de la regularidad en el método estático según INPRES-CIRSOC?",
+    "respuesta": "La regularidad estructural es fundamental para aplicar el método estático en el análisis sísmico. Garantiza que la respuesta de la construcción ante un sismo sea confiable y predecible, evitando concentraciones de demanda inelástica en zonas irregulares. Se evalúa en planta (regularidad torsional, continuidad, perpendicularidad y simetría, y esquinas entrantes) y en altura (rigidez, regularidad de masas, dimensiones horizontales, continuidad en altura y resistencia lateral). Si no se cumple la regularidad, el método estático no es aplicable."
+  },
+  {
+    "id": 2,
+    "activa": 0,
+    "pregunta": "¿Qué documentación presentaría como proyectista de una estructura de H°A° en la etapa de ingeniería de detalle?",
+    "respuesta": "En la etapa de ingeniería de detalle se presenta la memoria de cálculo (con reglamentos utilizados, combinaciones de carga, solicitaciones, etc.) y los planos: planos de encofrado (EN), planos de armaduras (AR), planilla de hierros (PH), planilla de materiales (PM), plano de excavaciones y plano de demoliciones. Esta documentación permite construir la estructura y deja trazabilidad del proceso estructural."
+  },
+  {
+    "id": 3,
+    "activa": 0,
+    "pregunta": "¿Cómo se consideran las cargas térmicas según el tipo de estructura?",
+    "respuesta": "Las cargas térmicas pueden ser de origen artificial (consideradas como carga variable L) o de origen climático. En estructuras metálicas, de vidrio o puentes, son importantes. En estructuras de H°A°, no son relevantes si el edificio tiene menos de 10 pisos, la luz en planta es menor a 60 m y la diferencia de temperatura es menor a 10°C. CIRSOC 107 especifica variaciones térmicas uniformes (ΔTmin, ΔTmax, ΔTintermedio) y no uniformes (ΔT = 25°C en CABA). Se controlan permitiendo movimiento, diseñando estructuras isostáticas o agregando juntas."
+  },
+  {
+    "id": 4,
+    "activa": 0,
+    "pregunta": "¿Cómo se construyen los espectros de diseño de sismos?¿Qué es la pseudoaceleración Sa y cómo se determina?",
+    "respuesta": "Los espectros de diseño se construyen a partir de la pseudoaceleración elástica Sa, que depende del período propio de la estructura, el tipo de suelo y la zona sísmica. Sa se utiliza para calcular el coeficiente sísmico de diseño C. La pseudoaceleración representa la aceleración que experimentaría una masa unitaria en un sistema elástico con un determinado período. Se determina con expresiones dadas por el reglamento para un amortiguamiento del 5%."
+  },
+  {
+    "id": 5,
+    "activa": 0,
+    "pregunta": "En un edificio de H°A°, ¿puede diseñarse la estructura sin considerar la rigidez de los pórticos ante cargas horizontales?",
+    "respuesta": "No. En estructuras de H°A°, los pórticos deben ser considerados en el análisis de cargas horizontales. Aunque los tabiques pueden ser más rígidos, los pórticos también aportan rigidez y deben ser incluidos para obtener una solución geométricamente compatible. Ignorar su rigidez puede llevar a una distribución incorrecta de cargas y a un diseño inseguro."
+  },
+  {
+    "id": 6,
+    "activa": 0,
+    "pregunta": "¿Cómo se tiene en cuenta la esbeltez en la verificación de tabiques?",
+    "respuesta": "La esbeltez se considera mediante factores de reducción de resistencia por pandeo local (eje débil) y global (eje fuerte). Se utilizan los coeficientes Kns y Ks, que dependen del tipo de empotramiento y del número de pisos. La resistencia se penaliza si hay inestabilidad. Además, se verifica la compresión simple y la flexión compuesta recta, considerando la interacción con las losas y la excentricidad de carga."
+  },
+  {
+    "id": 7,
+    "activa": 0,
+    "pregunta": "¿Qué formas hay de considerar la adherencia en el hormigón pretensado?¿Cuáles son las ventajas y desventajas de cada forma?",
+    "respuesta": "La adherencia puede ser con adherencia (pretesado o postesado con inyección de vainas) o sin adherencia (vainas engrasadas no inyectadas). Con adherencia mejora la protección contra corrosión, aumenta la ductilidad y permite cortar fisuras sin armadura adicional. Sin adherencia permite retesado y ahorro en inyección, pero requiere armadura no tesa para garantizar ductilidad. Se usa principalmente en losas postesadas."
+  },
+  {
+    "id": 8,
+    "activa": 0,
+    "pregunta": "¿Cómo puedo determinar la carga que toman las vigas transversales o secundarias de un puente de hormigón pretensado como el visto en clase?",
+    "respuesta": "Se determina mediante el análisis por línea de influencia, dividiendo la viga en tramos y calculando M y V en cada uno. También puede adoptarse una carga uniforme equivalente según el reglamento de puentes de DVN, en función de la luz y la trocha. Se consideran cargas D (peso propio, balasto, rieles) y L (cargas móviles con impacto)."
+  },
+  {
+    "id": 9,
+    "activa": 0,
+    "pregunta": "¿Qué criterios se utilizan para definir la armadura superior de una sección pretensada tipo U?",
+    "respuesta": "Se utiliza armadura superior para aumentar el momento resistente Mn, evitar fisuras por contracción y temperatura, y cumplir con la armadura mínima. En secciones tipo U, la armadura superior también ayuda a controlar la fisuración en la fibra superior cuando se invierte el momento. Debe respetarse la cuantía mínima y la separación máxima según reglamento."
+  },
+  {
+    "id": 10,
+    "activa": 0,
+    "pregunta": "¿Qué tipos de infraestructura y superestructura existen en un puente de hormigón pretensado?",
+    "respuesta": "La infraestructura incluye los pilotes, que toman el empuje del suelo por flexión, la fuerza de frenado y la compresión de la carga de la formación. La superestructura está compuesta por las vigas pretensadas (postesadas con vainas), losas y apoyos de neopreno. El puente se comporta como una viga simplemente apoyada."
+  },
+  {
+    "id": 11,
+    "activa": 0,
+    "pregunta": "¿Qué reglamento se utiliza para determinar las cargas y cuál para diseñar un puente de hormigón pretensado?",
+    "respuesta": "Para determinar las cargas se utiliza el reglamento de puentes de la Dirección de Vialidad Nacional (DVN). Para el diseño estructural se utiliza el CIRSOC 201, que establece los criterios de cálculo para estructuras de hormigón armado y pretensado."
+  },
+  {
+    "id": 12,
+    "activa": 0,
+    "pregunta": "¿Cuáles son los estados simples de carga a considerar en un puente de hormigón pretensado?",
+    "respuesta": "Se consideran las cargas permanentes (D), como el peso del hormigón, balasto, rieles y durmientes; las cargas variables (L), como las cargas móviles con impacto; y las cargas térmicas (T), aunque en puentes isostáticos no afectan significativamente. También se consideran combinaciones mínimas, sostenidas y máximas."
+  },
+  {
+    "id": 13,
+    "activa": 0,
+    "pregunta": "¿Qué hipótesis de cargas tomaría para el diseño del tablero de un puente de hormigón pretensado?",
+    "respuesta": "Se consideran tres hipótesis: carga mínima (solo peso propio del hormigón), carga sostenida (peso propio más balasto, rieles y durmientes) y carga máxima (peso propio más cargas móviles con impacto). También se analiza la carga móvil mediante líneas de influencia o carga uniforme equivalente según luz y trocha."
+  },
+  {
+    "id": 14,
+    "activa": 0,
+    "pregunta": "¿El tablero se comporta como un emparrillado de vigas siempre, nunca o a veces?",
+    "respuesta": "A veces. El comportamiento como emparrillado depende de la configuración estructural del puente. En puentes con vigas longitudinales y transversales bien conectadas, el tablero puede comportarse como un emparrillado. En otros casos, puede comportarse como losa continua o simplemente apoyada."
+  },
+  {
+    "id": 15,
+    "activa": 0,
+    "pregunta": "Para un tanque prismático de hormigón armado, ¿qué solicitaciones toma?¿Qué hipótesis se considera para los laterales?¿Cómo es el armado típico, qué ocurre con los nudos?",
+    "respuesta": "Toma solicitaciones de presión hidrostática, tanto en fondo como en paredes. Para los laterales se considera la hipótesis de empotramiento en la base y articulación en la parte superior. El armado típico incluye armadura vertical y horizontal en paredes, con refuerzo en esquinas. En los nudos se concentran tensiones, por lo que se refuerzan con estribos cerrados o mallas."
+  },
+  {
+    "id": 16,
+    "activa": 0,
+    "pregunta": "¿Qué es una estructura de rigidez?¿Qué tipos de ERH existen?¿Cómo se distribuye la carga en cada elemento?",
+    "respuesta": "Una estructura de rigidez es aquella que proporciona resistencia a cargas horizontales. Los tipos de elementos de rigidez horizontal (ERH) son pórticos, tabiques y núcleos rígidos. La carga se distribuye según la rigidez relativa de cada elemento y su posición respecto al centro de rigidez. Se utiliza el método de descomposición en elementos planos o el análisis 3D para determinar la distribución."
+  },
+  {
+    "id": 17,
+    "activa": 0,
+    "pregunta": "¿Cómo se debe considerar la zona de introducción de la carga de pretensado?",
+    "respuesta": "La zona de introducción de la carga de pretensado debe verificarse por aplastamiento del hormigón y concentración de tensiones. Se considera una zona local alrededor del anclaje, con dimensiones mínimas según el fabricante o reglamento. Se refuerza con armadura transversal y se verifica que la tensión no supere los límites admisibles. Se utilizan placas de anclaje y mortero de relleno."
+  },
+  {
+    "id": 18,
+    "activa": 0,
+    "pregunta": "¿Qué criterios se utilizan al determinar las cargas en un proyecto estructural?",
+    "respuesta": "Se consideran cargas permanentes (D), variables (L, W, S, R), accidentales (E) y térmicas (T). Se cuantifican según reglamentos (CIRSOC 101, 102, 103, 104, 107) y se combinan según su probabilidad de ocurrencia. Se consideran factores de simultaneidad y de impacto. El proyectista debe evaluar la relevancia de cada carga según el tipo de estructura."
+  },
+  {
+    "id": 19,
+    "activa": 0,
+    "pregunta": "¿Cómo se definen las combinaciones de carga?",
+    "respuesta": "Se definen mediante la inecuación fundamental Rd ≥ Rr, considerando combinaciones últimas (para estados límite últimos) y de servicio (para funcionalidad). Las combinaciones incluyen factores de carga según la naturaleza de cada acción. Se aplican coeficientes de mayoración y simultaneidad. El reglamento establece combinaciones mínimas, pero el proyectista puede agregar otras si son relevantes."
+  },
+  {
+    "id": 20,
+    "activa": 0,
+    "pregunta": "¿Qué reglamentación se debería usar para el cálculo de cada carga simple?",
+    "respuesta": "Se deben usar los siguientes reglamentos del CIRSOC: CIRSOC 101 para cargas permanentes y sobrecargas mínimas (D, L, Lr, R), CIRSOC 102 para acción del viento (W), CIRSOC 103 para acción sísmica (E), CIRSOC 104 para cargas de nieve (S), CIRSOC 107 para cargas térmicas (T), y CIRSOC 108 para cargas durante la construcción. Si no hay reglamento nacional aplicable, se puede recurrir a reglamentos internacionales o especificaciones del fabricante."
+  },
+  {
+    "id": 21,
+    "activa": 0,
+    "pregunta": "¿Para las cargas simples, se deben tener definidos los materiales de la estructura?",
+    "respuesta": "Sí. La definición de los materiales es fundamental para determinar qué cargas simples son relevantes y cómo se cuantifican. Por ejemplo, las cargas térmicas afectan más a estructuras metálicas que a las de hormigón. Además, el peso propio (D) depende del tipo de material, y la resistencia a cargas accidentales o variables también varía según el material utilizado."
+  },
+  {
+    "id": 22,
+    "activa": 0,
+    "pregunta": "¿Qué cargas causan la torsión en un edificio?¿Cómo se puede evitar?",
+    "respuesta": "La torsión en un edificio es causada principalmente por cargas horizontales (viento o sismo) que no actúan sobre el centro de rigidez, generando un momento torsor. También puede haber torsión accidental por excentricidades entre el centro de masa y el centro de rigidez. Se puede evitar asegurando la regularidad en planta, simetría, y ubicando adecuadamente los elementos de rigidez para que el centro de masa coincida con el centro de rigidez."
+  },
+  {
+    "id": 23,
+    "activa": 0,
+    "pregunta": "¿Cómo es el esquema de armado de un tabique?",
+    "respuesta": "El armado de un tabique incluye armadura vertical (para momento) y horizontal (para corte), dispuesta en dos capas. En los extremos se refuerza como columna, con barras de diámetro mayor a 12 mm, estribado cerrado y cuantía geométrica mayor a 0,01. En las aberturas se colocan refuerzos perimetrales y diagonales. La armadura longitudinal va por fuera de la horizontal. Se deben respetar cuantías mínimas y separación máxima."
+  },
+  {
+    "id": 24,
+    "activa": 0,
+    "pregunta": "¿Qué condición debe cumplir una viga para ser considerada de gran altura?",
+    "respuesta": "Una viga se considera de gran altura cuando su altura es significativa en relación a su luz, de modo que no se puede aplicar la hipótesis de Bernoulli-Navier. Esto ocurre cuando la distribución de tensiones no es lineal y los efectos de corte son predominantes. No hay un valor único, pero suele considerarse gran altura cuando h/l > 1/4."
+  },
+  {
+    "id": 25,
+    "activa": 0,
+    "pregunta": "¿Por qué métodos se puede resolver una viga de gran altura?¿Por qué no se podría resolver por resistencia de materiales?",
+    "respuesta": "Se puede resolver mediante el método de elementos finitos o modelos de bielas y tirantes. No se puede resolver por resistencia de materiales porque esta teoría asume que las secciones planas permanecen planas (hipótesis de Bernoulli-Navier), lo cual no se cumple en vigas de gran altura donde predominan los esfuerzos de corte y la distribución de tensiones es no lineal."
+  },
+  {
+    "id": 26,
+    "activa": 0,
+    "pregunta": "¿Cómo se transmite la fuerza del acero al hormigón?¿Se le pueden dar excentricidades variables al cable de pretensado?",
+    "respuesta": "La fuerza del acero se transmite al hormigón por adherencia (en pretensado adherente) o por anclajes mecánicos (en pretensado no adherente). Sí, se pueden dar excentricidades variables al cable de pretensado para generar un momento que contrarreste el momento externo. Esto se logra curvando el cable para que su excentricidad sea mayor en el centro del tramo y menor en los apoyos."
+  },
+  {
+    "id": 27,
+    "activa": 0,
+    "pregunta": "¿Cuáles son las pérdidas en el pretensado? Describir brevemente cada una de ellas",
+    "respuesta": "Las pérdidas pueden ser instantáneas o diferidas. Instantáneas: GA (fricción en el gato), FR (fricción cable-vaina), AC (acuñamiento), ES (acortamiento elástico). Diferidas: SH (retracción del hormigón), CR (fluencia lenta del hormigón), RE (relajación del acero). Estas reducen la fuerza efectiva de pretensado y deben considerarse en el diseño."
+  },
+  {
+    "id": 28,
+    "activa": 0,
+    "pregunta": "¿Cómo son los momentos torsores generados por sismos?",
+    "respuesta": "Los momentos torsores por sismos se generan cuando la acción sísmica no pasa por el centro de rigidez, debido a una excentricidad con el centro de masa. Esto produce una rotación del diafragma rígido y genera momentos torsores en los elementos estructurales. Se deben considerar en el diseño, especialmente si hay irregularidad torsional. El reglamento exige sumar una torsión accidental para contemplar incertidumbres."
+  },
+  {
+    "id": 29,
+    "activa": 0,
+    "pregunta": "¿Qué tipos de pretensado existen?",
+    "respuesta": "Existen dos tipos principales: pretensado (el acero se tensa antes de hormigonar) y postesado (el acero se tensa después del fraguado del hormigón). Ambos pueden ser con adherencia (inyección de vainas) o sin adherencia (vainas engrasadas no inyectadas). También se clasifican según el grado de pretensado: total (sin tracción en servicio), limitado (tracción admisible) o parcial (hay tracción)."
+  },
+  {
+    "id": 30,
+    "activa": 0,
+    "pregunta": "¿Qué es el cable ficticio equivalente en el pretensado?",
+    "respuesta": "Es la representación geométrica de la resultante de todas las fuerzas de pretensado aplicadas. No representa un cable real, sino una línea que resume el efecto de todos los cables. Se utiliza para verificar que las tensiones en las fibras extremas estén dentro de los límites admisibles y que el canal de paso sea adecuado."
+  },
+  {
+    "id": 31,
+    "activa": 0,
+    "pregunta": "¿Qué es el canal de cables en el pretensado?",
+    "respuesta": "Es la zona geométrica dentro de la sección donde debe ubicarse el cable ficticio equivalente. Se define por límites de excentricidad mínima y máxima en las fibras superior e inferior, considerando tensiones admisibles de tracción y compresión. El cable ficticio debe estar contenido dentro de este canal para garantizar la seguridad estructural."
+  },
+  {
+    "id": 32,
+    "activa": 0,
+    "pregunta": "¿Cómo se verifica a rotura en el pretensado?",
+    "respuesta": "La verificación a rotura en el pretensado se realiza comparando el momento último solicitado Mu con la resistencia última del elemento φMn, debiendo cumplirse que el primero no supere al segundo. Para ello, se considera la sección en Estado II, es decir, fisurada, y se tiene en cuenta la contribución tanto de la armadura tesa como de la no tesa. Además del momento flector, se verifican también otros efectos como corte, torsión y, en los casos en que corresponda, la acción de cargas accidentales. Durante el proceso de diseño, se deben cumplir con las cuantías mínimas y máximas establecidas por los reglamentos, y es fundamental respetar las tensiones admisibles en cada una de las etapas: desde el pretensado inicial, pasando por la construcción, hasta el servicio. La posición del cableado y su excentricidad, junto con la consideración de pérdidas por fricción, anclaje y relajación, forman parte del análisis."
+  },
+  {
+    "id": 33,
+    "activa": 0,
+    "pregunta": "¿Qué son las cargas térmicas T?¿Qué las causa?",
+    "respuesta": "Son cargas originadas por variaciones de temperatura, ya sean climáticas o artificiales (equipos, hornos, etc.). Causan dilataciones o contracciones en los elementos estructurales. Se consideran uniformes o no uniformes, y pueden generar esfuerzos si los movimientos están restringidos. Se controlan con juntas, apoyos móviles o diseño isostático."
+  },
+  {
+    "id": 34,
+    "activa": 0,
+    "pregunta": "¿Cuáles son los distintos métodos de análisis en distintos órdenes de la estructura?",
+    "respuesta": "Se clasifican según el orden geométrico y el orden del material: 1°OG/1°OM (elástico lineal, sin deformaciones), 2°OG/1°OM (considera deformaciones, pero material elástico), 1°OG/2°OM (considera plastificación), 2°OG/2°OM (más realista, con plastificación distribuida). También se considera el orden de cargas: 1°OC (no incremental) y 2°OC (incremental)."
+  },
+  {
+    "id": 35,
+    "activa": 0,
+    "pregunta": "¿Qué diferencias hay entre pórticos y tabiques?¿Cómo son las deformadas de cada uno?",
+    "respuesta": "Los pórticos son más flexibles y su deformada es típica de corte, con desplazamientos laterales. Los tabiques son más rígidos y su deformada es de flexión, como una ménsula. Los pórticos ganan rigidez con la altura, mientras que los tabiques la pierden. Ambos deben tener el mismo desplazamiento si están unidos por un diafragma rígido."
+  },
+  {
+    "id": 36,
+    "activa": 0,
+    "pregunta": "¿Qué es la interacción pórtico-tabique?",
+    "respuesta": "Es el fenómeno que ocurre cuando ambos elementos están unidos por un diafragma rígido. En los pisos bajos, el tabique sostiene al pórtico; en los pisos altos, el pórtico sostiene al tabique. Esto se debe a que deben tener el mismo desplazamiento, y su rigidez relativa cambia con la altura. No puede analizarse con el método 2D, solo con análisis 3D."
+  },
+  {
+    "id": 37,
+    "activa": 0,
+    "pregunta": "¿Qué pasa si para las fuerzas horizontales el diseño no es simétrico?",
+    "respuesta": "Se genera una excentricidad entre el centro de masa y el centro de rigidez, lo que produce torsión. Esto puede generar fisuras, concentraciones de esfuerzos y fallas no deseadas. El reglamento exige verificar la torsión accidental y recomienda evitar diseños asimétricos para garantizar una respuesta sísmica predecible y segura."
+  },
+  {
+    "id": 38,
+    "activa": 0,
+    "pregunta": "¿Cómo se calcula la rigidez de un pórtico?",
+    "respuesta": "Se calcula como una constante de resorte k = V/Δrel, aplicando una fuerza unitaria horizontal y midiendo el desplazamiento relativo. Se consideran la rigidez flexional, axial y de corte de cada barra. También se deben tener en cuenta la fisuración del hormigón y la rigidez no ideal de las bases."
+  },
+  {
+    "id": 39,
+    "activa": 0,
+    "pregunta": "¿Cómo se calcula la rigidez de un tabique?",
+    "respuesta": "Si el sistema es isostático, se puede usar directamente la inercia. En general, se considera k = V/Δrel, aplicando una fuerza unitaria. La deformada es de flexión, y el giro en la base depende de la rigidez de los apoyos. En estructuras con tabiques solamente, se puede reemplazar la rigidez por la inercia directamente."
+  },
+  {
+    "id": 40,
+    "activa": 0,
+    "pregunta": "¿Cómo se distribuye el corte en una planta cuando se conocen las rigideces de los elementos?",
+    "respuesta": "El corte se distribuye proporcionalmente a la rigidez de cada elemento respecto de la rigidez total del sistema. Si se conoce la rigidez de cada elemento en la dirección de análisis, se aplica la fórmula: Vi = Vtotal × (Ki / ΣKi), donde Vi es el corte que toma el elemento i, Ki su rigidez, y ΣKi la suma de rigideces de todos los elementos en esa dirección."
+  },
+  {
+    "id": 41,
+    "activa": 0,
+    "pregunta": "¿Cómo se obtiene el centro de rigidez CR en una planta?",
+    "respuesta": "Se calcula como el baricentro de las rigideces de los elementos estructurales en planta. Para cada dirección, se usa: xCR = Σ(Ki × xi) / ΣKi y yCR = Σ(Ki × yi) / ΣKi, donde xi y yi son las coordenadas del elemento i, y Ki su rigidez en la dirección correspondiente. El CR es el punto donde, si actúa la fuerza horizontal, no se genera torsión."
+  },
+  {
+    "id": 42,
+    "activa": 0,
+    "pregunta": "¿Cómo se arman los nudos en los pórticos? Dar los 4 ejemplos típicos",
+    "respuesta": "Los nudos típicos son: (1) Tipo L: una viga atraviesa una columna; (2) Tipo T: una viga se apoya lateralmente sobre una columna; (3) Tipo T invertida: una columna se apoya sobre una viga; (4) Tipo X: dos columnas se cruzan. En cada caso se deben garantizar anclajes adecuados, continuidad de armaduras y evitar congestión de barras."
+  },
+  {
+    "id": 43,
+    "activa": 0,
+    "pregunta": "¿Qué es un pórtico y qué cargas verticales toma?",
+    "respuesta": "Un pórtico es un sistema estructural compuesto por columnas y vigas unidas monolíticamente, que resiste cargas verticales y horizontales. Toma cargas verticales como el peso propio (D), sobrecargas de uso (L), mampostería, y cargas accidentales. La distribución depende del área tributaria y de la continuidad de los elementos."
+  },
+  {
+    "id": 44,
+    "activa": 0,
+    "pregunta": "En un pórtico, ¿cómo se pasa de cargas a solicitaciones?",
+    "respuesta": "Se realiza un análisis estructural que transforma las cargas aplicadas en solicitaciones internas: momentos flectores, fuerzas cortantes y axiales. Esto puede hacerse mediante métodos analíticos (como el método de Cross) o con software, considerando las combinaciones de carga y el comportamiento del material (fisuración, rigidez reducida, etc.)."
+  },
+  {
+    "id": 45,
+    "activa": 0,
+    "pregunta": "¿Cómo se origina un momento torsor en la estructura?",
+    "respuesta": "Se origina cuando la fuerza horizontal no pasa por el centro de rigidez, generando una excentricidad con el centro de masa. Esto produce una rotación del diafragma rígido y genera un momento torsor. También puede haber torsión accidental por irregularidades geométricas o distribución no uniforme de masas y rigideces."
+  },
+  {
+    "id": 46,
+    "activa": 0,
+    "pregunta": "¿Qué significa ELU y ELS?",
+    "respuesta": "ELU (Estado Límite Último) se refiere a la condición de resistencia máxima antes del colapso estructural. Se verifica con combinaciones de carga mayoradas. ELS (Estado Límite de Servicio) se refiere a la funcionalidad de la estructura, controlando deformaciones, fisuración y vibraciones. Se verifica con cargas nominales o reducidas."
+  },
+  {
+    "id": 47,
+    "activa": 0,
+    "pregunta": "¿Cómo se utiliza el método de pórtico equivalente?",
+    "respuesta": "Se utiliza para representar el comportamiento sísmico de una estructura mediante un modelo simplificado de pórtico. Se asignan masas y rigideces equivalentes a cada nivel, y se aplica una distribución de fuerzas sísmicas según el primer modo de vibración. Es útil para análisis estático equivalente en estructuras regulares."
+  },
+  {
+    "id": 48,
+    "activa": 0,
+    "pregunta": "¿Qué son los factores de carga y resistencia?",
+    "respuesta": "Los factores de carga amplifican las acciones para considerar incertidumbres y obtener solicitaciones de diseño. Los factores de resistencia reducen la capacidad resistente para garantizar seguridad. Se aplican en la inecuación fundamental Rd ≥ Rr, donde Rd es la resistencia disponible y Rr la resistencia requerida."
+  },
+  {
+    "id": 49,
+    "activa": 0,
+    "pregunta": "¿Qué es la excentricidad inevitable en cargas sísmicas?",
+    "respuesta": "Es la diferencia entre el centro de masa y el centro de rigidez que siempre existe por imperfecciones constructivas, distribución de masas o rigideces. El reglamento exige considerar una torsión accidental adicional para contemplar esta excentricidad, incluso en estructuras aparentemente simétricas."
+  },
+  {
+    "id": 50,
+    "activa": 0,
+    "pregunta": "¿Qué significa que una sección no cumple con la ley de Bernoulli Navier?",
+    "respuesta": "Significa que las secciones planas no permanecen planas después de la deformación, lo cual invalida la hipótesis de que la distribución de tensiones es lineal. Esto ocurre en elementos como vigas de gran altura, donde los efectos de corte son predominantes y la deformación no puede describirse solo por flexión."
+  },
+  {
+    "id": 51,
+    "activa": 0,
+    "pregunta": "¿Qué es el hormigón pretensado postesado?¿Qué características tiene?",
+    "respuesta": "Es un tipo de hormigón pretensado en el que los cables se tensan después del fraguado del hormigón. Se utilizan vainas embebidas en el hormigón, dentro de las cuales se colocan los cables. Luego del tesado, las vainas se inyectan con lechada de cemento. Permite mayor control en obra, se adapta a geometrías complejas y puede tener adherencia o no."
+  },
+  {
+    "id": 52,
+    "activa": 0,
+    "pregunta": "¿En qué consiste la inyección de vainas y para qué se hace?",
+    "respuesta": "Consiste en llenar con lechada de cemento las vainas que contienen los cables de pretensado, una vez finalizado el tesado. Se hace para garantizar la adherencia entre el acero y el hormigón, proteger los cables contra la corrosión, y mejorar la rigidez y la capacidad resistente de la sección."
+  },
+  {
+    "id": 53,
+    "activa": 0,
+    "pregunta": "¿Qué características particulares presenta el acero utilizado en el pretensado?",
+    "respuesta": "Es un acero de alta resistencia y baja relajación. Tiene una resistencia a tracción mucho mayor que el acero común (hasta 4 veces más), y una relajación típica del 2-2,5%. Se presenta en forma de alambres, cordones trenzados o barras roscadas. Debe tener buena adherencia y ductilidad para soportar grandes tensiones sin deformarse excesivamente."
+  },
+  {
+    "id": 54,
+    "activa": 0,
+    "pregunta": "¿Qué diferencias hay entre puentes viga simples y aporticados?",
+    "respuesta": "En los puentes viga simples, las vigas están simplemente apoyadas y transmiten cargas verticales directamente a los apoyos. En los aporticados, las columnas también transmiten momentos, generando un comportamiento de viga doblemente empotrada. Esto reduce los momentos máximos y permite secciones más esbeltas, pero requiere un diseño más complejo en las uniones."
+  },
+  {
+    "id": 55,
+    "activa": 0,
+    "pregunta": "¿Qué son las Vigas Geber y como se utilizan en los puentes?",
+    "respuesta": "Son vigas que se apoyan en voladizos de otras vigas, formando un sistema articulado. Se utilizan para reducir momentos negativos en los apoyos y facilitar el montaje. Permiten que las vigas centrales se comporten como simplemente apoyadas, mientras que los voladizos actúan como vigas en consola desde los pilares."
+  },
+  {
+    "id": 56,
+    "activa": 0,
+    "pregunta": "¿Qué significa cargar en damero en vigas continuas?",
+    "respuesta": "Significa aplicar la carga alternadamente en tramos sucesivos de una viga continua (unos cargados, otros no), para obtener el momento máximo en cada tramo. Es una hipótesis de carga desfavorable que se utiliza en el diseño para asegurar que se consideren los peores efectos posibles en cada sección."
+  },
+  {
+    "id": 57,
+    "activa": 0,
+    "pregunta": "¿Cómo son las presiones de viento en la estructura para componentes y revestimientos?",
+    "respuesta": "Son mayores que las del sistema principal resistente al viento, ya que se aplican sobre áreas pequeñas y deben resistir la presión máxima local. Se calculan con la fórmula F = qz × G × Cf × Af, donde qz es la presión dinámica, G el factor de ráfaga, Cf el coeficiente de forma y Af el área proyectada. Se consideran presiones internas y externas."
+  },
+  {
+    "id": 58,
+    "activa": 0,
+    "pregunta": "Describir los 4 casos de viento según Figura 9. Determinar sus resultantes.",
+    "respuesta": "Caso 1: presión uniforme en cada cara, sin torsión. Caso 2: presión reducida en 50% del borde, genera torsión. Caso 3: presión uniforme en todas las caras, pero en diagonal, sin torsión. Caso 4: presión reducida en 50% del borde y en diagonal, genera torsión. Las resultantes se obtienen sumando las fuerzas por cara y considerando su punto de aplicación respecto al centro de rigidez."
+  },
+  {
+    "id": 59,
+    "activa": 0,
+    "pregunta": "¿Qué diferencia hay entre la zona general y la zona local en pretensado?¿Cómo se verifica?",
+    "respuesta": "La zona local es la región inmediata al anclaje donde se introduce la fuerza de pretensado, y debe verificarse por aplastamiento del hormigón y concentración de tensiones. La zona general es el resto de la sección donde se distribuye la carga. Se verifica que las tensiones no superen los límites admisibles y que haya suficiente armadura de confinamiento."
+  },
+  {
+    "id": 60,
+    "activa": 0,
+    "pregunta": "¿Cómo se distribuye el corte basal en un edificio?",
+    "respuesta": "El corte basal se distribuye en altura proporcionalmente a la masa de cada nivel y a su altura respecto a la base. En estructuras regulares, la fuerza sísmica en cada piso es proporcional a su masa y a su distancia al nivel de referencia. Esto se basa en el primer modo de vibración, donde los pisos superiores experimentan mayores desplazamientos y, por lo tanto, mayores fuerzas."
+  },
+  {
+    "id": 61,
+    "activa": 0,
+    "pregunta": "¿Cómo se cargan las cargas T de variación térmica a temperatura ambiente en un modelo computacional?",
+    "respuesta": "Se cargan como una acción climática mediante una variación de temperatura ΔT aplicada a los elementos estructurales. En el modelo, se puede simular como una carga uniforme de expansión o contracción, dependiendo del coeficiente de dilatación térmica del material. También se puede aplicar como deformación impuesta en los apoyos o extremos de los elementos."
+  },
+  {
+    "id": 62,
+    "activa": 0,
+    "pregunta": "¿Qué es un diafragma rígido? ¿Cuáles son sus ventajas?",
+    "respuesta": "Es un elemento estructural (como una losa) que tiene gran rigidez en su plano, lo que permite que todos los puntos del nivel se desplacen solidariamente. Sus ventajas son: distribuye las cargas horizontales entre los elementos de rigidez, evita deformaciones diferenciales, permite simplificar el análisis estructural y mejora el comportamiento sísmico."
+  },
+  {
+    "id": 63,
+    "activa": 0,
+    "pregunta": "Un entrepiso de vigas pretensadas, ¿funciona como un diafragma rígido? ¿Bajo qué condiciones?",
+    "respuesta": "Puede funcionar como diafragma rígido si tiene suficiente rigidez en su plano, está adecuadamente vinculado a los elementos verticales y tiene continuidad estructural. Es necesario que las conexiones entre vigas y losa sean monolíticas o estén adecuadamente arriostradas, y que la losa tenga suficiente espesor y armadura para resistir esfuerzos de diafragma."
+  },
+  {
+    "id": 64,
+    "activa": 0,
+    "pregunta": "¿Por qué el CIRSOC 103 usa dos métodos para calcular la distribución del corte basal?",
+    "respuesta": "Porque depende del período propio de la estructura. Si el período es menor que 2T2, se usa una distribución proporcional a la masa y altura. Si es mayor, se usa una fórmula que considera la forma del primer modo de vibración. Esto permite representar mejor el comportamiento dinámico real de la estructura según su flexibilidad."
+  },
+  {
+    "id": 65,
+    "activa": 0,
+    "pregunta": "¿Cómo se consideran la fisuración y los efectos reológicos en el hormigón armado en estados límites de servicio?",
+    "respuesta": "Se reduce la rigidez de los elementos estructurales, especialmente en vigas y losas, para considerar la fisuración. También se suman las deformaciones diferidas por efectos reológicos (fluencia y retracción). En el análisis computacional, se ajustan las inercias y se agregan las deformaciones diferidas a las instantáneas para evaluar flechas totales."
+  },
+  {
+    "id": 66,
+    "activa": 0,
+    "pregunta": "¿Por qué se debe verificar la rotura en el pretensado aún cuando se verificaron las tensiones en las fibras inferior y superior?",
+    "respuesta": "Porque las tensiones en servicio no garantizan que la sección resista las solicitaciones últimas. La verificación a rotura asegura que la sección tenga capacidad suficiente ante combinaciones de carga extremas. Además, se deben considerar efectos como corte, torsión y la introducción de cargas, que pueden generar fallas frágiles si no se verifican."
+  },
+  {
+    "id": 67,
+    "activa": 0,
+    "pregunta": "¿Es posible que una estructura no tenga elementos de rigidez horizontal?",
+    "respuesta": "Sí, pero no es recomendable. En estructuras pequeñas o no sometidas a cargas horizontales significativas, puede omitirse. Sin embargo, en la mayoría de los casos, es necesario incorporar elementos de rigidez horizontal (pórticos, tabiques, núcleos) para resistir acciones como viento o sismo y garantizar estabilidad y seguridad."
+  },
+  {
+    "id": 68,
+    "activa": 0,
+    "pregunta": "¿Cómo se deberían distribuir los ERH en planta?¿Qué disposición se debería evitar?",
+    "respuesta": "Deben distribuirse de forma simétrica y equilibrada respecto al centro de masa, para evitar torsión. Se recomienda que estén alejados del centro de rigidez para aumentar la rigidez torsional. Se debe evitar concentrarlos en un solo sector o disponerlos de forma asimétrica, ya que esto genera excentricidades y momentos torsores indeseados."
+  },
+  {
+    "id": 69,
+    "activa": 0,
+    "pregunta": "¿Los ERH pueden tomar fuerzas verticales?",
+    "respuesta": "Sí. Aunque su función principal es resistir cargas horizontales, también pueden tomar cargas verticales. Por ejemplo, los tabiques trabajan a compresión y pueden actuar como columnas. Los pórticos también toman cargas verticales a través de sus columnas. Es importante considerar ambas solicitaciones en el diseño."
+  },
+  {
+    "id": 70,
+    "activa": 0,
+    "pregunta": "¿Cómo se considera la inestabilidad del equilibrio en el dimensionamiento de un tabique a compresión simple y a flexión compuesta recta?",
+    "respuesta": "Se considera mediante factores de reducción de resistencia por pandeo. En compresión simple, se aplica un coeficiente que penaliza la resistencia por inestabilidad global (eje fuerte) y local (eje débil). En flexión compuesta recta, se utiliza el método de Cárdenas, que incluye factores de reducción por pandeo local (Kns) y global (Ks), en función de la esbeltez y el número de pisos."
+  },
+  {
+    "id": 71,
+    "activa": 0,
+    "pregunta": "¿Por qué se debe verificar el corte horizontal en una estructura formada por una viga pretensada prefabricada y un tablero de hormigón in situ?",
+    "respuesta": "Porque existe una junta entre dos hormigones diferentes que puede deslizarse si no hay suficiente adherencia. El corte horizontal verifica que la unión trabaje como una sola pieza. Se analiza en Estado II (sección fisurada) y se refuerza con armadura transversal o superficie rugosa. Si no se verifica, la estructura no se comporta monolíticamente."
+  },
+  {
+    "id": 72,
+    "activa": 0,
+    "pregunta": "¿De qué depende la presión interior del viento según CIRSOC 102?¿Bajo qué condiciones se genera su máximo y mínimo valor?",
+    "respuesta": "Depende de la clasificación del edificio según su cerramiento: abierto, cerrado o parcialmente cerrado. El valor máximo (±0,55) se da en edificios parcialmente cerrados, donde se embolsa aire. El valor mínimo (0) se da en edificios abiertos. En edificios cerrados, el valor es intermedio (±0,18). Se considera el signo más desfavorable para el diseño."
+  },
+  {
+    "id": 73,
+    "activa": 0,
+    "pregunta": "¿Por qué motivos se podrían introducir rótulas plásticas en una estructura?¿Qué cuidados deben tenerse?",
+    "respuesta": "Se introducen para evitar la transmisión de momentos entre elementos, facilitar el diseño o controlar el mecanismo de colapso. Deben colocarse en zonas con ductilidad suficiente, armadura subarmada, estribado adecuado y confinamiento. Se debe evitar que se formen en columnas (columna fuerte - viga débil) y garantizar que no comprometan la estabilidad global."
+  },
+  {
+    "id": 74,
+    "activa": 0,
+    "pregunta": "¿Qué aspectos se consideran para adoptar una sección pretensada como U, T o C?¿Qué impacto tiene en el diseño el adoptar un grado u otro?",
+    "respuesta": "Se considera el nivel de tensiones en servicio. U: no fisurado, todas las fibras en compresión. T: transición, hay tracción pero dentro de límites admisibles. C: fisurado, se comporta como hormigón armado. Cuanto más exigente el grado (U), mayor fuerza de tesado se requiere, lo que implica mayor costo y control. El grado adoptado define los límites de tensiones admisibles."
+  },
+  {
+    "id": 75,
+    "activa": 0,
+    "pregunta": "¿Qué es el período propio de una estructura?¿Depende del estado de cargas?",
+    "respuesta": "Es el tiempo que tarda la estructura en completar una oscilación libre. Depende de la masa y la rigidez de la estructura. No depende del estado de cargas, pero sí del tipo de análisis (elástico o inelástico). En análisis sísmico, se usa para determinar la respuesta dinámica y la distribución de fuerzas. Cuanto más flexible la estructura, mayor el período."
+  },
+  {
+    "id": 76,
+    "activa": 0,
+    "pregunta": "¿Por qué para una viga pretensada tipo U se verifica Mu < Md con Md calculado para viga de hormigón armado?",
+    "respuesta": "Porque se asume que la sección trabaja sin fisurarse (Estado I), por lo que su rigidez es mayor. Si se verificara con Md de pretensado, se estaría considerando una sección fisurada (Estado II), lo cual no corresponde al comportamiento esperado. Verificar con Md de H°A° garantiza que la sección no se fisure bajo cargas de servicio."
+  },
+  {
+    "id": 77,
+    "activa": 0,
+    "pregunta": "¿Qué alternativas se pueden utilizar cuando no hay diafragmas rígidos en un edificio en altura?",
+    "respuesta": "Se deben diseñar los elementos de rigidez horizontal para que trabajen independientemente. Se puede reforzar la conexión entre elementos, aumentar la rigidez de los tabiques o pórticos, o introducir elementos adicionales como vigas de arriostramiento. También se puede modelar el comportamiento real sin asumir diafragma rígido, lo que complica el análisis."
+  },
+  {
+    "id": 78,
+    "activa": 0,
+    "pregunta": "¿Por qué es necesario realizar un pre-dimensionamiento al inicio del proceso de diseño estructural?¿Qué criterios considera para ello?",
+    "respuesta": "Porque permite definir una propuesta estructural inicial, estimar cargas, identificar estados simples relevantes y orientar el análisis. Se consideran criterios como tipología estructural, materiales disponibles, luces, cargas esperadas, reglamentos aplicables y requerimientos del cliente. Es una etapa creativa y fundamental para el desarrollo del proyecto."
+  },
+  {
+    "id": 79,
+    "activa": 0,
+    "pregunta": "Al momento de definir las combinaciones de estados simples de carga, ¿cómo deben considerarse las acciones variables con efectos favorables a la seguridad?¿Podría dar algún ejemplo?",
+    "respuesta": "No deben considerarse, salvo que sean cargas permanentes (D). Por ejemplo, si el viento actúa en sentido opuesto al sismo y reduce las solicitaciones, no se considera. Otro ejemplo: si una sobrecarga L alivia un momento negativo, se omite. Solo se consideran las acciones que generan el efecto más desfavorable para la estructura."
+  },
+  {
+    "id": 80,
+    "activa": 0,
+    "pregunta": "Al momento de determinar las solicitaciones en pórticos y tabiques de edificios en altura, uno de los métodos que pueden aplicarse es el denominado 'método de descomposición en elementos planos'. Dicho método ¿qué rol le adjudica a las losas de entrepiso?",
+    "respuesta": "El método de descomposición en elementos planos considera que las losas de entrepiso actúan como diafragmas rígidos, lo que permite distribuir las cargas horizontales entre los distintos elementos de rigidez (pórticos y tabiques). Esto implica que todos los puntos del entrepiso se desplazan solidariamente, permitiendo analizar cada plano vertical de forma independiente."
+  },
+  {
+    "id": 81,
+    "activa": 0,
+    "pregunta": "Un tabique solicitado a compresión simple, puede diseñarse de acuerdo a lo establecido en el artículo 14.5 del reglamento CIRSOC 201 2005. ¿Qué consideración hace dicho artículo en relación con el momento en el eje débil, que inevitablemente se introduce en el tabique a nivel de losas, debido al monolitismo del hormigón?",
+    "respuesta": "El artículo 14.5 permite considerar el tabique como solicitado a compresión simple si el momento en el eje débil es pequeño y no compromete la estabilidad. Reconoce que, por el monolitismo con las losas, se introduce un momento inevitable en ese eje, pero permite despreciarlo si se justifica que su efecto es menor y no genera pandeo lateral ni torsión significativa."
+  },
+  {
+    "id": 82,
+    "activa": 0,
+    "pregunta": "En el caso de una viga de hormigón pretensado ¿A qué nos referimos cuando hablamos de 'corte horizontal'? ¿En qué casos no presenta?¿Qué ocurre si una viga de hormigón pretensado falla por ese motivo? ¿Qué alternativas conoce para realizar la verificación?",
+    "respuesta": "El 'corte horizontal' se refiere al esfuerzo de corte en la interfaz entre dos hormigones (prefabricado e in situ). No se presenta si la viga es monolítica. Si falla, se produce deslizamiento entre las partes, perdiendo la acción compuesta. Se verifica en Estado II, considerando adherencia, rugosidad y armadura transversal. Alternativas: cálculo por fricción, por adherencia o por resistencia de conectores."
+  },
+  {
+    "id": 83,
+    "activa": 0,
+    "pregunta": "Según el documento 'Bases para el cálculo de puentes de hormigón armado' de la DNV: ¿qué es el factor de impacto, que representa? ¿En qué zonas debe ser aplicado?",
+    "respuesta": "Es un coeficiente que amplifica las cargas móviles para considerar los efectos dinámicos del tránsito (golpes, vibraciones). Representa el aumento de solicitaciones respecto a una carga estática. Debe aplicarse en todos los elementos estructurales que reciben cargas móviles, especialmente en vigas principales, losas y apoyos, según la tipología del puente y su longitud."
+  },
+  {
+    "id": 84,
+    "activa": 0,
+    "pregunta": "¿Cuál es la diferencia entre una ingeniería básica, y una ingeniería básica consolidada?",
+    "respuesta": "La ingeniería básica define los criterios generales del proyecto: tipología estructural, materiales, cargas, esquemas preliminares. La ingeniería básica consolidada incluye además verificaciones estructurales, dimensionamiento preliminar, compatibilización con otras disciplinas y documentación suficiente para licitación o aprobación. Es una versión más desarrollada y precisa."
+  },
+  {
+    "id": 85,
+    "activa": 0,
+    "pregunta": "En relación con la carga de nieve, de acuerdo con el reglamento CIRSOC 104 2005 ¿cuáles son las situaciones de carga que deben considerarse al diseñar una cubierta a dos aguas en la cual no hay ninguna saliente?",
+    "respuesta": "Se deben considerar al menos dos situaciones: (1) carga simétrica en ambas aguas, y (2) carga asimétrica, con acumulación total en una sola agua. Estas hipótesis contemplan la posibilidad de redistribución de la nieve por viento o deslizamiento. Se deben aplicar los coeficientes de forma y exposición según la pendiente y ubicación geográfica."
+  },
+  {
+    "id": 86,
+    "activa": 0,
+    "pregunta": "Al diseñar una viga de hormigón pretensado, ¿por qué debe evaluarse la cuantía máxima y la cuantía mínima de acero? ¿Qué criterios deben considerarse para ello?",
+    "respuesta": "La cuantía mínima garantiza que la sección tenga capacidad resistente suficiente y ductilidad. La cuantía máxima evita la falla frágil por aplastamiento del hormigón antes de que fluya el acero. Se consideran criterios de equilibrio de secciones, compatibilidad de deformaciones y cumplimiento de los estados límite último y de servicio."
+  },
+  {
+    "id": 87,
+    "activa": 0,
+    "pregunta": "Considerando el entrepiso típico de un edificio en altura, en el cual existen varios elementos de rigidez horizontal, desarrolle las expresiones que permiten determinar las solicitaciones que generan en cada elemento la aplicación de cargas horizontales",
+    "respuesta": "Las solicitaciones se distribuyen proporcionalmente a la rigidez de cada elemento: Vi = Vtotal × (Ki / ΣKi), donde Vi es el corte en el elemento i, Ki su rigidez lateral, y ΣKi la suma de rigideces. Si hay excentricidad, se suma un momento torsor Mt = V × e, y se distribuye como Ti = Mt × (Ki × di) / Σ(Ki × di²), donde di es la distancia al centro de rigidez."
+  },
+  {
+    "id": 88,
+    "activa": 0,
+    "pregunta": "Proponga un modelo estructural que permita determinar las resistencias requeridas en el tablero de un puente de hormigón pretensado similar al visto en clase",
+    "respuesta": "Se puede modelar como un emparrillado de vigas longitudinales (pretensadas) y transversales (secundarias), con losa superior. Las cargas se aplican como distribuciones móviles o equivalentes. Se analiza mediante elementos finitos o métodos matriciales, considerando apoyos elásticos y combinaciones de carga según CIRSOC 201 y reglamento de la DNV."
+  },
+  {
+    "id": 89,
+    "activa": 0,
+    "pregunta": "¿Por qué motivo hay estados límites que se evalúan mediante combinaciones últimas y otros que se evalúan mediante combinaciones de servicio?",
+    "respuesta": "Porque los estados límite últimos (ELU) evalúan la resistencia estructural ante solicitaciones extremas, y requieren combinaciones mayoradas. Los estados límite de servicio (ELS) evalúan la funcionalidad, confort y durabilidad, y se verifican con combinaciones no mayoradas. Cada tipo de estado requiere un enfoque distinto para garantizar seguridad y desempeño."
+  },
+  {
+    "id": 90,
+    "activa": 0,
+    "pregunta": "¿A qué elemento de un puente vehicular se denomina como losa de aproximación? Realice un esquema que la muestre. ¿Qué función cumple?",
+    "respuesta": "La losa de aproximación es el elemento que vincula el camino existente con el puente, permitiendo una transición suave entre ambos. Su función principal es evitar asentamientos diferenciales entre el terraplén y la estructura del puente, garantizando la continuidad del tránsito y reduciendo el impacto dinámico sobre la estructura. Se ubica entre el estribo del puente y el terraplén."
+  },
+  {
+    "id": 91,
+    "activa": 0,
+    "pregunta": "¿Por qué motivo el reglamento CIRSOC 102 2005, discrimina entre CyR y SPRFV? ¿En cuál de los dos sistemas es de esperar que haya una carga mayor?",
+    "respuesta": "El CIRSOC 102 discrimina entre CyR (Componentes y Revestimientos) y SPRFV (Sistema Principal Resistente a la Fuerza de Viento) porque las presiones de viento no actúan de forma uniforme sobre toda la estructura. En el caso de los CyR, al tener áreas de aporte más pequeñas, es más probable que reciban la presión máxima del viento, por lo que deben diseñarse para soportar cargas pico. En cambio, el SPRFV se diseña con una presión media sobre toda la superficie. Por lo tanto, es de esperar que las cargas sean mayores en los CyR."
+  },
+  {
+    "id": 92,
+    "activa": 0,
+    "pregunta": "¿Es conveniente que, al modelar, se suponga que una viga se empotra en un tabique? ¿Por qué?",
+    "respuesta": "No es conveniente suponer que una viga se empotra en un tabique, ya que el empotramiento no es lo suficientemente rígido ni confiable como para garantizar esa condición. El reglamento no lo acepta como válido, y en la práctica, aunque se subarme la zona para formar una rótula plástica que limite la transmisión de momento, siempre habrá algo de momento que se transmita. Por lo tanto, se recomienda modelar la unión como articulada o con una rótula plástica si se desea evitar la transferencia de momento."
+  },
+  {
+    "id": 93,
+    "activa": 0,
+    "pregunta": "En un puente vehicular diseñado según el reglamento de la DNV ¿qué origen tienen las cargas horizontales en la superestructura?",
+    "respuesta": "Las cargas horizontales en la superestructura de un puente vehicular provienen principalmente del empuje del suelo sobre los pilotes, de la fuerza de frenado de los vehículos y de las variaciones térmicas. Estas solicitaciones deben ser consideradas en el diseño para garantizar la estabilidad y el correcto funcionamiento del puente."
+  },
+  {
+    "id": 94,
+    "activa": 0,
+    "pregunta": "Considerando un edificio en altura, ¿cuántas formas de determinar las solicitaciones sobre los elementos estructurales principales conoce? Indique cuándo es más conveniente utilizar cada una. Caracterícelas, mencionando sus limitaciones y la calidad de resultados esperables.",
+    "respuesta": "Existen tres metodologías principales:\n1. Método disociado: se analiza cada elemento por separado, considerando las reacciones como cargas para el siguiente. Es simple pero no considera cargas horizontales ni interacción entre elementos. Aplicable solo a edificios bajos.\n2. Método de descomposición en elementos planos (2D): se identifican los elementos de rigidez horizontal y se calcula qué parte de la carga toma cada uno. Es más preciso y permite considerar cargas horizontales. Requiere más trabajo manual.\n3. Método 3D: se modela toda la estructura en un software. Permite considerar interacción entre elementos y obtener resultados más realistas. Requiere validación con métodos más simples para evitar errores de modelado."
+  },
+  {
+    "id": 95,
+    "activa": 0,
+    "pregunta": "Al realizar el diseño de una estructura hiperestática en la cual se desea aprovechar la reserva plástica que tiene, ¿qué cuidados deben tenerse en el detallado de la estructura? Responder considerando tanto las estructuras metálicas como las de hormigón",
+    "respuesta": "Para estructuras metálicas: se debe asegurar la compacidad de las secciones, utilizar acero con buen plafón de fluencia (fy ≤ 450 MPa) y colocar arriostramientos adecuados para evitar pandeo lateral torsional.\nPara estructuras de hormigón: se deben diseñar secciones marcadamente subarmadas (εt > 0,02), con armadura comprimida ≥ 50% de la traccionada, y estribado adecuado en zonas de rótulas (longitud 2h, separación s ≤ min(6db, d/4, 300 mm)). Estas condiciones aseguran la ductilidad necesaria para permitir redistribución de momentos sin fallas frágiles."
+  },
+  {
+    "id": 96,
+    "activa": 0,
+    "pregunta": "¿Qué es un espectro de respuesta? ¿Qué limitación tienen los espectros de respuesta en cuanto a la calidad de información que brindan? ¿Cómo se construyen los espectros de respuesta sísmica? ¿Qué aspecto se tienen en cuenta? ¿Qué diferencia conceptual hay entre Sd y Sa?",
+    "respuesta": "Un espectro de respuesta representa la máxima respuesta (desplazamiento, velocidad o aceleración) de un sistema de un grado de libertad ante un sismo, en función de su período. Su limitación es que no considera la interacción entre modos ni la distribución de masas y rigideces de estructuras reales. Se construyen a partir de registros sísmicos o mediante modelos normativos, considerando el tipo de suelo, zona sísmica, amortiguamiento y período estructural. Sd es el desplazamiento espectral y Sa es la aceleración espectral; ambos se relacionan con la misma respuesta pero en diferentes magnitudes físicas."
+  },
+  {
+    "id": 97,
+    "activa": 0,
+    "pregunta": "En Argentina existen los reglamentos CIRSOC con más de una versión, como el CIRSOC 201 1984 y el CIRSOC 201 2005, ¿cómo decidir qué versión del reglamento es la que debe aplicarse en una obra en particular?",
+    "respuesta": "En Argentina, los reglamentos CIRSOC son de cumplimiento obligatorio. Se debe aplicar la versión más reciente vigente al momento del inicio del proyecto, salvo que la autoridad competente indique lo contrario. Si no hay reglamento nacional aplicable, se puede recurrir a reglamentos extranjeros, normas de instituciones reconocidas, especificaciones del fabricante o del cliente, en ese orden de prioridad."
+  },
+  {
+    "id": 98,
+    "activa": 0,
+    "pregunta": "Según el reglamento CIRSOC 102 2005, ¿qué es el factor Kd? ¿Qué representa? ¿De qué depende? ¿Para qué se usa?",
+    "respuesta": "El factor Kd es el factor de direccionalidad del viento. Representa la probabilidad de que los vientos máximos no provengan perpendicularmente al edificio o que los coeficientes de presión máxima no ocurran en esa dirección. Depende del tipo de estructura (SPRFV o CyR) y se utiliza en el cálculo de la presión dinámica del viento para ajustar la carga de diseño."
+  },
+  {
+    "id": 99,
+    "activa": 0,
+    "pregunta": "¿Por qué cree usted que el reglamento CIRSOC 201 2005 no considera rótulas plásticas que permitan reducir el momento en cualquier proporción?",
+    "respuesta": "Porque el reglamento busca garantizar un comportamiento estructural seguro y controlado. Permitir una reducción arbitraria del momento podría llevar a diseños con secciones frágiles o sin la ductilidad necesaria para redistribuir solicitaciones. Por eso, solo se permite una redistribución limitada (hasta el 20%) y bajo condiciones específicas de ductilidad en las secciones donde se espera la formación de rótulas plásticas."
+  },
+  {
+    "id": 100,
+    "activa": 0,
+    "pregunta": "En un edificio de altura de hormigón armado, ¿cuál sería la conveniencia de continuar las vigas medianeras a través de un espacio vacío denominado comúnmente aire y luz? ¿Qué se gana y que se pierde con ello?",
+    "respuesta": "Continuar las vigas medianeras a través del aire y luz permite generar continuidad estructural, lo cual mejora el comportamiento global del edificio. Se gana rigidez, continuidad de los elementos resistentes y se evita la formación de ménsulas cortas que trabajarían a torsión sin suficiente rigidez. Además, se puede aprovechar la medianera para colocar vigas de mayor altura, ya que no hay carpinterías que limiten su dimensión. Lo que se pierde es espacio útil o estético en el aire y luz, y puede haber restricciones arquitectónicas o normativas que lo dificulten."
+  },
+  {
+    "id": 101,
+    "activa": 0,
+    "pregunta": "Considerando una estructura de hormigón armado en Buenos Aires, en un nudo viga/columna tipo T, ¿cuál es el criterio que se utiliza para decidir si los estribos deben continuarse o no? ¿Podría dar un ejemplo?",
+    "respuesta": "El criterio para decidir si los estribos deben continuarse en un nudo tipo T depende de si el nudo está confinado por las vigas que concurren a él. En zonas no sísmicas, si las cuatro caras del nudo están confinadas por vigas, los estribos pueden interrumpirse. En cambio, si alguna cara no está confinada, los estribos deben continuarse para garantizar el confinamiento del hormigón y evitar el pandeo de las armaduras comprimidas. Por ejemplo, si una viga se apoya lateralmente sobre una columna y no hay otra viga en la cara opuesta, los estribos deben continuarse."
+  },
+  {
+    "id": 102,
+    "activa": 0,
+    "pregunta": "En el diseño de una estructura de hormigón pretensado, indique las ventajas de tener adherencia en el acero teso",
+    "respuesta": "Las ventajas de tener adherencia en el acero teso son: 1) No se requieren vainas ni inyecciones, lo que simplifica la construcción. 2) No se necesitan anclajes, ya que la fuerza de tesado se transmite directamente por adherencia. 3) Se logra una transferencia más uniforme de tensiones, lo que mejora el comportamiento estructural. 4) El acero adherido corta las fisuras y las convierte en microfisuras, mejorando la durabilidad. 5) Es ideal para producción en serie y prefabricación. La principal limitación es que no puede retesarse."
+  },
+  {
+    "id": 103,
+    "activa": 0,
+    "pregunta": "En la construcción de puentes, ¿por qué en la actualidad los apoyos de neopreno han desplazado a los apoyos de fundición de hierro? Nombre las razones principales.",
+    "respuesta": "Los apoyos de neopreno han desplazado a los de fundición de hierro porque permiten deformaciones sin romperse, absorben giros y desplazamientos en los apoyos del puente, y evitan que la superestructura dañe la infraestructura. Además, son más fáciles de instalar, más económicos, y permiten movimientos por dilatación térmica sin generar esfuerzos excesivos. También evitan el 'reptado' si se diseña adecuadamente el coeficiente de fricción. En resumen, ofrecen mayor seguridad, flexibilidad y durabilidad."
+  }
+]

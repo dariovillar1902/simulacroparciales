@@ -9,6 +9,7 @@ import { Puertos1PScreen } from '../components/Puertos1PScreen';
 import { MetalicasFinalScreen } from '../components/MetalicasFinalScreen';
 import { FerrocarrilesFinalScreen } from '../components/FerrocarrilesFinalScreen';
 import { Puertos2PScreen } from '../components/Puertos2PScreen';
+import { AE2FinalScreen } from '../components/AE2FinalScreen';
 
 export const DashboardRoutes = () => {
   return <>
@@ -24,6 +25,7 @@ export const DashboardRoutes = () => {
         <Route path='/pyvn/2P' element={<Puertos2PScreen />} />
         <Route path='/metalicas/final' element={<MetalicasFinalScreen />} />
         <Route path='/ferrocarriles/final' element={<FerrocarrilesFinalScreen />} />
+        <Route path='/ae2/final' element={<AE2FinalScreen />} />
       </Routes>
     </div>
   </>;

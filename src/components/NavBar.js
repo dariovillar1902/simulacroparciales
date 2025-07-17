@@ -1,106 +1,112 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { Dropdown } from 'react-bootstrap';
+import { Dropdown } from 'react-bootstrap'
 
 export const Navbar = () => {
-
     return (
         <header className="d-flex justify-content-center py-3 navbar-dark bg-dark">
             <ul className="nav nav-pills">
+                {/* 1° Año */}
                 <Dropdown className='botonDropdown'>
-                    <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-                        Tecnología del Hormigón
+                    <Dropdown.Toggle variant="secondary" id="dropdown-1">
+                        1° Año
                     </Dropdown.Toggle>
                     <Dropdown.Menu variant="dark">
+                        {/* Add items if needed */}
+                    </Dropdown.Menu>
+                </Dropdown>
+
+                {/* 2° Año */}
+                <Dropdown className='botonDropdown'>
+                    <Dropdown.Toggle variant="secondary" id="dropdown-2">
+                        2° Año
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu variant="dark">
+                        {/* Add items if needed */}
+                    </Dropdown.Menu>
+                </Dropdown>
+
+                {/* 3° Año */}
+                <Dropdown className='botonDropdown'>
+                    <Dropdown.Toggle variant="secondary" id="dropdown-3">
+                        3° Año
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu variant="dark">
+                        <Dropdown.Header className="text-light">Tecnología del Hormigón</Dropdown.Header>
                         <Dropdown.Item>
-                            <NavLink
-                                className={({ isActive }) => 'nav-item nav-link dropdown-item' + (isActive ? ' active' : '')}
-                                to="/tdh/1P"
-                            >
+                            <NavLink to="/tdh/1P" className={({ isActive }) => 'dropdown-item' + (isActive ? ' active' : '')}>
                                 1° Parcial
                             </NavLink>
                         </Dropdown.Item>
                         <Dropdown.Item>
-                            <NavLink
-                                className={({ isActive }) => 'nav-item nav-link dropdown-item' + (isActive ? ' active' : '')}
-                                to="/tdh/2P"
-                            >
+                            <NavLink to="/tdh/2P" className={({ isActive }) => 'dropdown-item' + (isActive ? ' active' : '')}>
                                 2° Parcial
                             </NavLink>
                         </Dropdown.Item>
                         <Dropdown.Item>
-                            <NavLink
-                                className={({ isActive }) => 'nav-item nav-link dropdown-item' + (isActive ? ' active' : '')}
-                                to="/tdh/Coloquio"
-                            >
+                            <NavLink to="/tdh/Coloquio" className={({ isActive }) => 'dropdown-item' + (isActive ? ' active' : '')}>
                                 Coloquio
                             </NavLink>
                         </Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
-                <Dropdown className='botonDropdown'>
-                    <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-                        Hidráulica General y Aplicada
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu variant="dark">
+
+                        <Dropdown.Divider />
+                        <Dropdown.Header className="text-light">Hidráulica General y Aplicada</Dropdown.Header>
                         <Dropdown.Item>
-                            <NavLink
-                                className={({ isActive }) => 'nav-item nav-link dropdown-item' + (isActive ? ' active' : '')}
-                                to="/hidraulica/final"
-                            >
+                            <NavLink to="/hidraulica/final" className={({ isActive }) => 'dropdown-item' + (isActive ? ' active' : '')}>
                                 Final - Teoría
                             </NavLink>
                         </Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
+
+                {/* 4° Año */}
                 <Dropdown className='botonDropdown'>
-                    <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-                        Puertos y Vías Navegables
+                    <Dropdown.Toggle variant="secondary" id="dropdown-4">
+                        4° Año
                     </Dropdown.Toggle>
                     <Dropdown.Menu variant="dark">
+                        {/* Add items if needed */}
+                    </Dropdown.Menu>
+                </Dropdown>
+
+                {/* 5° Año */}
+                <Dropdown className='botonDropdown'>
+                    <Dropdown.Toggle variant="secondary" id="dropdown-5">
+                        5° Año
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu variant="dark">
+                        <Dropdown.Header className="text-light">Puertos y Vías Navegables</Dropdown.Header>
                         <Dropdown.Item>
-                            <NavLink
-                                className={({ isActive }) => 'nav-item nav-link dropdown-item' + (isActive ? ' active' : '')}
-                                to="/pyvn/1P"
-                            >
+                            <NavLink to="/pyvn/1P" className={({ isActive }) => 'dropdown-item' + (isActive ? ' active' : '')}>
                                 1° Parcial
                             </NavLink>
                         </Dropdown.Item>
                         <Dropdown.Item>
-                            <NavLink
-                                className={({ isActive }) => 'nav-item nav-link dropdown-item' + (isActive ? ' active' : '')}
-                                to="/pyvn/2P"
-                            >
+                            <NavLink to="/pyvn/2P" className={({ isActive }) => 'dropdown-item' + (isActive ? ' active' : '')}>
                                 2° Parcial
                             </NavLink>
                         </Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
-                <Dropdown className='botonDropdown'>
-                    <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-                        Construcciones Metálicas y de Madera
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu variant="dark">
+
+                        <Dropdown.Divider />
+                        <Dropdown.Header className="text-light">Construcciones Metálicas y de Madera</Dropdown.Header>
                         <Dropdown.Item>
-                            <NavLink
-                                className={({ isActive }) => 'nav-item nav-link dropdown-item' + (isActive ? ' active' : '')}
-                                to="/metalicas/final"
-                            >
+                            <NavLink to="/metalicas/final" className={({ isActive }) => 'dropdown-item' + (isActive ? ' active' : '')}>
                                 Final
                             </NavLink>
                         </Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
-                <Dropdown className='botonDropdown'>
-                    <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-                        Ferrocarriles
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu variant="dark">
+
+                        <Dropdown.Divider />
+                        <Dropdown.Header className="text-light">Ferrocarriles</Dropdown.Header>
                         <Dropdown.Item>
-                            <NavLink
-                                className={({ isActive }) => 'nav-item nav-link dropdown-item' + (isActive ? ' active' : '')}
-                                to="/ferrocarriles/final"
-                            >
+                            <NavLink to="/ferrocarriles/final" className={({ isActive }) => 'dropdown-item' + (isActive ? ' active' : '')}>
+                                Final
+                            </NavLink>
+                        </Dropdown.Item>
+
+                        <Dropdown.Divider />
+                        <Dropdown.Header className="text-light">Análisis Estructural 2</Dropdown.Header>
+                        <Dropdown.Item>
+                            <NavLink to="/ae2/final" className={({ isActive }) => 'dropdown-item' + (isActive ? ' active' : '')}>
                                 Final
                             </NavLink>
                         </Dropdown.Item>
