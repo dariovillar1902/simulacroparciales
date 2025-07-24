@@ -141,7 +141,7 @@
     "id": 23,
     "activa": 0,
     "pregunta": "¿Cómo es el esquema de armado de un tabique?",
-    "respuesta": "El armado de un tabique incluye armadura vertical (para momento) y horizontal (para corte), dispuesta en dos capas. En los extremos se refuerza como columna, con barras de diámetro mayor a 12 mm, estribado cerrado y cuantía geométrica mayor a 0,01. En las aberturas se colocan refuerzos perimetrales y diagonales. La armadura longitudinal va por fuera de la horizontal. Se deben respetar cuantías mínimas y separación máxima."
+    "respuesta": "El armado de un tabique incluye armadura vertical (para momento) y horizontal (para corte), dispuesta en dos capas. La armadura de corte es mucha, porque la compresión no puede coser las fisuras, como sí ocurre en la vertical. En los extremos se refuerza como columna, con barras de diámetro mayor a 12 mm, estribado cerrado y cuantía geométrica mayor a 0,01. En las aberturas se colocan refuerzos perimetrales y diagonales, 2 db 16, por la concentración de tensiones. La armadura longitudinal va por fuera de la horizontal. Se deben respetar cuantías mínimas y separación máxima."
   },
   {
     "id": 24,
@@ -231,7 +231,7 @@
     "id": 38,
     "activa": 0,
     "pregunta": "¿Cómo se calcula la rigidez de un pórtico?",
-    "respuesta": "Se calcula como una constante de resorte k = V/Δrel, aplicando una fuerza unitaria horizontal y midiendo el desplazamiento relativo. Se consideran la rigidez flexional, axial y de corte de cada barra. También se deben tener en cuenta la fisuración del hormigón y la rigidez no ideal de las bases."
+    "respuesta": "Se debería determinar si el pórtico es desplazable o indesplazable, y definir la esbeltez de las columnas que lo componen. Esto permite saber si es necesario considerar este efecto en el análisis de segundo orden cuando las columnas están comprimidas. Se consideran la rigidez flexional, axial y de corte de cada barra. También se deben tener en cuenta la fisuración del hormigón (mediante factores de reducción de la inercia) y la rigidez no ideal de las bases. En la rigidez flexional de un tabique predominan los efectos de corte, la deformada es típica de corte."
   },
   {
     "id": 39,
@@ -255,7 +255,7 @@
     "id": 42,
     "activa": 0,
     "pregunta": "¿Cómo se arman los nudos en los pórticos? Dar los 4 ejemplos típicos",
-    "respuesta": "Los nudos típicos son: (1) Tipo L: una viga atraviesa una columna; (2) Tipo T: una viga se apoya lateralmente sobre una columna; (3) Tipo T invertida: una columna se apoya sobre una viga; (4) Tipo X: dos columnas se cruzan. En cada caso se deben garantizar anclajes adecuados, continuidad de armaduras y evitar congestión de barras."
+    "respuesta": "Los nudos típicos son: (1) Tipo L: una viga atraviesa una columna; (2) Tipo T: una viga se apoya lateralmente sobre una columna; (3) Tipo T invertida: una columna se apoya sobre una viga; (4) Tipo X: dos columnas se cruzan. En cada caso se deben garantizar anclajes adecuados, continuidad de armaduras y evitar congestión de barras. Siempre se utiliza mandril de pórtico (9 db) y ldh en lo posible, si el espacio no lo permite se utilizan mandril de gancho y ld como longitud de empalme. Recordar distintos armados si el momento abre o cierra el nudo tipo L."
   },
   {
     "id": 43,
@@ -267,7 +267,7 @@
     "id": 44,
     "activa": 0,
     "pregunta": "En un pórtico, ¿cómo se pasa de cargas a solicitaciones?",
-    "respuesta": "Se realiza un análisis estructural que transforma las cargas aplicadas en solicitaciones internas: momentos flectores, fuerzas cortantes y axiales. Esto puede hacerse mediante métodos analíticos (como el método de Cross) o con software, considerando las combinaciones de carga y el comportamiento del material (fisuración, rigidez reducida, etc.)."
+    "respuesta": "Se verifican deformaciones en servicio y resistencia con cargas últimas. Se hace un análisis elástico, no plástico. Considerar tanto cargas balanceadas como no balanceadas, distintas combinaciones de L, Lr y S. Se cargan en damero los sistemas continuos, se analizan distintas posiciones y longitudes de las cargas distribuidas para las veces en que la carga D no es tan relevante y posicionar las cargas vivas en un lugar u otro es fundamental para el análisis estructural. Se puede analizar 2°OG y 2°OM (muy complejo), 1°OG y 1°OM (resultados poco exactos), o 2°OG y 1°OM (metodología más utilizada)."
   },
   {
     "id": 45,
@@ -423,7 +423,7 @@
     "id": 70,
     "activa": 0,
     "pregunta": "¿Cómo se considera la inestabilidad del equilibrio en el dimensionamiento de un tabique a compresión simple y a flexión compuesta recta?",
-    "respuesta": "Se considera mediante factores de reducción de resistencia por pandeo. En compresión simple, se aplica un coeficiente que penaliza la resistencia por inestabilidad global (eje fuerte) y local (eje débil). En flexión compuesta recta, se utiliza el método de Cárdenas, que incluye factores de reducción por pandeo local (Kns) y global (Ks), en función de la esbeltez y el número de pisos."
+    "respuesta": "Se considera mediante factores de reducción de resistencia por pandeo. En compresión simple, se aplica un coeficiente que representa el efecto del pórtico desplazable. En flexión compuesta recta, se considera inestabilidad por pandeo global en el eje fuerte, con el coeficiente Ks, o por pandeo local en el eje débil, con el coeficiente Kns. La inestabilidad de la excentricidad de la carga se materializa como una reducción de resistencia."
   },
   {
     "id": 71,
@@ -459,7 +459,7 @@
     "id": 76,
     "activa": 0,
     "pregunta": "¿Por qué para una viga pretensada tipo U se verifica Mu < Md con Md calculado para viga de hormigón armado?",
-    "respuesta": "Porque se asume que la sección trabaja sin fisurarse (Estado I), por lo que su rigidez es mayor. Si se verificara con Md de pretensado, se estaría considerando una sección fisurada (Estado II), lo cual no corresponde al comportamiento esperado. Verificar con Md de H°A° garantiza que la sección no se fisure bajo cargas de servicio."
+    "respuesta": "Porque se asume que la sección trabaja sin fisurarse (Estado I), por lo que su rigidez es mayor. Si se verificara con Md de pretensado, se estaría considerando una sección fisurada (Estado II), lo cual no corresponde al comportamiento esperado. Verificar con Md de H°A° garantiza que la sección no se fisure bajo cargas de servicio. Cuando se verifica para Estado II, se agrega un segundo término al cálculo de Mn que representa a la porción de armadura tesa."
   },
   {
     "id": 77,
@@ -519,7 +519,7 @@
     "id": 86,
     "activa": 0,
     "pregunta": "Al diseñar una viga de hormigón pretensado, ¿por qué debe evaluarse la cuantía máxima y la cuantía mínima de acero? ¿Qué criterios deben considerarse para ello?",
-    "respuesta": "La cuantía mínima garantiza que la sección tenga capacidad resistente suficiente y ductilidad. La cuantía máxima evita la falla frágil por aplastamiento del hormigón antes de que fluya el acero. Se consideran criterios de equilibrio de secciones, compatibilidad de deformaciones y cumplimiento de los estados límite último y de servicio."
+    "respuesta": "La cuantía mínima se evalúa debido a que, si Mu < Md, como no se llega al Mcr, no se sabe qué está ocurriendo hasta llegar a este valor, porque no aparecen fisuras. Cuando se llega a Mcr la rotura es frágil (comportamiento no deseado). Se logra la armadura mínima con Mu > 1,2 Mcr. La cuantía máxima garantiza que la secci[on sea subarmada, es decir, que falle de forma dúctil. Se verifica igual que el hormigón armado, relacionando deformaciones y equilibrando tracción y compresión. εt > 0,005 se relaciona con εcu = 0,003."
   },
   {
     "id": 87,
@@ -591,7 +591,7 @@
     "id": 98,
     "activa": 0,
     "pregunta": "Según el reglamento CIRSOC 102 2005, ¿qué es el factor Kd? ¿Qué representa? ¿De qué depende? ¿Para qué se usa?",
-    "respuesta": "El factor Kd es el factor de direccionalidad del viento. Representa la probabilidad de que los vientos máximos no provengan perpendicularmente al edificio o que los coeficientes de presión máxima no ocurran en esa dirección. Depende del tipo de estructura (SPRFV o CyR) y se utiliza en el cálculo de la presión dinámica del viento para ajustar la carga de diseño."
+    "respuesta": "El factor Kd es el factor de direccionalidad del viento. Representa la probabilidad de que los vientos máximos no provengan perpendicularmente al edificio o que los coeficientes de presión máxima no ocurran en esa dirección. Depende del tipo de estructura (SPRFV o CyR) y se utiliza en el cálculo de la presión dinámica del viento para ajustar la carga de diseño. Siempre es menor a 1."
   },
   {
     "id": 99,

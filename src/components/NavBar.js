@@ -86,6 +86,11 @@ export const Navbar = () => {
                                 2° Parcial
                             </NavLink>
                         </Dropdown.Item>
+                        <Dropdown.Item>
+                            <NavLink to="/pyvn/final" className={({ isActive }) => 'dropdown-item' + (isActive ? ' active' : '')}>
+                                Final
+                            </NavLink>
+                        </Dropdown.Item>
 
                         <Dropdown.Divider />
                         <Dropdown.Header className="text-light">Construcciones Metálicas y de Madera</Dropdown.Header>
