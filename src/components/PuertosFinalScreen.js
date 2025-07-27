@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import "../styles/styles.scss";
-import bancoPreguntasPuertos1P from "../data/bancoPreguntasPuertos1P.json";
+import bancoPreguntasFinalPuertos from "../data/bancoPreguntasFinalPuertos.json";
 import { Accordion, Button, Card, Col, Form, Row } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faForward, faX } from "@fortawesome/free-solid-svg-icons";
@@ -39,7 +39,7 @@ export const PuertosFinalScreen = () => {
     correctasPorUnidad.current = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     incorrectasPorUnidad.current = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     skipeadasPorUnidad.current = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-    bancoPreguntasPuertos1P.map((pregunta) => (pregunta.activa = 0));
+    bancoPreguntasFinalPuertos.map((pregunta) => (pregunta.activa = 0));
     window.location.reload();
   };
 
@@ -63,7 +63,7 @@ export const PuertosFinalScreen = () => {
       default:
         break;
     }
-    let preguntasActivas = bancoPreguntasPuertos1P.filter((pregunta) =>
+    let preguntasActivas = bancoPreguntasFinalPuertos.filter((pregunta) =>
       unidades.includes(pregunta.unidad)
     );
     let pregunta = preguntasActivas.find((pregunta) => pregunta.id === id);
@@ -72,7 +72,7 @@ export const PuertosFinalScreen = () => {
   };
 
   const checkUnidades = useCallback((unidades) => {
-    let preguntasActivas = bancoPreguntasPuertos1P.filter((pregunta) =>
+    let preguntasActivas = bancoPreguntasFinalPuertos.filter((pregunta) =>
       unidades.includes(pregunta.unidad)
     );
     seleccionPregunta(preguntasActivas);
@@ -173,7 +173,7 @@ export const PuertosFinalScreen = () => {
               </Button>
               {mostrarRespuesta && (
                 <Card.Text className="mt-2">
-                  {preguntaSeleccionada && preguntaSeleccionada.respuesta}
+                  {preguntaSeleccionada.respuesta.replace(/:contentReference\[.*?\]{.*?}/g, '')}
                 </Card.Text>
               )}
             </Card.Body>
