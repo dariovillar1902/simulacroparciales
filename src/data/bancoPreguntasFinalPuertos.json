@@ -3,666 +3,770 @@
     "id": 0,
     "activa": 0,
     "unidad": 1,
-    "pregunta": "¿Cuántos kilómetros debe navegar un buque que ingresa a Puerto Buenos Aires desde el océano atlántico por la Vía Navegable Troncal? ¿Cuál es el nombre, la profundidad y el ancho de solera de los canales que la componen?"
+    "pregunta": "¿Cuántos kilómetros debe navegar un buque que ingresa a Puerto Buenos Aires desde el océano atlántico por la Vía Navegable Troncal? ¿Cuál es el nombre, la profundidad y el ancho de solera de los canales que la componen?",
+    "respuesta": "El ingreso se realiza por Recalada (km 0,00). Desde allí hasta el Puerto de Buenos Aires hay aproximadamente 239,1 km de navegación. Los canales que componen esta vía son: Canal Punta Indio (km 239,1 a 121, 34 pies de profundidad, 100 m de ancho), Canal Intermedio (km 121 a 81, 34 pies, 100 m), Paso Banco Chico (km 81 a 57, 34 pies, 100 m), Rada Exterior (km 57 a 37, 37 pies, 100 m), Canal Martín García (desde km 37, 32 pies, 100 m), Canal de Acceso al Puerto Buenos Aires/Canal Almirante Brown (km 37 a 7,3, 34 pies, 100 m), Canal Emilio Mitre (desde km 12 hacia el Paraná de las Palmas, 34 pies, 100 m), Canal Norte (Ingeniero Huergo) y Canal Sur (ambos desde km 7,3, 34 pies, 100 m):contentReference[oaicite:0]{index=0}."
   },
   {
     "id": 1,
     "activa": 0,
     "unidad": 1,
-    "pregunta": "¿Cuáles son los canales navegables a través de los cuales se puede acceder al ríoParaná (desde el río de la plata)? Especifique ancho y profundidad. Indique el nombre de los dos brazos principales del río Paraná en su desembocadura."
+    "pregunta": "¿Cuáles son los canales navegables a través de los cuales se puede acceder al ríoParaná (desde el río de la plata)? Especifique ancho y profundidad. Indique el nombre de los dos brazos principales del río Paraná en su desembocadura.",
+    "respuesta": "Los canales navegables que permiten acceder al Río Paraná desde el Río de la Plata son: Canal Punta Indio (34 pies, 100 m), Canal Intermedio (34 pies, 100 m), Paso Banco Chico (34 pies, 100 m), Rada Exterior (37 pies, 100 m), Canal Martín García (32 pies, 100 m), Canal Emilio Mitre (34 pies, 100 m). Los dos brazos principales del Paraná en su desembocadura son el Paraná de las Palmas y el Paraná Guazú:contentReference[oaicite:1]{index=1}."
   },
   {
     "id": 2,
     "activa": 0,
     "unidad": 1,
-    "pregunta": "Litoral Fluvial"
+    "pregunta": "Litoral Fluvial",
+    "respuesta": "El litoral fluvial abarca el sistema del río Paraná, dividido en Paraná Superior, Medio e Inferior. La navegación efectiva con buques de gran porte comienza desde Santa Fe hacia el sur. Los principales puertos fluviales argentinos incluyen Rosario, San Lorenzo, Villa Constitución, Ramallo y San Pedro, los cuales manejan cargas como granos, subproductos, minerales y fertilizantes:contentReference[oaicite:2]{index=2}."
   },
   {
     "id": 3,
     "activa": 0,
     "unidad": 1,
-    "pregunta": "¿Cuáles son los principales puertos (o grupos de puertos/terminales) argentinos afectados al manejo de contenedores, al manejo de agrograneles y al manejo de crudo o combustibles? Indique alguna estadística o dato que considere relevante."
+    "pregunta": "¿Cuáles son los principales puertos (o grupos de puertos/terminales) argentinos afectados al manejo de contenedores, al manejo de agrograneles y al manejo de crudo o combustibles? Indique alguna estadística o dato que considere relevante.",
+    "respuesta": "Contenedores: Puerto Buenos Aires (1 millón TEUs/año), Puerto Dock Sud (500.000 TEUs/año), Puerto La Plata y Ushuaia. Agrograneles: San Pedro, Ramallo, San Nicolás, Villa Constitución, Rosario, San Lorenzo-San Martín, Quequén, Bahía Blanca. Crudo o combustibles: La Plata (YPF), Campana, Zárate, Comodoro Rivadavia. Buenos Aires maneja el 69% de la carga contenerizada del país y Exolgan el 31%:contentReference[oaicite:3]{index=3}."
   },
   {
     "id": 4,
     "activa": 0,
     "unidad": 1,
-    "pregunta": "Indique los principales aspectos de la ley 24093 y las reformas que trajo al sistema portuario argentino."
+    "pregunta": "Indique los principales aspectos de la ley 24093 y las reformas que trajo al sistema portuario argentino.",
+    "respuesta": "La Ley 24093 descentralizó la administración portuaria, transfiriendo los puertos nacionales a las provincias (excepto Buenos Aires). Clasifica los puertos según titularidad (nacional, provincial, municipal, particular), uso (público o privado) y destino (comercial, industrial, recreativo). Permite puertos privados, establece que cada puerto es responsable de sus obras y servicios, y crea la Subsecretaría de Transporte por Agua y Puertos como autoridad de aplicación:contentReference[oaicite:4]{index=4}."
   },
   {
     "id": 5,
     "activa": 0,
     "unidad": 1,
-    "pregunta": "Explique la problemática actual del Puerto Buenos Aires en relación con el porte de los buques que recibe. Brinde los datos necesarios para justificar su opinión."
+    "pregunta": "Explique la problemática actual del Puerto Buenos Aires en relación con el porte de los buques que recibe. Brinde los datos necesarios para justificar su opinión.",
+    "respuesta": "El Puerto de Buenos Aires tiene un calado máximo de 36 pies, lo que impide operar buques de gran porte a plena carga. Esto obliga a operar con menor capacidad (ej. 30% menos en Panamax), generando pérdidas económicas. Los canales son angostos, pensados para buques de hace 100 años, lo que complica la maniobrabilidad: se requiere pleamar, baja velocidad (2 nudos), 2-3 remolcadores y prácticos. Los canales son unidireccionales, lo que también afecta la operatividad:contentReference[oaicite:5]{index=5}."
   },
   {
     "id": 6,
     "activa": 0,
     "unidad": 1,
-    "pregunta": "¿Cuál es la función y la responsabilidad de un Práctico? ¿Por qué es necesaria su intervención en el ingreso a puerto?"
+    "pregunta": "¿Cuál es la función y la responsabilidad de un Práctico? ¿Por qué es necesaria su intervención en el ingreso a puerto?",
+    "respuesta": "El práctico es un asesor del capitán con experiencia en navegación local. Su función es guiar en zonas de practicaje obligatorio, maniobras, normativas, corrientes, mareas y profundidades. Su intervención es obligatoria en buques extranjeros y en buques nacionales de gran porte. Representa al Estado Nacional a bordo. La responsabilidad legal sigue siendo del capitán del buque:contentReference[oaicite:6]{index=6}."
   },
   {
     "id": 7,
     "activa": 0,
     "unidad": 1,
-    "pregunta": "Liste y explique los principales estudios técnicos necesarios para avanzar en el diseño de un puerto."
+    "pregunta": "Liste y explique los principales estudios técnicos necesarios para avanzar en el diseño de un puerto.",
+    "respuesta": "Estudios técnicos necesarios incluyen: Batimetría (relevamiento de profundidades e isobatas), niveles de agua (cotas de marea y coronamiento), oleaje (altura y dirección, con boyas), corrientes (sentido, velocidad), sedimentología (tipos de transporte: fondo y suspensión), meteorología (viento, niebla, lluvia), densidad del agua (afecta calado del buque), y geotecnia (fundaciones y dragado):contentReference[oaicite:7]{index=7}."
   },
   {
     "id": 8,
     "activa": 0,
     "unidad": 2,
-    "pregunta": "Liste y explique los principales estudios comerciales y económicos necesarios para avanzar en el diseño de un puerto."
+    "pregunta": "Liste y explique los principales estudios comerciales y económicos necesarios para avanzar en el diseño de un puerto.",
+    "respuesta": "Estudios comerciales y económicos: 1) Análisis de buques y elección del buque de diseño. 2) Proyección de tráfico (puertos flexibles vs. rígidos). 3) Estudio de mercado (hinterland y foreland). 4) Proyección de cargas. 5) Evaluación de ingresos (tarifas a concesionarios, buques, cargas). 6) Plan económico y financiero (CAPEX, OPEX). 7) Cálculo de VAN y TIR para rentabilidad y sostenibilidad del proyecto:contentReference[oaicite:8]{index=8}."
   },
   {
     "id": 9,
     "activa": 0,
     "unidad": 2,
-    "pregunta": "¿Qué entiende por hinterland de un puerto? ¿Cómo se calcula? ¿Cuál es su objetivo? ¿Qué características tiene?"
+    "pregunta": "¿Qué entiende por hinterland de un puerto? ¿Cómo se calcula? ¿Cuál es su objetivo? ¿Qué características tiene?",
+    "respuesta": "El hinterland es el espacio terrestre desde el cual provienen o hacia el cual se dirigen las cargas de un puerto. Se calcula considerando origen/destino de cargas, volumen movilizado (ton/año), infraestructura disponible, costos de transporte y competencia regional. Es dinámico, varía cada 5-10 años. Su objetivo es dimensionar y planificar la operación portuaria adecuadamente:contentReference[oaicite:9]{index=9}."
   },
   {
     "id": 10,
     "activa": 0,
     "unidad": 2,
-    "pregunta": "Esquematice el layout de un puerto marítimo, indique sus principales componentes y explique brevemente los parámetros de diseño de los espacios acuáticos involucrados (rada de espera, canal de acceso, bocana, círculo de maniobras)."
+    "pregunta": "Esquematice el layout de un puerto marítimo, indique sus principales componentes y explique brevemente los parámetros de diseño de los espacios acuáticos involucrados (rada de espera, canal de acceso, bocana, círculo de maniobras).",
+    "respuesta": "Componentes: Rada de espera (fondeo previo, espacio y disposición de anclas), canal de acceso (alineación con corriente, profundidad y ancho suficientes), bocana (entrada al puerto protegida por obras de abrigo), círculo de maniobras (zona para giros de 180°). Cada espacio acuático debe diseñarse según tipo y tamaño de buque, profundidad mínima, oleaje y corrientes:contentReference[oaicite:10]{index=10}."
   },
   {
     "id": 11,
     "activa": 0,
     "unidad": 3,
-    "pregunta": "Revancha bajo la quilla"
+    "pregunta": "Revancha bajo la quilla",
+    "respuesta": "Es la distancia vertical entre la parte más baja del casco (quilla) del buque y el fondo del canal o cuerpo de agua. Esta revancha es fundamental para garantizar la seguridad de la navegación, ya que permite evitar colisiones con el fondo por asentamientos del buque, olas, corrientes o errores de maniobra. Dependerá del tipo de buque, su velocidad, profundidad disponible y condiciones del canal."
   },
   {
     "id": 12,
     "activa": 0,
     "unidad": 3,
-    "pregunta": "¿Qué es el coeficiente de bloque? ¿Cómo afecta la maniobrabilidad de un buque? ¿Qué valor aproximado tiene este coeficiente en diferentes tipologías de buques?"
+    "pregunta": "¿Qué es el coeficiente de bloque? ¿Cómo afecta la maniobrabilidad de un buque? ¿Qué valor aproximado tiene este coeficiente en diferentes tipologías de buques?",
+    "respuesta": "El coeficiente de bloque (Cb) es la relación entre el volumen desplazado del buque y el volumen de un prisma imaginario con la misma eslora, manga y calado. Se expresa como Cb = Volumen desplazado / (Eslora × Manga × Calado). A mayor Cb, mayor resistencia al avance y menor maniobrabilidad. Buques portacontenedores tienen un Cb ≈ 0,6, petroleros y graneleros ≈ 0,85-0,9, buques militares o de pasaje ≈ 0,5."
   },
   {
     "id": 13,
     "activa": 0,
     "unidad": 3,
-    "pregunta": "¿Por qué el calado de un buque aumenta gradualmente cuando navega desde el mar hacia un estuario de agua dulce? ¿Cuánto es este aumento?"
+    "pregunta": "¿Por qué el calado de un buque aumenta gradualmente cuando navega desde el mar hacia un estuario de agua dulce? ¿Cuánto es este aumento?",
+    "respuesta": "El calado aumenta debido a la menor densidad del agua dulce en comparación con el agua salada. Un buque flota menos en agua dulce y por lo tanto se hunde más. El incremento de calado es aproximadamente de 25 cm por cada 10 m de calado al pasar de agua salada a dulce."
   },
   {
     "id": 14,
     "activa": 0,
     "unidad": 3,
-    "pregunta": "Defina: Eslora total, eslora entre perpendiculares, manga, puntal, calado, calado aéreo y francobordo. Esquematice."
+    "pregunta": "Defina: Eslora total, eslora entre perpendiculares, manga, puntal, calado, calado aéreo y francobordo. Esquematice.",
+    "respuesta": "Eslora total: Longitud máxima del buque de proa a popa. Eslora entre perpendiculares: distancia entre las perpendiculares de proa y popa (medida en flotación). Manga: ancho máximo del buque. Puntal: altura desde la quilla al borde superior de la cubierta principal. Calado: distancia vertical entre la línea de flotación y la quilla. Calado aéreo: distancia desde la línea de flotación hasta el punto más alto del buque. Francobordo: distancia entre la línea de flotación y la cubierta principal. *Se recomienda agregar un esquema visual para mayor comprensión.*"
   },
   {
     "id": 15,
     "activa": 0,
     "unidad": 3,
-    "pregunta": "Defina Toneladas de Porte Bruto, Porte Neto, Arqueo Bruto, Arqueo Neto. ¿Cuál es la importancia de cada uno de esos valores?"
+    "pregunta": "Defina Toneladas de Porte Bruto, Porte Neto, Arqueo Bruto, Arqueo Neto. ¿Cuál es la importancia de cada uno de esos valores?",
+    "respuesta": "TPB (Toneladas de Porte Bruto): capacidad total de carga del buque, incluyendo combustible, tripulación y provisiones. TPN (Toneladas de Porte Neto): capacidad útil destinada a la carga comercial. Arqueo Bruto (GT): volumen total del buque, mide capacidad general. Arqueo Neto (NT): volumen destinado a carga útil. Son importantes para el cálculo de tarifas, normas de seguridad, diseño de instalaciones portuarias y registro de buques."
   },
   {
     "id": 16,
     "activa": 0,
     "unidad": 3,
-    "pregunta": "¿Cuáles son los criterios posibles para seleccionar un buque de diseño? Amplíe sobre cada una de las posibilidades."
+    "pregunta": "¿Cuáles son los criterios posibles para seleccionar un buque de diseño? Amplíe sobre cada una de las posibilidades.",
+    "respuesta": "Los criterios posibles son: 1) Buque de mayor porte: representa la mayor exigencia para diseño de canales. 2) Buque con menor maniobrabilidad: para maximizar condiciones de seguridad. 3) Buque con carga peligrosa: por seguridad se requiere mayor previsión. 4) Buque representativo: el más común en la operación portuaria. En puertos multipropósito puede haber múltiples buques de diseño según tipo de carga (contenedores, tanques, cruceros, etc.)."
   },
   {
     "id": 17,
     "activa": 0,
     "unidad": 3,
-    "pregunta": "¿Qué son las Líneas de Francobordo o Plimsoll? ¿Qué indican? ¿Cuál es su objetivo? Esquematice. "
+    "pregunta": "¿Qué son las Líneas de Francobordo o Plimsoll? ¿Qué indican? ¿Cuál es su objetivo? Esquematice.",
+    "respuesta": "Las líneas de francobordo o Plimsoll indican el límite máximo de carga autorizado para un buque según el tipo de agua y estación del año. Están pintadas en el casco y varían según condiciones (agua salada, dulce, verano, invierno). Su objetivo es evitar el sobrepeso y garantizar seguridad en la navegación. Esquema recomendado: círculo con línea horizontal (marca de carga), acompañado por marcas adicionales según región (Tropical, Summer, Winter, etc.)."
   },
   {
     "id": 18,
     "activa": 0,
     "unidad": 3,
-    "pregunta": "¿Cómo se clasifican los buques graneleros o bulk-carriers? Indique la escala. ¿Cuáles son los buques graneleros típicos de la vía navegable troncal argentina? "
+    "pregunta": "¿Cómo se clasifican los buques graneleros o bulk-carriers? Indique la escala. ¿Cuáles son los buques graneleros típicos de la vía navegable troncal argentina?",
+    "respuesta": "Clasificación por porte: Handysize (15-35 mil TPB), Handymax (35-50 mil), Supramax (50-60 mil), Panamax (60-80 mil), Capesize (>80 mil). En la vía navegable troncal argentina predominan buques tipo Handymax y Panamax, adaptados a canales de 34-36 pies y esloras que no superan los 230-240 m, por restricciones de calado y maniobrabilidad."
   },
   {
     "id": 19,
     "activa": 0,
     "unidad": 3,
-    "pregunta": "¿Cómo se clasifican los buques portacontenedores? Indique la escala. ¿Cuáles son los buques típicos en Puerto Buenos Aires/Dock Sud y a que generación pertenece? "
+    "pregunta": "¿Cómo se clasifican los buques portacontenedores? Indique la escala. ¿Cuáles son los buques típicos en Puerto Buenos Aires/Dock Sud y a que generación pertenece?",
+    "respuesta": "Clasificación: Feeder (<1.000 TEU), Feedermax (1.000-2.000), Panamax (4.000-5.000), Post-Panamax (5.000-10.000), New Panamax (10.000-14.000), ULCV (>14.000). En Puerto Buenos Aires y Dock Sud operan buques Panamax de 4.000-5.000 TEU, generación 3 o 4, debido a limitaciones de calado (36 pies), muelle y maniobrabilidad."
   },
   {
     "id": 20,
     "activa": 0,
     "unidad": 3,
-    "pregunta": "Buques TANKERS-Transporte de graneles líquidos"
+    "pregunta": "Buques TANKERS-Transporte de graneles líquidos",
+    "respuesta": "Los buques tanque o tankers transportan graneles líquidos como petróleo crudo, derivados, productos químicos y gas licuado. Se clasifican por capacidad: Small Tanker (<10.000 TPB), Medium (10.000-60.000), Large (60.000-200.000), VLCC y ULCC (>200.000). En Argentina predominan los de tipo Medium y Large. Requieren alta seguridad por riesgo ambiental, y sus condiciones de diseño afectan el layout portuario y la logística del transporte."
   },
   {
     "id": 21,
     "activa": 0,
     "unidad": 3,
-    "pregunta": "¿Cuáles son los elementos intrínsecos de un buque que colaboran con su maniobrabilidad? "
+    "pregunta": "¿Cuáles son los elementos intrínsecos de un buque que colaboran con su maniobrabilidad?",
+    "respuesta": "Los elementos intrínsecos que afectan la maniobrabilidad de un buque incluyen: 1) Forma del casco (coeficiente de bloque), 2) Tipo y número de hélices, 3) Superficie y tipo de timón, 4) Presencia de propulsores laterales (bow thrusters), 5) Relación entre eslora y manga, 6) Calado y reparto de pesos, 7) Sistema de gobierno y propulsión."
   },
   {
     "id": 22,
     "activa": 0,
     "unidad": 3,
-    "pregunta": "¿Cuáles son los movimientos que puede tener un buque?"
+    "pregunta": "¿Cuáles son los movimientos que puede tener un buque?",
+    "respuesta": "Un buque puede experimentar seis movimientos: tres lineales (avance, retroceso, desplazamiento lateral) y tres angulares: 1) Rolido (oscilación lateral), 2) Cabeceo (oscilación longitudinal), 3) Guiñada (rotación alrededor del eje vertical)."
   },
   {
     "id": 23,
     "activa": 0,
     "unidad": 4,
-    "pregunta": "¿Cuáles son los 4 métodos posibles para el cálculo de la cantidad de sitios de atraque en un puerto? Indique brevemente las principales características de cada uno de ellos, ventajas y desventajas"
+    "pregunta": "¿Cuáles son los 4 métodos posibles para el cálculo de la cantidad de sitios de atraque en un puerto? Indique brevemente las principales características de cada uno de ellos, ventajas y desventajas",
+    "respuesta": "1) Método del tiempo de uso total: simple, usa tiempo total ocupado dividido tiempo disponible. 2) Método del factor de ocupación: considera grado de utilización (ρ), balancea eficiencia y espera. 3) Teoría de colas: incluye estadística de arribo y servicio, más realista, pero complejo. 4) Simulación: incorpora múltiples variables y escenarios, es el más completo pero requiere más recursos y datos."
   },
   {
     "id": 24,
     "activa": 0,
     "unidad": 4,
-    "pregunta": "Indique la fórmula del método del factor de ocupación para el cálculo de la cantidad de sitios de atraque en un puerto. Describa cada uno de sus términos y enfatice conceptualmente en el factor de ocupación."
+    "pregunta": "Indique la fórmula del método del factor de ocupación para el cálculo de la cantidad de sitios de atraque en un puerto. Describa cada uno de sus términos y enfatice conceptualmente en el factor de ocupación.",
+    "respuesta": "La fórmula es: n = (λ × T) / (ρ × 24). Donde: n = número de sitios necesarios, λ = cantidad de buques por día, T = tiempo promedio de estadía en horas, ρ = factor de ocupación. El factor de ocupación representa el grado máximo de utilización aceptable del sitio, normalmente entre 0,5 y 0,7 para evitar congestiones y esperas excesivas."
   },
   {
     "id": 25,
     "activa": 0,
     "unidad": 4,
-    "pregunta": "Desarrolle la teoría de colas para el cálculo de la cantidad de sitios de atraque en un puerto, incluyendo sus hipótesis y limitaciones. ¿Cuál es su ventaja respecto al método del factor de ocupación?"
+    "pregunta": "Desarrolle la teoría de colas para el cálculo de la cantidad de sitios de atraque en un puerto, incluyendo sus hipótesis y limitaciones. ¿Cuál es su ventaja respecto al método del factor de ocupación?",
+    "respuesta": "La teoría de colas modela el puerto como un sistema de atención de múltiples servidores (sitios de atraque), con arribo aleatorio de buques (distribución de Poisson) y tiempo de servicio exponencial. Hipótesis: llegadas independientes, tiempos de servicio independientes e idénticos, capacidad infinita de espera. Su ventaja es la capacidad de estimar probabilísticamente el tiempo de espera y dimensionar sitios con precisión basada en nivel de servicio deseado. Su limitación es que simplifica la realidad (ej. no considera tamaño de buques o interferencias)."
   },
   {
     "id": 26,
     "activa": 0,
     "unidad": 4,
-    "pregunta": "En el método de la teoría de colas para el cálculo de la cantidad de sitios de atraque en un puerto, ¿Qué representa el factor τ (espera relativa)? ¿Cuáles son los valores habituales en el caso específico de una terminal de contenedores? Si tuviera que diseñar una terminal de cruceros, ¿Adoptaría valores más o menos exigentes respecto a aquellos recomendados para una terminal de contenedores?"
+    "pregunta": "En el método de la teoría de colas para el cálculo de la cantidad de sitios de atraque en un puerto, ¿Qué representa el factor τ (espera relativa)? ¿Cuáles son los valores habituales en el caso específico de una terminal de contenedores? Si tuviera que diseñar una terminal de cruceros, ¿Adoptaría valores más o menos exigentes respecto a aquellos recomendados para una terminal de contenedores?",
+    "respuesta": "El factor τ (espera relativa) es la relación entre el tiempo promedio de espera y el tiempo promedio de atención (τ = tiempo de espera / tiempo de servicio). Para terminales de contenedores se recomienda τ ≤ 0,25. En terminales de cruceros se requieren valores más exigentes (τ ≤ 0,1) debido a los altos costos por demoras y exigencias de calidad de servicio para pasajeros."
   },
   {
     "id": 27,
     "activa": 0,
     "unidad": 4,
-    "pregunta": "¿Cuáles son las limitaciones de la teoría de colas que un modelo de simulación puede salvar? ¿Cuáles son los principales elementos que componen un modelo de simulación aplicado al diseño/análisis de puertos y vías navegables??"
+    "pregunta": "¿Cuáles son las limitaciones de la teoría de colas que un modelo de simulación puede salvar? ¿Cuáles son los principales elementos que componen un modelo de simulación aplicado al diseño/análisis de puertos y vías navegables??",
+    "respuesta": "Las simulaciones permiten considerar múltiples tipos de buques, ventanas operativas, interferencias entre sitios, mareas, climatología y recursos limitados. Componentes de un modelo: entrada de datos (tipos de buques, frecuencias), reglas de atención, recursos del sistema (muelles, remolcadores), condiciones externas (clima), y análisis de resultados (tiempos de espera, utilización, congestión)."
   },
   {
     "id": 28,
     "activa": 0,
     "unidad": 4,
-    "pregunta": "Defina y describa al contenedor como modo de transporte. ¿Cuáles son las ventajas que introdujo en el transporte de la carga general? ¿Cuáles son los principales tipos y dimensiones?"
+    "pregunta": "Defina y describa al contenedor como modo de transporte. ¿Cuáles son las ventajas que introdujo en el transporte de la carga general? ¿Cuáles son los principales tipos y dimensiones?",
+    "respuesta": "El contenedor es una unidad estandarizada de carga que permite transporte multimodal sin necesidad de abrir la carga. Ventajas: rapidez, seguridad, reducción de costos, trazabilidad. Tipos: Dry Van (cerrado), Reefer (refrigerado), Open Top, Flat Rack, Tank. Dimensiones estándar: 20 pies (TEU, ≈33 m³), 40 pies (≈67 m³), altura estándar (8,5') o High Cube (9,5')."
   },
   {
     "id": 29,
     "activa": 0,
     "unidad": 4,
-    "pregunta": "Describa los equipos típicos de muelle presentes en una terminal de contenedores. Clasificación de grúas, alcances y capacidades."
+    "pregunta": "Describa los equipos típicos de muelle presentes en una terminal de contenedores. Clasificación de grúas, alcances y capacidades.",
+    "respuesta": "Equipos típicos: 1) Grúas pórtico (STS - ship to shore): Panamax (34 m alcance), Post-Panamax (49 m), Super Post-Panamax (60 m o más), capacidad: 40-60 t. 2) RTG (grúas sobre ruedas), RMG (sobre rieles), reach stackers, straddle carriers. Alcance depende de la generación de buques atendidos. La elección depende de la productividad y del layout de la terminal."
   },
   {
     "id": 30,
     "activa": 0,
     "unidad": 4,
-    "pregunta": "Áreas de una terminal de contenedores"
+    "pregunta": "Áreas de una terminal de contenedores",
+    "respuesta": "1) Zona de atraque y operaciones en muelle. 2) Patio de contenedores (stacking yard). 3) Zona de transferencia intermodal (camión, tren). 4) Áreas administrativas y de control. 5) Zona de servicios (talleres, energía, aduana). 6) Rada de espera y canales de acceso. Cada área debe diseñarse según volumen de operación, rotación y tipo de equipamiento utilizado."
   },
   {
     "id": 31,
     "activa": 0,
     "unidad": 4,
-    "pregunta": "Describa los equipos típicos de plazoleta presentes en una terminal de contenedores. Clasificación de grúas, alcances y capacidades."
+    "pregunta": "Describa los equipos típicos de plazoleta presentes en una terminal de contenedores. Clasificación de grúas, alcances y capacidades.",
+    "respuesta": "Los equipos típicos de plazoleta son: RTG (Rubber Tyred Gantry, grúa pórtico sobre neumáticos), RMG (Rail Mounted Gantry, sobre rieles), reach stackers (grúas móviles), y straddle carriers (vehículos que cargan contenedores entre sus patas). Alcances: apilamiento de 3 a 6 alturas y 4 a 9 filas. Capacidades: 40-50 toneladas. La elección depende del layout, densidad y nivel de automatización del patio."
   },
   {
     "id": 32,
     "activa": 0,
     "unidad": 4,
-    "pregunta": "Combinaciones de equipos"
+    "pregunta": "Combinaciones de equipos",
+    "respuesta": "Las combinaciones más comunes incluyen: 1) STS + RTG, 2) STS + RMG, 3) STS + reach stacker, 4) STS + straddle carrier. Cada combinación define un tipo de flujo y operación en la terminal. Ejemplo: STS + RTG es frecuente en terminales de alta densidad y requiere camiones internos; STS + straddle carrier permite operación más flexible con menor necesidad de grúas en el patio."
   },
   {
     "id": 33,
     "activa": 0,
     "unidad": 4,
-    "pregunta": "Demanda del área de apilamiento y verificación de la capacidad de producción del patio"
+    "pregunta": "Demanda del área de apilamiento y verificación de la capacidad de producción del patio",
+    "respuesta": "Se calcula en función del throughput anual, tiempo de permanencia de los contenedores, rotación, altura de apilamiento y eficiencia del layout. La verificación considera: número de slots, ocupación máxima permisible (usualmente 70-85%), eficiencia de equipos, flujo pico y balance entre entradas y salidas. Se debe validar si el patio puede operar sin congestión en condiciones críticas."
   },
   {
     "id": 34,
     "activa": 0,
     "unidad": 4,
-    "pregunta": "Distintas modalidades de transporte (contenedores)"
+    "pregunta": "Distintas modalidades de transporte (contenedores)",
+    "respuesta": "Las modalidades incluyen: transporte marítimo (de larga distancia), fluvial (cabotaje y feedering), ferroviario (larga distancia terrestre eficiente), y carretero (última milla y distribución regional). La intermodalidad mejora eficiencia logística y reduce costos. Cada modo tiene requisitos específicos de infraestructura y conectividad en la terminal."
   },
   {
     "id": 35,
     "activa": 0,
     "unidad": 5,
-    "pregunta": "¿Cuáles son los aspectos técnicos y económicos que maximizan la importancia de seleccionar correctamente el sistema de defensas?"
+    "pregunta": "¿Cuáles son los aspectos técnicos y económicos que maximizan la importancia de seleccionar correctamente el sistema de defensas?",
+    "respuesta": "Una defensa adecuada debe absorber la energía de atraque sin dañar el buque ni el muelle. Técnicamente, se deben considerar tipo de buque, calado, velocidad, ángulo de contacto y materiales. Económicamente, una mala elección puede derivar en altos costos de reparación, tiempos de inactividad y siniestralidad. La durabilidad, mantenimiento y compatibilidad con estructuras también influyen en la decisión."
   },
   {
     "id": 36,
     "activa": 0,
     "unidad": 5,
-    "pregunta": "¿Cuál es la diferencia entre defensas elásticas del tipo “reacción constante” y defensas elásticas del tipo “módulo elástico constante”? Grafique los diagramas reacción/energía absorbida/deformación. Ejemplifique."
+    "pregunta": "¿Cuál es la diferencia entre defensas elásticas del tipo “reacción constante” y defensas elásticas del tipo “módulo elástico constante”? Grafique los diagramas reacción/energía absorbida/deformación. Ejemplifique.",
+    "respuesta": "Las defensas de 'reacción constante' tienen una carga de reacción que no varía significativamente con la deformación, ideales para absorber energía con bajo impacto en el buque. Las de 'módulo elástico constante' aumentan la reacción linealmente con la deformación. En los diagramas: para reacción constante, la curva es horizontal en energía vs. deformación; para módulo constante, la curva es una parábola. Ejemplo: defensas neumáticas vs. de caucho sólido."
   },
   {
     "id": 37,
     "activa": 0,
     "unidad": 5,
-    "pregunta": "¿Cuál es el punto de diseño óptimo de una defensa elástica? Justifique. "
+    "pregunta": "¿Cuál es el punto de diseño óptimo de una defensa elástica? Justifique.",
+    "respuesta": "El punto óptimo es aquel en que la defensa absorbe la energía máxima de atraque sin exceder la reacción máxima permisible sobre el casco del buque ni deformarse de forma permanente. Se busca el equilibrio entre eficiencia energética y seguridad estructural del buque y del muelle."
   },
   {
     "id": 38,
     "activa": 0,
     "unidad": 5,
-    "pregunta": "¿Cómo se calcula la velocidad de atraque normal de un buque que se aproxima al muelle? ¿Cuál es el buque que se debe considerar para el diseño del sistema de defensas? ¿En cuál condición de carga?"
+    "pregunta": "¿Cómo se calcula la velocidad de atraque normal de un buque que se aproxima al muelle? ¿Cuál es el buque que se debe considerar para el diseño del sistema de defensas? ¿En cuál condición de carga?",
+    "respuesta": "La velocidad de atraque depende del tipo y porte del buque. Se estima según tablas guía (ej. PIANC). Para diseño se considera el buque de mayor masa (TPB) y en condición de carga más desfavorable (normalmente cargado, ya que tiene mayor inercia)."
   },
   {
     "id": 39,
     "activa": 0,
     "unidad": 5,
-    "pregunta": "¿Cómo se calcula la energía cinética de atraque de un buque que se aproxima al muelle? ¿Cuál es el buque que se debe considerar para el diseño del sistema de defensas? ¿En cuál condición de carga? Detalle cada uno de los coeficientes involucrados. Concepto y valores recomendados. "
+    "pregunta": "¿Cómo se calcula la energía cinética de atraque de un buque que se aproxima al muelle? ¿Cuál es el buque que se debe considerar para el diseño del sistema de defensas? ¿En cuál condición de carga? Detalle cada uno de los coeficientes involucrados. Concepto y valores recomendados.",
+    "respuesta": "La energía cinética se calcula con: Ek = (1/2) × m × v² × Ce × Cs × Cm × Ct. Donde: m = masa desplazada del buque, v = velocidad de atraque, Ce = coef. de excentricidad, Cs = coef. de suavidad (amortiguación), Cm = coef. de masa (representa masa efectiva), Ct = coef. de temperatura. Para diseño se usa el buque de mayor desplazamiento en condición cargada. Valores típicos: Ce = 1, Cs = 1, Cm ≈ 1,2 a 1,5, Ct ≈ 1."
   },
   {
     "id": 40,
     "activa": 0,
     "unidad": 5,
-    "pregunta": "Presión admisible en el casco y separación de las defensas"
+    "pregunta": "Presión admisible en el casco y separación de las defensas",
+    "respuesta": "La presión admisible sobre el casco varía según el tipo de buque y material del casco (≈ 200 kN/m² para buques de acero). La separación entre defensas debe asegurar cobertura uniforme de contacto, evitar picos de presión, y adaptarse a los puntos estructurales del buque. Se recomienda que la separación no supere 3-4 m para buques pequeños y 5-6 m para grandes."
   },
   {
     "id": 41,
     "activa": 0,
     "unidad": 5,
-    "pregunta": "Series de defensas-CATÁLOGO DUNLOP"
+    "pregunta": "Series de defensas-CATÁLOGO DUNLOP",
+    "respuesta": "El catálogo Dunlop presenta diversas series de defensas elásticas como las tipo celda, tipo cono, tipo arco y neumáticas. Cada una varía en geometría, absorción de energía y fuerza de reacción. Las defensas tipo celda y cono se recomiendan para grandes buques por su alta capacidad de absorción de energía con menor reacción sobre el casco. Se deben seleccionar según condiciones de atraque, tamaño de buques y estructura del muelle."
   },
   {
     "id": 42,
     "activa": 0,
     "unidad": 5,
-    "pregunta": "¿Cuáles son las principales conclusiones del estudio llevado a cabo en el puerto de Bremerhaven (Alemania) respecto al sistema de defensas elásticas para grandes buques portacontenedores?"
+    "pregunta": "¿Cuáles son las principales conclusiones del estudio llevado a cabo en el puerto de Bremerhaven (Alemania) respecto al sistema de defensas elásticas para grandes buques portacontenedores?",
+    "respuesta": "El estudio concluyó que las defensas tradicionales no eran adecuadas para buques de gran porte (ULCV). Se evidenció que las defensas requerían mayor capacidad de absorción energética con baja reacción para proteger tanto al buque como al muelle. Se recomendó utilizar defensas tipo celda o cono, con diseño específico para condiciones reales, incluyendo coeficientes de corrección por temperatura, ángulo de contacto y velocidad de impacto."
   },
   {
     "id": 43,
     "activa": 0,
     "unidad": 6,
-    "pregunta": "Explique el método de Blum o viga equivalente para el cálculo de tablestacas en obras portuarias. Esquematice y formule. "
+    "pregunta": "Explique el método de Blum o viga equivalente para el cálculo de tablestacas en obras portuarias. Esquematice y formule.",
+    "respuesta": "El método de Blum considera a la tablestaca como una viga empotrada parcialmente en el suelo, sometida a momentos y fuerzas distribuidas por empujes de tierras. La viga se analiza con condiciones de contorno empotradas/inclinadas. Se formula la ecuación de viga: M = -EI·d²y/dx², donde EI es la rigidez y y la deflexión. Permite estimar el empotramiento necesario y la fuerza de anclaje. Se esquematiza con diagrama de momentos y cargas aplicadas."
   },
   {
     "id": 44,
     "activa": 0,
     "unidad": 6,
-    "pregunta": "¿Cuál es el principio de funcionamiento estructural de los muelles de tablero inferior sobre pilotes hincados de forma inclinada? Explique y esquematice. Enfatice en el funcionamiento del caballete para absorber el tiro de bita."
+    "pregunta": "¿Cuál es el principio de funcionamiento estructural de los muelles de tablero inferior sobre pilotes hincados de forma inclinada? Explique y esquematice. Enfatice en el funcionamiento del caballete para absorber el tiro de bita.",
+    "respuesta": "Los pilotes inclinados resisten tanto carga vertical como horizontal por su geometría. El caballete transmite las cargas horizontales (ej. tiro de bita) hacia los pilotes inclinados, generando componentes de tracción y compresión. Este sistema reduce desplazamientos y absorbe esfuerzos sin dañar la estructura. Se esquematiza con tablero, pilotes y fuerzas descompuestas en el caballete."
   },
   {
     "id": 45,
     "activa": 0,
     "unidad": 6,
-    "pregunta": "Clasificación según estructura de obras para el atraque y según tipología"
+    "pregunta": "Clasificación según estructura de obras para el atraque y según tipología",
+    "respuesta": "Clasificación estructural: muelles de gravedad (ej. muros de tablestacas, cajones), muelles sobre pilotes (superestructura elevada), muelles mixtos. Según tipología funcional: muelles continuos, muelles marginales, muelles de costado, dársenas, dolphins (para atraque sin muelle continuo). Cada una se selecciona según suelo, carga, calado y operación prevista."
   },
   {
     "id": 46,
     "activa": 0,
     "unidad": 6,
-    "pregunta": "Tipos de tablestacas"
+    "pregunta": "Tipos de tablestacas",
+    "respuesta": "Se clasifican por material: 1) Acero (tipo Z, tipo U, planas), con alta resistencia y empotramiento. 2) Hormigón (prefabricadas, pretensadas). 3) Plástico/compuesto (uso liviano y anticorrosivo). Por tipo de unión: con enclavamiento, sin enclavamiento. La selección depende de carga, agresividad del ambiente, durabilidad y método constructivo."
   },
   {
     "id": 47,
     "activa": 0,
     "unidad": 6,
-    "pregunta": "Planos de falla"
+    "pregunta": "Planos de falla",
+    "respuesta": "Son superficies potenciales dentro del suelo donde puede ocurrir deslizamiento o rotura. En obras portuarias, los más comunes son: 1) Plano de falla activo (detrás de la tablestaca). 2) Plano pasivo (frente a la base empotrada). 3) Planos circulares o planos mixtos (en análisis de estabilidad global). Se deben considerar para dimensionar empotramiento y anclaje."
   },
   {
     "id": 48,
     "activa": 0,
     "unidad": 6,
-    "pregunta": "Tipos de anclaje"
+    "pregunta": "Tipos de anclaje",
+    "respuesta": "Tipos comunes: 1) Anclajes pasivos (bloques de anclaje), 2) Tirantes activos (barras pretensadas, cables), 3) Anclajes al terreno (bulones, micropilotes). Selección según tipo de tablestaca, carga, suelo y método constructivo. Los anclajes ayudan a resistir momentos y limitar desplazamientos en muros portuarios."
   },
   {
     "id": 49,
     "activa": 0,
     "unidad": 6,
-    "pregunta": "Explique el método de Jiménez/Salas para estimar el nivel de empotramiento ficticio de un pilote de gran diámetro construido in-situ. Enfatice en el coeficiente de balasto horizontal. "
+    "pregunta": "Explique el método de Jiménez/Salas para estimar el nivel de empotramiento ficticio de un pilote de gran diámetro construido in-situ. Enfatice en el coeficiente de balasto horizontal.",
+    "respuesta": "Este método considera al pilote como viga continua sobre fundación elástica. El coeficiente de balasto horizontal (kh) representa la rigidez del suelo frente a desplazamientos horizontales. El empotramiento ficticio se calcula en base a kh, momento flector máximo y condiciones de carga lateral. Permite dimensionar pilotes considerando flexibilidad del suelo sin sobredimensionar empotramiento real."
   },
   {
     "id": 50,
     "activa": 0,
     "unidad": 6,
-    "pregunta": "¿Cómo se descomponen las fuerzas horizontales actuantes en un dolfin rígido de acuerdo al procedimiento de cálculo aproximado estudiado en clase? ¿Cuál es el efecto de las fuerzas horizontales sobre las fuerzas verticales que actúan en los pilotes? ¿Cómo compensar la fuerza de tracción que se ejerce sobre los pilotes traccionados?"
+    "pregunta": "¿Cómo se descomponen las fuerzas horizontales actuantes en un dolfin rígido de acuerdo al procedimiento de cálculo aproximado estudiado en clase? ¿Cuál es el efecto de las fuerzas horizontales sobre las fuerzas verticales que actúan en los pilotes? ¿Cómo compensar la fuerza de tracción que se ejerce sobre los pilotes traccionados?",
+    "respuesta": "Las fuerzas horizontales se descomponen en componentes que generan momentos y fuerzas axiales en pilotes. Esto genera compresión en unos pilotes y tracción en otros. Para compensar la tracción, se diseñan cabezales de amarre, se anclan pilotes o se aumenta su peso propio o empotramiento. Es esencial el equilibrio entre la resistencia a tracción y la estabilidad del sistema estructural."
   },
   {
     "id": 51,
     "activa": 0,
     "unidad": 6,
-    "pregunta": "Enumere los pasos a seguir para el diseño preliminar de un dolfin rígido, tal cual lo estudiado en clase."
+    "pregunta": "Enumere los pasos a seguir para el diseño preliminar de un dolfin rígido, tal cual lo estudiado en clase.",
+    "respuesta": "1) Determinar las cargas horizontales de atraque (energía cinética y fuerzas). 2) Estimar distribución de fuerzas entre pilotes. 3) Estimar geometría del dolfin: cantidad, diámetro y separación de pilotes. 4) Calcular esfuerzos en pilotes (tracción, compresión, cortante, momento). 5) Verificar estabilidad y empotramiento necesario. 6) Estimar cabezal estructural. 7) Revisar interacción suelo-estructura."
   },
   {
     "id": 52,
     "activa": 0,
     "unidad": 6,
-    "pregunta": "En lo que refiere al momento torsor; ¿Qué diferencia encuentra entre el diseño preliminar de un dolfin rígido y el diseño preliminar de muelle continuo de tablero superior sobre pilotes de gran diámetro ejecutados en situ?"
+    "pregunta": "En lo que refiere al momento torsor; ¿Qué diferencia encuentra entre el diseño preliminar de un dolfin rígido y el diseño preliminar de muelle continuo de tablero superior sobre pilotes de gran diámetro ejecutados en situ?",
+    "respuesta": "En el dolfin, el momento torsor se concentra por aplicación puntual (defensa), generando esfuerzos importantes que deben resistirse con arreglo estructural específico. En cambio, en el muelle continuo el esfuerzo se distribuye a lo largo de toda la estructura, y el tablero colabora con la rigidez general reduciendo el momento torsor por redundancia estructural y continuidad."
   },
   {
     "id": 53,
     "activa": 0,
     "unidad": 6,
-    "pregunta": "Explique porqué se manifestó en clase en reiteradas oportunidades que el tiro de bita y la reacción de la defensa no coexisten. ¿Cuál es el criterio? ¿Eso es válido en toda la longitud de un muelle continuo? ¿Por qué?"
+    "pregunta": "Explique porqué se manifestó en clase en reiteradas oportunidades que el tiro de bita y la reacción de la defensa no coexisten. ¿Cuál es el criterio? ¿Eso es válido en toda la longitud de un muelle continuo? ¿Por qué?",
+    "respuesta": "No coexisten porque el tiro de bita actúa en puntos localizados (cabos de amarre), mientras que la reacción de defensa se da durante el contacto del buque. El criterio de diseño asume que no actúan simultáneamente sobre la misma unidad estructural. En muelles continuos, sí puede haber zonas donde coincidan, pero estructuralmente se diseñan para los casos más desfavorables por separado."
   },
   {
     "id": 54,
     "activa": 0,
     "unidad": 6,
-    "pregunta": "Diseño Muelles continuos"
+    "pregunta": "Diseño Muelles continuos",
+    "respuesta": "Consiste en definir: tipo estructural (gravedad, pilotes), dimensionar tablero (altura, ancho), calcular cargas actuantes (peso propio, buques, equipos), diseñar defensas y sistemas de amarre, definir pilotes (diámetro, empotramiento), verificar estabilidad global y local (deslizamiento, vuelco), y planificar drenajes y servicios."
   },
   {
     "id": 55,
     "activa": 0,
     "unidad": 8,
-    "pregunta": "Describa, esquematice y ejemplifique las distintas tipologías de cauces fluviales vistas en clase, tanto en lo que refiere a su perfil longitudinal como su planimetría. "
+    "pregunta": "Describa, esquematice y ejemplifique las distintas tipologías de cauces fluviales vistas en clase, tanto en lo que refiere a su perfil longitudinal como su planimetría.",
+    "respuesta": "Perfil longitudinal: 1) Cauces de pendiente constante, 2) Cauces con perfil irregular, 3) Cauces con pendientes variables. Planimetría: 1) Cauces rectilíneos, 2) Cauces meandriformes, 3) Cauces entrelazados. Ejemplo: El río Paraná medio presenta tramos entrelazados y meandriformes, el Bermejo tiene perfil longitudinal irregular."
   },
   {
     "id": 56,
     "activa": 0,
     "unidad": 8,
-    "pregunta": "¿De qué manera afecta la navegación a un cauce fluvial del tipo entrelazado? "
+    "pregunta": "¿De qué manera afecta la navegación a un cauce fluvial del tipo entrelazado?",
+    "respuesta": "Los cauces entrelazados presentan múltiples brazos y barras de sedimentos móviles, dificultando el mantenimiento del calado y generando riesgos de encalladura. Requieren constante dragado y señalización, además de estructuras de canalización para mantener un canal navegable estable."
   },
   {
     "id": 57,
     "activa": 0,
     "unidad": 8,
-    "pregunta": "¿Cómo se construye un diagrama de movimiento medio anual y cuál es su utilidad en el diseño de obras portuarias?"
+    "pregunta": "¿Cómo se construye un diagrama de movimiento medio anual y cuál es su utilidad en el diseño de obras portuarias?",
+    "respuesta": "Se construye con datos hidrométricos promedios diarios durante el año. Se ordenan cronológicamente y se grafican respecto al tiempo. Su utilidad es evaluar oscilaciones del nivel de agua y diseñar alturas operativas, franjas de operación, defensas y tableros de muelles adecuados al régimen fluvial."
   },
   {
     "id": 58,
     "activa": 0,
     "unidad": 8,
-    "pregunta": "¿Cómo se construye un diagrama de frecuencia/duración/alturas y cuál es su utilidad en el diseño de obras portuarias?"
+    "pregunta": "¿Cómo se construye un diagrama de frecuencia/duración/alturas y cuál es su utilidad en el diseño de obras portuarias?",
+    "respuesta": "Se construye con registros horarios o diarios de alturas de ola. Se cuentan las frecuencias de ocurrencia para cada altura y se calcula la duración. Se grafican curvas de frecuencia/duración/altura. Son útiles para estimar condiciones extremas, diseñar defensas costeras y dimensionar obras frente a oleaje."
   },
   {
     "id": 59,
     "activa": 0,
     "unidad": 8,
-    "pregunta": "¿Cuáles son los posibles ceros de un río en una determinada sección transversal? ¿Cómo se calculan a partir de un cero arbitrario? ¿Cuál es la relación entre ellos?"
+    "pregunta": "¿Cuáles son los posibles ceros de un río en una determinada sección transversal? ¿Cómo se calculan a partir de un cero arbitrario? ¿Cuál es la relación entre ellos?",
+    "respuesta": "Los ceros pueden ser: cero hidrométrico (referencia local), cero IGN (nivel medio del mar), cero de escurrimiento (cuando empieza a fluir), entre otros. Se relacionan por una constante (diferencia de cotas). Se calculan con nivelaciones topográficas entre puntos conocidos o por modelos hidrodinámicos."
   },
   {
     "id": 60,
     "activa": 0,
     "unidad": 8,
-    "pregunta": "¿Qué es la Línea de Ribera?"
+    "pregunta": "¿Qué es la Línea de Ribera?",
+    "respuesta": "Es la línea que delimita el dominio público del cauce de un río. Se define por el nivel máximo ordinario de aguas. Su determinación es legal y técnica, importante para definir uso del suelo, servidumbres y límites de obras portuarias o ribereñas."
   },
   {
     "id": 61,
     "activa": 0,
     "unidad": 8,
-    "pregunta": "En un perfil longitudinal típico de un río. ¿En cuál de los 3 tramos se puede hospedar el lecho de grano grueso y uno de grano fino?"
+    "pregunta": "En un perfil longitudinal típico de un río. ¿En cuál de los 3 tramos se puede hospedar el lecho de grano grueso y uno de grano fino?",
+    "respuesta": "El lecho de grano grueso se encuentra típicamente en el tramo superior del río, donde la pendiente es mayor y la energía del flujo permite transportar solo sedimentos gruesos. El lecho de grano fino se encuentra en el tramo inferior, donde la pendiente es baja y predominan los depósitos de arena fina y limos debido a la baja energía del flujo."
   },
   {
     "id": 62,
     "activa": 0,
     "unidad": 7,
-    "pregunta": "Defina geoide, elipsoide y datum. ¿Cuáles son los elipsoides y datums que ha utilizado la República Argentina en los tiempos recientes?"
+    "pregunta": "Defina geoide, elipsoide y datum. ¿Cuáles son los elipsoides y datums que ha utilizado la República Argentina en los tiempos recientes?",
+    "respuesta": "Geoide: superficie equipotencial del campo gravitatorio terrestre que coincide con el nivel medio del mar. Elipsoide: superficie matemática que aproxima la forma de la Tierra, utilizada para cálculos geodésicos. Datum: sistema de referencia que relaciona el elipsoide con el geoide. En Argentina se ha usado Campo Inchauspe (basado en el elipsoide internacional de Hayford) y actualmente el POSGAR 94/2007 (basado en WGS84)."
   },
   {
     "id": 63,
     "activa": 0,
     "unidad": 7,
-    "pregunta": "Sistema de referencia y Marco de referencia. Marcos de referencias Argentina"
+    "pregunta": "Sistema de referencia y Marco de referencia. Marcos de referencias Argentina",
+    "respuesta": "Un sistema de referencia es un conjunto de convenciones para definir posiciones en el espacio. Un marco de referencia es la materialización física (con estaciones geodésicas) de ese sistema. En Argentina, los marcos usados han sido: Campo Inchauspe, POSGAR 94 y POSGAR 2007, este último compatible con SIRGAS y WGS84."
   },
   {
     "id": 64,
     "activa": 0,
     "unidad": 7,
-    "pregunta": "Proyecciones geodésicas. Clasificación. "
+    "pregunta": "Proyecciones geodésicas. Clasificación.",
+    "respuesta": "Las proyecciones geodésicas representan la superficie curva de la Tierra en un plano. Se clasifican en: cilíndricas (ej. Mercator), cónicas (ej. Albers), azimutales (ej. estereográfica). También pueden ser conformes (mantienen ángulos), equivalentes (mantienen áreas) o equidistantes. Cada tipo tiene ventajas según el uso cartográfico."
   },
   {
     "id": 65,
     "activa": 0,
     "unidad": 7,
-    "pregunta": "Desarrolle y explique la transformación plana Gauss-Kruger adoptada por la República Argentina para la producción de cartografía. "
+    "pregunta": "Desarrolle y explique la transformación plana Gauss-Kruger adoptada por la República Argentina para la producción de cartografía.",
+    "respuesta": "Es una proyección conforme cilíndrica transversal, equivalente a UTM. Divide el país en fajas de 3° de longitud, reduciendo deformaciones. Argentina utiliza esta proyección con el sistema POSGAR sobre el elipsoide WGS84. Es adecuada para representar grandes extensiones norte-sur como Argentina con mínima distorsión en ángulos y áreas."
   },
   {
     "id": 66,
     "activa": 0,
     "unidad": 7,
-    "pregunta": "Describa todos los instrumentos que tiene el barco para realizar batimetrías"
+    "pregunta": "Describa todos los instrumentos que tiene el barco para realizar batimetrías",
+    "respuesta": "Instrumentos: 1) Ecosonda mono o multihaz (para medir profundidad), 2) GPS o GNSS (posicionamiento), 3) Compás o giroscopio (rumbo), 4) Corredera o GNSS (velocidad), 5) Sensor de movimiento (pitch, roll, heave), 6) Sonda de velocidad del sonido (SVP), 7) Unidad de registro de datos. Todos sincronizados para garantizar precisión espacial y vertical del levantamiento."
   },
   {
     "id": 67,
     "activa": 0,
     "unidad": 7,
-    "pregunta": "Explique conceptualmente el funcionamiento del sistema de posicionamiento global (GPS)."
+    "pregunta": "Explique conceptualmente el funcionamiento del sistema de posicionamiento global (GPS).",
+    "respuesta": "El GPS funciona mediante una constelación de satélites que emiten señales con información de tiempo y posición. El receptor GPS mide el tiempo que tarda en llegar la señal desde al menos 4 satélites y calcula su posición tridimensional (latitud, longitud y altura) mediante trilateración. Es un sistema pasivo, preciso y global."
   },
   {
     "id": 68,
     "activa": 0,
     "unidad": 7,
-    "pregunta": "¿Cuál es el concepto de GPS diferencial? ¿Cómo funciona? ¿En cuanto se mejora la precisión respecto al sistema sin diferencial?"
+    "pregunta": "¿Cuál es el concepto de GPS diferencial? ¿Cómo funciona? ¿En cuanto se mejora la precisión respecto al sistema sin diferencial?",
+    "respuesta": "El GPS diferencial (DGPS) usa una estación base fija con coordenadas conocidas que mide el error en las señales GPS y transmite correcciones a los receptores móviles. Esto mejora la precisión de ±10 m a ±1 m o mejor. Se basa en que los errores satelitales son similares en la misma zona geográfica, y por eso pueden corregirse en tiempo real."
   },
   {
     "id": 69,
     "activa": 0,
     "unidad": 7,
-    "pregunta": "Explique la importancia de determinar previo a iniciar un relevamiento batimétrico la velocidad de propagación del sonido en el agua. ¿Cuál es el rango de valores habituales? ¿Qué métodos conoce para su determinación y calibración de una sonda ecógrafa?"
+    "pregunta": "Explique la importancia de determinar previo a iniciar un relevamiento batimétrico la velocidad de propagación del sonido en el agua. ¿Cuál es el rango de valores habituales? ¿Qué métodos conoce para su determinación y calibración de una sonda ecógrafa?",
+    "respuesta": "Es fundamental porque la ecosonda convierte el tiempo en distancia con base en esa velocidad. Un error en la velocidad implica error en la profundidad. Rango típico: 1430–1530 m/s (depende de temperatura, salinidad, presión). Métodos: uso de SVP (Sound Velocity Profiler), bar check (calibración con barras sumergidas), o fórmulas empíricas con CTD (Conductividad, Temperatura y Profundidad)."
   },
   {
     "id": 70,
     "activa": 0,
     "unidad": 7,
-    "pregunta": "¿Cuáles son las frecuencias habituales con las que trabaja una ecosonda mono haz? ¿Cuál es el criterio por el que se determina aplicar una frecuencia o la otra? Relaciónelo con el concepto de profundidad náutica."
+    "pregunta": "¿Cuáles son las frecuencias habituales con las que trabaja una ecosonda mono haz? ¿Cuál es el criterio por el que se determina aplicar una frecuencia o la otra? Relaciónelo con el concepto de profundidad náutica.",
+    "respuesta": "Frecuencias típicas: alta (200–210 kHz) para aguas someras y baja (30–50 kHz) para aguas profundas. Criterio: las altas frecuencias ofrecen mayor resolución pero menor penetración; las bajas penetran más pero con menor precisión. Se elige según la profundidad náutica requerida: precisa en zonas poco profundas o aproximada en aguas profundas."
   },
   {
     "id": 71,
     "activa": 0,
     "unidad": 9,
-    "pregunta": "Explique el proceso a través del cual se generan las olas producidas por el viento. Defina zona de generación, zona de propagación, longitud del fetch, indique en un rango el periodo típico de las olas producidas por el viento y describa brevemente el método SMB (parámetros de entrada y salida)."
+    "pregunta": "Explique el proceso a través del cual se generan las olas producidas por el viento. Defina zona de generación, zona de propagación, longitud del fetch, indique en un rango el periodo típico de las olas producidas por el viento y describa brevemente el método SMB (parámetros de entrada y salida).",
+    "respuesta": "Las olas se generan por fricción del viento sobre la superficie del agua. La zona de generación es donde actúa el viento, y la de propagación, donde viajan las olas ya formadas. El fetch es la distancia que recorre el viento sobre el agua generando olas. El período típico de olas de viento oscila entre 2 y 20 segundos. El método SMB estima altura y período de ola según fetch, duración y velocidad del viento. Salidas: Hs y Tz."
   },
   {
     "id": 72,
     "activa": 0,
     "unidad": 9,
-    "pregunta": "Esquematice el registro típico de un olígrafo y defina Hi y Ti (altura y periodo de una ola). Luego indique los pasos e hipótesis necesarias para obtener, a partir del registro de un temporal, H1/3, H1/10 y H1/100. ¿Cuál es la relación entre estos parámetros del oleaje? ¿Cómo se obtienen esas relaciones?"
+    "pregunta": "Esquematice el registro típico de un olígrafo y defina Hi y Ti (altura y periodo de una ola). Luego indique los pasos e hipótesis necesarias para obtener, a partir del registro de un temporal, H1/3, H1/10 y H1/100. ¿Cuál es la relación entre estos parámetros del oleaje? ¿Cómo se obtienen esas relaciones?",
+    "respuesta": "Hi es la altura individual entre cresta y valle. Ti es el tiempo entre dos crestas sucesivas. A partir de un registro se ordenan las alturas y se promedian los N/3, N/10 o se extrapolan con métodos estadísticos. H1/3 ≈ 1.6*Hs, H1/10 ≈ 1.27*H1/3, H1/100 se estima con distribución de Rayleigh o extrema."
   },
   {
     "id": 73,
     "activa": 0,
     "unidad": 9,
-    "pregunta": "Escriba la ecuación de la dispersión emanada de la teoría de Airy, para ondas de pequeña amplitud. Indique cada uno de sus términos y las hipótesis de la misma. Considerando los distintos intervalos de profundidades, calcule la longitud de onda y la celeridad de una ola individual."
+    "pregunta": "Escriba la ecuación de la dispersión emanada de la teoría de Airy, para ondas de pequeña amplitud. Indique cada uno de sus términos y las hipótesis de la misma. Considerando los distintos intervalos de profundidades, calcule la longitud de onda y la celeridad de una ola individual.",
+    "respuesta": "ω² = gk·tanh(kh). Donde ω = frecuencia angular, k = número de onda (2π/L), h = profundidad, g = gravedad. Hipótesis: onda lineal, fluido inviscido, incompresible, fondo plano. En aguas profundas L ≈ gT²/2π y c ≈ gT/2π; en aguas someras c ≈ √(gh)."
   },
   {
     "id": 74,
     "activa": 0,
     "unidad": 9,
-    "pregunta": "Explique el concepto de celeridad de grupo. ¿Cómo se calcula? Indique la expresión del coeficiente n y resuélvalo para los distintos intervalos de profundidad. ¿Cuál es la importancia de la celeridad de grupo en lo que refiere a la propagación del oleaje?"
+    "pregunta": "Explique el concepto de celeridad de grupo. ¿Cómo se calcula? Indique la expresión del coeficiente n y resuélvalo para los distintos intervalos de profundidad. ¿Cuál es la importancia de la celeridad de grupo en lo que refiere a la propagación del oleaje?",
+    "respuesta": "La celeridad de grupo es la velocidad de propagación de la energía de una onda. Cg = n·c, donde n = 1/2 (en aguas profundas), n = 1 (en aguas someras). Es clave para estudiar transporte de energía y análisis de espectros."
   },
   {
     "id": 75,
     "activa": 0,
     "unidad": 9,
-    "pregunta": "Explique la metodología para calcular la altura de ola en cercanías de la costa partiendo de datos en aguas profundas. En este proceso, explique el fenómeno de refracción del oleaje y sus efectos sobre la dirección de propagación del mismo. Demuéstrelo apoyándose en un gráfico."
+    "pregunta": "Explique la metodología para calcular la altura de ola en cercanías de la costa partiendo de datos en aguas profundas. En este proceso, explique el fenómeno de refracción del oleaje y sus efectos sobre la dirección de propagación del mismo. Demuéstrelo apoyándose en un gráfico.",
+    "respuesta": "Se utiliza la conservación de energía entre aguas profundas y someras considerando cambios de celeridad y ángulo. La refracción ocurre por cambio de velocidad en distintas profundidades, haciendo que las olas se alineen con las isóbatas. La energía se concentra en cabos y se dispersa en bahías. Hs se ajusta por factores de refracción y shoaling."
   },
   {
     "id": 76,
     "activa": 0,
     "unidad": 9,
-    "pregunta": "Difracción del Oleaje. Generación, coeficiente de difracción, formas de cálculo, importancia para el diseño del interior de un puerto y orientación de las obras de abrigo. Explique como la difracción puede afectar la operación portuaria."
+    "pregunta": "Difracción del Oleaje. Generación, coeficiente de difracción, formas de cálculo, importancia para el diseño del interior de un puerto y orientación de las obras de abrigo. Explique como la difracción puede afectar la operación portuaria.",
+    "respuesta": "La difracción ocurre cuando las olas rodean obstáculos o pasan por aberturas. Se calcula el coeficiente de difracción Kd = H/H0. Métodos: gráficos o numéricos (Hsu, Penny & Price). Es clave para estimar agitación dentro del puerto, ya que puede inducir oleaje no deseado que afecta maniobras y atraque."
   },
   {
     "id": 77,
     "activa": 0,
     "unidad": 9,
-    "pregunta": "Indique los motivos por el cual una ola rompe, ya sea en aguas profundas o en aguas transicionales o someras. En el caso de rotura por fondo, mencione las cuatro formas de rotura posible, basándose en el número de Iribarren. Grafique."
+    "pregunta": "Indique los motivos por el cual una ola rompe, ya sea en aguas profundas o en aguas transicionales o someras. En el caso de rotura por fondo, mencione las cuatro formas de rotura posible, basándose en el número de Iribarren. Grafique.",
+    "respuesta": "Las olas rompen por pérdida de estabilidad al cambiar profundidad o velocidad. En rotura por fondo se identifican: rompiente deslizante (Ir < 0.5), rompiente colapsante (0.5 < Ir < 3.3), rompiente surging (>3.3), y rompiente plunging (~1). El número de Iribarren relaciona pendiente y altura de ola: Ir = tan(β)/√(H/L)."
   },
   {
     "id": 78,
     "activa": 0,
     "unidad": 9,
-    "pregunta": "Explique el criterio de Borgman que relaciona vida útil, periodo de retorno y riesgo admisible. En base a ello, describa la forma de proceder para calcular la altura de ola de diseño que debe utilizarse como dato de entrada en el cálculo de la estabilidad de un bloque de escollera."
+    "pregunta": "Explique el criterio de Borgman que relaciona vida útil, periodo de retorno y riesgo admisible. En base a ello, describa la forma de proceder para calcular la altura de ola de diseño que debe utilizarse como dato de entrada en el cálculo de la estabilidad de un bloque de escollera.",
+    "respuesta": "El criterio de Borgman establece que el riesgo admisible es: P = 1 - (1 - 1/T)^N, donde T = período de retorno, N = años de vida útil. Se despeja T o se ajusta Hs a ese retorno usando distribuciones de extremos (Gumbel, Weibull). Esta Hs se usa como ola de diseño para verificar estabilidad de taludes o escolleras."
   },
   {
     "id": 79,
     "activa": 0,
     "unidad": 11,
-    "pregunta": "Describa el fenómeno de la dinámica litoral de sedimentos. Explique el efecto que puede causar sobre el mismo la construcción de la obra de abrigo de un puerto emplazado en el mar."
+    "pregunta": "Describa el fenómeno de la dinámica litoral de sedimentos. Explique el efecto que puede causar sobre el mismo la construcción de la obra de abrigo de un puerto emplazado en el mar.",
+    "respuesta": "Es el transporte de sedimentos paralelos a la costa por acción de olas, corrientes y mareas. Las obras de abrigo interrumpen ese transporte generando acumulación de sedimentos en una zona (sotavento) y erosión en otra (barlovento), lo cual afecta la estabilidad de playas y requiere dragado continuo."
   },
   {
     "id": 80,
     "activa": 0,
     "unidad": 11,
-    "pregunta": "Ilustre y explique las formaciones costeras típicas: Barras, flechas, tómbolos. "
+    "pregunta": "Ilustre y explique las formaciones costeras típicas: Barras, flechas, tómbolos.",
+    "respuesta": "Barras: bancos de arena paralelos a la costa formados por rompiente de olas. Flechas: acumulaciones de arena alargadas por deriva litoral. Tómbolos: acumulaciones que conectan una isla con la costa. Todas son formaciones sedimentarias que dependen del equilibrio entre aporte y transporte litoral."
   },
   {
     "id": 81,
     "activa": 0,
     "unidad": 10,
-    "pregunta": "Defina mareas diurnas y semidiurnas. Defina mareas semidiurnas con desigualdades diurnas. Defina establecimiento de puerto y edad de la marea."
+    "pregunta": "Defina mareas diurnas y semidiurnas. Defina mareas semidiurnas con desigualdades diurnas. Defina establecimiento de puerto y edad de la marea.",
+    "respuesta": "Marea diurna: una pleamar y una bajamar por día. Semidiurna: dos pleamares y dos bajamares similares. Semidiurna con desigualdades diurnas: dos pleamares y dos bajamares con diferencias en altura. Establecimiento de puerto: diferencia entre la luna nueva y la hora de la pleamar. Edad de la marea: tiempo entre la luna nueva y la ocurrencia de la marea viva correspondiente."
   },
   {
     "id": 82,
     "activa": 0,
     "unidad": 10,
-    "pregunta": "Indique y explique las cuatro circunstancias astronómicas que generan la mayor amplitud de mareas en un punto determinado."
+    "pregunta": "Indique y explique las cuatro circunstancias astronómicas que generan la mayor amplitud de mareas en un punto determinado.",
+    "respuesta": "1) Luna nueva o llena (mareas vivas), 2) Perigeo lunar (mayor atracción), 3) Perihelio terrestre (mayor atracción solar), 4) Coincidencia de luna nueva o llena con perigeo (máxima marea viva)."
   },
   {
     "id": 83,
     "activa": 0,
     "unidad": 10,
-    "pregunta": "Describa el efecto del viento en el régimen de mareas astronómicas en el caso del Río de la Plata. ¿Cuáles son las herramientas disponibles para predecir este fenómeno? ¿Cuáles son las direcciones del viento que mayor efecto generan? Además de la dirección, ¿Qué otros parámetros del viento contribuyen a amplificar los efectos?"
+    "pregunta": "Describa el efecto del viento en el régimen de mareas astronómicas en el caso del Río de la Plata. ¿Cuáles son las herramientas disponibles para predecir este fenómeno? ¿Cuáles son las direcciones del viento que mayor efecto generan? Además de la dirección, ¿Qué otros parámetros del viento contribuyen a amplificar los efectos?",
+    "respuesta": "El viento modifica el nivel del agua por apilamiento o soplado. En el Río de la Plata, el viento sudeste genera sudestadas (aumento del nivel). Herramientas: modelos hidrodinámicos, datos históricos, pronósticos meteorológicos. Factores: dirección (SE mayor impacto), velocidad, duración y fetch."
   },
   {
     "id": 84,
     "activa": 0,
     "unidad": 10,
-    "pregunta": "Explique el concepto de las “ventanas de marea” aplicable en los canales de navegación. ¿Cuál es el efecto que produce utilizar un nivel de referencia distinto al cero local en lo que refiere a la navegación y al dragado?"
+    "pregunta": "Explique el concepto de las “ventanas de marea” aplicable en los canales de navegación. ¿Cuál es el efecto que produce utilizar un nivel de referencia distinto al cero local en lo que refiere a la navegación y al dragado?",
+    "respuesta": "Las ventanas de marea son los períodos en que el nivel del agua permite el ingreso/egreso de buques por calado. Usar un nivel de referencia distinto al cero local puede generar errores en profundidades navegables y afectar el diseño del dragado. El cero local suele ser el cero de reducción de sondajes."
   },
   {
     "id": 85,
     "activa": 0,
     "unidad": 12,
-    "pregunta": "En lo que respecta al diseño de las obras de abrigo de un puerto, cuales son los dos aspectos que deben ser estudiados en forma independiente y cuál es, para cada caso, el enfoque que se aplica en lo concerniente al oleaje."
+    "pregunta": "En lo que respecta al diseño de las obras de abrigo de un puerto, cuales son los dos aspectos que deben ser estudiados en forma independiente y cuál es, para cada caso, el enfoque que se aplica en lo concerniente al oleaje.",
+    "respuesta": "Se estudian: 1) Estabilidad estructural (resistencia al oleaje de diseño) y 2) Agitación interna (condiciones operativas). Para estabilidad, se usa altura de ola extrema. Para agitación, oleaje medio o significativo dentro del puerto."
   },
   {
     "id": 86,
     "activa": 0,
     "unidad": 12,
-    "pregunta": "Fórmula de Hudson. Descripción de cada uno de sus términos. Alcances y limitaciones. Parámetros de los que depende el Kd."
+    "pregunta": "Fórmula de Hudson. Descripción de cada uno de sus términos. Alcances y limitaciones. Parámetros de los que depende el Kd.",
+    "respuesta": "W = (γr·H³)/(Kd·(γr−γw)·tanθ). W: peso bloque, H: altura de ola, θ: pendiente, γr: peso específico del bloque, γw: del agua, Kd: coeficiente de forma. Kd depende de forma, tipo de talud y colocación. Limitaciones: no considera número de ondas ni nivel de daño."
   },
   {
     "id": 87,
     "activa": 0,
     "unidad": 12,
-    "pregunta": "¿Cuáles son las posibles “olas de diseño” que pueden utilizarse en la expresión de Hudson? ¿Cuáles son las implicancias de utilizar una u otra opción en el volumen de la escollera? ¿Cuáles son las herramientas que debe utilizar para decidir?"
+    "pregunta": "¿Cuáles son las posibles “olas de diseño” que pueden utilizarse en la expresión de Hudson? ¿Cuáles son las implicancias de utilizar una u otra opción en el volumen de la escollera? ¿Cuáles son las herramientas que debe utilizar para decidir?",
+    "respuesta": "Se puede usar Hs, H1/10, Hmáx. Elegir una u otra afecta el tamaño del bloque y volumen total. Usar Hmáx sobredimensiona. Herramientas: estudios estadísticos de oleaje, análisis de riesgo y criterios de diseño económico/estructural."
   },
   {
     "id": 88,
     "activa": 0,
     "unidad": 12,
-    "pregunta": "Explique conceptualmente la diferencia en la forma en que se considera el nivel de daño admisible en la expresión de Hudson vs lo propio en la expresión de Van Der Meer. ¿Cuál es la manera de economizar la inversión inicial en una obra de abrigo, trabajando con una y otra expresión?"
+    "pregunta": "Explique conceptualmente la diferencia en la forma en que se considera el nivel de daño admisible en la expresión de Hudson vs lo propio en la expresión de Van Der Meer. ¿Cuál es la manera de economizar la inversión inicial en una obra de abrigo, trabajando con una y otra expresión?",
+    "respuesta": "Hudson no considera daño admisible; es conservadora. Van Der Meer permite fijar nivel de daño aceptable (por ejemplo, Dn50). Esto permite reducir el tamaño del bloque inicial si se acepta cierto desgaste. La optimización reduce volumen inicial sin comprometer seguridad funcional."
   },
   {
     "id": 89,
     "activa": 0,
     "unidad": 12,
-    "pregunta": "Explique conceptualmente las principales diferencias entre la fórmula de Hudson y la formula de Van Der Meer para el cálculo de obras de abrigo en talud. Enfatice en aquellos aspectos que se involucran en la expresión de Van Der Meer y no están considerados en Hudson."
-  },
-  {
-    "id": 90,
-    "activa": 0,
-    "unidad": 12,
-    "pregunta": "Realice un cuadro comparativo que incluya los principales conceptos involucrados en la construcción de una obra de abrigo en talud, avanzando “por tierra” y “por agua”. En el caso de construcción “por tierra”, indique cual es el equipo que puede resultar determinante y por qué."
+    "pregunta": "Explique conceptualmente las principales diferencias entre la fórmula de Hudson y la formula de Van Der Meer para el cálculo de obras de abrigo en talud. Enfatice en aquellos aspectos que se involucran en la expresión de Van Der Meer y no están considerados en Hudson.",
+    "respuesta": "Hudson es empírica, simple, sin considerar número de ondas ni daño admisible. Van Der Meer incluye: número de ondas (N), parámetro de estabilidad, daño admisible, permeabilidad del talud. Es más precisa pero requiere más parámetros. Permite diseño más económico ajustado a condiciones reales."
   },
   {
     "id": 91,
     "activa": 0,
     "unidad": 12,
-    "pregunta": "En la construcción de una obra de abrigo en talud, explique a que se denomina “destape” y desarrolle el procedimiento a través del cual debe calcularse su valor."
+    "pregunta": "En la construcción de una obra de abrigo en talud, explique a que se denomina “destape” y desarrolle el procedimiento a través del cual debe calcularse su valor.",
+    "respuesta": "El destape es la altura del talud expuesto a la acción directa del oleaje. Se calcula como la diferencia entre el nivel medio del mar (o nivel operativo) y la altura máxima alcanzada por el oleaje de diseño. Se debe considerar marea, oleaje, asentamientos y variaciones estacionales."
   },
   {
     "id": 92,
     "activa": 0,
     "unidad": 12,
-    "pregunta": "Mencione y grafique al menos 5 bloques artificiales utilizados para la construcción de obras de abrigo en talud. ¿Cuáles son aquellos que permiten la disposición monocapa? ¿Cuáles son los factores que influyen en la selección de estos bloques vs la piedra natural?"
+    "pregunta": "Mencione y grafique al menos 5 bloques artificiales utilizados para la construcción de obras de abrigo en talud. ¿Cuáles son aquellos que permiten la disposición monocapa? ¿Cuáles son los factores que influyen en la selección de estos bloques vs la piedra natural?",
+    "respuesta": "Bloques: Cubípodo, Dolos, Accropode, Tetrapodo, Xbloc. Disposición monocapa: Accropode, Xbloc. Factores: disponibilidad de materiales, costo, estabilidad hidráulica, facilidad constructiva, peso específico, experiencia previa y comportamiento frente al oleaje."
   },
   {
     "id": 93,
     "activa": 0,
     "unidad": 14,
-    "pregunta": "Explique cómo determinar la profundidad necesaria en un canal navegable, detallando cada uno de los términos que componen la expresión y los conceptos más importantes."
+    "pregunta": "Explique cómo determinar la profundidad necesaria en un canal navegable, detallando cada uno de los términos que componen la expresión y los conceptos más importantes.",
+    "respuesta": "La profundidad necesaria incluye: calado máximo del buque, aumento por squat, margen por oleaje, variaciones de nivel de agua (marea/viento) y revancha bajo quilla. Fórmula general: h = calado + squat + margen + variaciones + revancha. La profundidad debe garantizar seguridad operativa y continuidad del tráfico."
   },
   {
     "id": 94,
     "activa": 0,
     "unidad": 14,
-    "pregunta": "Explique cómo determinar el ancho de solera necesario en un canal navegable, detallando cada uno de los términos que componen la expresión, tanto para un canal unidireccional como bidireccional, y los conceptos más importantes."
+    "pregunta": "Explique cómo determinar el ancho de solera necesario en un canal navegable, detallando cada uno de los términos que componen la expresión, tanto para un canal unidireccional como bidireccional, y los conceptos más importantes.",
+    "respuesta": "En canal unidireccional: ancho = eslora buque + márgenes laterales (por viento, corriente, maniobra). En canal bidireccional: incluye separación entre buques + márgenes. Se consideran condiciones ambientales, tipo de buque, ayudas a la navegación y nivel de servicio."
   },
   {
     "id": 95,
     "activa": 0,
     "unidad": 14,
-    "pregunta": "Desde el punto de vista del squat, ¿Cual es la diferencia entre un canal navegable solo restringido por profundidad (U) y un canal navegable restringido por ancho y profundidad (R)? ¿Cómo se determina esta clasificación? ¿Cuál arroja valores mayores de squat para mismo buque y misma velocidad? ¿Qué es el coeficiente de bloqueo?"
+    "pregunta": "Desde el punto de vista del squat, ¿Cual es la diferencia entre un canal navegable solo restringido por profundidad (U) y un canal navegable restringido por ancho y profundidad (R)? ¿Cómo se determina esta clasificación? ¿Cuál arroja valores mayores de squat para mismo buque y misma velocidad? ¿Qué es el coeficiente de bloqueo?",
+    "respuesta": "Canal U: solo profundidad limita squat. Canal R: ancho y profundidad influyen. La clasificación depende del coeficiente de bloqueo B = Acanal / Abuque. Si B < 5, se considera R. Canal R arroja mayor squat. El coeficiente de bloqueo refleja la relación entre secciones de buque y canal, afectando flujo y presión."
   },
   {
     "id": 96,
     "activa": 0,
     "unidad": 14,
-    "pregunta": "Fórmula de Barrass para el cálculo del squat. Descripción de cada uno de sus términos. Alcances y limitaciones. ¿Cuál es la diferencia principal con la fórmula de Huuska/Guliev?"
+    "pregunta": "Fórmula de Barrass para el cálculo del squat. Descripción de cada uno de sus términos. Alcances y limitaciones. ¿Cuál es la diferencia principal con la fórmula de Huuska/Guliev?",
+    "respuesta": "Barrass: squat = Cb·V² / (100·T). Cb: coef. de bloque, V: velocidad, T: calado. Es una aproximación empírica. Huuska/Guliev considera efecto de canal y coeficientes hidráulicos, siendo más preciso. Barrass es útil para estimaciones preliminares; Huuska para estudios detallados."
   },
   {
     "id": 97,
     "activa": 0,
     "unidad": 14,
-    "pregunta": "Del estudio del squat para el Río de la Plata presentado en clase, explique la conclusión que se obtiene en relación a la revancha bajo la quilla mínima dispuesta por la Prefectura Naval Argentina y aquella relacionada con el número de Froude máximo para no comprometer la maniobrabilidad del buque. "
+    "pregunta": "Del estudio del squat para el Río de la Plata presentado en clase, explique la conclusión que se obtiene en relación a la revancha bajo la quilla mínima dispuesta por la Prefectura Naval Argentina y aquella relacionada con el número de Froude máximo para no comprometer la maniobrabilidad del buque.",
+    "respuesta": "La Prefectura establece una revancha bajo quilla de 0,6 m o el 10% del calado. El estudio concluye que debe considerarse además el número de Froude (Fr) para no comprometer la maniobrabilidad. Se recomienda Fr < 0,25 para evitar fenómenos como pérdida de control o asentamiento excesivo (squat crítico)."
   },
   {
     "id": 98,
     "activa": 0,
     "unidad": 14,
-    "pregunta": "¿Cuál es el concepto de fondo y profundidad náutica? ¿Cuáles son los beneficios para la navegación que surgen de aplicar estos conceptos?"
+    "pregunta": "¿Cuál es el concepto de fondo y profundidad náutica? ¿Cuáles son los beneficios para la navegación que surgen de aplicar estos conceptos?",
+    "respuesta": "El fondo náutico es la profundidad disponible para la navegación segura, incluyendo margen de seguridad. Permite una navegación eficiente con menor calado operativo. Mejora la utilización de buques, reduce costos de dragado y maximiza capacidad sin comprometer seguridad."
   },
   {
     "id": 99,
     "activa": 0,
     "unidad": 14,
-    "pregunta": "¿Cuáles son las dos posibles metodologías que se aplican para estimar el espesor del fondo náutico? Explique y desarrolle"
+    "pregunta": "¿Cuáles son las dos posibles metodologías que se aplican para estimar el espesor del fondo náutico? Explique y desarrolle",
+    "respuesta": "1) Histórica/estadística: basada en registros de batimetrías y tráfico. 2) Probabilística: considera incertidumbres del fondo, dragado y sedimentación. Se elige un espesor que garantice un nivel de confiabilidad deseado (por ejemplo, 95%)."
   },
   {
     "id": 100,
     "activa": 0,
     "unidad": 14,
-    "pregunta": "Explique cómo el aplicar el concepto de fondo náutico podría afectar la maniobrabilidad del buque, en el caso que la velocidad de navegación sea aproximadamente igual a la velocidad crítica."
+    "pregunta": "Explique cómo el aplicar el concepto de fondo náutico podría afectar la maniobrabilidad del buque, en el caso que la velocidad de navegación sea aproximadamente igual a la velocidad crítica.",
+    "respuesta": "Si el buque navega cerca de la velocidad crítica (relacionada con el número de Froude), puede generarse squat excesivo. Al reducir la profundidad efectiva (por fondo náutico), aumenta la resistencia hidráulica y se reduce la capacidad de maniobra. El diseño debe garantizar seguridad frente a estos efectos."
   },
   {
     "id": 101,
     "activa": 0,
     "unidad": 13,
-    "pregunta": "Definición y usos principales del dragado. Ejemplifique."
+    "pregunta": "Definición y usos principales del dragado. Ejemplifique.",
+    "respuesta": "El dragado es el proceso de extracción de materiales del fondo de cuerpos de agua para mantener o aumentar la profundidad de canales, puertos, ríos y otras áreas navegables. Sus usos principales son: mantenimiento de vías navegables, creación de nuevas rutas, extracción de materiales y control de inundaciones. Ejemplo: dragado de mantenimiento en el Canal de Acceso al Puerto de Buenos Aires para conservar la profundidad operativa."
   },
   {
     "id": 102,
     "activa": 0,
     "unidad": 13,
-    "pregunta": "Draga de succión por arrastre. clasificación, esquema, elementos principales que la componen, forma de operación, cálculo de producción, utilización del rebalse, etc."
+    "pregunta": "Draga de succión por arrastre. clasificación, esquema, elementos principales que la componen, forma de operación, cálculo de producción, utilización del rebalse, etc.",
+    "respuesta": "Estas dragas se clasifican como autopropulsadas o no autopropulsadas. Sus elementos principales son: casco, brazo de succión, cabezal de dragado, bomba de dragado, tolva y sistema de rebose. Funcionan desplazándose lentamente sobre el área a dragar mientras el cabezal succiona los sedimentos. La producción se calcula en función del caudal de la bomba y la concentración del material. El rebalse permite aumentar la concentración de sólidos descargando parte del agua recogida."
   },
   {
     "id": 103,
     "activa": 0,
     "unidad": 13,
-    "pregunta": "Draga de succión con cortador. clasificación, esquema, elementos principales que la componen, forma de operación, estimación de la producción, principales usos. "
+    "pregunta": "Draga de succión con cortador. clasificación, esquema, elementos principales que la componen, forma de operación, estimación de la producción, principales usos.",
+    "respuesta": "Son estacionarias y se clasifican por el tipo de cortador. Poseen: cortador rotativo, tubería de succión, bomba de dragado, sistema de anclaje y tubería de descarga. Operan ancladas mientras el cortador desintegra el fondo y la bomba succiona el material. Se utilizan para dragar materiales compactos y consolidaciones. La producción depende de la potencia instalada, tipo de suelo y eficiencia de corte."
   },
   {
     "id": 104,
     "activa": 0,
     "unidad": 13,
-    "pregunta": "Dragas mecánicas, de cuchara o retroexcavadora. clasificación, esquema, elementos principales que la componen, forma de operación, cálculo de producción, principales usos."
+    "pregunta": "Dragas mecánicas, de cuchara o retroexcavadora. clasificación, esquema, elementos principales que la componen, forma de operación, cálculo de producción, principales usos.",
+    "respuesta": "Se clasifican en dragas de cuchara y dragas de retroexcavadora. Incluyen: grúa o brazo, cuchara, bodega o barcaza auxiliar. Operan bajando la cuchara al fondo, recogiendo material y descargándolo. La producción depende del volumen por ciclo, ciclos por hora y eficiencia. Se usan en áreas restringidas, para materiales gruesos o donde no es viable el bombeo hidráulico."
   },
   {
     "id": 105,
     "activa": 0,
     "unidad": 13,
-    "pregunta": "Draga de rosario de cangilones. clasificación, esquema, elementos principales que la componen, forma de operación, cálculo de producción, principales usos."
+    "pregunta": "Draga de rosario de cangilones. clasificación, esquema, elementos principales que la componen, forma de operación, cálculo de producción, principales usos.",
+    "respuesta": "Es una draga estacionaria con un sistema continuo de cangilones montados sobre una cadena o cinta. Componentes: rosario de cangilones, estructura soporte, motor, sistema de descarga. Opera sumergiendo los cangilones que excavan y transportan material a superficie. Se utiliza para dragado de precisión o materiales duros. La producción depende del tamaño, velocidad y número de cangilones."
   },
   {
     "id": 106,
     "activa": 0,
     "unidad": 15,
-    "pregunta": "¿Cuál es la diferencia entre la convención IALA A y IALA B en lo que refiere a las ayudas a la navegación?"
+    "pregunta": "¿Cuál es la diferencia entre la convención IALA A y IALA B en lo que refiere a las ayudas a la navegación?",
+    "respuesta": "La diferencia radica en la convención sobre las señales laterales: en el sistema IALA A (Europa, África, Asia), al regresar del mar, las boyas rojas deben dejarse a estribor y las verdes a babor. En el sistema IALA B (Américas, Japón, Corea, Filipinas), es al revés: boyas rojas a babor y verdes a estribor."
   },
   {
     "id": 107,
     "activa": 0,
     "unidad": 15,
-    "pregunta": "Señales laterales de canal. usos, identificación diurna y nocturna (forma, pintura, marca de tope, color, destellos)."
+    "pregunta": "Señales laterales de canal. usos, identificación diurna y nocturna (forma, pintura, marca de tope, color, destellos).",
+    "respuesta": "Usos: delimitan los márgenes del canal navegable. IALA A: Babor → color rojo, forma cilíndrica, marca de tope cilíndrica, destello rojo. Estribor → color verde, forma cónica, marca de tope cónica, destello verde. Identificación nocturna: luces con destellos de color correspondiente y cadencia distintiva."
   },
   {
     "id": 108,
     "activa": 0,
     "unidad": 15,
-    "pregunta": "Señales cardinales. usos, identificación diurna y nocturna (forma, pintura, marca de tope, color, destellos)."
+    "pregunta": "Señales cardinales. usos, identificación diurna y nocturna (forma, pintura, marca de tope, color, destellos).",
+    "respuesta": "Usos: indican zonas seguras respecto a un peligro. Formas: todas son boyas de forma esparcida o pilares. Colores: combinaciones de amarillo y negro. Marca de tope: dos conos orientados según el punto cardinal. Destellos: rápidos o muy rápidos en patrones específicos para cada punto (N: continuo, E: 3, S: 6 + 1 largo, O: 9)."
   },
   {
     "id": 109,
     "activa": 0,
     "unidad": 15,
-    "pregunta": "Señales de peligro aislado y señales de canal preferido. usos, identificación diurna y nocturna (forma, pintura, marca de tope, color, destellos)."
+    "pregunta": "Señales de peligro aislado y señales de canal preferido. usos, identificación diurna y nocturna (forma, pintura, marca de tope, color, destellos).",
+    "respuesta": "Peligro aislado: indican un obstáculo rodeado de aguas navegables. Forma: esparcida. Color: negro con una o más bandas rojas. Marca: dos esferas negras. Luz: blanca, grupo de 2 destellos. Canal preferido: señalan bifurcación de canal. Colores: combinación de rojo y verde según el canal preferido. Forma: similar a las laterales. Destellos: del color del canal preferido."
   },
   {
     "id": 110,
     "activa": 0,
     "unidad": 15,
-    "pregunta": "Señales de centro de canal y especiales. usos, identificación diurna y nocturna (forma, pintura, marca de tope, color, destellos)."
+    "pregunta": "Señales de centro de canal y especiales. usos, identificación diurna y nocturna (forma, pintura, marca de tope, color, destellos).",
+    "respuesta": "Centro de canal: indican eje del canal. Forma: esparcida o pilar. Color: rojo y blanco a franjas verticales. Luz: blanca con destellos isofásicos o de igual duración. Especiales: marcan zonas específicas (pesca, fondeo, etc). Color: amarillo, forma: esparcida. Luz: amarilla con patrón diferente a las otras señales."
   }
 ]

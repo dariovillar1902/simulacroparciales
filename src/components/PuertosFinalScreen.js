@@ -17,6 +17,7 @@ export const PuertosFinalScreen = () => {
   const correctasPorUnidad = useRef([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   const incorrectasPorUnidad = useRef([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   const skipeadasPorUnidad = useRef([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
+  const [mostrarRespuesta, setMostrarRespuesta] = useState(false);
 
   const seleccionPregunta = (preguntasActivas) => {
     let filtroActivas = preguntasActivas.filter(
@@ -27,6 +28,7 @@ export const PuertosFinalScreen = () => {
     let indicePregunta = Math.floor(Math.random() * filtroActivas.length);
     setPreguntaSeleccionada(filtroActivas[indicePregunta]);
     cantidadPreguntas.current++;
+    setMostrarRespuesta(false);
   };
 
   const reset = () => {
@@ -166,6 +168,14 @@ export const PuertosFinalScreen = () => {
                 {" "}
                 <FontAwesomeIcon icon={faForward} /> Siguiente pregunta{" "}
               </Button>
+              <Button variant="info" onClick={() => setMostrarRespuesta(true)} className="ml-2">
+                Mostrar respuesta
+              </Button>
+              {mostrarRespuesta && (
+                <Card.Text className="mt-2">
+                  {preguntaSeleccionada && preguntaSeleccionada.respuesta}
+                </Card.Text>
+              )}
             </Card.Body>
           </Card>
         </Col>
