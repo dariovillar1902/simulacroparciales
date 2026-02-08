@@ -18,17 +18,6 @@ export const HidraulicaFinalScreen = () => {
   const incorrectasPorUnidad = useRef([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   const skipeadasPorUnidad = useRef([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
 
-  const seleccionPregunta = useCallback((preguntasActivas) => {
-    let filtroActivas = preguntasActivas.filter(
-      (pregunta) => pregunta.activa === 0
-    );
-    // eslint-disable-next-line no-restricted-globals
-    filtroActivas.length === 0 && reset();
-    let indicePregunta = Math.floor(Math.random() * filtroActivas.length);
-    setPreguntaSeleccionada(filtroActivas[indicePregunta]);
-    cantidadPreguntas.current++;
-  }, [reset]);
-
   const reset = useCallback(() => {
     cantidadPreguntas.current = 0;
     cantidadCorrectas.current = 0;
@@ -40,6 +29,17 @@ export const HidraulicaFinalScreen = () => {
     bancoPreguntasFinalHidraulica.map((pregunta) => (pregunta.activa = 0));
     window.location.reload();
   }, []);
+
+  const seleccionPregunta = useCallback((preguntasActivas) => {
+    let filtroActivas = preguntasActivas.filter(
+      (pregunta) => pregunta.activa === 0
+    );
+    // eslint-disable-next-line no-restricted-globals
+    filtroActivas.length === 0 && reset();
+    let indicePregunta = Math.floor(Math.random() * filtroActivas.length);
+    setPreguntaSeleccionada(filtroActivas[indicePregunta]);
+    cantidadPreguntas.current++;
+  }, [reset]);
 
   const marcarPreguntaInactiva = (id, valor, unidad) => {
     switch (valor) {

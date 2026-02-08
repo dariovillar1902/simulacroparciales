@@ -12,7 +12,7 @@ export const EjercicioHF = () => {
     const [volumenPaston, setVolumenPaston] = useState();
     const [relacionAguaCemento, setRelacionAguaCemento] = useState();
     const [contenidoAire, setContenidoAire] = useState();
-    const [dosificacionReal, setDosificacionReal] = useState();
+    const [dosificacionReal] = useState();
 
     const [PUVTeorico, setPUVTeorico] = useState();
     const [rendimiento, setRendimiento] = useState();
@@ -21,6 +21,38 @@ export const EjercicioHF = () => {
     const [formValues, handleInputChange] = useForm();
 
     let timerInterval;
+
+    const setValuesVT = useCallback((ejercicio, volumenPaston) => {
+        setRelacionAguaCemento(
+            ((ejercicio[0].litrosAguaNoUtilizada ?
+                (volumenPaston * ejercicio[0].agua.pesoSSS / 1000) - ejercicio[0].litrosAguaNoUtilizada
+                : (volumenPaston * ejercicio[0].agua.pesoSSS / 1000))
+                / (volumenPaston * ejercicio[0].cemento.pesoSSS / 1000)).toFixed(2));
+
+        setPUVTeorico(
+            ((ejercicio[0].litrosAguaNoUtilizada ?
+                (volumenPaston * ejercicio[0].agua.pesoSSS / 1000) - ejercicio[0].litrosAguaNoUtilizada
+                : (volumenPaston * ejercicio[0].agua.pesoSSS / 1000))
+                + (volumenPaston * ejercicio[0].cemento.pesoSSS / 1000)
+                + volumenPaston * ejercicio[0].arenaFina.pesoSSS / 1000
+                + volumenPaston * ejercicio[0].arenaGruesa.pesoSSS / 1000
+                + volumenPaston * ejercicio[0].agregadoGrueso.pesoSSS / 1000).toFixed(2));
+
+        setVolumenTeorico(
+            ((ejercicio[0].litrosAguaNoUtilizada ?
+                (volumenPaston * ejercicio[0].agua.pesoSSS / 1000) - ejercicio[0].litrosAguaNoUtilizada
+                : (volumenPaston * ejercicio[0].agua.pesoSSS / 1000)) / ejercicio[0].agua.densidad
+                + (volumenPaston * ejercicio[0].cemento.pesoSSS / 1000) / ejercicio[0].cemento.densidad
+                + (volumenPaston * ejercicio[0].arenaFina.pesoSSS / 1000) / ejercicio[0].arenaFina.densidad
+                + (volumenPaston * ejercicio[0].arenaGruesa.pesoSSS / 1000) / ejercicio[0].arenaGruesa.densidad
+                + (volumenPaston * ejercicio[0].agregadoGrueso.pesoSSS / 1000) / ejercicio[0].agregadoGrueso.densidad).toFixed(2));
+
+        PUVTeorico && setRendimiento((PUVTeorico / ejercicio[0].kgm3PUV).toFixed(2));
+
+        rendimiento && volumenTeorico && setContenidoAire(((rendimiento - volumenTeorico / 1000) * 100 / rendimiento).toFixed(2));
+
+        console.log(volumenTeorico, ejercicio[0].kgm3PUV, rendimiento, contenidoAire);
+    }, [PUVTeorico, contenidoAire, rendimiento, volumenTeorico]);
 
     const seleccionEjercicio = useCallback(() => {
         let indiceEjercicio = Math.floor(Math.random() * bancoEjercicios.length);
@@ -63,44 +95,12 @@ export const EjercicioHF = () => {
         }
 
     },
-        [PUVTeorico, rendimiento, volumenTeorico],
+        [PUVTeorico, rendimiento, volumenTeorico, setValuesVT],
     )
-
-    function setValuesVT(ejercicio, volumenPaston) {
-        setRelacionAguaCemento(
-            ((ejercicio[0].litrosAguaNoUtilizada ?
-                (volumenPaston * ejercicio[0].agua.pesoSSS / 1000) - ejercicio[0].litrosAguaNoUtilizada
-                : (volumenPaston * ejercicio[0].agua.pesoSSS / 1000))
-                / (volumenPaston * ejercicio[0].cemento.pesoSSS / 1000)).toFixed(2));
-
-        setPUVTeorico(
-            ((ejercicio[0].litrosAguaNoUtilizada ?
-                (volumenPaston * ejercicio[0].agua.pesoSSS / 1000) - ejercicio[0].litrosAguaNoUtilizada
-                : (volumenPaston * ejercicio[0].agua.pesoSSS / 1000))
-                + (volumenPaston * ejercicio[0].cemento.pesoSSS / 1000)
-                + volumenPaston * ejercicio[0].arenaFina.pesoSSS / 1000
-                + volumenPaston * ejercicio[0].arenaGruesa.pesoSSS / 1000
-                + volumenPaston * ejercicio[0].agregadoGrueso.pesoSSS / 1000).toFixed(2));
-
-        setVolumenTeorico(
-            ((ejercicio[0].litrosAguaNoUtilizada ?
-                (volumenPaston * ejercicio[0].agua.pesoSSS / 1000) - ejercicio[0].litrosAguaNoUtilizada
-                : (volumenPaston * ejercicio[0].agua.pesoSSS / 1000)) / ejercicio[0].agua.densidad
-                + (volumenPaston * ejercicio[0].cemento.pesoSSS / 1000) / ejercicio[0].cemento.densidad
-                + (volumenPaston * ejercicio[0].arenaFina.pesoSSS / 1000) / ejercicio[0].arenaFina.densidad
-                + (volumenPaston * ejercicio[0].arenaGruesa.pesoSSS / 1000) / ejercicio[0].arenaGruesa.densidad
-                + (volumenPaston * ejercicio[0].agregadoGrueso.pesoSSS / 1000) / ejercicio[0].agregadoGrueso.densidad).toFixed(2));
-
-        PUVTeorico && setRendimiento((PUVTeorico / ejercicio[0].kgm3PUV).toFixed(2));
-
-        rendimiento && volumenTeorico && setContenidoAire(((rendimiento - volumenTeorico / 1000) * 100 / rendimiento).toFixed(2));
-
-        console.log(volumenTeorico, ejercicio[0].kgm3PUV, rendimiento, contenidoAire);
-    }
 
     useEffect(() => {
         seleccionEjercicio()
-    }, [])
+    }, [seleccionEjercicio])
 
     function checkDato(ejercicioSeleccionado, dato, valor) {
         valor = parseFloat(valor);

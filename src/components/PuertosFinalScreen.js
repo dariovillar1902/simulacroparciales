@@ -19,18 +19,6 @@ export const PuertosFinalScreen = () => {
   const skipeadasPorUnidad = useRef([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   const [mostrarRespuesta, setMostrarRespuesta] = useState(false);
 
-  const seleccionPregunta = useCallback((preguntasActivas) => {
-    let filtroActivas = preguntasActivas.filter(
-      (pregunta) => pregunta.activa === 0
-    );
-    // eslint-disable-next-line no-restricted-globals
-    filtroActivas.length === 0 && reset();
-    let indicePregunta = Math.floor(Math.random() * filtroActivas.length);
-    setPreguntaSeleccionada(filtroActivas[indicePregunta]);
-    cantidadPreguntas.current++;
-    setMostrarRespuesta(false);
-  }, [reset]);
-
   const reset = useCallback(() => {
     cantidadPreguntas.current = 0;
     cantidadCorrectas.current = 0;
@@ -42,6 +30,18 @@ export const PuertosFinalScreen = () => {
     bancoPreguntasFinalPuertos.map((pregunta) => (pregunta.activa = 0));
     window.location.reload();
   }, []);
+
+  const seleccionPregunta = useCallback((preguntasActivas) => {
+    let filtroActivas = preguntasActivas.filter(
+      (pregunta) => pregunta.activa === 0
+    );
+    // eslint-disable-next-line no-restricted-globals
+    filtroActivas.length === 0 && reset();
+    let indicePregunta = Math.floor(Math.random() * filtroActivas.length);
+    setPreguntaSeleccionada(filtroActivas[indicePregunta]);
+    cantidadPreguntas.current++;
+    setMostrarRespuesta(false);
+  }, [reset]);
 
   const marcarPreguntaInactiva = (id, valor, unidad) => {
     switch (valor) {
