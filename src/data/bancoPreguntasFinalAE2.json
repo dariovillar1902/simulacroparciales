@@ -333,7 +333,7 @@
     "id": 55,
     "activa": 0,
     "pregunta": "¿Qué son las Vigas Geber y como se utilizan en los puentes?",
-    "respuesta": "Son vigas que se apoyan en voladizos de otras vigas, formando un sistema articulado. Se utilizan para reducir momentos negativos en los apoyos y facilitar el montaje. Permiten que las vigas centrales se comporten como simplemente apoyadas, mientras que los voladizos actúan como vigas en consola desde los pilares."
+    "respuesta": "Son vigas prefabricadas que actúan como vigas continuas. Su longitud va entre los puntos en donde el momento es nulo, por lo que el máximo momento está en los tramos más convenientes. Es muy utilizada en situaciones donde la carga permanente es la más importante, ya que si hay mucha carga móvil el diagrama de momentos se corre, y la articulación solo transmite corte, no momento."
   },
   {
     "id": 56,

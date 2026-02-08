@@ -115,6 +115,19 @@ export const Navbar = () => {
                                 Final
                             </NavLink>
                         </Dropdown.Item>
+
+                        <Dropdown.Divider />
+                        <Dropdown.Header className="text-light">Organización y Conducción de Obras</Dropdown.Header>
+                        <Dropdown.Item>
+                            <NavLink to="/organizacion-obras/final-teoria" className={({ isActive }) => 'dropdown-item' + (isActive ? ' active' : '')}>
+                                Final - Teoría
+                            </NavLink>
+                        </Dropdown.Item>
+                        <Dropdown.Item>
+                            <NavLink to="/organizacion-obras/final-practica" className={({ isActive }) => 'dropdown-item' + (isActive ? ' active' : '')}>
+                                Final - Práctica
+                            </NavLink>
+                        </Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
             </ul>

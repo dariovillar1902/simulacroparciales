@@ -11,6 +11,8 @@ import { FerrocarrilesFinalScreen } from '../components/FerrocarrilesFinalScreen
 import { Puertos2PScreen } from '../components/Puertos2PScreen';
 import { AE2FinalScreen } from '../components/AE2FinalScreen';
 import { PuertosFinalScreen } from '../components/PuertosFinalScreen';
+import { OrganizacionObraFinalScreen } from '../components/OrganizacionObraFinalScreen';
+import { OrganizacionObraPracticaScreen } from '../components/OrganizacionObraPracticaScreen';
 
 export const DashboardRoutes = () => {
   return <>
@@ -28,6 +30,8 @@ export const DashboardRoutes = () => {
         <Route path='/metalicas/final' element={<MetalicasFinalScreen />} />
         <Route path='/ferrocarriles/final' element={<FerrocarrilesFinalScreen />} />
         <Route path='/ae2/final' element={<AE2FinalScreen />} />
+        <Route path='/organizacion-obras/final-teoria' element={<OrganizacionObraFinalScreen />} />
+        <Route path='/organizacion-obras/final-practica' element={<OrganizacionObraPracticaScreen />} />
       </Routes>
     </div>
   </>;

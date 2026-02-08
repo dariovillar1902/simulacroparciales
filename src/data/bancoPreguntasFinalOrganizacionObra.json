@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "pregunta": "Propuesta de honorarios. Definición. Decreto 7877/55. Alcances. Forma de cálculo.",
+    "respuesta": "Los honorarios son la retribución mínima por la tarea y responsabilidad profesional encomendada, incluyendo gastos generales (los producidos o necesarios para realizar la tarea) y excluyendo gastos especiales (pruebas de laboratorio, traslado, costo de utilización de equipos, sellados e impuestos, etc.). El decreto 787/55 fija el arancel de honorarios de ingenieros, arquitectos y agrimensores. Las obras se dividen en obras de arquitectura y obras de ingeniería; y los honorarios por proyecto y dirección son proporcionales al costo definitivo de la obra, excluyendo el costo del terreno y los honorarios mismos. Se establece un porcentaje según el monto de la obra, en moneda nacional. Se calculan de acuerdo con fórmulas expresadas en función de un coeficiente K, actualizable según el número índice de nivel general de precios al consumidor elaborado por el INDEC.",
+    "activa": 0
+  },
+  {
+    "id": 2,
+    "pregunta": "Convenio colectivo de trabajo de UOCRA. ¿Cómo es el régimen de pagos al personal? ¿Qué es el fondo de cese laboral? ¿Cómo se calcula? ¿A qué se denominan cargas sociales y qué incluye?",
+    "respuesta": "El régimen de pagos al personal de UOCRA se define según la categoría del obrero (Oficial Especializado, Oficial, Medio Oficial, Ayudante) y la zona donde trabajará (A, B, C o C Austral). Se considera un jornal básico, al cual se le adiciona el presentismo (20%) y las cargas sociales. Estas incluyen aportes jubilatorios, aportes por obra social, aguinaldo, vacaciones, vestimenta, días por suspensión por mal tiempo, feriados, enfermedad, fondo de cese laboral y cuota sindical. El fondo de cese laboral es un monto que el empleador deposita mensualmente y que estará a disposición del empleado con la liquidación final en caso de que este renuncie o sea despedido. Durante el primer año, el empleador aporta un 12% y a partir del segundo año un 8%.",
+    "activa": 0
+  },
+  {
+    "id": 3,
+    "pregunta": "Explique las diferencias entre un Director de Obra, un Jefe de Obra y un Representante Técnico.",
+    "respuesta": "El DDO representa al comitente, y se encarga de la conducción y el control de la construcción de la obra, para que esta sea ejecutada de acuerdo con el proyecto. En cambio, el jefe de obra y el representante técnico representan a la contratista. El jefe de obra se encarga de la organización y control de la obra: materiales, mano de obra, medición de los trabajos, certificación, coordinación de ingreso de subcontratistas y monitoreo de las tareas. El representante técnico, por otro lado, representa a la empresa constructora ante el comitente o DDO. Asume la responsabilidad del área técnica.",
+    "activa": 0
+  },
+  {
+    "id": 4,
+    "pregunta": "Exprese en un párrafo las definiciones y las relaciones entre el cómputo métrico, el pliego de especificaciones técnicas particulares y el presupuesto oficial.",
+    "respuesta": "El cómputo métrico es el cálculo detallado de las cantidades a ejecutar de cada ítem de obra, expresadas en su unidad de medida. Estas se obtienen a partir de los planos de proyecto y sirve para obtener el presupuesto. Las especificaciones técnicas particulares detallan cómo deben realizarse los trabajos comprendidos en cada ítem de obra: materiales, métodos constructivos, normas de calidad y ensayos. El presupuesto oficial es el costo estimado total de la obra, calculado por el comitente. Para su realización se requiere del cómputo métrico (cantidades) y de los análisis de precios correspondientes. Para definir los precios unitarios se utilizan los precios de mercado y las especificaciones técnicas, ya que en ellas se definen cómo se va a construir cada ítem.",
+    "activa": 0
+  },
+  {
+    "id": 5,
+    "pregunta": "Usted se encuentra por iniciar una obra de repavimentación en la ruta nacional 9 entre Bs.As. y Rosario (75km aproximadamente). ¿qué consideraciones y criterios tendría para el diseño del obrador?",
+    "respuesta": "El obrador podría pensarse como un obrador móvil o como una ubicación central o estratégica respecto al tramo total. Al tratarse de una obra lineal de larga extensión con equipos pesados, optaría por un obrador principal fijo en una ubicación central, combinado con obradores móviles que acompañen el avance del frente de obra. Para el principal, consideraría espacio para una oficina técnica completa, sanitarios, comedor, vestuario, mantenimiento. Y además, zona de depósito de materiales, lavado de equipos y estacionamiento y zona de carga. Consideraría la posibilidad de tener que ubicar una planta de asfalto in situ y un pequeño taller con herramientas básicas de mantenimiento. El perímetro debe ser cerrado y señalizado y contar con personal de seguridad. Se debe considerar la cercanía a los servicios y un acceso rápido. En el caso de los obradores móviles (contenedores o tráileres) los equiparía con combustible, herramientas básicas y sanitarios.",
+    "activa": 0
+  },
+  {
+    "id": 6,
+    "pregunta": "Explique cómo se realiza el cómputo métrico de los revoques. Conociendo el cómputo, explique detalladamente como se procede para hallar su costo directo.",
+    "respuesta": "Previo al cómputo de revoques, se realiza la planilla de perímetros y superficies. En ella se indican los locales que componen la obra, con sus dimensiones y superficies. Se descuentan aquellos vanos mayores o iguales a 3m2. Luego, se dividen según si son interiores o exteriores, y si son o no bajo revestimiento. Para hallar su costo directo, se debe determinar: a. Costo del material = PU * Consumo. Se multiplican las cantidades por metro cuadrado de revoque (obtenidas mediante el coeficiente de aporte y dosificación) por los precios unitarios de cada material (cemento, cal, arena, agua). b. Mano de obra: Se debe definir cuantos operarios, de qué categorías y el rendimiento (hh/ unidad de medida). Luego: CUMdO = ($/h) * Rendimiento. La suma de a y b resultan el costo directo de un revoque.",
+    "activa": 0
+  },
+  {
+    "id": 7,
+    "pregunta": "Criterios de cómputo métrico de movimiento de suelos. Itemizados. Métodos aproximados. Vsss. Cálculo de tiempos y camiones necesarios.",
+    "respuesta": "Itemizado: 1-Limpieza y desmalezamiento (m2), 2-Desmonte (m3), 3-Excavación (m3) (Subsuelo a máquina, Bases a pico y pala), 4- Relleno y compactación (m3), 5-Retiro y transporte (m3). Métodos aproximados para desmonte: Caras y alturas medias, Reticulado triangular, Reticulado rectangular. Vsss: volumen de suelo sobrante, se obtiene luego de excavar las bases a pico y pala y rellenado las mismas. Vsss = VH°A° * ei + Vr (ei - er / er). Una vez determinado el volumen de suelo sobrante, se suma el suelo de desmonte y subsuelo (con esponjamiento). Cant camiones = Vsss total / capacidad. Tiempo de llenado = Capacidad / Rendimiento cargadora. Tiempo de ciclo = 2 * (distancia/velocidad) + Tllenado. Jornadas = Ttotal / (8h/jornada).",
+    "activa": 0
+  },
+  {
+    "id": 8,
+    "pregunta": "Usted se encuentra pronto a iniciar las tareas de hormigón armado en una obra de un edificio de vivienda de 7 pisos... ¿qué documentación analizaría y cómo procedería para poder realizar el pedido de materiales?",
+    "respuesta": "Analizaría los planos de estructuras (dimensiones y armaduras), la memoria de cálculo (características técnicas H° y acero), el pliego de especificaciones técnicas (materiales, métodos, normas), cómputo métrico (cantidades) y plan de trabajos (fechas). Para el pedido: extraería cantidades del cómputo, verificaría exigencias especiales (bombeable, etc.), consultaría disponibilidad de plantas, cotizaría con proveedores (precio, plazo, entrega) y planificaría entregas parciales según avance para evitar acopios excesivos.",
+    "activa": 0
+  },
+  {
+    "id": 9,
+    "pregunta": "Describa la etapa “Especificaciones”.",
+    "respuesta": "Son la documentación en la cual se redactan las cláusulas donde se detallas condiciones que deben cumplir las empresas en cuanto a la relación contractual y los aspectos técnicos: los pliegos. Estos pueden ser: Documentación técnica literal o especificaciones técnicas, y Documentación legal o de bases y condiciones. A su vez, cada uno puede ser Generales (varias obras de un organismo) o Particulares (una única obra).",
+    "activa": 0
+  },
+  {
+    "id": 10,
+    "pregunta": "Describa brevemente todos los roles profesionales que un Ing. Civil puede cumplir en una obra.",
+    "respuesta": "Director de obra: Controla la fiel interpretación del proyecto, revisa certificados, representa al comitente y vela por sus intereses. Representante técnico: Asume la responsabilidad técnica y representa a la empresa constructora ante el comitente/DDO. Jefe de obra: Representa a la constructora en la organización, control de materiales/MdO, medición, certificación, cronograma y libro de notas de pedido. Gerente de construcción: En contratos separados, representa al comitente con funciones de DDO y dirección ejecutiva de gremios, presupuesto comparativo, coordinación, etc.",
+    "activa": 0
+  },
+  {
+    "id": 11,
+    "pregunta": "Considerando que ya se realizó el desmonte: a. Explicar la metodolgía de cómputo para excavación subsuelo... b. Tiempo de ciclo... c. Cantidad de camiones...",
+    "respuesta": "a. Cómputo excavación subsuelo: Excavación a máquina (centro y rampa, luego frentes de ataque con troneras alternadas) y a pico y pala (bases). Considerar tipo de suelo para talud, cordón perimetral y esponjamiento. b. Tiempo de ciclo: compusto por tiempo de llenado (depende de capacidad camión y rendimiento cargadora) + tiempo de viaje (ida y vuelta). Tciclo = 2*(distacia/velocidad) + Tllenado. c. Cantidad de camiones: Viajes necesarios = Vol a retirar / capacidad camión. Cantidad camiones se determina en base a los viajes y el tiempo de ciclo para asegurar flujo continuo.",
+    "activa": 0
+  },
+  {
+    "id": 12,
+    "pregunta": "Explique qué son los costos directos (CD), por qué se origina y cómo se calculan. Explique el motivo por el cual consideraría un costo cualquiera como CD y no como GGd.",
+    "respuesta": "Los costos directos son aquellos asociados a un ítem de obra, aparecen cuando se realizan trabajos en esta. Se componen por materiales, mano de obra, equipos y subcontratos. Un costo es directo si se relaciona con una partida de trabajo específica y puede cuantificarse para su ejecución (ej. ladrillos para un muro). Los GGD (Gastos Generales Directos) no se asocian a un ítem particular pero son indispensables para la obra (ej. sueldo jefe de obra, obrador).",
+    "activa": 0
+  },
+  {
+    "id": 13,
+    "pregunta": "Costo unitario de equipos. ¿Cómo se calcula? ¿De qué depende? ¿Cómo ingresa al análisis de precios?",
+    "respuesta": "El costo unitario de equipos se calcula como el producto del costo horario por el rendimiento. Depende de si es propio o alquilado. Propio: considerar gastos fijos (seguro, patente, amortización, interés) y operación (service, combustible, reparaciones). Alquilado: costo diario + traslados. Ingresa al costo directo del ítem.",
+    "activa": 0
+  },
+  {
+    "id": 14,
+    "pregunta": "Explicar detalladamente cómo calcularía el costo directo del rubro mampostería.",
+    "respuesta": "1. Itemizado (tipos de mampostería, cimientos/elevación). 2. Cómputo métrico (m3 para espesor >= 15cm, m2 para < 15cm; descontar vanos > 3m2). 3. Análisis de precios: Materiales (ladrillos + mortero con coef aporte), Mano de obra (costo cuadrilla UOCRA * rendimiento), Equipos (si aplica). Costo Directo = Materiales + MdO + Equipos.",
+    "activa": 0
+  },
+  {
+    "id": 15,
+    "pregunta": "Costo directo de MdO. Explicar brevemente la metodología de cálculo para un ítem del rubro de mampostería.",
+    "respuesta": "CD MdO = Costo horario ($/h) * Rendimiento (h/unidad). Costo horario: según categoría UOCRA (básico + presentismo + cargas sociales). Rendimiento: horas hombre para realizar 1 m2 o 1 m3 de mampostería. Se define la cuadrilla necesaria y su producción diaria.",
+    "activa": 0
+  },
+  {
+    "id": 16,
+    "pregunta": "¿A qué se denomina GGD, cómo se calculan y qué diferencias existen con los GGI?",
+    "respuesta": "GGD (Gastos Generales Directos): gastos de la obra no asociados a un ítem (sueldos técnicos, obrador, servicios). Se calculan mensualizados o como % del costo directo. GGI (Gastos Generales Indirectos): gastos de estructura de la empresa (oficina central, directorio, administración) que se prorratean entre todas las obras. GGD son de la obra, GGI de la empresa.",
+    "activa": 0
+  },
+  {
+    "id": 17,
+    "pregunta": "Explique el concepto de ayuda de gremio. Cite un ejemplo y explique cómo se calcula su costo.",
+    "respuesta": "Trabajo que realiza la contratista principal (ayudantes) para asistir a un subcontratista o gremio (ej. albañilería haciendo canaletas para electricista). Se calcula como un porcentaje de la mano de obra del gremio principal. Ej. ADG = 100% (Total) * %Incidencia Albañilería * %Incidencia MdO * %Ayuda estimada.",
+    "activa": 0
+  },
+  {
+    "id": 18,
+    "pregunta": "Explicar que son y como se calculan los gastos financieros. ¿Qué son y cómo influye en el MTO?",
+    "respuesta": "Son los costos por la inversión de capital para materializar la obra durante el período hasta el cobro (exposición del capital). GF = Período de exposición * Tasa. Período exp = Fecha efectivo cobro - Baricentro inversiones. Tasa: activa (crédito), pasiva (capital propio) o mixta. Influyen aumentando el Monto Total de Obra.",
+    "activa": 0
+  },
+  {
+    "id": 19,
+    "pregunta": "¿A qué se llama “Camino Crítico”? Explicar por qué se lo diferencia de un “camino no crítico” y cómo se encuentra dentro de un PDT.",
+    "respuesta": "Es la secuencia de tareas críticas (sin holgura) que determinan la duración total del proyecto. Si una se atrasa, se atrasa el fin de obra. Se diferencia del no crítico porque este último tiene holgura (margen de tiempo). En un PDT (Pert/CPM o Gantt) se identifica encontrando la ruta más larga o las tareas con holgura cero.",
+    "activa": 0
+  },
+  {
+    "id": 20,
+    "pregunta": "Certificados de variación de precios mediante fórmula polinómica.",
+    "respuesta": "Fórmulas que ajustan el valor de los ítems por inflación. F.M. = alfa * (I1/I0) + beta * (K1/K0)... donde alfa, beta son coeficientes de incidencia de cada rubro (MdO, materiales), y I, K son los índices de precios en el mes de certificación (1) y mes base (0).",
+    "activa": 0
+  },
+  {
+    "id": 21,
+    "pregunta": "Metodología de certificación básica de obras.",
+    "respuesta": "Se incorporan precios unitarios de oferta x cantidades. Se mide avance físico acumulado. Monto a certificar = (Avance acumulado * PU) - Certificados anteriores. Se descuenta Fondo de Reparo y Anticipo Financiero.",
+    "activa": 0
+  },
+  {
+    "id": 22,
+    "pregunta": "¿A qué se denomina acopio de material? ¿Qué diferencia existe con un “Anticipo Financiero” y un “Fondo de reparo”?",
+    "respuesta": "Acopio: pago por materiales comprados y almacenados antes de su uso (se descuenta al usarlos). Anticipo Financiero: monto global adelanto para inicio de obra (se descuenta proporcionalmente). Fondo de Reparo: retención (5-10%) de cada hoja de certificado para garantía por vicios (se devuelve tras recepción definitiva/provisoria según contrato).",
+    "activa": 0
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Cómo se interpreta una curva de avance físico acumulada?",
+    "respuesta": "Gráfico % avance vs tiempo. Curva S. Se compara la curva Real vs la Planificada. Si Real está bajo Planificada = Atraso. Si Real está sobre Planificada = Adelanto. Permite detectar desvíos y tomar medidas correctivas.",
+    "activa": 0
+  },
+  {
+    "id": 24,
+    "pregunta": "Explique cuales son los pasos necesarios para concluir una obra: documentación, vicios, responsabilidades.",
+    "respuesta": "1. Recepción Provisoria: terminados los trabajos, se labra acta. Inicia período de garantía. Cubre vicios aparentes. 2. Período de Garantía: responsabilidad por vicios ocultos. 3. Recepción Definitiva: tras plazo garantía, si no hay vicios o se subsanaron. Libera al contratista salvo ruina (10 años).",
+    "activa": 0
+  },
+  {
+    "id": 25,
+    "pregunta": "Explique a qué se denomina RUINA de una obra. ¿Qué consecuencias trae?",
+    "respuesta": "Vicio que lesiona la estabilidad, solidez o afecta duración/conservación, haciendo la obra impropia para su destino. Constructor es responsable. Comitente tiene 1 año para reclamar desde aparición. Aplica dentro de los 10 años de recibida la obra.",
+    "activa": 0
+  },
+  {
+    "id": 26,
+    "pregunta": "Explicar VAN. ¿Que otro indicador existe para comparar proyectos?",
+    "respuesta": "VAN (Valor Actual Neto): suma de flujos de fondos netos actualizados al momento cero menos la inversión inicial. Si VAN > 0 es rentable. TIR (Tasa Interna de Retorno): tasa de descuento que hace que el VAN sea cero. Si TIR > Tasa de corte (interés mercado), es rentable.",
+    "activa": 0
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Cuáles son los tipos de licitación existentes?",
+    "respuesta": "Licitación Pública: convocatoria abierta, ilimitada, publicidad en boletín oficial. Licitación Privada: invitación a empresas seleccionadas por el comitente. También existen Concurso de Precios y Contratación Directa.",
+    "activa": 0
+  },
+  {
+    "id": 28,
+    "pregunta": "Indique qué documentación se incluye en el sobre 2 de una licitación pública.",
+    "respuesta": "Oferta económica. Incluye: La oferta propiamente dicha, Presupuesto desglosado, Plan de trabajos / Cronograma, Curvas de inversión, Análisis de precios (Costos directos, coef pase).",
+    "activa": 0
+  },
+  {
+    "id": 29,
+    "pregunta": "Sistemas de contratación de obras. Criterios de selección.",
+    "respuesta": "Ajuste Alzado (precio fijo global, absoluto o relativo): para proyectos bien definidos. Unidad de Medida (precios unitarios x cantidad ejecutada): cuando cantidades son inciertas. Coste y Costas (costos reales + % beneficio): para proyectos indefinidos, urgencias o alta inflación/riesgo. Por Administración: comitente gestiona y contrata por separado, asume riesgos (obras pequeñas/medianas).",
+    "activa": 0
+  },
+  {
+    "id": 30,
+    "pregunta": "Definición de Accidente, incidente, acto y condición insegura.",
+    "respuesta": "Accidente: suceso no deseado que causa lesión o daño. Incidente: suceso no deseado que podría haber causado daño (casi accidente). Acto inseguro: acción humana que viola procedimiento seguro (no usar EPP). Condición insegura: estado físico peligroso del entorno/equipos (cables pelados, falta baranda).",
+    "activa": 0
+  },
+  {
+    "id": 31,
+    "pregunta": "¿A qué se denominan Gastos Generales Directos? ¿Cómo se calculan y cómo ingresan a los análisis de precios?",
+    "respuesta": "Son aquellos gastos que, sin corresponder a un ítem específico de la obra, son necesarios para su ejecución (ej. sueldos de capataz, sereno, obrador, gastos de vehículo, etc.). Se calculan generalmente mensualizando los costos durante el plazo de obra. Ingresan al análisis de precios como un porcentaje (%) aplicado sobre el Costo Directo de cada ítem, o prorrateados en el presupuesto global.",
+    "activa": 0
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Qué significa que una obra sea contratada por el sistema de Administración? Proporcione un ejemplo.",
+    "respuesta": "Significa que el comitente asume el riesgo empresario y la dirección ejecutiva, comprando los materiales y contratando la mano de obra directamente, o delegando la gestión en un 'constructor' que cobra honorarios por administración. No hay precio fijo global garantizado. Ejemplo: Una refacción de una vivienda donde el dueño paga semanalmente a los albañiles y compra los ladrillos en el corralón según avance, pagando al arquitecto un % por gestionar la compra y supervisar.",
+    "activa": 0
+  },
+  {
+    "id": 33,
+    "pregunta": "Planificación de obra: Explique las diferencias entre el diagrama de Gantt y los métodos CPM/PERT.",
+    "respuesta": "Gantt: Gráfico de barras que muestra la duración y secuencia de tareas en el tiempo calendario. Es visual y fácil de entender, pero no muestra claramente las interdependencias críticas. CPM/PERT: Métodos de redes (nodos y flechas) que modelan las dependencias lógicas entre tareas, permitiendo calcular los tiempos tempranos/tardíos, holguras y determinar el Camino Crítico de forma matemática. PERT además incorpora la incertidumbre (tiempos optimistas/pesimistas).",
+    "activa": 0
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Qué es el Baricentro de Inversión y cómo se calcula?",
+    "respuesta": "Es el punto en el tiempo donde se considera concentrada toda la inversión de la obra a efectos financieros. Se calcula como el promedio ponderado de los momentos de pago según el plan de inversiones. Permite calcular los Gastos Financieros (intereses por el capital inmovilizado) midiendo la distancia temporal entre este baricentro y el momento de cobro/recupero.",
+    "activa": 0
+  },
+  {
+    "id": 35,
+    "pregunta": "Comparación Ajuste Alzado vs Administración: Diferencias en Planificación, Certificación y Metodología.",
+    "respuesta": "Planificación: En AA es rígida y define el contrato (esencial para evitar desvíos en precio fijo), en Adm es más flexible y se adapta al flujo de caja del cliente. Certificación: En AA se certifica avance físico valorizado a precios contractuales (PU o Global), en Adm se rinden gastos efectuados (facturas de materiales + jornales) más un % de honorarios. Contratación: AA requiere pliegos detallados y precio cerrado pre-obra; Adm permite iniciar sin proyecto completo e ir contratando servicios/materiales parcialmente.",
+    "activa": 0
+  },
+  {
+    "id": 36,
+    "pregunta": "Defina Tarea Crítica y explique cómo se determina.",
+    "respuesta": "Una tarea es crítica cuando no tiene holgura, es decir, su margen de atraso es cero. Si se retrasa, atrasa la fecha final de la obra. Se determina mediante el método CPM (Camino Crítico), calculando las fechas tempranas y tardías de inicio/fin. Si Inicio Tardío = Inicio Temprano (Holgura = 0), la tarea es crítica.",
+    "activa": 0
+  }
+]

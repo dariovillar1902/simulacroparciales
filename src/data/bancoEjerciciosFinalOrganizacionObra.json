@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "consigna": "Calcular el Costo Directo de Materiales para 1 m3 de Hormigón H30. Datos: Cemento 350kg ($12/kg), Arena 0.6m3 ($1500/m3), Piedra 0.8m3 ($2000/m3), Agua 200L ($0.1/L).",
+    "resolucion": "Costo Cemento = 350 * 12 = $4200. Costo Arena = 0.6 * 1500 = $900. Costo Piedra = 0.8 * 2000 = $1600. Costo Agua = 200 * 0.1 = $20. Costo Total = 4200 + 900 + 1600 + 20 = $6720.",
+    "respuesta_final": "$ 6720",
+    "tema": "Costos",
+    "origen": "Ejemplo Base"
+  },
+  {
+    "id": 2,
+    "consigna": "Determinar la cantidad de camiones necesarios para retirar 500 m3 de suelo esponjado (e=1.3). Capacidad camión semirremolque: 15 m3. Tiempo ciclo: 45 min. Jornada: 8 hs.",
+    "resolucion": "Volumen a transportar = 500 m3 (ya esponjado). Cantidad de viajes totales = 500 / 15 = 33.33 -> 34 viajes. Viajes por camión por día = (8 * 60) / 45 = 10.66 -> 10 viajes/día. Cantidad de camiones = 34 viajes / 10 viajes/camión = 3.4 -> 4 camiones para hacerlo en 1 día. O si se pide flota mínima para flujo continuo: Tciclo/Tcarga...",
+    "respuesta_final": "34 viajes totales. Depende del plazo.",
+    "tema": "Movimiento de Suelos",
+    "origen": "Ejemplo Base"
+  },
+  {
+    "id": 3,
+    "consigna": "Evaluación Económica de Proyecto. Datos: Terreno $18.9M, Obra $70M. Plazo 7 meses (Inicio 13/09/2021). Honorarios: 4% Proyecto, 3% Dirección. Venta Total: $166M (10% al inicio, 40% durante obra, 50% post-obra en 3 años). Gastos Inmobiliaria: 4%. Inflación estimada: 36% anual. Tasas BNA: Activa 64%, Pasiva 24%. Curva Inversión acumulada: Mes 1 (5%), Mes 2 (12%), Mes 3 (31%), Mes 4 (49%), Mes 5 (73%), Mes 6 (91%), Mes 7 (100%).\n\nSe pide:\na) Definir y justificar tasa de descuento (i%).\nb) Calcular VAN (3 años post-obra).\nc) Recomendar inversión.",
+    "resolucion": "a) Tasa de descuento adoptada: 36% anual (igual a la inflación). Justificación: Debe ser mayor a la tasa pasiva (costo de oportunidad plazo fijo) y cubrir al menos la inflación para mantener poder adquisitivo.\n\nb) Flujo de fondos (Cash Flow):\n- Egresos: Terreno + Honorarios Proyecto (Mes 0). Costo Obra + Honorarios DO (distribuidos según curva). Impuestos/Gastos venta.\n- Ingresos: Ventas según esquema (10%, 40%, 50%).\n- VAN calculado con tasa 36%.\n\nResultado arrojó VAN positivo (aprox $10.9M).",
+    "respuesta_final": "VAN Positivo. Se recomienda la inversión.",
+    "tema": "Evaluación de Proyectos",
+    "origen": "Final 11/02/2021"
+  },
+  {
+    "id": 4,
+    "consigna": "Análisis de Precios: 'Pintura al látex sobre muro interior'.\nDatos:\n- Cómputo: 730 m2.\n- Presup. Oficial: $63.5M. Adjudicación: $60M. CD Total: $35.7M.\n- Plazo: 18 meses.\n- Materiales: Fijador (Rend 8 m2/lt, $7300/20lt), Látex (Rend 12 m2/lt, $10300/20lt), Herramientas $20.000.\n- Mano de Obra: 2 Oficiales Esp. + 3 Ayudantes. Tiempo 45 días. Valores hora: Of $205,95, Ay $148,17. Cargas Sociales 97,35%.",
+    "resolucion": "1. Materiales x m2:\n   - Fijador: Rendimiento -> Costo por m2 = $41,32.\n   - Pintura: Rendimiento -> Costo por m2 = $34,98.\n   - Herramientas: $20.000 / 730 m2 = $22,64.\n   -> Total Materiales s/IVA = $98,94/m2.\n\n2. Mano de Obra x m2:\n   - Total horas = 45 días * 8hs * 5 operarios = 1800 hs totales.\n   - Costo MO (inc. CS y Asistencia): CD Of Esp $468,87/m2, CD Ayudante $510,67/m2.\n   -> Total MO s/IVA = $979,54/m2.\n\n3. Gastos Generales: Incidencia ~1,56% (basado en personal mensualizado).\n\n4. Precio Final: CD + GG + Beneficio + Impuestos.",
+    "respuesta_final": "CD Materiales: $98,94/m2. CD MO: $979,54/m2.",
+    "tema": "Análisis de Precios",
+    "origen": "Final 18/02/2021"
+  },
+  {
+    "id": 5,
+    "consigna": "Licitación Pública: Determinación de Capacidad de Contratación.\nDatos:\n- Presupuesto Oficial: $132.000.000.\n- Plazo de obra: 570 días.\n- Empresas y Capacidad de Contratación anual ($M): Torinsa (82), Aretegui (85), Conar (80), Normandía (72), Tecnologí (93), La Nueva (50), Grupo Ponce (90), Tinglados (75), Puentic (135).\n\nDeterminar:\n1. Capacidad mínima requerida.\n2. Qué empresas pueden presentarse.",
+    "resolucion": "1. Capacidad Requerida (CR):\n   CR = (Presupuesto Oficial * 12) / Plazo en meses.\n   Plazo meses = 570 / 30 = 19 meses.\n   CR = ($132M * 12) / 19 = $83.368.421.\n\n2. Empresas Aptas (Capacidad > CR):\n   - Aretegui ($85M)\n   - Tecnologí ($93M)\n   - Grupo Ponce ($90M)\n   - Puentic ($135M)",
+    "respuesta_final": "Capacidad Req: ~$83.37 M. Aptas: Aretegui, Tecnologí, Grupo Ponce, Puentic.",
+    "tema": "Licitaciones",
+    "origen": "Final 25/02/2021"
+  },
+  {
+    "id": 6,
+    "consigna": "Programación de Obra: Plan de Trabajo y Curva de Inversión.\nDatos:\n- Presupuesto Total: $35.700.000 (Obrador, Estructura, Mampostería, Revoques, Pintura).\n- Plazo: Inicio 25/02/21 - Recepción 29/01/22.\n- Restricciones/Hitos: Mampostería inicia al completar 310 m3 de H°A°. Rendimiento Revoque: 380 m2/día.\n\nSe pide:\n1. Plan de Trabajo.\n2. Curva de Avance Físico Acumulado (S).",
+    "resolucion": "1. Incidencia de rubros: Calcular peso % de cada ítem sobre el total.\n2. Duración Tareas: Vol/Rendimiento (Ej. Revoque 29 días).\n3. Cronograma (Gantt): Trazar barras según fecha inicio/fin y vinculaciones.\n4. Flujo de fondos mensual basado en avance físico.\n5. Porcentajes acumulados: Mes 1 (9.8%), ..., Mes 5 (100%).\n6. Graficar Curva S.",
+    "respuesta_final": "Ver Planilla y Curva adjunta (teórica).",
+    "tema": "Programación de Obras",
+    "origen": "Final 04/03/2021"
+  },
+  {
+    "id": 7,
+    "consigna": "Certificación y Redeterminación de Precios.\nDatos:\n- Presupuesto Base: $15.300.000.\n- Anticipo Financiero: 25%. Fondo de Reparo: 5%.\n- Acopio: 100% de ladrillos (16.800 u) comprados en meses 3 y 4.\n- Redeterminación: 60% Materiales, 40% Mano de Obra.\n\nDeterminar el monto neto del Certificado de Marzo considerando avance, descuento de acopio y redeterminación.",
+    "resolucion": "1. Certificado Básico: Avance físico del mes * Precios Unitarios (Ej. Mar = $3.937.500).\n2. Desacopio: Descontar material acopiado previamente que se incorpora en este periodo.\n3. Redeterminación: Calcular coeficiente de variación (8.18% segun índices). Aplicar sobre saldo básico.\n4. Descuentos: Restar % proporcional de Anticipo y 5% Fondo Reparo.\n5. Neto a Pagar: Básico + Redet - Desacopio - Descuentos.",
+    "respuesta_final": "$ Neto del Certificado.",
+    "tema": "Certificación",
+    "origen": "Final 11/03/2021"
+  },
+  {
+    "id": 8,
+    "consigna": "Reprogramación de Obra por Atrasos.\nSituación: Retraso en H°A° por falta de provisión y cemento + Cambios solicitados por cliente.\nConsigna: Trazar curva original, proponer curva de recuperación (acelerada) para cumplir plazo y analizar consecuencias contractuales.",
+    "resolucion": "1. Curva Original: Trazada con avance previsto (Mes 1: 8.22% ... Mes 6: 100%).\n2. Análisis Atraso: Impacto en ruta crítica (Estructura -> Mampostería).\n3. Reprogramación: Acelerar (paralelizar) tareas finales como Terminaciones y Pintura para recuperar tiempo.\n4. Aspectos Legales: Pedir prórroga sin multa si causa es ajena (cliente). Reclamar gastos improductivos si corresponde.",
+    "respuesta_final": "Nueva Curva de Inversión Acelerada.",
+    "tema": "Reprogramación",
+    "origen": "Final 23/06/2021"
+  },
+  {
+    "id": 9,
+    "consigna": "Análisis de Costo Unitario de Obra.\nDatos:\n- Superficie: 302 m2.\n- Materiales: $115.000 + IVA.\n- Andamios: $497.000 total (Alquiler 150 días + Flete/Armado).\n- Mano de Obra: Oficial (19.92 h/m2, $609.25/h) y Ayudante (9.96 h/m2, $515.69/h).\n\nCalcular el costo unitario por m2.",
+    "resolucion": "1. Materiales unitario: ($115000 / 302) = $380.79/m2.\n2. Andamios unitario: ($497000 / 302) = $1645.69/m2.\n3. Mano de Obra unitario:\n   - Oficial: 19.92 * 609.25 = $12136.26/m2.\n   - Ayudante: 9.96 * 515.69 = $5136.27/m2.\n   - Total MO: $17272.53/m2.\n4. Costo Unitario Total: Mat + Eq + MO = $19299.01/m2.",
+    "respuesta_final": "$ 19,299.01 por m2.",
+    "tema": "Costos",
+    "origen": "Final 05/08/2021"
+  },
+  {
+    "id": 10,
+    "consigna": "Plan de Trabajo: Obra lineal de instalación de caños.\nDatos:\n- Tareas: Zanjeo (900 m3), Colocación (300 m), Relleno (840 m3), Nivelación (2400 m3).\n- Rendimientos: Excavadora (Zanjeo 12.5 m3/h, Relleno 35 m3/h), Colocación (100 m/día), Minicargadora (0.05 h/m3).\n- Inicio 3/1/22. Jornada 8hs L-V.\n\nRealizar Cronograma Gantt.",
+    "resolucion": "1. Duraciones:\n   - Zanjeo: 900/12.5 = 72 hs = 9 días.\n   - Colocación: 300/100 = 3 días.\n   - Relleno: 840/35 = 24 hs = 3 días.\n   - Nivelación: 2400 * 0.05 = 120 hs = 15 días.\n2. Cronograma:\n   - Zanjeo: Dias 1-9.\n   - Colocación: Dias 2-10 (desfasaje prudente).\n   - Relleno: Dias 4-12.\n   - Nivelación: Dias 13-27.",
+    "respuesta_final": "Ver Cronograma Gantt.",
+    "tema": "Programación de Obras",
+    "origen": "Final 23/12/2021"
+  },
+  {
+    "id": 11,
+    "consigna": "Cómputo Métrico de Terminaciones.\nLocales: Estar-comedor (4.5x3m), Baño (2x1.5m), Cocina, Balcón.\nCalcular: Solados, Revestimientos, Revoques y Pintura.",
+    "resolucion": "1. Solados (m2): Superficie neta de cada local.\n2. Revestimientos (m2): Perímetro local * Altura revestimiento (Baño h total, Cocina h=0.60m sobre mesada) - Aberturas.\n3. Revoques (m2): Perímetro * Altura muro - Aberturas. Estar (Fino), Baño/Cocina (Bajo revestimiento).\n4. Pintura: Sup Muros + Cielorrasos.",
+    "respuesta_final": "Planilla de cómputo por local y rubro.",
+    "tema": "Cómputo Métrico",
+    "origen": "Final 24/02/2022"
+  },
+  {
+    "id": 12,
+    "consigna": "Curva de Inversión (Presupuesto Financiero).\nDatos: Costos mensuales distribuidos de Enero a Junio para Excavación, Cimientos, Paredes, etc.\nSe pide: Completar Inversión Parcial, Acumulada y Graficar.",
+    "resolucion": "1. Sumar verticalmente costos de todos los rubros por mes -> Inversión Mensual.\n2. Acumular valores mes a mes -> Inversión Acumulada.\n3. Calcular % de avance financiero.\n4. Graficar Curva S (Inversión acumulada vs Tiempo).",
+    "respuesta_final": "Gráfico Curva S.",
+    "tema": "Presupuesto",
+    "origen": "Final 16/02/2023"
+  },
+  {
+    "id": 13,
+    "consigna": "Teórico-Práctico: Hormigón y Redeterminación.\n1. Metodología Cómputo y Costo Directo de H°A°.\n2. Fórmula Polinómica (Sincrónico vs Asincrónico).",
+    "resolucion": "1. H°A°: Cómputo por volumen (m3) para vigas/columnas/losas. Incluye cuantía acero (kg/m3) y encofrado (m2/m3). Costo Directo = (Vol * $Hormigón) + (KgAcero * $Acero) + (m2Madera * $Madera/usos) + MO + Equipos.\n2. Redeterminación: Fórmula polinómica ajusta valor por inflación ponderada de insumos. Sincrónico: Ajuste en el mes del certificado (ideal). Asincrónico: Ajuste diferido (realidad administrativa, genera costos financieros).",
+    "respuesta_final": "Desarrollo conceptual y fórmulas.",
+    "tema": "Varios",
+    "origen": "Final 15/02/2024"
+  },
+  {
+    "id": 14,
+    "consigna": "Análisis de Curva de Avance.\nSituación: En una obra, la Dirección certificó el primer mes un 8% de avance y el segundo mes un 15% (acumulado).\nPregunta: ¿Qué conclusiones podría sacar analizando la curva de avance respecto a lo planificado (suponga una curva S estándar)?",
+    "resolucion": "Se debe comparar con la Curva S planificada (teórica). Generalmente, una curva S comienza lenta (tramo inferior asintótico). Un 8% en el primer mes podría ser alto si la movilización era compleja, o bajo si se preveía movimiento de suelos masivo. Un acumulado de 15% en dos meses implica que el segundo mes solo avanzó 7% (menor que el primero), lo cual es alerta de ralentización temprana (la curva debería acelerarse, no frenarse). Conclusión probable: Atraso o problemas de arranque/ritmo que requieren corrección inmediata para no comprometer el plazo.",
+    "respuesta_final": "Análisis cualitativo (Atraso/Desvío).",
+    "tema": "Control de Avance",
+    "origen": "Final 21/05/2025"
+  }
+]
