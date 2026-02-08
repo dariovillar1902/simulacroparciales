@@ -18,7 +18,7 @@ export const HidraulicaFinalScreen = () => {
   const incorrectasPorUnidad = useRef([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   const skipeadasPorUnidad = useRef([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
 
-  const seleccionPregunta = (preguntasActivas) => {
+  const seleccionPregunta = useCallback((preguntasActivas) => {
     let filtroActivas = preguntasActivas.filter(
       (pregunta) => pregunta.activa === 0
     );
@@ -27,9 +27,9 @@ export const HidraulicaFinalScreen = () => {
     let indicePregunta = Math.floor(Math.random() * filtroActivas.length);
     setPreguntaSeleccionada(filtroActivas[indicePregunta]);
     cantidadPreguntas.current++;
-  };
+  }, [reset]);
 
-  const reset = () => {
+  const reset = useCallback(() => {
     cantidadPreguntas.current = 0;
     cantidadCorrectas.current = 0;
     cantidadIncorrectas.current = 0;
@@ -39,7 +39,7 @@ export const HidraulicaFinalScreen = () => {
     skipeadasPorUnidad.current = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     bancoPreguntasFinalHidraulica.map((pregunta) => (pregunta.activa = 0));
     window.location.reload();
-  };
+  }, []);
 
   const marcarPreguntaInactiva = (id, valor, unidad) => {
     switch (valor) {
@@ -74,7 +74,7 @@ export const HidraulicaFinalScreen = () => {
       unidades.includes(pregunta.unidad)
     );
     seleccionPregunta(preguntasActivas);
-  }, []);
+  }, [seleccionPregunta]);
 
   useEffect(() => {
     const unidades = JSON.parse(localStorage.getItem("Unidades"));

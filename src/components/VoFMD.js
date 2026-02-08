@@ -9,7 +9,7 @@ export const VoFMD = () => {
     const cantidadCorrectas = useRef(0);
     const cantidadIncorrectas = useRef(0);
     const [preguntaSeleccionada, setPreguntaSeleccionada] = useState({});
-    const [respuestasIncorrectas, setRespuestasIncorrectas] = useState([]);
+    const [respuestasIncorrectas] = useState([]);
     let timerInterval;
 
     const seleccionPregunta = useCallback(

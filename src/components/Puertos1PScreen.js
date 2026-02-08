@@ -18,18 +18,7 @@ export const Puertos1PScreen = () => {
   const incorrectasPorUnidad = useRef([0, 0, 0, 0, 0, 0, 0, 0]);
   const skipeadasPorUnidad = useRef([0, 0, 0, 0, 0, 0, 0, 0]);
 
-  const seleccionPregunta = (preguntasActivas) => {
-    let filtroActivas = preguntasActivas.filter(
-      (pregunta) => pregunta.activa === 0
-    );
-    // eslint-disable-next-line no-restricted-globals
-    filtroActivas.length === 0 && reset();
-    let indicePregunta = Math.floor(Math.random() * filtroActivas.length);
-    setPreguntaSeleccionada(filtroActivas[indicePregunta]);
-    cantidadPreguntas.current++;
-  };
-
-  const reset = () => {
+  const reset = useCallback(() => {
     cantidadPreguntas.current = 0;
     cantidadCorrectas.current = 0;
     cantidadIncorrectas.current = 0;
@@ -39,7 +28,18 @@ export const Puertos1PScreen = () => {
     skipeadasPorUnidad.current = [0, 0, 0, 0, 0, 0, 0, 0];
     bancoPreguntasPuertos1P.map((pregunta) => (pregunta.activa = 0));
     window.location.reload();
-  };
+  }, []);
+
+  const seleccionPregunta = useCallback((preguntasActivas) => {
+    let filtroActivas = preguntasActivas.filter(
+      (pregunta) => pregunta.activa === 0
+    );
+    // eslint-disable-next-line no-restricted-globals
+    filtroActivas.length === 0 && reset();
+    let indicePregunta = Math.floor(Math.random() * filtroActivas.length);
+    setPreguntaSeleccionada(filtroActivas[indicePregunta]);
+    cantidadPreguntas.current++;
+  }, [reset]);
 
   const marcarPreguntaInactiva = (id, valor, unidad) => {
     switch (valor) {
@@ -74,7 +74,7 @@ export const Puertos1PScreen = () => {
       unidades.includes(pregunta.unidad)
     );
     seleccionPregunta(preguntasActivas);
-  }, []);
+  }, [seleccionPregunta]);
 
   useEffect(() => {
     const unidades = JSON.parse(localStorage.getItem("Unidades"));

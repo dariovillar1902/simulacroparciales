@@ -19,7 +19,7 @@ export const PuertosFinalScreen = () => {
   const skipeadasPorUnidad = useRef([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   const [mostrarRespuesta, setMostrarRespuesta] = useState(false);
 
-  const seleccionPregunta = (preguntasActivas) => {
+  const seleccionPregunta = useCallback((preguntasActivas) => {
     let filtroActivas = preguntasActivas.filter(
       (pregunta) => pregunta.activa === 0
     );
@@ -29,9 +29,9 @@ export const PuertosFinalScreen = () => {
     setPreguntaSeleccionada(filtroActivas[indicePregunta]);
     cantidadPreguntas.current++;
     setMostrarRespuesta(false);
-  };
+  }, [reset]);
 
-  const reset = () => {
+  const reset = useCallback(() => {
     cantidadPreguntas.current = 0;
     cantidadCorrectas.current = 0;
     cantidadIncorrectas.current = 0;
@@ -41,7 +41,7 @@ export const PuertosFinalScreen = () => {
     skipeadasPorUnidad.current = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
     bancoPreguntasFinalPuertos.map((pregunta) => (pregunta.activa = 0));
     window.location.reload();
-  };
+  }, []);
 
   const marcarPreguntaInactiva = (id, valor, unidad) => {
     switch (valor) {
@@ -76,7 +76,7 @@ export const PuertosFinalScreen = () => {
       unidades.includes(pregunta.unidad)
     );
     seleccionPregunta(preguntasActivas);
-  }, []);
+  }, [seleccionPregunta]);
 
   useEffect(() => {
     const unidades = JSON.parse(localStorage.getItem("Unidades"));
