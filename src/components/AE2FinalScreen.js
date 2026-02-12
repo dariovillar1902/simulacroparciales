@@ -19,14 +19,25 @@ export const AE2FinalScreen = () => {
 
     const utteranceRef = useRef(null);
 
+    const [progress, setProgress] = useState(0);
+
+    const updateProgress = useCallback(() => {
+        const total = bancoPreguntasFinalAE2.length;
+        const active = bancoPreguntasFinalAE2.filter(p => p.activa === 0).length;
+        const mastered = total - active;
+        setProgress((mastered / total) * 100);
+    }, []);
+
     const seleccionPregunta = useCallback(
         (id) => {
             let filtroActivas = bancoPreguntasFinalAE2.filter(pregunta => pregunta.activa === 0);
-            // eslint-disable-next-line no-restricted-globals
-            filtroActivas.length === 0 && location.reload();
 
-            // If ID is provided, select specifically (rarely used in this logic but kept for compatibility)
-            // Otherwise random selection
+            if (filtroActivas.length === 0) {
+                // Reset if complete (optional: show completion modal)
+                bancoPreguntasFinalAE2.forEach(p => p.activa = 0);
+                filtroActivas = bancoPreguntasFinalAE2;
+            }
+
             let nuevaPregunta;
             if (id !== undefined) {
                 nuevaPregunta = bancoPreguntasFinalAE2.find(p => p.id === id);
@@ -36,22 +47,35 @@ export const AE2FinalScreen = () => {
             }
 
             if (nuevaPregunta) {
-                // Mark as active if needed, or just select
-                // Note: The original logic marked as active=1, effectively removing it from the pool.
-                // kept this logic.
-                nuevaPregunta.activa = 1;
+                // DO NOT automatically set activa=1. Wait for user feedback.
                 setPreguntaSeleccionada(nuevaPregunta);
                 setMostrarRespuesta(false);
                 cantidadPreguntas.current++;
+                updateProgress();
             }
         },
-        [],
+        [updateProgress],
     );
 
     // Initial load
     useEffect(() => {
+        updateProgress();
         seleccionPregunta();
-    }, [seleccionPregunta]);
+    }, [seleccionPregunta, updateProgress]);
+
+    const handleDifficulty = (difficulty) => {
+        const currentId = preguntaSeleccionada.id;
+        const pregunta = bancoPreguntasFinalAE2.find(p => p.id === currentId);
+
+        if (pregunta) {
+            if (difficulty === 'easy') {
+                pregunta.activa = 1; // Mark as mastered
+            } else {
+                pregunta.activa = 0; // Keep in pool
+            }
+        }
+        seleccionPregunta();
+    };
 
     const stopSpeech = () => {
         if (utteranceRef.current) {
@@ -199,30 +223,60 @@ export const AE2FinalScreen = () => {
 
                         {/* Question Content Section */}
                         <div className="question-card-body">
-                            <h6 className="text-uppercase text-muted letter-spacing-2 mb-3 font-weight-bold display-6" style={{ fontSize: '0.8rem', letterSpacing: '2px' }}>
-                                Pregunta de Examen
-                            </h6>
+                            {/* Progress Bar */}
+                            <div className="d-flex justify-content-between align-items-end mb-2">
+                                <h6 className="text-uppercase text-muted letter-spacing-2 m-0 font-weight-bold" style={{ fontSize: '0.8rem', letterSpacing: '2px' }}>
+                                    Pregunta de Examen
+                                </h6>
+                                <small className="text-muted font-weight-bold">Progreso: {Math.round(progress)}%</small>
+                            </div>
+                            <div className="progress-container mb-4">
+                                <div className="progress-bar" style={{ width: `${progress}%` }}></div>
+                            </div>
 
                             <div className="question-text">
                                 {preguntaSeleccionada && preguntaSeleccionada.pregunta}
                             </div>
 
-                            <div className="d-flex justify-content-center gap-3 mt-4 mb-3">
-                                <Button
-                                    variant="outline-primary"
-                                    onClick={() => setMostrarRespuesta(!mostrarRespuesta)}
-                                    className="action-btn mx-2"
-                                >
-                                    {mostrarRespuesta ? "Ocultar Respuesta" : "Mostrar Respuesta"}
-                                </Button>
-                                <Button
-                                    variant="primary"
-                                    onClick={() => seleccionPregunta()}
-                                    className="action-btn mx-2"
-                                    style={{ background: 'linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)', border: 'none' }}
-                                >
-                                    Siguiente Pregunta
-                                </Button>
+                            <div className="d-flex justify-content-center gap-3 mt-4 mb-3 flex-wrap">
+                                {!mostrarRespuesta ? (
+                                    <>
+                                        <Button
+                                            variant="primary"
+                                            onClick={() => setMostrarRespuesta(true)}
+                                            className="action-btn px-5"
+                                        >
+                                            Mostrar Respuesta
+                                        </Button>
+                                        {/* Optional Skip Button for passive review */}
+                                        <Button
+                                            variant="outline-secondary"
+                                            onClick={() => handleDifficulty('hard')}
+                                            className="action-btn"
+                                            title="Pasar sin marcar como aprendida"
+                                        >
+                                            Saltar
+                                        </Button>
+                                    </>
+                                ) : (
+                                    <>
+                                        {/* Educational Enhancement: Self-Correction Buttons */}
+                                        <Button
+                                            className="confidence-btn btn-feedback-hard"
+                                            onClick={() => handleDifficulty('hard')}
+                                        >
+                                            <span className="d-block h5 m-0 mb-1">🤔</span>
+                                            Repasar
+                                        </Button>
+                                        <Button
+                                            className="confidence-btn btn-feedback-easy"
+                                            onClick={() => handleDifficulty('easy')}
+                                        >
+                                            <span className="d-block h5 m-0 mb-1">✅</span>
+                                            Dominada
+                                        </Button>
+                                    </>
+                                )}
                             </div>
 
                             {mostrarRespuesta && (

@@ -19,6 +19,15 @@ export const OrganizacionObraFinalScreen = () => {
 
     const utteranceRef = useRef(null);
 
+    const [progress, setProgress] = useState(0);
+
+    const updateProgress = useCallback(() => {
+        const total = bancoPreguntasFinalOrganizacionObra.length;
+        const active = bancoPreguntasFinalOrganizacionObra.filter(p => p.activa === 0).length;
+        const mastered = total - active;
+        setProgress((mastered / total) * 100);
+    }, []);
+
     const seleccionPregunta = useCallback(
         (id) => {
             let filtroActivas = bancoPreguntasFinalOrganizacionObra.filter(pregunta => pregunta.activa === 0);
@@ -37,20 +46,35 @@ export const OrganizacionObraFinalScreen = () => {
             }
 
             if (nuevaPregunta) {
-                // Mark as active
-                nuevaPregunta.activa = 1;
+                // DO NOT automatically set activa=1. Wait for user feedback.
                 setPreguntaSeleccionada(nuevaPregunta);
                 setMostrarRespuesta(false);
                 cantidadPreguntas.current++;
+                updateProgress();
             }
         },
-        [],
+        [updateProgress],
     );
 
     // Initial load
     useEffect(() => {
+        updateProgress();
         seleccionPregunta();
-    }, [seleccionPregunta]);
+    }, [seleccionPregunta, updateProgress]);
+
+    const handleDifficulty = (difficulty) => {
+        const currentId = preguntaSeleccionada.id;
+        const pregunta = bancoPreguntasFinalOrganizacionObra.find(p => p.id === currentId);
+
+        if (pregunta) {
+            if (difficulty === 'easy') {
+                pregunta.activa = 1; // Mark as mastered
+            } else {
+                pregunta.activa = 0; // Keep in pool
+            }
+        }
+        seleccionPregunta();
+    };
 
     const stopSpeech = () => {
         if (utteranceRef.current) {
@@ -197,30 +221,59 @@ export const OrganizacionObraFinalScreen = () => {
 
                         {/* Question Content Section */}
                         <div className="question-card-body">
-                            <h6 className="text-uppercase text-muted letter-spacing-2 mb-3 font-weight-bold display-6" style={{ fontSize: '0.8rem', letterSpacing: '2px' }}>
-                                Pregunta de Examen
-                            </h6>
+                            {/* Progress Bar */}
+                            <div className="d-flex justify-content-between align-items-end mb-2">
+                                <h6 className="text-uppercase text-muted letter-spacing-2 m-0 font-weight-bold" style={{ fontSize: '0.8rem', letterSpacing: '2px' }}>
+                                    Pregunta de Examen
+                                </h6>
+                                <small className="text-muted font-weight-bold">Progreso: {Math.round(progress)}%</small>
+                            </div>
+                            <div className="progress-container mb-4">
+                                <div className="progress-bar" style={{ width: `${progress}%` }}></div>
+                            </div>
 
                             <div className="question-text">
                                 {preguntaSeleccionada && preguntaSeleccionada.pregunta}
                             </div>
 
-                            <div className="d-flex justify-content-center gap-3 mt-4 mb-3">
-                                <Button
-                                    variant="outline-primary"
-                                    onClick={() => setMostrarRespuesta(!mostrarRespuesta)}
-                                    className="action-btn mx-2"
-                                >
-                                    {mostrarRespuesta ? "Ocultar Respuesta" : "Mostrar Respuesta"}
-                                </Button>
-                                <Button
-                                    variant="primary"
-                                    onClick={() => seleccionPregunta()}
-                                    className="action-btn mx-2"
-                                    style={{ background: 'linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)', border: 'none' }}
-                                >
-                                    Siguiente Pregunta
-                                </Button>
+                            <div className="d-flex justify-content-center gap-3 mt-4 mb-3 flex-wrap">
+                                {!mostrarRespuesta ? (
+                                    <>
+                                        <Button
+                                            variant="primary"
+                                            onClick={() => setMostrarRespuesta(true)}
+                                            className="action-btn px-5"
+                                        >
+                                            Mostrar Respuesta
+                                        </Button>
+                                        <Button
+                                            variant="outline-secondary"
+                                            onClick={() => handleDifficulty('hard')}
+                                            className="action-btn"
+                                            title="Pasar sin marcar como aprendida"
+                                        >
+                                            Saltar
+                                        </Button>
+                                    </>
+                                ) : (
+                                    <>
+                                        {/* Educational Enhancement: Self-Correction Buttons */}
+                                        <Button
+                                            className="confidence-btn btn-feedback-hard"
+                                            onClick={() => handleDifficulty('hard')}
+                                        >
+                                            <span className="d-block h5 m-0 mb-1">🤔</span>
+                                            Repasar
+                                        </Button>
+                                        <Button
+                                            className="confidence-btn btn-feedback-easy"
+                                            onClick={() => handleDifficulty('easy')}
+                                        >
+                                            <span className="d-block h5 m-0 mb-1">✅</span>
+                                            Dominada
+                                        </Button>
+                                    </>
+                                )}
                             </div>
 
                             {mostrarRespuesta && (

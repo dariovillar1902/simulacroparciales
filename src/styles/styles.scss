@@ -150,3 +150,37 @@
     box-shadow: 0 6px 8px rgba(0,0,0,0.15);
   }
 }
+
+.confidence-btn {
+  @extend .action-btn;
+  min-width: 150px;
+  margin: 0 10px;
+  
+  &.btn-feedback-hard {
+    background: #dc3545;
+    border-color: #dc3545;
+    color: white;
+    &:hover { background: #c82333; }
+  }
+
+  &.btn-feedback-easy {
+    background: #28a745;
+    border-color: #28a745;
+    color: white;
+    &:hover { background: #218838; }
+  }
+}
+
+.progress-container {
+  height: 6px;
+  background-color: #e9ecef;
+  border-radius: 3px;
+  margin: 15px 0;
+  overflow: hidden;
+  
+  .progress-bar {
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+    height: 100%;
+    transition: width 0.5s ease;
+  }
+}
