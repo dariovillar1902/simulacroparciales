@@ -232,7 +232,7 @@ export const OrganizacionObraFinalScreen = () => {
                                 <div className="progress-bar" style={{ width: `${progress}%` }}></div>
                             </div>
 
-                            <div className="question-text">
+                            <div className="question-text" style={{ whiteSpace: 'pre-wrap' }}>
                                 {preguntaSeleccionada && preguntaSeleccionada.pregunta}
                             </div>
 
@@ -277,9 +277,9 @@ export const OrganizacionObraFinalScreen = () => {
                             </div>
 
                             {mostrarRespuesta && (
-                                <div className="answer-text animate__animated animate__fadeIn">
+                                <div className="answer-text animate__animated animate__fadeIn" style={{ whiteSpace: 'pre-wrap' }}>
                                     <strong>Respuesta: </strong>
-                                    {preguntaSeleccionada && preguntaSeleccionada.respuesta}
+                                    {preguntaSeleccionada && "\n" + preguntaSeleccionada.respuesta}
                                 </div>
                             )}
                         </div>
